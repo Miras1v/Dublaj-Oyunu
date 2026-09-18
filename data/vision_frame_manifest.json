@@ -1,0 +1,907 @@
+[
+  {
+    "id": "meme-artist-ne-arar",
+    "title": "Oto Pazar Röportajı - Artist Ne Arar La Pazarda!",
+    "duration": 15,
+    "lines_count": 3,
+    "video": "assets/videos/meme-artist-ne-arar.mp4",
+    "characters": [
+      "Muhabir",
+      "Pazarcı Dayı"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-artist-ne-arar\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-artist-ne-arar\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-artist-ne-arar\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-cikar-telefonunu",
+    "title": "Sokak Röportajı - Ekonomi ve Telefon Kavgası",
+    "duration": 16,
+    "lines_count": 7,
+    "video": "assets/videos/meme-cikar-telefonunu.mp4",
+    "characters": [
+      "Muhabir",
+      "Genç",
+      "Dayı"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-cikar-telefonunu\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-cikar-telefonunu\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-cikar-telefonunu\\end.jpg"
+    ]
+  },
+  {
+    "id": "kv-pala-oluler",
+    "title": "Kurtlar Vadisi - Sadece Ölüler Görür",
+    "duration": 15,
+    "lines_count": 5,
+    "video": "assets/videos/kv-pala.mp4",
+    "characters": [
+      "Pala",
+      "Bedir"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\kv-pala-oluler\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\kv-pala-oluler\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\kv-pala-oluler\\end.jpg"
+    ]
+  },
+  {
+    "id": "sifir-bir-cio",
+    "title": "Sıfır Bir - Cio & Savaş Alacak Verecek Davası",
+    "duration": 15,
+    "lines_count": 4,
+    "video": "assets/videos/sifir-bir-cio.mp4",
+    "characters": [
+      "Cio Baba",
+      "Savaş Satış"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\sifir-bir-cio\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\sifir-bir-cio\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\sifir-bir-cio\\end.jpg"
+    ]
+  },
+  {
+    "id": "sifir-bir-yahya-cezaevi",
+    "title": "Sıfır Bir - Yahya & Seyfi Cezaevi Sorgusu",
+    "duration": 40.29,
+    "lines_count": 4,
+    "video": "assets/videos/sifir-bir-yahya-cezaevi.mp4",
+    "characters": [
+      "Seyfi",
+      "Yahya / Polis"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\sifir-bir-yahya-cezaevi\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\sifir-bir-yahya-cezaevi\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\sifir-bir-yahya-cezaevi\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-kolpacino-saatli-bomba",
+    "title": "Kolpaçino - Saatli Bomba",
+    "duration": 24.54,
+    "lines_count": 7,
+    "video": "assets/videos/meme-kolpacino-saatli-bomba_orig.mp4",
+    "characters": [
+      "Ganyotçu Abi",
+      "Sabri Abi"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-kolpacino-saatli-bomba\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-kolpacino-saatli-bomba\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-kolpacino-saatli-bomba\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-sonuc-ne-soru-cevap",
+    "title": "Röportaj - Soruya Soruyla Cevap Verme!",
+    "duration": 16.87,
+    "lines_count": 6,
+    "video": "assets/videos/meme-sonuc-ne-soru-cevap_orig.mp4",
+    "characters": [
+      "Takım Elbiseli Adam",
+      "Soru Soran Genç"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-sonuc-ne-soru-cevap\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-sonuc-ne-soru-cevap\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-sonuc-ne-soru-cevap\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-00e48267f85a643e",
+    "title": "Parodi - Bear I Love You So So Much",
+    "duration": 73.97,
+    "lines_count": 12,
+    "video": "assets/videos/meme-00e48267f85a643e_orig.mp4",
+    "characters": [
+      "Nikki",
+      "Bear"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-00e48267f85a643e\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-00e48267f85a643e\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-00e48267f85a643e\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-01bda7b30a7b9e4b",
+    "title": "Viral - Çığlık Atan Çocuk",
+    "duration": 38.38,
+    "lines_count": 1,
+    "video": "assets/videos/meme-01bda7b30a7b9e4b_orig.mp4",
+    "characters": [
+      "Çığlık Atan Çocuk"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-01bda7b30a7b9e4b\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-01bda7b30a7b9e4b\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-01bda7b30a7b9e4b\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-021005e91e320d20",
+    "title": "Sıfır Bir - Bu Aslan Parçasının Adı Garip",
+    "duration": 34.17,
+    "lines_count": 17,
+    "video": "assets/videos/meme-021005e91e320d20_orig.mp4",
+    "characters": [
+      "Savaş Satış",
+      "Garip",
+      "Koğuştakiler"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-021005e91e320d20\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-021005e91e320d20\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-021005e91e320d20\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-0c8ee1a80532ffce",
+    "title": "Viral - Ben Bu Sınıfın Sınıf Başkanıyım!",
+    "duration": 36.64,
+    "lines_count": 7,
+    "video": "assets/videos/meme-0c8ee1a80532ffce_orig.mp4",
+    "characters": [
+      "Sınıf Başkanı",
+      "İsyankar Öğrenci"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-0c8ee1a80532ffce\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-0c8ee1a80532ffce\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-0c8ee1a80532ffce\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-1094542b34c286b1",
+    "title": "Recep İvedik - Psikologda Turkcell Kampanyası",
+    "duration": 64.41,
+    "lines_count": 30,
+    "video": "assets/videos/meme-1094542b34c286b1_orig.mp4",
+    "characters": [
+      "Recep İvedik",
+      "Psikolog",
+      "Pınar (Turkcell)"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-1094542b34c286b1\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-1094542b34c286b1\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-1094542b34c286b1\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-27377eac7c1dbc11",
+    "title": "Dizi Parodisi - Patrick Jane ve Can Pen Sorgusu",
+    "duration": 44.47,
+    "lines_count": 15,
+    "video": "assets/videos/meme-27377eac7c1dbc11_orig.mp4",
+    "characters": [
+      "Patrick Jane",
+      "Can Pen"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-27377eac7c1dbc11\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-27377eac7c1dbc11\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-27377eac7c1dbc11\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-3e05e9c18616c529",
+    "title": "Viral - Akraba Tanıtma Çilesi (Anne vs Çocuk)",
+    "duration": 59.72,
+    "lines_count": 12,
+    "video": "assets/videos/meme-3e05e9c18616c529_orig.mp4",
+    "characters": [
+      "Israrcı Anne",
+      "Bunalmış Çocuk"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-3e05e9c18616c529\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-3e05e9c18616c529\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-3e05e9c18616c529\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-414a57bd5b2e7e34",
+    "title": "Viral - Beni Bloklama Rage",
+    "duration": 23.03,
+    "lines_count": 10,
+    "video": "assets/videos/meme-414a57bd5b2e7e34_orig.mp4",
+    "characters": [
+      "Öfkeli Oyuncu"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-414a57bd5b2e7e34\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-414a57bd5b2e7e34\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-414a57bd5b2e7e34\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-43a4d9b0fddc8d10",
+    "title": "Kurtlar Vadisi - Şu Teybi Kapatır Mısın?",
+    "duration": 45.26,
+    "lines_count": 3,
+    "video": "assets/videos/meme-43a4d9b0fddc8d10_orig.mp4",
+    "characters": [
+      "Memati Baş",
+      "Şoför"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-43a4d9b0fddc8d10\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-43a4d9b0fddc8d10\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-43a4d9b0fddc8d10\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-48b70fd6e5bc2cd8",
+    "title": "Meme - Doktor Bey Bu Çocuk Isırıyor",
+    "duration": 59.05,
+    "lines_count": 17,
+    "video": "assets/videos/meme-48b70fd6e5bc2cd8_orig.mp4",
+    "characters": [
+      "Doktor",
+      "Dertli Anne",
+      "Isırılan Adam"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-48b70fd6e5bc2cd8\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-48b70fd6e5bc2cd8\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-48b70fd6e5bc2cd8\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-493f3ad55c94c4cf",
+    "title": "Meme - Ne Dedin Lan!",
+    "duration": 17.96,
+    "lines_count": 6,
+    "video": "assets/videos/meme-493f3ad55c94c4cf_orig.mp4",
+    "characters": [
+      "Öfkeli Abi",
+      "Karşı Taraf"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-493f3ad55c94c4cf\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-493f3ad55c94c4cf\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-493f3ad55c94c4cf\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-4b5781e28db674b5",
+    "title": "Viral - Benim Adım Cafer (Alayınıza Gider)",
+    "duration": 65.9,
+    "lines_count": 26,
+    "video": "assets/videos/meme-4b5781e28db674b5_orig.mp4",
+    "characters": [
+      "Cafer",
+      "Röportajcı Genç"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-4b5781e28db674b5\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-4b5781e28db674b5\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-4b5781e28db674b5\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-54c6bba12da44d49",
+    "title": "Kurtlar Vadisi - Çakır'ın Kahve Baskını",
+    "duration": 37.49,
+    "lines_count": 14,
+    "video": "assets/videos/meme-54c6bba12da44d49_orig.mp4",
+    "characters": [
+      "Cemal (Kahveci)",
+      "Meral (Abla)",
+      "Halit Ağa"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-54c6bba12da44d49\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-54c6bba12da44d49\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-54c6bba12da44d49\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-565c56a384f3e6ca",
+    "title": "Yenilmezler - Zırhını Çıkarırsan Ne Kalır? (Tony vs Steve)",
+    "duration": 138.83,
+    "lines_count": 23,
+    "video": "assets/videos/meme-565c56a384f3e6ca_orig.mp4",
+    "characters": [
+      "Tony Stark (Demir Adam)",
+      "Steve Rogers (Kaptan Amerika)"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-565c56a384f3e6ca\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-565c56a384f3e6ca\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-565c56a384f3e6ca\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-5a992347adcc5220",
+    "title": "İsmail Kartal - Ferdi'yi Sol Bek Yapan Benim!",
+    "duration": 10.98,
+    "lines_count": 4,
+    "video": "assets/videos/meme-5a992347adcc5220_orig.mp4",
+    "characters": [
+      "İsmail Kartal (Arap İsmail)"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-5a992347adcc5220\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-5a992347adcc5220\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-5a992347adcc5220\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-5b819baf3f383a04",
+    "title": "TikTok - Dalton Sandılar Seni Canlı Yayın Atışması",
+    "duration": 39.45,
+    "lines_count": 8,
+    "video": "assets/videos/meme-5b819baf3f383a04_orig.mp4",
+    "characters": [
+      "Batuhan",
+      "Yayın Konuğu"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-5b819baf3f383a04\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-5b819baf3f383a04\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-5b819baf3f383a04\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-638a5e3314df054c",
+    "title": "Viral - Duvara Vuran Komşu ve Gamer Rage",
+    "duration": 49.32,
+    "lines_count": 12,
+    "video": "assets/videos/meme-638a5e3314df054c_orig.mp4",
+    "characters": [
+      "Alt Komşu",
+      "Çıldıran Oyuncu"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-638a5e3314df054c\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-638a5e3314df054c\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-638a5e3314df054c\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-6d951d7f55599703",
+    "title": "Sıfır Bir - Cio & Savaş Çıkmaz Sokak",
+    "duration": 55.63,
+    "lines_count": 8,
+    "video": "assets/videos/meme-6d951d7f55599703_orig.mp4",
+    "characters": [
+      "Cio Baba",
+      "Savaş Satış"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-6d951d7f55599703\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-6d951d7f55599703\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-6d951d7f55599703\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-701778ed8f454ba0",
+    "title": "Kolpaçino - Orman ve Çoluk Çocuk",
+    "duration": 55.01,
+    "lines_count": 20,
+    "video": "assets/videos/meme-701778ed8f454ba0_orig.mp4",
+    "characters": [
+      "Sabri Abi",
+      "Tayfun",
+      "Özgür"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-701778ed8f454ba0\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-701778ed8f454ba0\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-701778ed8f454ba0\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-71af9284d4ab8edf",
+    "title": "Kolpaçino - Cezaevi Çıkışı ve Manitalar",
+    "duration": 26.28,
+    "lines_count": 10,
+    "video": "assets/videos/meme-71af9284d4ab8edf_orig.mp4",
+    "characters": [
+      "Sabri Abi",
+      "Özgür",
+      "Şahin"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-71af9284d4ab8edf\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-71af9284d4ab8edf\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-71af9284d4ab8edf\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-74ca08745cf708a8",
+    "title": "Flash TV - Neden Dağa Çıktınız Röportajı",
+    "duration": 35.76,
+    "lines_count": 6,
+    "video": "assets/videos/meme-74ca08745cf708a8_orig.mp4",
+    "characters": [
+      "Muhabir",
+      "Köylü Dayı"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-74ca08745cf708a8\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-74ca08745cf708a8\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-74ca08745cf708a8\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-7e1105e63de53c5a",
+    "title": "Beyaz Futbol - Ahmet Çakar vs Rasim Ozan Maç Uydurma Kavgası",
+    "duration": 43.31,
+    "lines_count": 11,
+    "video": "assets/videos/meme-7e1105e63de53c5a_orig.mp4",
+    "characters": [
+      "Ahmet Çakar",
+      "Rasim Ozan Kütahyalı"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-7e1105e63de53c5a\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-7e1105e63de53c5a\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-7e1105e63de53c5a\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-82905766b3d259c2",
+    "title": "Han Kanal - Piggy ile Özel Röportaj",
+    "duration": 23.85,
+    "lines_count": 5,
+    "video": "assets/videos/meme-82905766b3d259c2_orig.mp4",
+    "characters": [
+      "Han Kanal",
+      "Piggy (Domuzcuk)"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-82905766b3d259c2\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-82905766b3d259c2\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-82905766b3d259c2\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-82adcb0c41c171e1",
+    "title": "Keloğlan - Huysuz ve Uzun İksir Peşinde",
+    "duration": 47.37,
+    "lines_count": 9,
+    "video": "assets/videos/meme-82adcb0c41c171e1_orig.mp4",
+    "characters": [
+      "Huysuz",
+      "Uzun",
+      "Cadı / Keloğlan"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-82adcb0c41c171e1\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-82adcb0c41c171e1\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-82adcb0c41c171e1\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-840ad8a37e2bb450",
+    "title": "Viral - Gülme Krizine Giren Spiker",
+    "duration": 21.57,
+    "lines_count": 1,
+    "video": "assets/videos/meme-840ad8a37e2bb450_orig.mp4",
+    "characters": [
+      "Gülme Krizindeki Spiker"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-840ad8a37e2bb450\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-840ad8a37e2bb450\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-840ad8a37e2bb450\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-88139b3306f24519",
+    "title": "Meme - Cem Yılmaz'ın Yandan Yemişi",
+    "duration": 18.28,
+    "lines_count": 6,
+    "video": "assets/videos/meme-88139b3306f24519_orig.mp4",
+    "characters": [
+      "Laf Sokucu Dayı",
+      "Cem Yılmaz Çakması"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-88139b3306f24519\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-88139b3306f24519\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-88139b3306f24519\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-885102943a735982",
+    "title": "Parodi - Israrcı Otel Fotoğrafçısı",
+    "duration": 67.11,
+    "lines_count": 20,
+    "video": "assets/videos/meme-885102943a735982_orig.mp4",
+    "characters": [
+      "Otel Fotoğrafçısı",
+      "Tatilci Dayı"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-885102943a735982\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-885102943a735982\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-885102943a735982\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-8c3b341acc6bda05",
+    "title": "Nostalji 3D Reklam - Hacının Şalgamı (1947)",
+    "duration": 30.95,
+    "lines_count": 5,
+    "video": "assets/videos/meme-8c3b341acc6bda05_orig.mp4",
+    "characters": [
+      "Acılı Şalgam Şişesi",
+      "Klasik Şalgam Şişesi",
+      "Dış Ses / Jenerik"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-8c3b341acc6bda05\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-8c3b341acc6bda05\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-8c3b341acc6bda05\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-909c5d25fce176ea",
+    "title": "Meme - Yemek Hazır / Ben Yemeyeceğim",
+    "duration": 35.35,
+    "lines_count": 4,
+    "video": "assets/videos/meme-909c5d25fce176ea_orig.mp4",
+    "characters": [
+      "Anne",
+      "İsyankar Çocuk"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-909c5d25fce176ea\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-909c5d25fce176ea\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-909c5d25fce176ea\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-915b36b91433c2f4",
+    "title": "Sıfır Bir - Cio & Berto Üst Perde Gerilimi",
+    "duration": 41.74,
+    "lines_count": 17,
+    "video": "assets/videos/meme-915b36b91433c2f4_orig.mp4",
+    "characters": [
+      "Cio Baba",
+      "Berto"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-915b36b91433c2f4\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-915b36b91433c2f4\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-915b36b91433c2f4\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-93cba130dd88ebfa",
+    "title": "Sıfır Bir - Cihat & Cabbar Halletsin",
+    "duration": 44.68,
+    "lines_count": 9,
+    "video": "assets/videos/meme-93cba130dd88ebfa_orig.mp4",
+    "characters": [
+      "Cihat",
+      "Savaş",
+      "Cabbar"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-93cba130dd88ebfa\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-93cba130dd88ebfa\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-93cba130dd88ebfa\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-9db0b71d01ec8690",
+    "title": "JoJo - Za Warudo! Zamanı Durdurma",
+    "duration": 123.72,
+    "lines_count": 21,
+    "video": "assets/videos/meme-9db0b71d01ec8690_orig.mp4",
+    "characters": [
+      "Dio Brando",
+      "Jotaro Kujo",
+      "Anlatıcı"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-9db0b71d01ec8690\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-9db0b71d01ec8690\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-9db0b71d01ec8690\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-a9bd70989fc91692",
+    "title": "Viral - Yeni Arabayla Kadın Sürücü Panik Anı",
+    "duration": 15.63,
+    "lines_count": 4,
+    "video": "assets/videos/meme-a9bd70989fc91692_orig.mp4",
+    "characters": [
+      "Yeni Araba Alan Sürücü"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-a9bd70989fc91692\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-a9bd70989fc91692\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-a9bd70989fc91692\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-ac037f6b8ed128c4",
+    "title": "Kurtlar Vadisi - Pala & Bedir & Mahmut",
+    "duration": 48.87,
+    "lines_count": 18,
+    "video": "assets/videos/meme-ac037f6b8ed128c4_orig.mp4",
+    "characters": [
+      "Pala",
+      "Bedir",
+      "Mahmut"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-ac037f6b8ed128c4\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-ac037f6b8ed128c4\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-ac037f6b8ed128c4\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-b65ba8effc3ba1fb",
+    "title": "Sıfır Bir - Filozof Sen Okuyacaksın Lan!",
+    "duration": 56.04,
+    "lines_count": 16,
+    "video": "assets/videos/meme-b65ba8effc3ba1fb_orig.mp4",
+    "characters": [
+      "Özgür",
+      "Filozof (Çocuk)",
+      "Berto"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-b65ba8effc3ba1fb\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-b65ba8effc3ba1fb\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-b65ba8effc3ba1fb\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-c0ba8b38a59eb9ef",
+    "title": "Meme - Nazif ÖSS'yi Kaçırdın!",
+    "duration": 40.5,
+    "lines_count": 11,
+    "video": "assets/videos/meme-c0ba8b38a59eb9ef_orig.mp4",
+    "characters": [
+      "Anne",
+      "Baba",
+      "Nazif"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-c0ba8b38a59eb9ef\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-c0ba8b38a59eb9ef\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-c0ba8b38a59eb9ef\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-d7c49cb4311f4bf7",
+    "title": "Sıfır Bir - Cezaevi Koğuş Girişi ve Mesul",
+    "duration": 31.38,
+    "lines_count": 14,
+    "video": "assets/videos/meme-d7c49cb4311f4bf7_orig.mp4",
+    "characters": [
+      "Savaş Satış",
+      "Koğuş Mesulü",
+      "Soner"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-d7c49cb4311f4bf7\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-d7c49cb4311f4bf7\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-d7c49cb4311f4bf7\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-dfa4d19b1f82b2eb",
+    "title": "Siyaset Meydanı - Doğu Perinçek vs Ertuğrul Kürkçü Düellosu",
+    "duration": 52.34,
+    "lines_count": 30,
+    "video": "assets/videos/meme-dfa4d19b1f82b2eb_orig.mp4",
+    "characters": [
+      "Doğu Perinçek",
+      "Ertuğrul Kürkçü"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-dfa4d19b1f82b2eb\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-dfa4d19b1f82b2eb\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-dfa4d19b1f82b2eb\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-e176a8d6ddafcd38",
+    "title": "Viral - Bunlar Çok Semizlenmişler Yeğen & Dayı",
+    "duration": 29.76,
+    "lines_count": 9,
+    "video": "assets/videos/meme-e176a8d6ddafcd38_orig.mp4",
+    "characters": [
+      "Yeğen",
+      "Sinirli Dayı"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-e176a8d6ddafcd38\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-e176a8d6ddafcd38\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-e176a8d6ddafcd38\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-e826a1eb54f96a91",
+    "title": "Viral - Toteme Çorba Yazmışlar Rant",
+    "duration": 27.63,
+    "lines_count": 1,
+    "video": "assets/videos/meme-e826a1eb54f96a91_orig.mp4",
+    "characters": [
+      "Aç Kalan Sürücü"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-e826a1eb54f96a91\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-e826a1eb54f96a91\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-e826a1eb54f96a91\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-e8c99d3f73f2c634",
+    "title": "Meme - Buzdolabı Işığı ve Şabat İcadı",
+    "duration": 20.29,
+    "lines_count": 8,
+    "video": "assets/videos/meme-e8c99d3f73f2c634_orig.mp4",
+    "characters": [
+      "Buluşu Anlatan Adam",
+      "Şüpheci Arkadaş"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-e8c99d3f73f2c634\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-e8c99d3f73f2c634\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-e8c99d3f73f2c634\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-e93c45e8d6f4a3d8",
+    "title": "Meme - Kuru Fasulyeci Ümit Usta Parodisi",
+    "duration": 58.64,
+    "lines_count": 27,
+    "video": "assets/videos/meme-e93c45e8d6f4a3d8_orig.mp4",
+    "characters": [
+      "Ümit Usta",
+      "Aç Müşteri"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-e93c45e8d6f4a3d8\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-e93c45e8d6f4a3d8\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-e93c45e8d6f4a3d8\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-ea037fab87e9c168",
+    "title": "Kurtlar Vadisi - Her Delikanlının Bir Gelişi Vardır",
+    "duration": 15.47,
+    "lines_count": 6,
+    "video": "assets/videos/meme-ea037fab87e9c168_orig.mp4",
+    "characters": [
+      "Genç Kumarbaz",
+      "Kirve / Ağır Abi"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-ea037fab87e9c168\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-ea037fab87e9c168\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-ea037fab87e9c168\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-ec13d57c1425f814",
+    "title": "Viral - Tut Lan Ben De Aşağı Atlıyorum",
+    "duration": 15.71,
+    "lines_count": 2,
+    "video": "assets/videos/meme-ec13d57c1425f814_orig.mp4",
+    "characters": [
+      "Aşağıdaki Kanka",
+      "Atlayan Kanka"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-ec13d57c1425f814\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-ec13d57c1425f814\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-ec13d57c1425f814\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-f0a445c3a2b4afaa",
+    "title": "Kurtlar Vadisi - Testere Necmi Çakır'a Patlıyor",
+    "duration": 33.56,
+    "lines_count": 6,
+    "video": "assets/videos/meme-f0a445c3a2b4afaa_orig.mp4",
+    "characters": [
+      "Süleyman Çakır",
+      "Testere Necmi"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-f0a445c3a2b4afaa\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-f0a445c3a2b4afaa\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-f0a445c3a2b4afaa\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-f337b03a431b512d",
+    "title": "Röportaj - Ahmet Şık Hükümet İstifa Dediniz Mi?",
+    "duration": 14.88,
+    "lines_count": 5,
+    "video": "assets/videos/meme-f337b03a431b512d_orig.mp4",
+    "characters": [
+      "Muhabir",
+      "Ahmet Şık"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-f337b03a431b512d\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-f337b03a431b512d\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-f337b03a431b512d\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-fbb565592abea053",
+    "title": "Ezel - Kerpeten Ali Sanayide Racon",
+    "duration": 104.49,
+    "lines_count": 36,
+    "video": "assets/videos/meme-fbb565592abea053_orig.mp4",
+    "characters": [
+      "Kerpeten Ali",
+      "Çırak",
+      "Hoca (Usta)"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-fbb565592abea053\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-fbb565592abea053\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-fbb565592abea053\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-fdd89b3a7015c460",
+    "title": "Technopat - Sistem Toplama Parodisi",
+    "duration": 40.89,
+    "lines_count": 18,
+    "video": "assets/videos/meme-fdd89b3a7015c460_orig.mp4",
+    "characters": [
+      "Recep Baltaş",
+      "Ali Güngör"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-fdd89b3a7015c460\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-fdd89b3a7015c460\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-fdd89b3a7015c460\\end.jpg"
+    ]
+  },
+  {
+    "id": "meme-ff6ff8de71ce542b",
+    "title": "Grafi2000 - Komiser Hüsnü Çoban & Light Selami Rap",
+    "duration": 69.8,
+    "lines_count": 9,
+    "video": "assets/videos/meme-ff6ff8de71ce542b_orig.mp4",
+    "characters": [
+      "Komiser Hüsnü Çoban"
+    ],
+    "frames": [
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-ff6ff8de71ce542b\\start.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-ff6ff8de71ce542b\\mid.jpg",
+      "C:\\Users\\mirac\\Desktop\\Code\\Dublaj-Oyunu\\data\\audit_frames\\meme-ff6ff8de71ce542b\\end.jpg"
+    ]
+  }
+]
