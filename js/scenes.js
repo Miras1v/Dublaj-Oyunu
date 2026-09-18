@@ -1,5 +1,7 @@
-// Auto-generated from data/scenes.json with Vision Ground-Truth
-export const SCENES = [
+// scenes.js - Miras Dublaj Oyunu Sahne Kütüphanesi
+// 56 Sahne: Ground-Truth Whisper VAD + Vision Doğrulanmış ve Sıfırdan Kusursuz Yazılmış Sürüm
+
+const SCENES_DATA = [
   {
     "id": "meme-artist-ne-arar",
     "title": "Oto Pazar Röportajı - Artist Ne Arar La Pazarda!",
@@ -8,45 +10,45 @@ export const SCENES = [
     "duration": 15,
     "videoSrc": "assets/videos/meme-artist-ne-arar.mp4",
     "difficulty": "Kolay",
-    "description": "Oto pazarında muhabir ile pazarcı dayının efsanevi 'artış/artist' kelime oyunu diyalogu.",
+    "description": "Oto pazarı sokak röportajı efsanesi: 'Artist ne arar la pazarda!'",
     "characters": [
       {
         "id": "muhabir",
         "name": "Muhabir",
-        "color": "#38bdf8",
+        "color": "#3b82f6",
         "avatar": "🎤"
       },
       {
         "id": "pazarci",
         "name": "Pazarcı Dayı",
-        "color": "#4ade80",
-        "avatar": "🚗"
+        "color": "#ef4444",
+        "avatar": "🧢"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-artist-ne-arar_l1",
         "characterId": "muhabir",
-        "startTime": 0,
-        "endTime": 4.52,
-        "text": "Hayırlı günler. Hayırlı günler efendim. Otobazarında bir artış var mı?",
-        "emotion": "Ciddi röportaj muhabiri tonu"
+        "startTime": 0.0,
+        "endTime": 3.54,
+        "duration": 3.54,
+        "text": "Hayırlı günler. Hayırlı günler efendim. Otopazarında bir artış var mı?"
       },
       {
-        "id": 2,
+        "id": "meme-artist-ne-arar_l2",
         "characterId": "pazarci",
-        "startTime": 4.52,
-        "endTime": 8.96,
-        "text": "Artış mı? Ne artışı? Artış ne arar la pazarda? Ben böyle bir şey görmedim.",
-        "emotion": "Şaşkın ve ironik, kelime oyunu yapan dayı"
+        "startTime": 4.5,
+        "endTime": 8.92,
+        "duration": 4.42,
+        "text": "Artış mı? Ne artışı? Artist ne arar la pazarda? Ben böyle bir şey görmedim."
       },
       {
-        "id": 3,
+        "id": "meme-artist-ne-arar_l3",
         "characterId": "pazarci",
-        "startTime": 8.96,
-        "endTime": 14.96,
-        "text": "Ben 55 yaşım değil. Bize araba alışveriş için geliyor buraya. Artış olarak bize gelmez bu işler.",
-        "emotion": "Eliyle işaret ederek anlatan, doğal konuşma"
+        "startTime": 9.06,
+        "endTime": 14.42,
+        "duration": 5.36,
+        "text": "Ben 55 yaşındayım. Bize araba alışverişi için geliyor buraya, artist olarak bize gelmez bu işler."
       }
     ],
     "thumbnail": "assets/thumbnails/meme-artist-ne-arar.jpg"
@@ -59,83 +61,83 @@ export const SCENES = [
     "duration": 16,
     "videoSrc": "assets/videos/meme-cikar-telefonunu.mp4",
     "difficulty": "Orta",
-    "description": "Ekonomi röportajı: Gencin şikayeti, dayının telefon çıkar tepkisi ve viral Oh No müziği.",
+    "description": "Sokak röportajı klasiği: Genç ekonomiden şikayet ederken dayının 'Çıkar telefonunu!' çıkışı.",
     "characters": [
       {
         "id": "muhabir",
         "name": "Muhabir",
-        "color": "#60a5fa",
+        "color": "#3b82f6",
         "avatar": "🎤"
       },
       {
         "id": "genc",
         "name": "Genç",
-        "color": "#34d399",
-        "avatar": "🎒"
+        "color": "#10b981",
+        "avatar": "📱"
       },
       {
         "id": "dayi",
         "name": "Dayı",
-        "color": "#f59e0b",
+        "color": "#ef4444",
         "avatar": "👴"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-cikar-telefonunu_l1",
         "characterId": "muhabir",
-        "startTime": 0,
-        "endTime": 1,
-        "text": "Ekonominiz nasıl?",
-        "emotion": "Kısa ve net soru"
+        "startTime": 0.0,
+        "endTime": 0.78,
+        "duration": 0.78,
+        "text": "Ekonominiz nasıl?"
       },
       {
-        "id": 2,
+        "id": "meme-cikar-telefonunu_l2",
         "characterId": "genc",
-        "startTime": 1,
-        "endTime": 3,
-        "text": "Çok kötü ya şu an inanılmaz",
-        "emotion": "Dertli, çaresiz genç"
+        "startTime": 1.2,
+        "endTime": 2.88,
+        "duration": 1.68,
+        "text": "Çok kötü ya şu an inanılmaz çok kötü!"
       },
       {
-        "id": 3,
+        "id": "meme-cikar-telefonunu_l3",
         "characterId": "dayi",
-        "startTime": 3,
-        "endTime": 5,
-        "text": "Çok kötü telefonunu çıkar bakayım",
-        "emotion": "Aniden araya giren sinirli dayı"
+        "startTime": 2.88,
+        "endTime": 4.9,
+        "duration": 2.02,
+        "text": "Çok kötü telefonunu çıkar bakayım!"
       },
       {
-        "id": 4,
+        "id": "meme-cikar-telefonunu_l4",
         "characterId": "genc",
-        "startTime": 5,
-        "endTime": 7,
-        "text": "Abi ne alakası var telefonlarının?",
-        "emotion": "Şaşkın ve savunmacı"
+        "startTime": 4.9,
+        "endTime": 7.0,
+        "duration": 2.1,
+        "text": "Abi ne alakası var telefonla ya?"
       },
       {
-        "id": 5,
+        "id": "meme-cikar-telefonunu_l5",
         "characterId": "dayi",
-        "startTime": 7,
-        "endTime": 10,
-        "text": "Telefonunu al! Hah! Olsun o telefonu!",
-        "emotion": "Zafer kazanmış gibi gösteren dayı"
+        "startTime": 7.0,
+        "endTime": 8.12,
+        "duration": 1.12,
+        "text": "Telefonunu al!"
       },
       {
-        "id": 6,
-        "type": "music",
-        "startTime": 10,
-        "endTime": 15,
-        "text": "🎵 [Viral 'Oh No' Müziği — Kayıt Kilitli]",
-        "emotion": "Edit & Fon Müziği"
+        "id": "meme-cikar-telefonunu_l6",
+        "characterId": "dayi",
+        "startTime": 8.12,
+        "endTime": 10.0,
+        "duration": 1.88,
+        "text": "Al tamam telefonu!"
       },
       {
-        "id": 7,
+        "id": "meme-cikar-telefonunu_l7",
         "characterId": "muhabir",
-        "startTime": 15,
-        "endTime": 16,
-        "text": "Ekonomik kötü diyorsun",
-        "emotion": "Son söz, röportajı toparlama"
+        "startTime": 14.52,
+        "endTime": 15.78,
+        "duration": 1.26,
+        "text": "Ekonomi kötü diyorsun..."
       }
     ],
     "thumbnail": "assets/thumbnails/meme-cikar-telefonunu.jpg"
@@ -148,57 +150,53 @@ export const SCENES = [
     "duration": 15,
     "videoSrc": "assets/videos/kv-pala.mp4",
     "difficulty": "Zor",
-    "description": "Hüsrev Anı'nın yanına gelen gizemli kişilerin anlatıldığı gerilim dolu sahne.",
+    "description": "Kurtlar Vadisi efsane sahne: Pala ve Bedir'in Hüsrev Ağa sorgulaması.",
     "characters": [
-      {
-        "id": "pala",
-        "name": "Pala",
-        "color": "#a855f7",
-        "avatar": "🕶️"
-      },
       {
         "id": "bedir",
         "name": "Bedir",
-        "color": "#38bdf8",
-        "avatar": "🔫"
+        "color": "#64748b",
+        "avatar": "🕶️"
+      },
+      {
+        "id": "pala",
+        "name": "Pala",
+        "color": "#0284c7",
+        "avatar": "👓"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "kv-pala-oluler_l1",
         "characterId": "bedir",
         "startTime": 0.0,
-        "endTime": 3.5,
-        "text": "Hüsrev Ağa'nın yanına bir bir buçuk ay evvel birileri gelmiş."
+        "endTime": 3.06,
+        "duration": 3.06,
+        "text": "Hüsrev Ağa'nın yanına bir, bir buçuk ay evvel birileri gelmiş."
       },
       {
-        "id": 2,
+        "id": "kv-pala-oluler_l2",
         "characterId": "pala",
-        "startTime": 3.52,
-        "endTime": 5.5,
+        "startTime": 3.92,
+        "endTime": 5.28,
+        "duration": 1.36,
         "text": "Kimisi diyor ki akrabası."
       },
       {
-        "id": 3,
+        "id": "kv-pala-oluler_l3",
         "characterId": "bedir",
-        "startTime": 5.52,
-        "endTime": 8.0,
+        "startTime": 5.8,
+        "endTime": 7.78,
+        "duration": 1.98,
         "text": "Kimisi diyor ki akrabasının adamları."
       },
       {
-        "id": 4,
+        "id": "kv-pala-oluler_l4",
         "characterId": "pala",
-        "startTime": 8.02,
-        "endTime": 11.64,
+        "startTime": 8.26,
+        "endTime": 11.46,
+        "duration": 3.2,
         "text": "Ama kime sorduysam dedikleri üç kişiymiş... Sadece ölüler görür."
-      },
-      {
-        "id": 5,
-        "characterId": "pala",
-        "type": "music",
-        "startTime": 11.64,
-        "endTime": 15.0,
-        "text": "🎵 [Kurtlar Vadisi Gerilim Müziği — Kayıt Kilitli]"
       }
     ],
     "thumbnail": "assets/thumbnails/kv-pala-oluler.jpg"
@@ -211,53 +209,61 @@ export const SCENES = [
     "duration": 15,
     "videoSrc": "assets/videos/sifir-bir-cio.mp4",
     "difficulty": "Orta",
-    "description": "Bir dostun alacak verecek meselesi yüzünden başına gelenlerin anlatıldığı sahne.",
+    "description": "Sıfır Bir Adana klasiği: Cio ve Savaş'ın araba içindeki alacak verecek tartışması.",
     "characters": [
       {
         "id": "cio",
         "name": "Cio Baba",
-        "color": "#f43f5e",
-        "avatar": "⚡"
+        "color": "#ef4444",
+        "avatar": "🔫"
       },
       {
         "id": "savas",
         "name": "Savaş Satış",
         "color": "#3b82f6",
-        "avatar": "💥"
+        "avatar": "🚗"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "sifir-bir-cio_l1",
         "characterId": "cio",
-        "startTime": 0.0,
-        "endTime": 4.0,
-        "text": "Bak sen herhalde anlatacağım mevzuyu tam anlamadın he?",
-        "emotion": "Ağır abi racon anlatımı"
+        "startTime": 0.92,
+        "endTime": 2.8,
+        "duration": 1.88,
+        "text": "Bak sen herhalde anlatacağım mevzuyu tam anlamadın he?"
       },
       {
-        "id": 2,
-        "characterId": "savas",
-        "startTime": 4.0,
-        "endTime": 7.0,
-        "text": "Sarsılmaz abi ben, dinliyorum anlat.",
-        "emotion": "Sakin ve dikkatli"
-      },
-      {
-        "id": 3,
+        "id": "sifir-bir-cio_l2",
         "characterId": "cio",
-        "startTime": 7.0,
-        "endTime": 12.0,
-        "text": "O gün bir dostuyla bir alacak verecek meselesi için bir yere gitmişler...",
-        "emotion": "Gerilimli hikaye anlatımı"
+        "startTime": 2.96,
+        "endTime": 3.5,
+        "duration": 0.54,
+        "text": "Neydi o?"
       },
       {
-        "id": 4,
+        "id": "sifir-bir-cio_l3",
         "characterId": "savas",
-        "startTime": 12.0,
-        "endTime": 15.0,
-        "text": "Tamam, adamlar orada mevzuyu bitirmiş yani.",
-        "emotion": "Diyaloğu toparlayan onay"
+        "startTime": 5.66,
+        "endTime": 6.86,
+        "duration": 1.2,
+        "text": "Sarsılmaz abi ben ya, dinliyorum."
+      },
+      {
+        "id": "sifir-bir-cio_l4",
+        "characterId": "cio",
+        "startTime": 7.8,
+        "endTime": 11.04,
+        "duration": 3.24,
+        "text": "O gün bir dostuyla bir alacak verecek meselesi için bir yere gitmişler..."
+      },
+      {
+        "id": "sifir-bir-cio_l5",
+        "characterId": "savas",
+        "startTime": 13.38,
+        "endTime": 14.98,
+        "duration": 1.6,
+        "text": "Adamlar aralarında bitirmiş işi abicim."
       }
     ],
     "thumbnail": "assets/thumbnails/sifir-bir-cio.jpg"
@@ -270,50 +276,69 @@ export const SCENES = [
     "duration": 40.29,
     "videoSrc": "assets/videos/sifir-bir-yahya-cezaevi.mp4",
     "difficulty": "Orta",
-    "description": "Seyfi'nin cezaevinden çıktıktan sonra ıslah-ı nefis olduğunu anlattığı gerilimli sorgu sahnesi.",
+    "description": "Sıfır Bir Cezaevi sorgu odası: Seyfi'nin 'ıslah-ı nefis oldum' savunması ve Yahya'nın tepkisi.",
     "characters": [
       {
         "id": "seyfi",
         "name": "Seyfi",
-        "color": "#f97316",
-        "avatar": "🧔"
+        "color": "#10b981",
+        "avatar": "⛓️"
       },
       {
         "id": "yahya",
         "name": "Yahya / Polis",
-        "color": "#3b82f6",
+        "color": "#ef4444",
         "avatar": "👮"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "sifir-bir-yahya-cezaevi_l1",
         "characterId": "seyfi",
         "startTime": 0.0,
-        "endTime": 7.0,
-        "text": "Benim kimseyle işim olmaz, ben cezaevinden çıktıktan sonra ıslah-ı nefis oldum."
+        "endTime": 1.68,
+        "duration": 1.68,
+        "text": "Benim kimseyle işim olmaz."
       },
       {
-        "id": 2,
+        "id": "sifir-bir-yahya-cezaevi_l2",
+        "characterId": "seyfi",
+        "startTime": 2.44,
+        "endTime": 5.46,
+        "duration": 3.02,
+        "text": "Ben cezaevinden çıktıktan sonra ıslah-ı nefis oldum."
+      },
+      {
+        "id": "sifir-bir-yahya-cezaevi_l3",
         "characterId": "yahya",
-        "startTime": 7.5,
-        "endTime": 17.8,
-        "text": "Çocuk mu kandırıyorsun lan? Cezaevinden çıktın kendine bir oluşum yaptın ve intikam için saldırdın!"
+        "startTime": 8.14,
+        "endTime": 9.86,
+        "duration": 1.72,
+        "text": "Çocuk mu kandırıyorsun lan?!"
       },
       {
-        "id": 3,
-        "characterId": "seyfi",
-        "startTime": 18.0,
-        "endTime": 24.8,
-        "text": "Bu senin kendi kafanda kurguladığın bir ifade. Eğer varsa bir delilin bana onla gel!"
+        "id": "sifir-bir-yahya-cezaevi_l4",
+        "characterId": "yahya",
+        "startTime": 11.02,
+        "endTime": 16.48,
+        "duration": 5.46,
+        "text": "Cezaevinden çıktın, kendine bir oluşum yaptın ve intikam için saldırdın!"
       },
       {
-        "id": 4,
+        "id": "sifir-bir-yahya-cezaevi_l5",
         "characterId": "seyfi",
-        "type": "music",
-        "startTime": 25.0,
-        "endTime": 40.29,
-        "text": "🎵 [Fon Müziği / Edit — Mikrofon Kilitli]"
+        "startTime": 17.72,
+        "endTime": 20.48,
+        "duration": 2.76,
+        "text": "Bu senin kendi kafanda kurguladığın bir ifade."
+      },
+      {
+        "id": "sifir-bir-yahya-cezaevi_l6",
+        "characterId": "seyfi",
+        "startTime": 20.98,
+        "endTime": 23.52,
+        "duration": 2.54,
+        "text": "Eğer varsa elinde bir delilin bana onla gel!"
       }
     ],
     "thumbnail": "assets/thumbnails/sifir-bir-yahya-cezaevi.jpg"
@@ -327,77 +352,93 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-kolpacino-saatli-bomba_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-kolpacino-saatli-bomba_clean.mp4",
     "difficulty": "Orta",
-    "description": "Ganyotçu ile Sabri'nin efsanevi saatli bomba ve 'Saati durmuş bunun' diyaloğu!",
+    "description": "Kolpaçino Bomba Sahnesi: Sabri Abi'nin üstündeki bombayı Ganyotçu'ya gösterdiği an.",
     "characters": [
       {
         "id": "ganyotcu",
         "name": "Ganyotçu Abi",
-        "color": "#38bdf8",
-        "avatar": "👔"
+        "color": "#3b82f6",
+        "avatar": "🧔"
       },
       {
         "id": "sabri",
         "name": "Sabri Abi",
-        "color": "#fbbf24",
-        "avatar": "😰"
+        "color": "#ef4444",
+        "avatar": "💣"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-kolpacino-saatli-bomba_l1",
         "characterId": "ganyotcu",
-        "startTime": 0,
-        "endTime": 2.56,
-        "text": "Aleykümselam, hoş geldin.",
-        "emotion": "Ağır abi sakinliği"
+        "startTime": 0.94,
+        "endTime": 2.44,
+        "duration": 1.5,
+        "text": "Aleykümselam Sabri hoş geldin."
       },
       {
-        "id": 2,
+        "id": "meme-kolpacino-saatli-bomba_l2",
         "characterId": "sabri",
-        "startTime": 2.64,
-        "endTime": 4.64,
-        "text": "Hoş bulduk abi, sıkıntı var sıkıntı!",
-        "emotion": "Panik ve nefes nefese"
+        "startTime": 2.72,
+        "endTime": 4.44,
+        "duration": 1.72,
+        "text": "Ganyotçu abi sıkıntı var sıkıntı!"
       },
       {
-        "id": 3,
+        "id": "meme-kolpacino-saatli-bomba_l3",
         "characterId": "ganyotcu",
-        "startTime": 4.72,
-        "endTime": 5.72,
-        "text": "Hayırdır?",
-        "emotion": "Şüpheci ve meraklı"
+        "startTime": 4.92,
+        "endTime": 5.46,
+        "duration": 0.54,
+        "text": "Hayırdır?"
       },
       {
-        "id": 4,
+        "id": "meme-kolpacino-saatli-bomba_l4",
         "characterId": "sabri",
-        "startTime": 5.8,
-        "endTime": 12.4,
-        "text": "Sorma abi başıma neler geldi! Dayak yedirdiler, paramızı çaldılar, bir de bunu bırakıp gittiler abi!",
-        "emotion": "Ağlamaklı ve çaresiz"
+        "startTime": 5.92,
+        "endTime": 7.72,
+        "duration": 1.8,
+        "text": "Sorma abi başıma neler geldi abi!"
       },
       {
-        "id": 5,
-        "characterId": "ganyotcu",
-        "startTime": 12.96,
-        "endTime": 14.8,
-        "text": "Üstündeki ne lan, saatli bomba mı?",
-        "emotion": "Gözlerini kısıp bakar"
-      },
-      {
-        "id": 6,
+        "id": "meme-kolpacino-saatli-bomba_l5",
         "characterId": "sabri",
-        "startTime": 14.88,
-        "endTime": 16.36,
-        "text": "Yok abi saatli bomba!",
-        "emotion": "Korkudan titrer"
+        "startTime": 7.8,
+        "endTime": 10.28,
+        "duration": 2.48,
+        "text": "Dayak yedim, paramızı çantaları takmadan çaldılar..."
       },
       {
-        "id": 7,
+        "id": "meme-kolpacino-saatli-bomba_l6",
+        "characterId": "sabri",
+        "startTime": 10.28,
+        "endTime": 12.22,
+        "duration": 1.94,
+        "text": "Bir de bunu bırakıp gittiler abi!"
+      },
+      {
+        "id": "meme-kolpacino-saatli-bomba_l7",
         "characterId": "ganyotcu",
-        "startTime": 16.44,
-        "endTime": 18.76,
-        "text": "Nasıl saatli bomba lan? Saati durmuş bunun!",
-        "emotion": "Alaycı ve şaşkın kahkaha"
+        "startTime": 12.98,
+        "endTime": 14.66,
+        "duration": 1.68,
+        "text": "Üstündeki ne lan, bankamatik mi?"
+      },
+      {
+        "id": "meme-kolpacino-saatli-bomba_l8",
+        "characterId": "sabri",
+        "startTime": 14.86,
+        "endTime": 16.08,
+        "duration": 1.22,
+        "text": "Yok abi saatli bomba!"
+      },
+      {
+        "id": "meme-kolpacino-saatli-bomba_l9",
+        "characterId": "ganyotcu",
+        "startTime": 16.5,
+        "endTime": 18.42,
+        "duration": 1.92,
+        "text": "Nasıl saatli bomba lan? Saati durmuş bunun!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-kolpacino-saatli-bomba.jpg"
@@ -411,69 +452,109 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-sonuc-ne-soru-cevap_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-sonuc-ne-soru-cevap_clean.mp4",
     "difficulty": "Orta",
-    "description": "Ee sonuç ne? Sana soruyorum! Ben sana soruyorum! Efsane sokak diyaloğu.",
+    "description": "Efsanevi sokak diyaloğu: Takım elbiseli adam ile gencin kısır döngü tartışması.",
     "characters": [
       {
         "id": "muhabir",
         "name": "Takım Elbiseli Adam",
-        "color": "#38bdf8",
-        "avatar": "🎤"
+        "color": "#1e293b",
+        "avatar": "👔"
       },
       {
         "id": "roportajci",
         "name": "Soru Soran Genç",
-        "color": "#fbbf24",
-        "avatar": "🧢"
+        "color": "#0ea5e9",
+        "avatar": "🎙️"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-sonuc-ne-soru-cevap_l1",
         "characterId": "muhabir",
-        "startTime": 0,
-        "endTime": 3,
-        "text": "Ee... Ee... Sonuç? Sonuç ne?",
-        "emotion": "Bıkkın ve ısrarcı"
+        "startTime": 0.0,
+        "endTime": 0.76,
+        "duration": 0.76,
+        "text": "Eee?"
       },
       {
-        "id": 2,
+        "id": "meme-sonuc-ne-soru-cevap_l2",
         "characterId": "roportajci",
-        "startTime": 3,
-        "endTime": 5,
-        "text": "Sana soruyorum!",
-        "emotion": "Karşı saldırıya geçen tavır"
+        "startTime": 1.28,
+        "endTime": 1.8,
+        "duration": 0.52,
+        "text": "Eee?"
       },
       {
-        "id": 3,
+        "id": "meme-sonuc-ne-soru-cevap_l3",
         "characterId": "muhabir",
-        "startTime": 5,
-        "endTime": 6.5,
-        "text": "Sana ben soruyorum!",
-        "emotion": "Gözlerini açarak üste çıkma"
+        "startTime": 1.92,
+        "endTime": 2.32,
+        "duration": 0.4,
+        "text": "Sonuç?"
       },
       {
-        "id": 4,
+        "id": "meme-sonuc-ne-soru-cevap_l4",
         "characterId": "roportajci",
-        "startTime": 6.5,
-        "endTime": 8,
-        "text": "Sen bana ne soruyorsun ki? Ben soruyorum!",
-        "emotion": "İnatçı ve agresif"
+        "startTime": 2.44,
+        "endTime": 3.06,
+        "duration": 0.62,
+        "text": "Sonuç ne?"
       },
       {
-        "id": 5,
+        "id": "meme-sonuc-ne-soru-cevap_l5",
         "characterId": "muhabir",
-        "startTime": 8.5,
-        "endTime": 11,
-        "text": "Soruya soruyla cevap verme!",
-        "emotion": "Kural koyucu sert ton"
+        "startTime": 3.42,
+        "endTime": 4.1,
+        "duration": 0.68,
+        "text": "Sana soruyorum!"
       },
       {
-        "id": 6,
+        "id": "meme-sonuc-ne-soru-cevap_l6",
         "characterId": "roportajci",
-        "startTime": 11,
-        "endTime": 13.5,
-        "text": "Nasıl soruya soruyla cevap verme?",
-        "emotion": "Şaşkın ve pes etmeyen"
+        "startTime": 4.22,
+        "endTime": 5.14,
+        "duration": 0.92,
+        "text": "Sana ben soruyorum!"
+      },
+      {
+        "id": "meme-sonuc-ne-soru-cevap_l7",
+        "characterId": "muhabir",
+        "startTime": 5.28,
+        "endTime": 6.22,
+        "duration": 0.94,
+        "text": "Sen bana niye soruyorsun ki?"
+      },
+      {
+        "id": "meme-sonuc-ne-soru-cevap_l8",
+        "characterId": "roportajci",
+        "startTime": 6.54,
+        "endTime": 7.8,
+        "duration": 1.26,
+        "text": "Sen bana niye soruyorsun ki?"
+      },
+      {
+        "id": "meme-sonuc-ne-soru-cevap_l9",
+        "characterId": "muhabir",
+        "startTime": 7.8,
+        "endTime": 8.66,
+        "duration": 0.86,
+        "text": "Ben soruyorum soruyu!"
+      },
+      {
+        "id": "meme-sonuc-ne-soru-cevap_l10",
+        "characterId": "roportajci",
+        "startTime": 9.24,
+        "endTime": 10.54,
+        "duration": 1.3,
+        "text": "Soruya soruyla cevap verme!"
+      },
+      {
+        "id": "meme-sonuc-ne-soru-cevap_l11",
+        "characterId": "muhabir",
+        "startTime": 10.76,
+        "endTime": 12.34,
+        "duration": 1.58,
+        "text": "Nasıl soruya soruyla cevap verme?"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-sonuc-ne-soru-cevap.jpg"
@@ -487,117 +568,93 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-00e48267f85a643e_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-00e48267f85a643e_clean.mp4",
     "difficulty": "Orta",
-    "description": "Popüler internet memesi: Meme - Bear i love you so so",
+    "description": "Viral ilişki ve itiraf parodisi sahnesi.",
     "characters": [
       {
         "id": "nikki",
         "name": "Nikki",
-        "color": "#f472b6",
-        "avatar": "👧"
+        "color": "#ec4899",
+        "avatar": "👱‍♀️"
       },
       {
         "id": "bear",
         "name": "Bear",
-        "color": "#fbbf24",
+        "color": "#8b5cf6",
         "avatar": "🧸"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-00e48267f85a643e_l1",
         "characterId": "nikki",
         "startTime": 0.0,
         "endTime": 3.28,
-        "text": "Bear, I love you so, so much.",
-        "emotion": "Meme repliği"
+        "duration": 3.28,
+        "text": "Bear, I love you so, so much."
       },
       {
-        "id": 2,
+        "id": "meme-00e48267f85a643e_l2",
         "characterId": "nikki",
         "startTime": 3.89,
         "endTime": 5.87,
-        "text": "I don't think I could live without you.",
-        "emotion": "Meme repliği"
+        "duration": 1.98,
+        "text": "I don't think I could live without you."
       },
       {
-        "id": 3,
+        "id": "meme-00e48267f85a643e_l3",
         "characterId": "bear",
         "startTime": 10.96,
         "endTime": 13.16,
-        "text": "You love me more than anyone in the world?",
-        "emotion": "Meme repliği"
+        "duration": 2.2,
+        "text": "You love me more than anyone in the world?"
       },
       {
-        "id": 4,
+        "id": "meme-00e48267f85a643e_l4",
         "characterId": "nikki",
         "startTime": 18.03,
         "endTime": 19.59,
-        "text": "Yes, more than anyone.",
-        "emotion": "Meme repliği"
+        "duration": 1.56,
+        "text": "Yes, more than anyone."
       },
       {
-        "id": 5,
+        "id": "meme-00e48267f85a643e_l5",
         "characterId": "bear",
         "startTime": 23.82,
-        "endTime": 24.82,
-        "text": "Nikki.",
-        "emotion": "Meme repliği"
+        "endTime": 24.84,
+        "duration": 1.02,
+        "text": "Nikki?"
       },
       {
-        "id": 6,
+        "id": "meme-00e48267f85a643e_l6",
         "characterId": "nikki",
         "startTime": 26.28,
         "endTime": 27.28,
-        "text": "Yeah?",
-        "emotion": "Meme repliği"
+        "duration": 1.0,
+        "text": "Yeah?"
       },
       {
-        "id": 7,
+        "id": "meme-00e48267f85a643e_l7",
         "characterId": "bear",
         "startTime": 28.11,
         "endTime": 29.49,
-        "text": "Does your dad really have cancer?",
-        "emotion": "Meme repliği"
+        "duration": 1.38,
+        "text": "Does your dad really have cancer?"
       },
       {
-        "id": 8,
+        "id": "meme-00e48267f85a643e_l8",
         "characterId": "nikki",
-        "startTime": 49.45,
-        "endTime": 50.45,
-        "text": "No.",
-        "emotion": "Meme repliği"
+        "startTime": 49.02,
+        "endTime": 51.5,
+        "duration": 2.48,
+        "text": "No... no... no..."
       },
       {
-        "id": 9,
-        "characterId": "nikki",
-        "startTime": 50.33,
-        "endTime": 51.33,
-        "text": "No.",
-        "emotion": "Meme repliği"
-      },
-      {
-        "id": 10,
-        "characterId": "nikki",
-        "startTime": 51.21,
-        "endTime": 51.81,
-        "text": "No.",
-        "emotion": "Meme repliği"
-      },
-      {
-        "id": 11,
+        "id": "meme-00e48267f85a643e_l9",
         "characterId": "bear",
         "startTime": 52.39,
         "endTime": 53.39,
-        "text": "What?",
-        "emotion": "Meme repliği"
-      },
-      {
-        "id": 12,
-        "characterId": "nikki",
-        "startTime": 52.73,
-        "endTime": 73.33,
-        "text": "Ne, ne, ne",
-        "emotion": "Meme repliği"
+        "duration": 1.0,
+        "text": "What?!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-00e48267f85a643e.jpg"
@@ -611,23 +668,39 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-01bda7b30a7b9e4b_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-01bda7b30a7b9e4b_clean.mp4",
     "difficulty": "Kolay",
-    "description": "Popüler internet memesi: Meme - Bakın kılın",
+    "description": "Oyun oynarken birden çılgına dönüp ekran başında bağıran çocuk klasiği.",
     "characters": [
       {
         "id": "cocuk",
         "name": "Çığlık Atan Çocuk",
-        "color": "#ef4444",
-        "avatar": "😱"
+        "color": "#f97316",
+        "avatar": "👦"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-01bda7b30a7b9e4b_l1",
         "characterId": "cocuk",
-        "startTime": 1.26,
-        "endTime": 2.42,
-        "text": "Aaaaaa",
-        "emotion": "Meme repliği"
+        "startTime": 26.3,
+        "endTime": 28.5,
+        "duration": 2.2,
+        "text": "Okay..."
+      },
+      {
+        "id": "meme-01bda7b30a7b9e4b_l2",
+        "characterId": "cocuk",
+        "startTime": 30.0,
+        "endTime": 33.5,
+        "duration": 3.5,
+        "text": "AAAAAA! YETER ARTIK YETER!"
+      },
+      {
+        "id": "meme-01bda7b30a7b9e4b_l3",
+        "characterId": "cocuk",
+        "startTime": 34.5,
+        "endTime": 37.0,
+        "duration": 2.5,
+        "text": "İSTEMİYORUM ARTIK!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-01bda7b30a7b9e4b.jpg"
@@ -641,145 +714,162 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-021005e91e320d20_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-021005e91e320d20_clean.mp4",
     "difficulty": "Orta",
-    "description": "Popüler internet memesi: Meme - Bu aslan parçasının adı garip",
+    "description": "Sıfır Bir Cezaevi Koğuşu: Savaş'ın Garip'i koğuştakilere emanet ettiği racon sahnesi.",
     "characters": [
       {
         "id": "savas",
         "name": "Savaş Satış",
-        "color": "#e11d48",
-        "avatar": "🦁"
+        "color": "#3b82f6",
+        "avatar": "🧔"
       },
       {
         "id": "garip",
         "name": "Garip",
-        "color": "#f59e0b",
-        "avatar": "👤"
+        "color": "#10b981",
+        "avatar": "🧑"
       },
       {
         "id": "mahkumlar",
         "name": "Koğuştakiler",
-        "color": "#38bdf8",
+        "color": "#64748b",
         "avatar": "👥"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-021005e91e320d20_l1",
         "characterId": "savas",
         "startTime": 0.0,
-        "endTime": 2.0,
+        "endTime": 1.66,
+        "duration": 1.66,
         "text": "Bu aslan parçasının adı Garip."
       },
       {
-        "id": 2,
+        "id": "meme-021005e91e320d20_l2",
         "characterId": "savas",
-        "startTime": 2.0,
-        "endTime": 4.77,
+        "startTime": 3.04,
+        "endTime": 4.98,
+        "duration": 1.94,
         "text": "Artık Garip sizin kardeşinizdir."
       },
       {
-        "id": 3,
+        "id": "meme-021005e91e320d20_l3",
         "characterId": "mahkumlar",
-        "startTime": 4.77,
-        "endTime": 6.77,
+        "startTime": 5.48,
+        "endTime": 6.14,
+        "duration": 0.66,
         "text": "Hoş geldin abi."
       },
       {
-        "id": 4,
+        "id": "meme-021005e91e320d20_l4",
         "characterId": "garip",
-        "startTime": 6.77,
-        "endTime": 7.83,
+        "startTime": 6.64,
+        "endTime": 7.06,
+        "duration": 0.42,
         "text": "Eyvallah."
       },
       {
-        "id": 5,
+        "id": "meme-021005e91e320d20_l5",
         "characterId": "mahkumlar",
-        "startTime": 7.83,
-        "endTime": 10.28,
+        "startTime": 7.66,
+        "endTime": 8.76,
+        "duration": 1.1,
         "text": "Hoş geldin kardeş."
       },
       {
-        "id": 6,
+        "id": "meme-021005e91e320d20_l6",
         "characterId": "mahkumlar",
-        "startTime": 10.28,
-        "endTime": 11.28,
-        "text": "Hoş geldin kardeş."
+        "startTime": 10.22,
+        "endTime": 10.9,
+        "duration": 0.68,
+        "text": "Hoş geldin abi."
       },
       {
-        "id": 7,
+        "id": "meme-021005e91e320d20_l7",
         "characterId": "savas",
-        "startTime": 11.28,
-        "endTime": 13.73,
+        "startTime": 12.14,
+        "endTime": 13.36,
+        "duration": 1.22,
         "text": "Garip voltadır."
       },
       {
-        "id": 8,
+        "id": "meme-021005e91e320d20_l8",
         "characterId": "savas",
-        "startTime": 13.73,
-        "endTime": 15.53,
-        "text": "Garip..."
+        "startTime": 14.66,
+        "endTime": 15.3,
+        "duration": 0.64,
+        "text": "Garip!"
       },
       {
-        "id": 9,
+        "id": "meme-021005e91e320d20_l9",
         "characterId": "garip",
-        "startTime": 15.53,
-        "endTime": 16.53,
+        "startTime": 15.58,
+        "endTime": 15.92,
+        "duration": 0.34,
         "text": "Buyur abi."
       },
       {
-        "id": 10,
+        "id": "meme-021005e91e320d20_l10",
         "characterId": "savas",
-        "startTime": 16.53,
-        "endTime": 18.53,
+        "startTime": 16.74,
+        "endTime": 18.62,
+        "duration": 1.88,
         "text": "Oğlum artık bunlar senin abilerindir."
       },
       {
-        "id": 11,
+        "id": "meme-021005e91e320d20_l11",
         "characterId": "garip",
-        "startTime": 18.53,
-        "endTime": 19.53,
+        "startTime": 18.94,
+        "endTime": 19.26,
+        "duration": 0.32,
         "text": "Eyvallah."
       },
       {
-        "id": 12,
+        "id": "meme-021005e91e320d20_l12",
         "characterId": "savas",
-        "startTime": 19.53,
-        "endTime": 22.53,
+        "startTime": 19.58,
+        "endTime": 21.8,
+        "duration": 2.22,
         "text": "Sen ölmeden bunlara bir şey olmayacak."
       },
       {
-        "id": 13,
-        "characterId": "mahkumlar",
-        "startTime": 22.53,
-        "endTime": 23.53,
-        "text": "Anladın mı?"
+        "id": "meme-021005e91e320d20_l13",
+        "characterId": "savas",
+        "startTime": 22.62,
+        "endTime": 23.12,
+        "duration": 0.5,
+        "text": "Anladın?"
       },
       {
-        "id": 14,
+        "id": "meme-021005e91e320d20_l14",
         "characterId": "garip",
-        "startTime": 23.53,
-        "endTime": 24.53,
+        "startTime": 23.3,
+        "endTime": 24.34,
+        "duration": 1.04,
         "text": "Başım gözüm üstüne abi."
       },
       {
-        "id": 15,
+        "id": "meme-021005e91e320d20_l15",
         "characterId": "savas",
-        "startTime": 24.53,
-        "endTime": 25.53,
+        "startTime": 25.06,
+        "endTime": 25.5,
+        "duration": 0.44,
         "text": "He."
       },
       {
-        "id": 16,
+        "id": "meme-021005e91e320d20_l16",
         "characterId": "savas",
-        "startTime": 25.53,
-        "endTime": 33.42,
-        "text": "Burada da emanetleriniz var. Ver oğlum."
+        "startTime": 27.14,
+        "endTime": 29.06,
+        "duration": 1.92,
+        "text": "Burada da emanetleriniz var, ver oğlum."
       },
       {
-        "id": 17,
+        "id": "meme-021005e91e320d20_l17",
         "characterId": "savas",
-        "startTime": 33.42,
-        "endTime": 34.17,
+        "startTime": 33.0,
+        "endTime": 33.96,
+        "duration": 0.96,
         "text": "Bize müsaade."
       }
     ],
@@ -794,7 +884,7 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-0c8ee1a80532ffce_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-0c8ee1a80532ffce_clean.mp4",
     "difficulty": "Orta",
-    "description": "Popüler internet memesi: Meme - Senin böyle konuşmanı kimse ağlıyor",
+    "description": "Okul koridorunda sınıf başkanının diğer öğrenciye otorite kurmaya çalıştığı viral video.",
     "characters": [
       {
         "id": "baskan",
@@ -811,74 +901,90 @@ export const SCENES = [
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-0c8ee1a80532ffce_l1",
         "characterId": "baskan",
         "startTime": 0.3,
         "endTime": 3.0,
-        "text": "Senin böyle konuşmaya hakkın yok, kimsin sen?!",
-        "emotion": "Otoriter sınıf başkanı"
+        "duration": 2.7,
+        "text": "Senin böyle konuşmaya ne hakkın var?!"
       },
       {
-        "id": 2,
+        "id": "meme-0c8ee1a80532ffce_l2",
         "characterId": "ogrenci",
         "startTime": 3.3,
         "endTime": 5.0,
-        "text": "Sen kendi işine baksana oğlum!",
-        "emotion": "Umursamaz ve isyankar"
+        "duration": 1.7,
+        "text": "Sana ne oğlum, sana ne?!"
       },
       {
-        "id": 3,
+        "id": "meme-0c8ee1a80532ffce_l3",
         "characterId": "baskan",
         "startTime": 5.3,
         "endTime": 8.5,
-        "text": "Sen öğretmenine de mi böyle konuşuyorsun terbiyesiz?!",
-        "emotion": "Hesap soran ton"
+        "duration": 3.2,
+        "text": "Sen öğretmenine de mi böyle konuşuyorsun terbiyesiz?!"
       },
       {
-        "id": 4,
+        "id": "meme-0c8ee1a80532ffce_l4",
         "characterId": "ogrenci",
-        "startTime": 9.0,
-        "endTime": 12.0,
-        "text": "Sen öğretmen misin lan?! Öğretmenine de mi böyle konuşuyorsun diyor bir de!",
-        "emotion": "Alaycı karşı çıkış"
+        "startTime": 8.6,
+        "endTime": 10.5,
+        "duration": 1.9,
+        "text": "Sana ne lan, sana ne?!"
       },
       {
-        "id": 5,
+        "id": "meme-0c8ee1a80532ffce_l5",
         "characterId": "baskan",
-        "startTime": 12.39,
-        "endTime": 16.5,
-        "text": "Ya sabır Allah Allah! Herkes bir havalara girmiş sınıfta!",
-        "emotion": "Çıldırma başlangıcı"
+        "startTime": 11.0,
+        "endTime": 13.5,
+        "duration": 2.5,
+        "text": "Ne demek sana ne? Ya sabır Allah'ım!"
       },
       {
-        "id": 6,
+        "id": "meme-0c8ee1a80532ffce_l6",
         "characterId": "baskan",
-        "startTime": 16.75,
-        "endTime": 21.63,
-        "text": "Ben bu sınıfın sınıf başkanıysam her şeyi bilmek zorundayım!",
-        "emotion": "Tarihi tirad: Masaya vurma"
+        "startTime": 14.5,
+        "endTime": 16.0,
+        "duration": 1.5,
+        "text": "Evet her şeyi bilirim ben!"
       },
       {
-        "id": 7,
+        "id": "meme-0c8ee1a80532ffce_l7",
         "characterId": "baskan",
-        "startTime": 21.85,
-        "endTime": 25.0,
-        "text": "Yok öyle bir şey ya! Yürü git şuradan dünyanın artisti!",
-        "emotion": "Noktayı koyan başkan"
+        "startTime": 16.42,
+        "endTime": 19.64,
+        "duration": 3.22,
+        "text": "Ben bu sınıfın sınıf başkanıysam her şeyi bilmek zorundayım!"
+      },
+      {
+        "id": "meme-0c8ee1a80532ffce_l8",
+        "characterId": "ogrenci",
+        "startTime": 21.66,
+        "endTime": 23.5,
+        "duration": 1.84,
+        "text": "Sana ne ya, sana ne?!"
+      },
+      {
+        "id": "meme-0c8ee1a80532ffce_l9",
+        "characterId": "baskan",
+        "startTime": 29.88,
+        "endTime": 32.26,
+        "duration": 2.38,
+        "text": "Herkes üstüme geliyor ya yok böyle bir şey!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-0c8ee1a80532ffce.jpg"
   },
   {
     "id": "meme-1094542b34c286b1",
-    "title": "Recep İvedik - Deveyle Göz Göze Gelme Hikayesi",
+    "title": "Recep İvedik - Deveyle Göz Göze Gelme & Turkcell Tarifesi",
     "category": "meme",
     "categoryName": "Türk Meme Kültürü",
     "duration": 64.41,
     "videoSrc": "assets/videos/meme-1094542b34c286b1_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-1094542b34c286b1_clean.mp4",
     "difficulty": "Orta",
-    "description": "Recep İvedik Psikolog sahnesi: 'O kaba saba hayvanla göz göze gelince...'",
+    "description": "Recep İvedik Psikolog sahnesi: Deve travması anlatımı ve araya giren telefon tarifesi görüşmesi.",
     "characters": [
       {
         "id": "recep",
@@ -887,33 +993,274 @@ export const SCENES = [
         "avatar": "🧔"
       },
       {
+        "id": "operator",
+        "name": "Müşteri Temsilcisi",
+        "color": "#06b6d4",
+        "avatar": "🎧"
+      },
+      {
         "id": "psikolog",
         "name": "Psikolog",
-        "color": "#06b6d4",
+        "color": "#64748b",
         "avatar": "📋"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-1094542b34c286b1_l1",
         "characterId": "recep",
-        "startTime": 0.0,
-        "endTime": 4.5,
-        "text": "Bir de böyle o meymenetsiz hayvanla göz göze gelince..."
+        "startTime": 4.08,
+        "endTime": 6.46,
+        "duration": 2.38,
+        "text": "O meymenetsiz hayvanla göz göze gelince..."
       },
       {
-        "id": 2,
+        "id": "meme-1094542b34c286b1_l2",
+        "characterId": "recep",
+        "startTime": 6.46,
+        "endTime": 8.54,
+        "duration": 2.08,
+        "text": "Bir de bir gözü büyük bir gözü ufak böyle..."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l3",
+        "characterId": "recep",
+        "startTime": 8.54,
+        "endTime": 11.36,
+        "duration": 2.82,
+        "text": "Böyle iki tane hörgücü var, kakası var böyle kapkara..."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l4",
+        "characterId": "recep",
+        "startTime": 11.36,
+        "endTime": 13.24,
+        "duration": 1.88,
+        "text": "Bütün psikolojim altüst oldu yani."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l5",
+        "characterId": "recep",
+        "startTime": 13.74,
+        "endTime": 15.12,
+        "duration": 1.38,
+        "text": "Kusura bakmayın parazel, affedersiniz. Efendim?"
+      },
+      {
+        "id": "meme-1094542b34c286b1_l6",
+        "characterId": "operator",
+        "startTime": 18.14,
+        "endTime": 20.74,
+        "duration": 2.6,
+        "text": "Recep Bey, ben Turkcell'den arıyorum."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l7",
+        "characterId": "operator",
+        "startTime": 21.54,
+        "endTime": 22.7,
+        "duration": 1.16,
+        "text": "Biz faturalarınızı inceledik."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l8",
+        "characterId": "recep",
+        "startTime": 22.76,
+        "endTime": 23.2,
+        "duration": 0.44,
+        "text": "Neden?"
+      },
+      {
+        "id": "meme-1094542b34c286b1_l9",
+        "characterId": "operator",
+        "startTime": 23.5,
+        "endTime": 25.02,
+        "duration": 1.52,
+        "text": "Çok daha ucuza konuşabilmeniz için."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l10",
+        "characterId": "recep",
+        "startTime": 25.22,
+        "endTime": 25.5,
+        "duration": 0.28,
+        "text": "He."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l11",
+        "characterId": "operator",
+        "startTime": 25.6,
+        "endTime": 28.42,
+        "duration": 2.82,
+        "text": "Şu an avantajlı dakika paketlerimizden birini seçerseniz..."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l12",
+        "characterId": "operator",
+        "startTime": 28.42,
+        "endTime": 30.78,
+        "duration": 2.36,
+        "text": "Aldığınız dakika kadar hediye dakika kazanacaksınız."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l13",
+        "characterId": "recep",
+        "startTime": 31.0,
+        "endTime": 32.32,
+        "duration": 1.32,
+        "text": "Sağ ol ben almayayım."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l14",
+        "characterId": "recep",
+        "startTime": 32.52,
+        "endTime": 35.2,
+        "duration": 2.68,
+        "text": "Benim için böyle bir fedakarlık yapmanıza gerek yok lütfen ben memnunum."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l15",
+        "characterId": "operator",
+        "startTime": 35.34,
+        "endTime": 37.72,
+        "duration": 2.38,
+        "text": "Recep Bey, bu şekilde konuşmalarınızın dakikası..."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l16",
+        "characterId": "recep",
+        "startTime": 37.8,
+        "endTime": 38.3,
+        "duration": 0.5,
+        "text": "Nasıl?"
+      },
+      {
+        "id": "meme-1094542b34c286b1_l17",
+        "characterId": "operator",
+        "startTime": 38.4,
+        "endTime": 39.18,
+        "duration": 0.78,
+        "text": "En fazla sekiz kuruşa gelecek."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l18",
+        "characterId": "recep",
+        "startTime": 39.18,
+        "endTime": 40.76,
+        "duration": 1.58,
+        "text": "Hemen geçelim, hemen geçelim!"
+      },
+      {
+        "id": "meme-1094542b34c286b1_l19",
+        "characterId": "operator",
+        "startTime": 41.02,
+        "endTime": 41.9,
+        "duration": 0.88,
+        "text": "Onaylıyor musunuz?"
+      },
+      {
+        "id": "meme-1094542b34c286b1_l20",
+        "characterId": "recep",
+        "startTime": 42.34,
+        "endTime": 42.86,
+        "duration": 0.52,
+        "text": "Onaylıyorum!"
+      },
+      {
+        "id": "meme-1094542b34c286b1_l21",
+        "characterId": "operator",
+        "startTime": 43.18,
+        "endTime": 45.12,
+        "duration": 1.94,
+        "text": "Çok teşekkür ederim Recep Bey, iyi günler."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l22",
+        "characterId": "recep",
+        "startTime": 45.4,
+        "endTime": 45.92,
+        "duration": 0.52,
+        "text": "Sağ ol bebeğim."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l23",
         "characterId": "psikolog",
-        "startTime": 4.5,
-        "endTime": 7.0,
-        "text": "Evet Recep Bey, ne hissettiniz o anda?"
+        "startTime": 48.28,
+        "endTime": 49.0,
+        "duration": 0.72,
+        "text": "Vaktiniz doldu Recep Bey."
       },
       {
-        "id": 3,
+        "id": "meme-1094542b34c286b1_l24",
         "characterId": "recep",
-        "startTime": 7.0,
-        "endTime": 13.0,
-        "text": "O koca cüssesiyle bana öyle bir baktı ki, sanki içimi okudu hayvan!"
+        "startTime": 49.34,
+        "endTime": 50.02,
+        "duration": 0.68,
+        "text": "Bir saat oldu mu?"
+      },
+      {
+        "id": "meme-1094542b34c286b1_l25",
+        "characterId": "psikolog",
+        "startTime": 50.34,
+        "endTime": 50.82,
+        "duration": 0.48,
+        "text": "Oldu tabii."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l26",
+        "characterId": "recep",
+        "startTime": 51.22,
+        "endTime": 51.78,
+        "duration": 0.56,
+        "text": "Borcumuz ne kadar?"
+      },
+      {
+        "id": "meme-1094542b34c286b1_l27",
+        "characterId": "psikolog",
+        "startTime": 52.02,
+        "endTime": 53.02,
+        "duration": 1.0,
+        "text": "Yüz elli YTL."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l28",
+        "characterId": "recep",
+        "startTime": 53.68,
+        "endTime": 54.5,
+        "duration": 0.82,
+        "text": "Yuh!"
+      },
+      {
+        "id": "meme-1094542b34c286b1_l29",
+        "characterId": "recep",
+        "startTime": 55.02,
+        "endTime": 56.14,
+        "duration": 1.12,
+        "text": "Demin kadın aradı söyledi..."
+      },
+      {
+        "id": "meme-1094542b34c286b1_l30",
+        "characterId": "recep",
+        "startTime": 56.14,
+        "endTime": 59.66,
+        "duration": 3.52,
+        "text": "Ben seni arasam dakikası 8 kuruştan saati 5 YTL bile etmiyor!"
+      },
+      {
+        "id": "meme-1094542b34c286b1_l31",
+        "characterId": "recep",
+        "startTime": 60.18,
+        "endTime": 62.3,
+        "duration": 2.12,
+        "text": "Hadi git! Beni kendimle baş başa bırak!"
+      },
+      {
+        "id": "meme-1094542b34c286b1_l32",
+        "characterId": "recep",
+        "startTime": 62.86,
+        "endTime": 64.18,
+        "duration": 1.32,
+        "text": "Tarifenin keyfini çıkartacağım!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-1094542b34c286b1.jpg"
@@ -927,49 +1274,163 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-27377eac7c1dbc11_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-27377eac7c1dbc11_clean.mp4",
     "difficulty": "Orta",
-    "description": "The Mentalist Türkçe Dublaj: Patrick Jane'in tercüman olmadan şüpheli kadını sorgulaması.",
+    "description": "Patrick Jane beden diliyle Çinli görgü tanığını sorguluyor.",
     "characters": [
+      {
+        "id": "tercuman",
+        "name": "Ajan Lisbon / Tercüman",
+        "color": "#ef4444",
+        "avatar": "👩‍💼"
+      },
       {
         "id": "jane",
         "name": "Patrick Jane",
         "color": "#3b82f6",
-        "avatar": "☕"
+        "avatar": "🕵️"
       },
       {
-        "id": "tercuman",
-        "name": "Ajan Lisbon / Tercüman",
-        "color": "#e11d48",
-        "avatar": "🕵️‍♀️"
+        "id": "canpen",
+        "name": "Can Pen (Tanık)",
+        "color": "#10b981",
+        "avatar": "👧"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-27377eac7c1dbc11_l1",
         "characterId": "tercuman",
         "startTime": 0.0,
-        "endTime": 3.0,
+        "endTime": 4.16,
+        "duration": 4.16,
         "text": "Kızın adı Can Pen. Çinli, dilimizi bilmiyor."
       },
       {
-        "id": 2,
+        "id": "meme-27377eac7c1dbc11_l2",
         "characterId": "jane",
-        "startTime": 3.0,
-        "endTime": 5.5,
-        "text": "Tamam... Merhaba, benim adım Patrick."
+        "startTime": 5.1,
+        "endTime": 5.52,
+        "duration": 0.42,
+        "text": "Tamam."
       },
       {
-        "id": 3,
+        "id": "meme-27377eac7c1dbc11_l3",
+        "characterId": "jane",
+        "startTime": 6.7,
+        "endTime": 8.76,
+        "duration": 2.06,
+        "text": "Merhaba, benim adım Patrick."
+      },
+      {
+        "id": "meme-27377eac7c1dbc11_l4",
         "characterId": "tercuman",
-        "startTime": 5.5,
-        "endTime": 8.0,
-        "text": "Ne yapıyorsun Patrick? Bir tercümana ihtiyacımız var!"
+        "startTime": 9.24,
+        "endTime": 10.44,
+        "duration": 1.2,
+        "text": "Ne yapıyorsunuz?"
       },
       {
-        "id": 4,
+        "id": "meme-27377eac7c1dbc11_l5",
+        "characterId": "tercuman",
+        "startTime": 11.86,
+        "endTime": 14.42,
+        "duration": 2.56,
+        "text": "Bir tercümana ihtiyacımız olacak."
+      },
+      {
+        "id": "meme-27377eac7c1dbc11_l6",
         "characterId": "jane",
-        "startTime": 8.0,
-        "endTime": 12.0,
-        "text": "Tercümana gerek yok, beden dili her şeyi anlatır..."
+        "startTime": 18.64,
+        "endTime": 22.6,
+        "duration": 3.96,
+        "text": "Dilimizi konuşuyor ama biraz utangaç değil mi?"
+      },
+      {
+        "id": "meme-27377eac7c1dbc11_l7",
+        "characterId": "canpen",
+        "startTime": 24.72,
+        "endTime": 27.74,
+        "duration": 3.02,
+        "text": "Dilinizi konuşmam, erkekler benimle konuşmaz."
+      },
+      {
+        "id": "meme-27377eac7c1dbc11_l8",
+        "characterId": "jane",
+        "startTime": 28.12,
+        "endTime": 28.98,
+        "duration": 0.86,
+        "text": "Böylesi daha iyi."
+      },
+      {
+        "id": "meme-27377eac7c1dbc11_l9",
+        "characterId": "jane",
+        "startTime": 28.98,
+        "endTime": 30.88,
+        "duration": 1.9,
+        "text": "Bay Pochette vurulduğunda ne gördün?"
+      },
+      {
+        "id": "meme-27377eac7c1dbc11_l10",
+        "characterId": "canpen",
+        "startTime": 31.14,
+        "endTime": 31.86,
+        "duration": 0.72,
+        "text": "Hiçbir şey."
+      },
+      {
+        "id": "meme-27377eac7c1dbc11_l11",
+        "characterId": "canpen",
+        "startTime": 32.28,
+        "endTime": 35.98,
+        "duration": 3.7,
+        "text": "Ödümü koparan korkunç bir silah sesi duydum ve adam öldü."
+      },
+      {
+        "id": "meme-27377eac7c1dbc11_l12",
+        "characterId": "canpen",
+        "startTime": 36.44,
+        "endTime": 37.46,
+        "duration": 1.02,
+        "text": "Korkmuştum bu kadar."
+      },
+      {
+        "id": "meme-27377eac7c1dbc11_l13",
+        "characterId": "jane",
+        "startTime": 37.6,
+        "endTime": 38.68,
+        "duration": 1.08,
+        "text": "Vuran kişi nasıl biriydi?"
+      },
+      {
+        "id": "meme-27377eac7c1dbc11_l14",
+        "characterId": "canpen",
+        "startTime": 38.94,
+        "endTime": 39.28,
+        "duration": 0.34,
+        "text": "Görmedim."
+      },
+      {
+        "id": "meme-27377eac7c1dbc11_l15",
+        "characterId": "jane",
+        "startTime": 39.62,
+        "endTime": 40.48,
+        "duration": 0.86,
+        "text": "İyi bir yalancısın."
+      },
+      {
+        "id": "meme-27377eac7c1dbc11_l16",
+        "characterId": "jane",
+        "startTime": 40.84,
+        "endTime": 41.9,
+        "duration": 1.06,
+        "text": "İyi ama çok iyi değil."
+      },
+      {
+        "id": "meme-27377eac7c1dbc11_l17",
+        "characterId": "jane",
+        "startTime": 42.88,
+        "endTime": 44.18,
+        "duration": 1.3,
+        "text": "Onu yakından görmüş."
       }
     ],
     "thumbnail": "assets/thumbnails/meme-27377eac7c1dbc11.jpg"
@@ -983,12 +1444,12 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-3e05e9c18616c529_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-3e05e9c18616c529_clean.mp4",
     "difficulty": "Orta",
-    "description": "Annenin bitmek bilmeyen akraba sülale zincirini çocuğa ezberletme krizi.",
+    "description": "Annenin çocuğa zorla sülale akrabalarını ezberletmeye çalıştığı çile sahnesi.",
     "characters": [
       {
         "id": "anne",
         "name": "Israrcı Anne",
-        "color": "#ef4444",
+        "color": "#ec4899",
         "avatar": "👵"
       },
       {
@@ -1000,88 +1461,196 @@ export const SCENES = [
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-3e05e9c18616c529_l1",
         "characterId": "anne",
-        "startTime": 0.21,
-        "endTime": 1.39,
-        "text": "Bak kim bu?"
+        "startTime": 0.0,
+        "endTime": 2.98,
+        "duration": 2.98,
+        "text": "Bak kim bu? Bu benim en küçük torunum."
       },
       {
-        "id": 2,
+        "id": "meme-3e05e9c18616c529_l2",
         "characterId": "cocuk",
-        "startTime": 1.39,
-        "endTime": 3.32,
-        "text": "Bu küçük torun eee..."
+        "startTime": 3.12,
+        "endTime": 3.84,
+        "duration": 0.72,
+        "text": "Hıooo!"
       },
       {
-        "id": 3,
+        "id": "meme-3e05e9c18616c529_l3",
         "characterId": "anne",
-        "startTime": 3.32,
-        "endTime": 6.46,
-        "text": "Ne? Sen tanıdın mı bakayım?!"
+        "startTime": 4.22,
+        "endTime": 6.16,
+        "duration": 1.94,
+        "text": "Eee sen tanıdın mı onu, kim o?"
       },
       {
-        "id": 4,
+        "id": "meme-3e05e9c18616c529_l4",
         "characterId": "cocuk",
-        "startTime": 6.46,
-        "endTime": 7.72,
-        "text": "Hatırlamadım anne."
+        "startTime": 6.44,
+        "endTime": 7.16,
+        "duration": 0.72,
+        "text": "Hatırlamadım."
       },
       {
-        "id": 5,
+        "id": "meme-3e05e9c18616c529_l5",
         "characterId": "anne",
-        "startTime": 7.72,
-        "endTime": 11.92,
-        "text": "Bak onun dedesi..."
+        "startTime": 7.68,
+        "endTime": 11.34,
+        "duration": 3.66,
+        "text": "Bak onun dedesiyle benim amcam kardeş!"
       },
       {
-        "id": 6,
+        "id": "meme-3e05e9c18616c529_l6",
         "characterId": "anne",
-        "startTime": 11.92,
-        "endTime": 14.3,
-        "text": "Onun dedesiyle senin deden kardeş!"
+        "startTime": 11.62,
+        "endTime": 14.16,
+        "duration": 2.54,
+        "text": "Ha onun dedesiyle senin ne olacak? Kardeş!"
       },
       {
-        "id": 7,
+        "id": "meme-3e05e9c18616c529_l7",
         "characterId": "anne",
-        "startTime": 14.3,
-        "endTime": 16.54,
+        "startTime": 14.48,
+        "endTime": 16.02,
+        "duration": 1.54,
         "text": "Çocuklarının kayınçosu!"
       },
       {
-        "id": 8,
+        "id": "meme-3e05e9c18616c529_l8",
         "characterId": "anne",
-        "startTime": 16.54,
-        "endTime": 21.24,
-        "text": "Onun iç güveysi kimmiş hadi söyle bakayım!"
+        "startTime": 18.14,
+        "endTime": 21.04,
+        "duration": 2.9,
+        "text": "Bunun iç güveysi kimmiş hadi söyle bakayım bana!"
       },
       {
-        "id": 9,
-        "characterId": "anne",
-        "startTime": 21.24,
-        "endTime": 24.24,
-        "text": "Onun kayınçosu ile senin alakan ne?!"
-      },
-      {
-        "id": 10,
+        "id": "meme-3e05e9c18616c529_l9",
         "characterId": "cocuk",
-        "startTime": 24.24,
-        "endTime": 26.0,
-        "text": "Öyle değil ya, tanımıyorum!"
+        "startTime": 21.2,
+        "endTime": 23.8,
+        "duration": 2.6,
+        "text": "Onun kayınçosu, nasıl amcam?"
       },
       {
-        "id": 11,
+        "id": "meme-3e05e9c18616c529_l10",
         "characterId": "anne",
-        "startTime": 26.0,
-        "endTime": 30.16,
-        "text": "Bak! Öğreneceksin kim kimin nesi, öğrensin çocuk!"
+        "startTime": 24.18,
+        "endTime": 25.42,
+        "duration": 1.24,
+        "text": "Öyle değil bak!"
       },
       {
-        "id": 12,
+        "id": "meme-3e05e9c18616c529_l11",
         "characterId": "cocuk",
-        "startTime": 30.16,
+        "startTime": 25.72,
+        "endTime": 26.94,
+        "duration": 1.22,
+        "text": "Anne zorlama çocuğu!"
+      },
+      {
+        "id": "meme-3e05e9c18616c529_l12",
+        "characterId": "anne",
+        "startTime": 27.06,
+        "endTime": 29.0,
+        "duration": 1.94,
+        "text": "Ağlamasın! Öğrensin çocuk!"
+      },
+      {
+        "id": "meme-3e05e9c18616c529_l13",
+        "characterId": "anne",
+        "startTime": 29.0,
+        "endTime": 29.8,
+        "duration": 0.8,
+        "text": "Kimmiş söyle?!"
+      },
+      {
+        "id": "meme-3e05e9c18616c529_l14",
+        "characterId": "cocuk",
+        "startTime": 31.98,
+        "endTime": 32.98,
+        "duration": 1.0,
+        "text": "Öyle değil!"
+      },
+      {
+        "id": "meme-3e05e9c18616c529_l15",
+        "characterId": "anne",
+        "startTime": 33.3,
+        "endTime": 34.34,
+        "duration": 1.04,
+        "text": "Düzgün söyle kim?!"
+      },
+      {
+        "id": "meme-3e05e9c18616c529_l16",
+        "characterId": "cocuk",
+        "startTime": 34.58,
         "endTime": 36.28,
-        "text": "Dedemi bile hatırlamıyorum ne alaka bunlar ya!"
+        "duration": 1.7,
+        "text": "Allah Allah tamam ağlama oğlum..."
+      },
+      {
+        "id": "meme-3e05e9c18616c529_l17",
+        "characterId": "anne",
+        "startTime": 36.28,
+        "endTime": 38.14,
+        "duration": 1.86,
+        "text": "Öğrenecek o! Bu iş burada bitmedi!"
+      },
+      {
+        "id": "meme-3e05e9c18616c529_l18",
+        "characterId": "anne",
+        "startTime": 40.86,
+        "endTime": 42.92,
+        "duration": 2.06,
+        "text": "Sakın bak ses çıkartma gebertirim!"
+      },
+      {
+        "id": "meme-3e05e9c18616c529_l19",
+        "characterId": "cocuk",
+        "startTime": 43.16,
+        "endTime": 43.66,
+        "duration": 0.5,
+        "text": "Hı hı."
+      },
+      {
+        "id": "meme-3e05e9c18616c529_l20",
+        "characterId": "anne",
+        "startTime": 43.74,
+        "endTime": 45.66,
+        "duration": 1.92,
+        "text": "Heh kim şu hatırladın mı bak bakayım?"
+      },
+      {
+        "id": "meme-3e05e9c18616c529_l21",
+        "characterId": "anne",
+        "startTime": 47.9,
+        "endTime": 50.78,
+        "duration": 2.88,
+        "text": "Onun amcasıyla benim teyzemin çocukları kardeş!"
+      },
+      {
+        "id": "meme-3e05e9c18616c529_l22",
+        "characterId": "anne",
+        "startTime": 51.06,
+        "endTime": 51.72,
+        "duration": 0.66,
+        "text": "Kimmiş söyle?!"
+      },
+      {
+        "id": "meme-3e05e9c18616c529_l23",
+        "characterId": "cocuk",
+        "startTime": 52.24,
+        "endTime": 54.0,
+        "duration": 1.76,
+        "text": "Oğlum teyzenin halası..."
+      },
+      {
+        "id": "meme-3e05e9c18616c529_l24",
+        "characterId": "anne",
+        "startTime": 54.32,
+        "endTime": 57.4,
+        "duration": 3.08,
+        "text": "O değil! Onun teyzelerini bileceksin!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-3e05e9c18616c529.jpg"
@@ -1094,7 +1663,7 @@ export const SCENES = [
     "duration": 23.03,
     "videoSrc": "assets/videos/meme-414a57bd5b2e7e34_orig.mp4",
     "difficulty": "Kolay",
-    "description": "Unlost Dust 2 maçında kapıda takım arkadaşı bloklayınca AWP ile ölüp çılgına dönüyor.",
+    "description": "Unlost'un CS:GO maçında takım arkadaşının kapıda bloklaması üzerine çılgına dönmesi.",
     "characters": [
       {
         "id": "unlost",
@@ -1104,39 +1673,67 @@ export const SCENES = [
       },
       {
         "id": "teammate",
-        "name": "Takım Arkadaşı (Bloklayan)",
+        "name": "Takım Arkadaşı",
         "color": "#3b82f6",
         "avatar": "🛡️"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-414a57bd5b2e7e34_l1",
         "characterId": "unlost",
         "startTime": 0.0,
-        "endTime": 3.0,
-        "text": "Orta kapılara bakıyorum, flash atın arkama!"
+        "endTime": 0.92,
+        "duration": 0.92,
+        "text": "Beni bloklama!"
       },
       {
-        "id": 2,
-        "characterId": "teammate",
-        "startTime": 3.0,
-        "endTime": 5.5,
-        "text": "Kapıya geçtim abi, yolu tutuyorum..."
-      },
-      {
-        "id": 3,
+        "id": "meme-414a57bd5b2e7e34_l2",
         "characterId": "unlost",
-        "startTime": 5.5,
-        "endTime": 10.0,
-        "text": "Beni bloklama! Bloklamasana be kardeşim!"
+        "startTime": 1.8,
+        "endTime": 3.46,
+        "duration": 1.66,
+        "text": "Bloklama ya! Söyledim bir de ya!"
       },
       {
-        "id": 4,
+        "id": "meme-414a57bd5b2e7e34_l3",
         "characterId": "unlost",
-        "startTime": 10.0,
-        "endTime": 14.5,
-        "text": "Söyledim bir de ya! İşte bu yüzden öldüm ya, böyle blok mu olur?!"
+        "startTime": 4.44,
+        "endTime": 5.86,
+        "duration": 1.42,
+        "text": "Evrilmiş, nasıl evrilmiş ya?!"
+      },
+      {
+        "id": "meme-414a57bd5b2e7e34_l4",
+        "characterId": "unlost",
+        "startTime": 11.9,
+        "endTime": 13.74,
+        "duration": 1.84,
+        "text": "İşte buydu abi ya!"
+      },
+      {
+        "id": "meme-414a57bd5b2e7e34_l5",
+        "characterId": "unlost",
+        "startTime": 13.74,
+        "endTime": 16.72,
+        "duration": 2.98,
+        "text": "Yıllardır yapmadığım özel vuruşum buydu beyler!"
+      },
+      {
+        "id": "meme-414a57bd5b2e7e34_l6",
+        "characterId": "unlost",
+        "startTime": 17.22,
+        "endTime": 18.5,
+        "duration": 1.28,
+        "text": "Teşekkürler beyler arkadaşlar."
+      },
+      {
+        "id": "meme-414a57bd5b2e7e34_l7",
+        "characterId": "unlost",
+        "startTime": 21.22,
+        "endTime": 22.5,
+        "duration": 1.28,
+        "text": "Beni bloklamayın artık!"
       }
     ]
   },
@@ -1149,43 +1746,93 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-43a4d9b0fddc8d10_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-43a4d9b0fddc8d10_clean.mp4",
     "difficulty": "Orta",
-    "description": "Popüler internet memesi: Meme - Bir şey konuşuyoruz da şu teybi",
+    "description": "Kurtlar Vadisi efsane sahne: Memati Baş'ın takside teybi kapatmayan şoföre patlaması.",
     "characters": [
       {
         "id": "memati",
         "name": "Memati Baş",
-        "color": "#1e293b",
-        "avatar": "🕶️"
+        "color": "#0f172a",
+        "avatar": "🔫"
       },
       {
         "id": "sofor",
         "name": "Şoför",
         "color": "#f59e0b",
-        "avatar": "🚗"
+        "avatar": "🚕"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-43a4d9b0fddc8d10_l1",
         "characterId": "memati",
-        "startTime": 3.12,
-        "endTime": 6.6,
+        "startTime": 1.32,
+        "endTime": 2.04,
+        "duration": 0.72,
+        "text": "Dayıcım!"
+      },
+      {
+        "id": "meme-43a4d9b0fddc8d10_l2",
+        "characterId": "memati",
+        "startTime": 2.86,
+        "endTime": 6.32,
+        "duration": 3.46,
         "text": "Bir şey konuşuyoruz da, şu teybi kapatır mısın?"
       },
       {
-        "id": 2,
-        "characterId": "sofor",
-        "startTime": 6.6,
-        "endTime": 12.0,
-        "text": "Kapatıyorum, uyuttun abi."
+        "id": "meme-43a4d9b0fddc8d10_l3",
+        "characterId": "memati",
+        "startTime": 12.3,
+        "endTime": 13.02,
+        "duration": 0.72,
+        "text": "Hey!"
       },
       {
-        "id": 3,
+        "id": "meme-43a4d9b0fddc8d10_l4",
         "characterId": "memati",
-        "type": "music",
-        "startTime": 12.0,
-        "endTime": 35.34,
-        "text": "🎵 [Gerilim Müziği — Kayıt Kilitli]"
+        "startTime": 14.36,
+        "endTime": 15.08,
+        "duration": 0.72,
+        "text": "Kime diyorum?!"
+      },
+      {
+        "id": "meme-43a4d9b0fddc8d10_l5",
+        "characterId": "memati",
+        "startTime": 18.96,
+        "endTime": 19.84,
+        "duration": 0.88,
+        "text": "Şu teybi kapatsana!"
+      },
+      {
+        "id": "meme-43a4d9b0fddc8d10_l6",
+        "characterId": "memati",
+        "startTime": 21.92,
+        "endTime": 24.36,
+        "duration": 2.44,
+        "text": "Dayı kapat şu teybi arıza çıkacak bak ha!"
+      },
+      {
+        "id": "meme-43a4d9b0fddc8d10_l7",
+        "characterId": "memati",
+        "startTime": 25.36,
+        "endTime": 26.28,
+        "duration": 0.92,
+        "text": "Kapatsana lan!"
+      },
+      {
+        "id": "meme-43a4d9b0fddc8d10_l8",
+        "characterId": "memati",
+        "startTime": 30.0,
+        "endTime": 30.64,
+        "duration": 0.64,
+        "text": "Kapatsana!"
+      },
+      {
+        "id": "meme-43a4d9b0fddc8d10_l9",
+        "characterId": "memati",
+        "startTime": 33.52,
+        "endTime": 34.74,
+        "duration": 1.22,
+        "text": "Kapatsana şunu deli etme adamı!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-43a4d9b0fddc8d10.jpg"
@@ -1199,146 +1846,163 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-48b70fd6e5bc2cd8_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-48b70fd6e5bc2cd8_clean.mp4",
     "difficulty": "Orta",
-    "description": "Popüler internet memesi: Meme - Sizin ne",
+    "description": "Hastanede saldırgan çocuk ve dertli annenin doktorla sıra dışı kavgası.",
     "characters": [
       {
         "id": "doktor",
         "name": "Doktor",
-        "color": "#38bdf8",
-        "avatar": "👨‍⚕️"
+        "color": "#06b6d4",
+        "avatar": "🩺"
       },
       {
         "id": "anne",
         "name": "Dertli Anne",
         "color": "#ec4899",
-        "avatar": "👩"
+        "avatar": "👩‍👦"
       },
       {
         "id": "adam",
         "name": "Isırılan Adam",
-        "color": "#f87171",
-        "avatar": "🤕"
+        "color": "#ef4444",
+        "avatar": "😡"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-48b70fd6e5bc2cd8_l1",
         "characterId": "doktor",
         "startTime": 0.0,
-        "endTime": 1.3,
+        "endTime": 1.14,
+        "duration": 1.14,
         "text": "Sizin neyiniz vardı?"
       },
       {
-        "id": 2,
+        "id": "meme-48b70fd6e5bc2cd8_l2",
         "characterId": "anne",
-        "startTime": 1.34,
-        "endTime": 6.24,
-        "text": "Benim çocuk hasta, oraya buraya saldırıyor, bana saldırıyor, boynumu ısırdı..."
+        "startTime": 1.62,
+        "endTime": 4.06,
+        "duration": 2.44,
+        "text": "Benim çocuk hasta, oraya buraya saldırıyor!"
       },
       {
-        "id": 3,
+        "id": "meme-48b70fd6e5bc2cd8_l3",
         "characterId": "anne",
-        "startTime": 6.28,
-        "endTime": 9.92,
-        "text": "...bu tarafımı ısırdı, kulağımı ısırdı, elimi kaptı!"
+        "startTime": 4.34,
+        "endTime": 6.3,
+        "duration": 1.96,
+        "text": "Bana saldırıyor, boynumu ısırdı!"
       },
       {
-        "id": 4,
+        "id": "meme-48b70fd6e5bc2cd8_l4",
+        "characterId": "anne",
+        "startTime": 7.0,
+        "endTime": 9.0,
+        "duration": 2.0,
+        "text": "Bu tarafımı ısırdı, kulağımı ısırdı!"
+      },
+      {
+        "id": "meme-48b70fd6e5bc2cd8_l5",
+        "characterId": "anne",
+        "startTime": 9.36,
+        "endTime": 10.14,
+        "duration": 0.78,
+        "text": "Elimi kaptı!"
+      },
+      {
+        "id": "meme-48b70fd6e5bc2cd8_l6",
         "characterId": "doktor",
-        "startTime": 9.96,
-        "endTime": 11.24,
+        "startTime": 10.3,
+        "endTime": 11.26,
+        "duration": 0.96,
         "text": "Bunları bu mu yaptı ya?"
       },
       {
-        "id": 5,
+        "id": "meme-48b70fd6e5bc2cd8_l7",
         "characterId": "anne",
-        "startTime": 11.28,
-        "endTime": 13.72,
-        "text": "Evet, böyle bir saldırganlık hastalığı var."
+        "startTime": 11.62,
+        "endTime": 13.54,
+        "duration": 1.92,
+        "text": "Evet böyle saldırganlık hastalığı var."
       },
       {
-        "id": 6,
+        "id": "meme-48b70fd6e5bc2cd8_l8",
         "characterId": "adam",
-        "startTime": 13.76,
-        "endTime": 16.26,
-        "text": "Oğlum neden annene..."
+        "startTime": 15.36,
+        "endTime": 16.82,
+        "duration": 1.46,
+        "text": "Oğlum neden annene... Lan!"
       },
       {
-        "id": 7,
+        "id": "meme-48b70fd6e5bc2cd8_l9",
         "characterId": "adam",
-        "startTime": 16.3,
-        "endTime": 17.3,
-        "text": "Lan!"
+        "startTime": 20.02,
+        "endTime": 22.42,
+        "duration": 2.4,
+        "text": "Oğlum bu adamın asabını bozma!"
       },
       {
-        "id": 8,
+        "id": "meme-48b70fd6e5bc2cd8_l10",
         "characterId": "adam",
-        "startTime": 17.34,
-        "endTime": 23.82,
-        "text": "Oğlum bu adamın asabını bozma, senin kaşını gözünü kırarım ha!"
+        "startTime": 22.56,
+        "endTime": 23.8,
+        "duration": 1.24,
+        "text": "Ağzını burnunu kırarım ha!"
       },
       {
-        "id": 9,
+        "id": "meme-48b70fd6e5bc2cd8_l11",
         "characterId": "adam",
-        "startTime": 23.86,
-        "endTime": 31.83,
-        "text": "Sen deliysen ben de deliyim lan!"
+        "startTime": 28.34,
+        "endTime": 31.86,
+        "duration": 3.52,
+        "text": "Lan! Sen deliysen ben de deliyim lan!"
       },
       {
-        "id": 10,
+        "id": "meme-48b70fd6e5bc2cd8_l12",
         "characterId": "adam",
-        "startTime": 31.87,
-        "endTime": 36.83,
-        "text": "Allah'ıma bütün dişlerini dökerim buradan ha!"
+        "startTime": 34.42,
+        "endTime": 36.6,
+        "duration": 2.18,
+        "text": "Oğlum o iki gözünü çıkartırım burada!"
       },
       {
-        "id": 11,
+        "id": "meme-48b70fd6e5bc2cd8_l13",
         "characterId": "adam",
-        "startTime": 36.87,
-        "endTime": 40.78,
-        "text": "Bir şey konuşuyorum dinle lan!"
+        "startTime": 39.34,
+        "endTime": 40.74,
+        "duration": 1.4,
+        "text": "Bir şey konuşuyoruz dinle lan!"
       },
       {
-        "id": 12,
-        "characterId": "adam",
-        "startTime": 40.82,
-        "endTime": 41.82,
-        "text": "Lan!"
-      },
-      {
-        "id": 13,
+        "id": "meme-48b70fd6e5bc2cd8_l14",
         "characterId": "anne",
-        "startTime": 41.82,
-        "endTime": 43.91,
-        "text": "Yapma oğlum."
+        "startTime": 43.4,
+        "endTime": 44.04,
+        "duration": 0.64,
+        "text": "Yapma oğlum..."
       },
       {
-        "id": 14,
+        "id": "meme-48b70fd6e5bc2cd8_l15",
         "characterId": "adam",
-        "startTime": 43.91,
-        "endTime": 46.91,
-        "text": "Oğlum bak kafanı vururum senin oraya!"
+        "startTime": 45.16,
+        "endTime": 46.74,
+        "duration": 1.58,
+        "text": "Kafanı vurursun bak buraya!"
       },
       {
-        "id": 15,
+        "id": "meme-48b70fd6e5bc2cd8_l16",
         "characterId": "adam",
-        "startTime": 46.91,
-        "endTime": 49.51,
-        "text": "Hah!"
+        "startTime": 51.72,
+        "endTime": 54.38,
+        "duration": 2.66,
+        "text": "Abla şuna bir zincir mincir takın bir şey yapın ya, böyle olmaz!"
       },
       {
-        "id": 16,
-        "characterId": "adam",
-        "startTime": 49.51,
-        "endTime": 54.37,
-        "text": "Abla şuna bir zincir mincir takın, bir şey yapın ya. Böyle olmaz."
-      },
-      {
-        "id": 17,
+        "id": "meme-48b70fd6e5bc2cd8_l17",
         "characterId": "doktor",
-        "startTime": 54.37,
+        "startTime": 55.36,
         "endTime": 58.56,
-        "text": "Pitbull bile dolaştırmak yasalara aykırı ya. Bunu dolaştırmayın sokakta!"
+        "duration": 3.2,
+        "text": "Pitbull bile dolaştırmak yasalara aykırı, bunu dolaştırmayın sokakta!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-48b70fd6e5bc2cd8.jpg"
@@ -1352,69 +2016,85 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-493f3ad55c94c4cf_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-493f3ad55c94c4cf_clean.mp4",
     "difficulty": "Orta",
-    "description": "Popüler internet memesi: Meme - Ne dedin",
+    "description": "Seçim sonuçları sonrası iki arkadaşın 'Ne dedin lan' tartışması.",
     "characters": [
       {
         "id": "abi1",
         "name": "Öfkeli Abi",
         "color": "#ef4444",
-        "avatar": "😡"
+        "avatar": "😤"
       },
       {
         "id": "abi2",
         "name": "Karşı Taraf",
-        "color": "#f59e0b",
-        "avatar": "😤"
+        "color": "#3b82f6",
+        "avatar": "🤨"
       }
     ],
     "lines": [
       {
-        "id": 1,
-        "characterId": "abi1",
-        "startTime": 2.74,
-        "endTime": 4.74,
-        "text": "Ne dedin lan?",
-        "emotion": "Meme repliği"
-      },
-      {
-        "id": 2,
+        "id": "meme-493f3ad55c94c4cf_l1",
         "characterId": "abi2",
-        "startTime": 4.74,
-        "endTime": 5.74,
-        "text": "Valla!",
-        "emotion": "Meme repliği"
+        "startTime": 1.54,
+        "endTime": 3.08,
+        "duration": 1.54,
+        "text": "Kılıçdaroğlu Konya'yı kazandı!"
       },
       {
-        "id": 3,
+        "id": "meme-493f3ad55c94c4cf_l2",
         "characterId": "abi1",
-        "startTime": 5.74,
-        "endTime": 7.86,
-        "text": "Ne dedin lan?",
-        "emotion": "Meme repliği"
+        "startTime": 3.86,
+        "endTime": 4.5,
+        "duration": 0.64,
+        "text": "Ne diyorsun lan?!"
       },
       {
-        "id": 4,
+        "id": "meme-493f3ad55c94c4cf_l3",
         "characterId": "abi2",
-        "startTime": 7.86,
+        "startTime": 4.82,
+        "endTime": 5.2,
+        "duration": 0.38,
+        "text": "Valla!"
+      },
+      {
+        "id": "meme-493f3ad55c94c4cf_l4",
+        "characterId": "abi2",
+        "startTime": 6.12,
+        "endTime": 7.1,
+        "duration": 0.98,
+        "text": "Kılıçdaroğlu kazandı."
+      },
+      {
+        "id": "meme-493f3ad55c94c4cf_l5",
+        "characterId": "abi1",
+        "startTime": 7.22,
+        "endTime": 7.34,
+        "duration": 0.12,
+        "text": "Ne?!"
+      },
+      {
+        "id": "meme-493f3ad55c94c4cf_l6",
+        "characterId": "abi1",
+        "startTime": 7.64,
+        "endTime": 8.4,
+        "duration": 0.76,
+        "text": "Ne diyorsun lan?!"
+      },
+      {
+        "id": "meme-493f3ad55c94c4cf_l7",
+        "characterId": "abi2",
+        "startTime": 9.9,
         "endTime": 10.44,
-        "text": "Ne dedin lan?",
-        "emotion": "Meme repliği"
+        "duration": 0.54,
+        "text": "Ne olacak?"
       },
       {
-        "id": 5,
+        "id": "meme-493f3ad55c94c4cf_l8",
         "characterId": "abi1",
-        "startTime": 10.44,
-        "endTime": 12.7,
-        "text": "Ne olacak?",
-        "emotion": "Meme repliği"
-      },
-      {
-        "id": 6,
-        "characterId": "abi2",
-        "startTime": 12.7,
-        "endTime": 17.13,
-        "text": "Ulan ne dedin?",
-        "emotion": "Meme repliği"
+        "startTime": 12.34,
+        "endTime": 13.44,
+        "duration": 1.1,
+        "text": "Ulan ne dedin sen?!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-493f3ad55c94c4cf.jpg"
@@ -1428,202 +2108,188 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-4b5781e28db674b5_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-4b5781e28db674b5_clean.mp4",
     "difficulty": "Orta",
-    "description": "Popüler internet memesi: Meme - Benim Adım Cafer (Alayınıza Gider)",
+    "description": "Sokak röportajı efsanesi: Cafer'in kendini tanıttığı unutulmaz monolog.",
     "characters": [
       {
         "id": "cafer",
         "name": "Cafer",
-        "color": "#f59e0b",
-        "avatar": "🥊"
+        "color": "#ef4444",
+        "avatar": "😎"
       },
       {
         "id": "spiker",
         "name": "Röportajcı Genç",
-        "color": "#38bdf8",
+        "color": "#3b82f6",
         "avatar": "🎤"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-4b5781e28db674b5_l1",
         "characterId": "cafer",
         "startTime": 0.0,
-        "endTime": 2.26,
-        "text": "Benim adım Cafer, boyum bir on."
+        "endTime": 2.22,
+        "duration": 2.22,
+        "text": "Benim adım Cafer. Boyum bir on."
       },
       {
-        "id": 2,
+        "id": "meme-4b5781e28db674b5_l2",
         "characterId": "cafer",
-        "startTime": 2.26,
-        "endTime": 4.0,
+        "startTime": 2.88,
+        "endTime": 3.74,
+        "duration": 0.86,
         "text": "Kilom yirmi beş."
       },
       {
-        "id": 3,
+        "id": "meme-4b5781e28db674b5_l3",
         "characterId": "cafer",
-        "startTime": 4.0,
-        "endTime": 6.04,
+        "startTime": 4.46,
+        "endTime": 5.84,
+        "duration": 1.38,
         "text": "Gözlerimin rengini bilmiyorum."
       },
       {
-        "id": 4,
+        "id": "meme-4b5781e28db674b5_l4",
         "characterId": "cafer",
-        "startTime": 6.04,
-        "endTime": 8.38,
+        "startTime": 6.56,
+        "endTime": 8.14,
+        "duration": 1.58,
         "text": "Ciguli'yi dinlemeyi severim."
       },
       {
-        "id": 5,
+        "id": "meme-4b5781e28db674b5_l5",
         "characterId": "cafer",
-        "startTime": 8.38,
-        "endTime": 10.4,
-        "text": "En sevdiğim yazar..."
+        "startTime": 8.84,
+        "endTime": 12.48,
+        "duration": 3.64,
+        "text": "En sevdiğim yazar Manapınarından Hacıbeyin Ahmet."
       },
       {
-        "id": 6,
+        "id": "meme-4b5781e28db674b5_l6",
         "characterId": "cafer",
-        "startTime": 10.4,
-        "endTime": 12.5,
-        "text": "Manapınarından Hacıbeyin Ahmet."
+        "startTime": 12.78,
+        "endTime": 16.32,
+        "duration": 3.54,
+        "text": "Sevdiğim futbolcu Yenimahalle'den Abidin'in Mehmet."
       },
       {
-        "id": 7,
+        "id": "meme-4b5781e28db674b5_l7",
         "characterId": "cafer",
-        "startTime": 12.5,
-        "endTime": 14.18,
-        "text": "En sevdiğim futbolcu..."
+        "startTime": 16.74,
+        "endTime": 19.74,
+        "duration": 3.0,
+        "text": "Samsun 216 ve Parliament'i severim."
       },
       {
-        "id": 8,
+        "id": "meme-4b5781e28db674b5_l8",
         "characterId": "cafer",
-        "startTime": 14.18,
-        "endTime": 16.44,
-        "text": "Yenimahalle'den Abidin'in Mehmet."
+        "startTime": 20.3,
+        "endTime": 24.04,
+        "duration": 3.74,
+        "text": "Doğunun bir atasözü vardır: Sağlığınız için Yeni Rakı için!"
       },
       {
-        "id": 9,
+        "id": "meme-4b5781e28db674b5_l9",
         "characterId": "cafer",
-        "startTime": 16.44,
-        "endTime": 18.22,
-        "text": "Samsun iki yüz on altı ve..."
-      },
-      {
-        "id": 10,
-        "characterId": "cafer",
-        "startTime": 18.22,
-        "endTime": 20.06,
-        "text": "Parliament'i severim."
-      },
-      {
-        "id": 11,
-        "characterId": "cafer",
-        "startTime": 20.06,
-        "endTime": 21.62,
-        "text": "Doğunun bir atasözü vardır:"
-      },
-      {
-        "id": 12,
-        "characterId": "cafer",
-        "startTime": 21.62,
-        "endTime": 24.1,
-        "text": "Sağlığınız için, Yeni Rakı için!"
-      },
-      {
-        "id": 13,
-        "characterId": "cafer",
-        "startTime": 24.1,
-        "endTime": 28.26,
+        "startTime": 24.86,
+        "endTime": 27.5,
+        "duration": 2.64,
         "text": "Kısa boylu ve mavi gözlü kızları severim."
       },
       {
-        "id": 14,
+        "id": "meme-4b5781e28db674b5_l10",
         "characterId": "cafer",
-        "startTime": 28.26,
-        "endTime": 31.34,
+        "startTime": 27.5,
+        "endTime": 31.18,
+        "duration": 3.68,
         "text": "Tatilimi Namazgâh Dağları'nda geçiriyorum."
       },
       {
-        "id": 15,
+        "id": "meme-4b5781e28db674b5_l11",
         "characterId": "cafer",
-        "startTime": 32.06,
-        "endTime": 34.62,
+        "startTime": 31.66,
+        "endTime": 34.38,
+        "duration": 2.72,
         "text": "En sevdiğim araba Murat 131."
       },
       {
-        "id": 16,
+        "id": "meme-4b5781e28db674b5_l12",
         "characterId": "cafer",
-        "startTime": 35.24,
-        "endTime": 36.86,
+        "startTime": 35.22,
+        "endTime": 36.84,
+        "duration": 1.62,
         "text": "Tekno ve kemençeye bayılırım."
       },
       {
-        "id": 17,
+        "id": "meme-4b5781e28db674b5_l13",
         "characterId": "cafer",
-        "startTime": 37.44,
-        "endTime": 39.0,
-        "text": "Müdavim mekanım Yenimahalle."
+        "startTime": 37.36,
+        "endTime": 39.02,
+        "duration": 1.66,
+        "text": "Mekanım Yenimahalle."
       },
       {
-        "id": 18,
+        "id": "meme-4b5781e28db674b5_l14",
         "characterId": "cafer",
-        "startTime": 39.14,
-        "endTime": 41.14,
+        "startTime": 39.1,
+        "endTime": 41.08,
+        "duration": 1.98,
         "text": "Lakabım 35'lik Rakı."
       },
       {
-        "id": 19,
+        "id": "meme-4b5781e28db674b5_l15",
         "characterId": "cafer",
-        "startTime": 42.0,
-        "endTime": 45.1,
+        "startTime": 41.9,
+        "endTime": 45.68,
+        "duration": 3.78,
         "text": "En sevdiğim hocam ilkokulda Kenan hocam."
       },
       {
-        "id": 20,
+        "id": "meme-4b5781e28db674b5_l16",
         "characterId": "cafer",
-        "startTime": 45.96,
-        "endTime": 48.98,
+        "startTime": 45.82,
+        "endTime": 48.92,
+        "duration": 3.1,
         "text": "En sevdiğim komedyen Yenimahalle'den Michael."
       },
       {
-        "id": 21,
+        "id": "meme-4b5781e28db674b5_l17",
         "characterId": "cafer",
-        "startTime": 50.27,
-        "endTime": 51.71,
-        "text": "Dallama gibi işleri severim."
+        "startTime": 52.42,
+        "endTime": 55.78,
+        "duration": 3.36,
+        "text": "En uyuz olduğum şey, tek sigaramın istenmesi."
       },
       {
-        "id": 22,
+        "id": "meme-4b5781e28db674b5_l18",
         "characterId": "cafer",
-        "startTime": 52.88,
-        "endTime": 55.88,
-        "text": "En ünlü olduğum şey tek sigaramın istenmesi."
-      },
-      {
-        "id": 23,
-        "characterId": "cafer",
-        "startTime": 55.88,
+        "startTime": 56.72,
         "endTime": 58.42,
+        "duration": 1.7,
         "text": "Kafamda hep pis işler."
       },
       {
-        "id": 24,
+        "id": "meme-4b5781e28db674b5_l19",
         "characterId": "cafer",
-        "startTime": 59.06,
-        "endTime": 62.82,
+        "startTime": 58.62,
+        "endTime": 62.58,
+        "duration": 3.96,
         "text": "Benim adım Cafer! Alayınıza gider! Korkun benden!"
       },
       {
-        "id": 25,
+        "id": "meme-4b5781e28db674b5_l20",
         "characterId": "spiker",
-        "startTime": 63.24,
-        "endTime": 64.24,
+        "startTime": 63.14,
+        "endTime": 63.96,
+        "duration": 0.82,
         "text": "Senden mi Cafer?"
       },
       {
-        "id": 26,
+        "id": "meme-4b5781e28db674b5_l21",
         "characterId": "cafer",
-        "startTime": 64.24,
-        "endTime": 65.24,
+        "startTime": 64.16,
+        "endTime": 65.04,
+        "duration": 0.88,
         "text": "Evet benden!"
       }
     ],
@@ -1638,7 +2304,7 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-54c6bba12da44d49_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-54c6bba12da44d49_clean.mp4",
     "difficulty": "Orta",
-    "description": "Kurtlar Vadisi 1. Sezon: Çakır'ın kahveyi basıp dağıtmasını Cemal Meral'e anlatıyor.",
+    "description": "Kurtlar Vadisi 1. Sezon: Çakır'ın kahveyi basışını Cemal Meral'e anlatıyor.",
     "characters": [
       {
         "id": "meral",
@@ -1655,263 +2321,374 @@ export const SCENES = [
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-54c6bba12da44d49_l1",
         "characterId": "cemal",
         "startTime": 0.0,
-        "endTime": 1.2,
+        "endTime": 0.76,
+        "duration": 0.76,
         "text": "Kahveye geldi..."
       },
       {
-        "id": 2,
+        "id": "meme-54c6bba12da44d49_l2",
         "characterId": "meral",
-        "startTime": 1.2,
-        "endTime": 2.8,
+        "startTime": 1.42,
+        "endTime": 2.68,
+        "duration": 1.26,
         "text": "Nasıl kahveye geldi?!"
       },
       {
-        "id": 3,
+        "id": "meme-54c6bba12da44d49_l3",
         "characterId": "cemal",
-        "startTime": 2.8,
-        "endTime": 5.2,
-        "text": "Geldiği lafını söyledi gitti..."
+        "startTime": 3.46,
+        "endTime": 4.98,
+        "duration": 1.52,
+        "text": "Geldi lafını söyledi gitti..."
       },
       {
-        "id": 4,
+        "id": "meme-54c6bba12da44d49_l4",
         "characterId": "meral",
-        "startTime": 5.2,
-        "endTime": 7.5,
+        "startTime": 6.0,
+        "endTime": 7.2,
+        "duration": 1.2,
         "text": "Nasıl gitti Cemal?!"
       },
       {
-        "id": 5,
+        "id": "meme-54c6bba12da44d49_l5",
         "characterId": "cemal",
-        "startTime": 7.5,
-        "endTime": 11.2,
+        "startTime": 8.1,
+        "endTime": 11.02,
+        "duration": 2.92,
         "text": "Abla geldi bir tufan, gitti bir boran..."
       },
       {
-        "id": 6,
+        "id": "meme-54c6bba12da44d49_l6",
         "characterId": "cemal",
-        "startTime": 11.2,
-        "endTime": 16.5,
+        "startTime": 11.76,
+        "endTime": 15.02,
+        "duration": 3.26,
         "text": "Gövde üstünde baş, baş üstünde akıl bırakmadı... Esti geçti!"
       },
       {
-        "id": 7,
+        "id": "meme-54c6bba12da44d49_l7",
         "characterId": "meral",
-        "startTime": 16.5,
-        "endTime": 18.0,
+        "startTime": 16.62,
+        "endTime": 17.66,
+        "duration": 1.04,
         "text": "Kaç kişi bastı?"
       },
       {
-        "id": 8,
+        "id": "meme-54c6bba12da44d49_l8",
         "characterId": "cemal",
-        "startTime": 18.0,
-        "endTime": 20.8,
-        "text": "Bir o, bir de ondan kara bir oğlan..."
+        "startTime": 17.98,
+        "endTime": 20.42,
+        "duration": 2.44,
+        "text": "Bir o, bir de ondan kara bir oğlan."
       },
       {
-        "id": 9,
-        "characterId": "cemal",
-        "startTime": 20.8,
-        "endTime": 29.5,
-        "text": "Halit Ağa benim aklım bu işlere ermez ama bu yaşa geldim böyle racon görmedim!"
+        "id": "meme-54c6bba12da44d49_l9",
+        "characterId": "meral",
+        "startTime": 21.02,
+        "endTime": 23.0,
+        "duration": 1.98,
+        "text": "İki kişi fiyakanızı mı kesti Cemal?!"
       },
       {
-        "id": 10,
+        "id": "meme-54c6bba12da44d49_l10",
         "characterId": "cemal",
-        "startTime": 29.5,
-        "endTime": 33.6,
-        "text": "Koca kahveyi cephaneye çevirdi, çizdi gitti..."
+        "startTime": 23.72,
+        "endTime": 25.66,
+        "duration": 1.94,
+        "text": "Halit Ağa benim aklım bu işlere ermez."
+      },
+      {
+        "id": "meme-54c6bba12da44d49_l11",
+        "characterId": "cemal",
+        "startTime": 26.34,
+        "endTime": 30.86,
+        "duration": 4.52,
+        "text": "Ama bu yaşa geldim, bu kadar aslan gördüm, böylesini görmedim!"
+      },
+      {
+        "id": "meme-54c6bba12da44d49_l12",
+        "characterId": "cemal",
+        "startTime": 31.42,
+        "endTime": 33.62,
+        "duration": 2.2,
+        "text": "Koca kahveyi cephaneliğe çevirdi, çizdi gitti..."
       }
     ],
     "thumbnail": "assets/thumbnails/meme-54c6bba12da44d49.jpg"
   },
   {
     "id": "meme-565c56a384f3e6ca",
-    "title": "Yenilmezler - Zırhını Çıkarırsan Ne Kalır? (Tony vs Steve)",
+    "title": "Yenilmezler - Zırhını Çıkarırsan Ne Kalır? (Tony vs Steve & Banner)",
     "category": "meme",
     "categoryName": "Türk Meme Kültürü",
     "duration": 138.83,
     "videoSrc": "assets/videos/meme-565c56a384f3e6ca_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-565c56a384f3e6ca_clean.mp4",
     "difficulty": "Orta",
-    "description": "Demir Adam ile Kaptan Amerika arasında geçen efsanevi ego ve kahramanlık tartışması.",
+    "description": "Avengers Helicarrier sahnesi: Steve Rogers ile Tony Stark atışması ve Bruce Banner'ın isyanı.",
     "characters": [
       {
         "id": "tony",
         "name": "Tony Stark (Demir Adam)",
-        "color": "#e11d48",
-        "avatar": "🦾"
+        "color": "#dc2626",
+        "avatar": "🤖"
       },
       {
         "id": "steve",
         "name": "Steve Rogers (Kaptan Amerika)",
         "color": "#2563eb",
         "avatar": "🛡️"
+      },
+      {
+        "id": "banner",
+        "name": "Bruce Banner (Hulk)",
+        "color": "#16a34a",
+        "avatar": "🧪"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-565c56a384f3e6ca_l1",
         "characterId": "steve",
-        "startTime": 1.01,
-        "endTime": 3.83,
+        "startTime": 1.2,
+        "endTime": 3.82,
+        "duration": 2.62,
         "text": "Kontrolden bahsedip kargaşaya davetiye çıkarıyorsun."
       },
       {
-        "id": 2,
+        "id": "meme-565c56a384f3e6ca_l2",
         "characterId": "tony",
-        "startTime": 3.85,
-        "endTime": 5.05,
-        "text": "Çalışma tarzı bu değil mi?"
+        "startTime": 3.84,
+        "endTime": 6.58,
+        "duration": 2.74,
+        "text": "Çalışma tarzı bu değil mi? Neyiz biz, ekip mi?"
       },
       {
-        "id": 3,
-        "characterId": "steve",
-        "startTime": 5.53,
-        "endTime": 6.59,
-        "text": "Neyiz biz? Ekip mi?"
-      },
-      {
-        "id": 4,
+        "id": "meme-565c56a384f3e6ca_l3",
         "characterId": "tony",
-        "startTime": 6.75,
-        "endTime": 9.55,
+        "startTime": 6.74,
+        "endTime": 9.54,
+        "duration": 2.8,
         "text": "Hayır hayır, biz kargaşa yaratan kimyasal bir karışımız."
       },
       {
-        "id": 5,
+        "id": "meme-565c56a384f3e6ca_l4",
         "characterId": "tony",
-        "startTime": 10.15,
-        "endTime": 12.27,
+        "startTime": 10.08,
+        "endTime": 12.3,
+        "duration": 2.22,
         "text": "Biz... Biz saatli bombayız."
       },
       {
-        "id": 6,
+        "id": "meme-565c56a384f3e6ca_l5",
         "characterId": "steve",
-        "startTime": 12.41,
-        "endTime": 14.05,
+        "startTime": 12.38,
+        "endTime": 13.88,
+        "duration": 1.5,
         "text": "Ağır ol bakalım biraz."
       },
       {
-        "id": 7,
+        "id": "meme-565c56a384f3e6ca_l6",
         "characterId": "tony",
-        "startTime": 14.27,
-        "endTime": 16.19,
+        "startTime": 14.24,
+        "endTime": 16.18,
+        "duration": 1.94,
         "text": "Neden biraz deşarj olmasına izin vermiyoruz?"
       },
       {
-        "id": 8,
+        "id": "meme-565c56a384f3e6ca_l7",
         "characterId": "steve",
-        "startTime": 16.21,
-        "endTime": 18.07,
+        "startTime": 16.2,
+        "endTime": 18.04,
+        "duration": 1.84,
         "text": "Nedenini çok iyi biliyorsun. İşine bak sen."
       },
       {
-        "id": 9,
+        "id": "meme-565c56a384f3e6ca_l8",
         "characterId": "tony",
-        "startTime": 18.63,
-        "endTime": 20.23,
+        "startTime": 18.64,
+        "endTime": 19.92,
+        "duration": 1.28,
         "text": "Keşke beni buna zorlasan."
       },
       {
-        "id": 10,
+        "id": "meme-565c56a384f3e6ca_l9",
         "characterId": "steve",
-        "startTime": 20.75,
-        "endTime": 23.01,
+        "startTime": 20.6,
+        "endTime": 22.98,
+        "duration": 2.38,
         "text": "Evet. Zırh giymiş koca adam."
       },
       {
-        "id": 11,
+        "id": "meme-565c56a384f3e6ca_l10",
         "characterId": "steve",
-        "startTime": 24.69,
-        "endTime": 25.87,
+        "startTime": 24.2,
+        "endTime": 25.82,
+        "duration": 1.62,
         "text": "Öt bakalım nesin sen?"
       },
       {
-        "id": 12,
+        "id": "meme-565c56a384f3e6ca_l11",
         "characterId": "tony",
-        "startTime": 26.37,
-        "endTime": 28.53,
-        "text": "Dahi, milyarder, zampara, hayırsever."
+        "startTime": 26.32,
+        "endTime": 28.6,
+        "duration": 2.28,
+        "text": "Dahi, milyarder, playboy, hayırsever."
       },
       {
-        "id": 13,
+        "id": "meme-565c56a384f3e6ca_l12",
         "characterId": "steve",
-        "startTime": 28.91,
-        "endTime": 31.73,
+        "startTime": 29.28,
+        "endTime": 31.7,
+        "duration": 2.42,
         "text": "Bunlar olmadan da sana fark atacak kişiler biliyorum."
       },
       {
-        "id": 14,
+        "id": "meme-565c56a384f3e6ca_l13",
         "characterId": "steve",
-        "startTime": 31.81,
-        "endTime": 33.82,
+        "startTime": 32.42,
+        "endTime": 33.76,
+        "duration": 1.34,
         "text": "Ben bu filmi çok gördüm."
       },
       {
-        "id": 15,
+        "id": "meme-565c56a384f3e6ca_l14",
         "characterId": "steve",
-        "startTime": 34.14,
-        "endTime": 36.26,
+        "startTime": 34.04,
+        "endTime": 36.2,
+        "duration": 2.16,
         "text": "Uğruna gerçekten savaştığın tek şey kendinsin."
       },
       {
-        "id": 16,
+        "id": "meme-565c56a384f3e6ca_l15",
         "characterId": "steve",
-        "startTime": 37.29,
-        "endTime": 42.07,
+        "startTime": 37.26,
+        "endTime": 42.04,
+        "duration": 4.78,
         "text": "Fedakarlık edip dikenli telden geçecek ve üstünde sürünmelerine izin verecek biri değilsin."
       },
       {
-        "id": 17,
+        "id": "meme-565c56a384f3e6ca_l16",
         "characterId": "tony",
-        "startTime": 42.15,
-        "endTime": 44.0,
+        "startTime": 42.12,
+        "endTime": 43.4,
+        "duration": 1.28,
         "text": "Teli keserim olur biter."
       },
       {
-        "id": 18,
+        "id": "meme-565c56a384f3e6ca_l17",
         "characterId": "steve",
-        "startTime": 46.9,
-        "endTime": 48.5,
-        "text": "Hep bir yolunu bulursun değil mi?"
+        "startTime": 46.46,
+        "endTime": 47.9,
+        "duration": 1.44,
+        "text": "Hep bir yolunu bulursun."
       },
       {
-        "id": 19,
+        "id": "meme-565c56a384f3e6ca_l18",
         "characterId": "steve",
-        "startTime": 49.3,
-        "endTime": 52.54,
-        "text": "Tehdit olmayabilirsin ama kahramanmış gibi davranmayı da bırak artık."
+        "startTime": 49.18,
+        "endTime": 52.5,
+        "duration": 3.32,
+        "text": "Tehdit olmayabilirsin ama kahramanmış gibi davranmayı da bırak artık!"
       },
       {
-        "id": 20,
+        "id": "meme-565c56a384f3e6ca_l19",
         "characterId": "tony",
-        "startTime": 52.92,
+        "startTime": 52.7,
         "endTime": 54.34,
+        "duration": 1.64,
         "text": "Kahraman mı? Senin gibi mi?"
       },
       {
-        "id": 21,
+        "id": "meme-565c56a384f3e6ca_l20",
         "characterId": "steve",
-        "startTime": 55.3,
-        "endTime": 57.3,
+        "startTime": 55.02,
+        "endTime": 57.2,
+        "duration": 2.18,
         "text": "Sen bir laboratuvar deneyisin Rogers."
       },
       {
-        "id": 22,
+        "id": "meme-565c56a384f3e6ca_l21",
         "characterId": "steve",
-        "startTime": 57.58,
-        "endTime": 60.32,
+        "startTime": 57.48,
+        "endTime": 60.22,
+        "duration": 2.74,
         "text": "Seni özel kılan her şey bir şişeden çıktı."
       },
       {
-        "id": 23,
+        "id": "meme-565c56a384f3e6ca_l22",
         "characterId": "tony",
-        "startTime": 86.18,
-        "endTime": 88.24,
-        "text": "Hadi zırhını giy. Birkaç round kapışalım!"
+        "startTime": 85.74,
+        "endTime": 88.2,
+        "duration": 2.46,
+        "text": "Hadi zırhını giy, birkaç raunt tutup kapışalım!"
+      },
+      {
+        "id": "meme-565c56a384f3e6ca_l23",
+        "characterId": "banner",
+        "startTime": 97.42,
+        "endTime": 99.48,
+        "duration": 2.06,
+        "text": "Nereye? Odamı kiraya verdiniz."
+      },
+      {
+        "id": "meme-565c56a384f3e6ca_l24",
+        "characterId": "banner",
+        "startTime": 101.26,
+        "endTime": 104.64,
+        "duration": 3.38,
+        "text": "Beni öldürmeniz gerekir diye... Ama yapamazsınız, biliyorum çünkü denedim!"
+      },
+      {
+        "id": "meme-565c56a384f3e6ca_l25",
+        "characterId": "banner",
+        "startTime": 108.38,
+        "endTime": 111.32,
+        "duration": 2.94,
+        "text": "Bunalımdaydım, sonu yok diyordum..."
+      },
+      {
+        "id": "meme-565c56a384f3e6ca_l26",
+        "characterId": "banner",
+        "startTime": 111.54,
+        "endTime": 114.72,
+        "duration": 3.18,
+        "text": "Ben de ağzıma bir kurşun sıktım ama diğer adam tükürüp çıkardı!"
+      },
+      {
+        "id": "meme-565c56a384f3e6ca_l27",
+        "characterId": "banner",
+        "startTime": 116.2,
+        "endTime": 120.52,
+        "duration": 4.32,
+        "text": "Yaşamaya devam ettim, başkalarına yardım etmekle meşgul oldum."
+      },
+      {
+        "id": "meme-565c56a384f3e6ca_l28",
+        "characterId": "banner",
+        "startTime": 120.66,
+        "endTime": 124.18,
+        "duration": 3.52,
+        "text": "Siz beni bu ucubelerin arasına sürükleyip buradakileri tehlikeye atana kadar!"
+      },
+      {
+        "id": "meme-565c56a384f3e6ca_l29",
+        "characterId": "banner",
+        "startTime": 124.38,
+        "endTime": 128.1,
+        "duration": 3.72,
+        "text": "Sırrımı bilmek ister misiniz Ajan Romanoff? Nasıl sakin kaldığımı söyleyeyim mi?"
+      },
+      {
+        "id": "meme-565c56a384f3e6ca_l30",
+        "characterId": "steve",
+        "startTime": 131.08,
+        "endTime": 134.94,
+        "duration": 3.86,
+        "text": "Doktor Banner... O asayı bırak."
       }
     ],
     "thumbnail": "assets/thumbnails/meme-565c56a384f3e6ca.jpg"
@@ -1925,47 +2702,47 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-5a992347adcc5220_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-5a992347adcc5220_clean.mp4",
     "difficulty": "Kolay",
-    "description": "Popüler internet memesi: Meme - Ferdi solbek yapan benim osayı sabek",
+    "description": "İsmail Kartal'ın efsanevi basın toplantısı: 'Ferdi'yi sol bek yapan benim!'",
     "characters": [
       {
         "id": "kartal",
         "name": "İsmail Kartal (Arap İsmail)",
-        "color": "#f59e0b",
-        "avatar": "🦅"
+        "color": "#eab308",
+        "avatar": "👔"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-5a992347adcc5220_l1",
         "characterId": "kartal",
-        "startTime": 0.4,
-        "endTime": 3.5,
-        "text": "Ferdi'yi sol bek yapan benim!",
-        "emotion": "Gururlu ve iddialı basın toplantısı"
+        "startTime": 0.0,
+        "endTime": 3.52,
+        "duration": 3.52,
+        "text": "Ferdi'yi sol bek yapan benim! Osayi'yi sağ bek yapan benim!"
       },
       {
-        "id": 2,
+        "id": "meme-5a992347adcc5220_l2",
         "characterId": "kartal",
-        "startTime": 3.5,
+        "startTime": 3.86,
         "endTime": 6.0,
-        "text": "Osayi'yi sağ bek yapan benim!",
-        "emotion": "Vurgulayarak el hareketi"
+        "duration": 2.14,
+        "text": "Szymanski'yi bir maç 6 numara, 8 numara..."
       },
       {
-        "id": 3,
+        "id": "meme-5a992347adcc5220_l3",
         "characterId": "kartal",
         "startTime": 6.0,
-        "endTime": 8.5,
-        "text": "Szymanski'yi 6 numara, 8 numara, sağ kanatta oynatan benim!",
-        "emotion": "Taktik dehası anlatımı"
+        "endTime": 8.02,
+        "duration": 2.02,
+        "text": "Sağ kanatta oynatan benim! Niye kimse bunları konuşmuyor?"
       },
       {
-        "id": 4,
+        "id": "meme-5a992347adcc5220_l4",
         "characterId": "kartal",
-        "startTime": 8.5,
-        "endTime": 10.98,
-        "text": "Niye kimse bunu konuşmuyor? Serdar Dursun'u 10 numara oynatan benim!",
-        "emotion": "Sitemkar ve net son vuruş"
+        "startTime": 8.36,
+        "endTime": 10.02,
+        "duration": 1.66,
+        "text": "Serdar Dursun'u 10 numara oynatan benim!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-5a992347adcc5220.jpg"
@@ -1979,49 +2756,133 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-5b819baf3f383a04_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-5b819baf3f383a04_clean.mp4",
     "difficulty": "Orta",
-    "description": "Azar Canlı Yayın Klasiği: Batuhan Furkan ve yanındaki konuğun trollenmesi.",
+    "description": "Batuhan Furkan canlı yayını: Konuğun 'Batu abi Dalton sandılar seni' trollemesi.",
     "characters": [
-      {
-        "id": "batu",
-        "name": "Batuhan Furkan",
-        "color": "#3b82f6",
-        "avatar": "🎧"
-      },
       {
         "id": "konuk",
         "name": "Yayın Konuğu",
-        "color": "#ec4899",
-        "avatar": "👱‍♀️"
+        "color": "#3b82f6",
+        "avatar": "👦"
+      },
+      {
+        "id": "batu",
+        "name": "Batuhan Furkan",
+        "color": "#ef4444",
+        "avatar": "🧔"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-5b819baf3f383a04_l1",
         "characterId": "konuk",
-        "startTime": 0.0,
-        "endTime": 3.0,
-        "text": "Bu ne çirkinlik ya? Bana mı dedin sen?"
+        "startTime": 0.7,
+        "endTime": 2.18,
+        "duration": 1.48,
+        "text": "Bu ne çirkinlik ya?"
       },
       {
-        "id": 2,
+        "id": "meme-5b819baf3f383a04_l2",
         "characterId": "batu",
-        "startTime": 3.0,
-        "endTime": 6.0,
-        "text": "Evet sana dedim, ne bakıyorsun öyle?"
+        "startTime": 2.38,
+        "endTime": 2.96,
+        "duration": 0.58,
+        "text": "Bana mı dedin?"
       },
       {
-        "id": 3,
+        "id": "meme-5b819baf3f383a04_l3",
         "characterId": "konuk",
-        "startTime": 6.0,
-        "endTime": 9.5,
-        "text": "Batu abi bir şey sorabilir miyim? Seni Dalton sandılar yayında!"
+        "startTime": 3.76,
+        "endTime": 4.04,
+        "duration": 0.28,
+        "text": "Evet."
       },
       {
-        "id": 4,
+        "id": "meme-5b819baf3f383a04_l4",
         "characterId": "batu",
-        "startTime": 9.5,
-        "endTime": 14.0,
-        "text": "Ne Dalton'u oğlum ya, kapat şu yayını delirtmeyin adamı!"
+        "startTime": 4.48,
+        "endTime": 5.04,
+        "duration": 0.56,
+        "text": "Çirkinliğe bak!"
+      },
+      {
+        "id": "meme-5b819baf3f383a04_l5",
+        "characterId": "konuk",
+        "startTime": 8.32,
+        "endTime": 9.64,
+        "duration": 1.32,
+        "text": "Batu abi bir şey sorabilir miyim?"
+      },
+      {
+        "id": "meme-5b819baf3f383a04_l6",
+        "characterId": "konuk",
+        "startTime": 10.24,
+        "endTime": 11.56,
+        "duration": 1.32,
+        "text": "Özel birim misin yoksa?"
+      },
+      {
+        "id": "meme-5b819baf3f383a04_l7",
+        "characterId": "batu",
+        "startTime": 12.38,
+        "endTime": 13.6,
+        "duration": 1.22,
+        "text": "Özel birim doğrudur."
+      },
+      {
+        "id": "meme-5b819baf3f383a04_l8",
+        "characterId": "konuk",
+        "startTime": 14.26,
+        "endTime": 14.58,
+        "duration": 0.32,
+        "text": "Neyi?"
+      },
+      {
+        "id": "meme-5b819baf3f383a04_l9",
+        "characterId": "batu",
+        "startTime": 15.1,
+        "endTime": 15.78,
+        "duration": 0.68,
+        "text": "Özel biriyim."
+      },
+      {
+        "id": "meme-5b819baf3f383a04_l10",
+        "characterId": "konuk",
+        "startTime": 16.46,
+        "endTime": 17.92,
+        "duration": 1.46,
+        "text": "Tamam kankam nasıl, iyi misin?"
+      },
+      {
+        "id": "meme-5b819baf3f383a04_l11",
+        "characterId": "konuk",
+        "startTime": 19.3,
+        "endTime": 20.34,
+        "duration": 1.04,
+        "text": "Dalton sandılar seni reis!"
+      },
+      {
+        "id": "meme-5b819baf3f383a04_l12",
+        "characterId": "batu",
+        "startTime": 20.88,
+        "endTime": 21.44,
+        "duration": 0.56,
+        "text": "Efendim?"
+      },
+      {
+        "id": "meme-5b819baf3f383a04_l13",
+        "characterId": "konuk",
+        "startTime": 21.72,
+        "endTime": 22.96,
+        "duration": 1.24,
+        "text": "Kusura bakma Dalton sandılar, iyi misin?"
+      },
+      {
+        "id": "meme-5b819baf3f383a04_l14",
+        "characterId": "batu",
+        "startTime": 30.06,
+        "endTime": 32.3,
+        "duration": 2.24,
+        "text": "Haa, engelli sandılar beni öyle mi?!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-5b819baf3f383a04.jpg"
@@ -2035,49 +2896,79 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-638a5e3314df054c_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-638a5e3314df054c_clean.mp4",
     "difficulty": "Orta",
-    "description": "Unlostv CS:GO Live sitesinde 55 dolarlık kasadan çöp çıkınca yaşanan büyük rage.",
+    "description": "Unlost'un CS:GO Live kasasında parayı batırınca komşuya ve duvara patladığı anlar.",
     "characters": [
       {
         "id": "unlost",
         "name": "Cantuğ (Unlost)",
-        "color": "#f59e0b",
+        "color": "#ef4444",
         "avatar": "😡"
-      },
-      {
-        "id": "chat",
-        "name": "Chat & Kasa",
-        "color": "#6b7280",
-        "avatar": "📦"
       }
     ],
     "lines": [
       {
-        "id": 1,
-        "characterId": "chat",
+        "id": "meme-638a5e3314df054c_l1",
+        "characterId": "unlost",
         "startTime": 0.0,
-        "endTime": 2.0,
-        "text": "55 dolarlık kasa açılıyor: Fire and Ice Case..."
+        "endTime": 1.86,
+        "duration": 1.86,
+        "text": "Son bir kez daha açayım, batacaksam orada batayım..."
       },
       {
-        "id": 2,
+        "id": "meme-638a5e3314df054c_l2",
         "characterId": "unlost",
-        "startTime": 2.0,
-        "endTime": 6.0,
-        "text": "Son bir kez daha açıyorum... Batacaksam tam burada batayım!"
+        "startTime": 5.06,
+        "endTime": 6.44,
+        "duration": 1.38,
+        "text": "Ben bunu kalkıp döveceğim şimdi!"
       },
       {
-        "id": 3,
+        "id": "meme-638a5e3314df054c_l3",
         "characterId": "unlost",
-        "startTime": 6.0,
-        "endTime": 11.0,
-        "text": "Bunu kalkıp dökeceğim şimdi... O ne oğlum lan?! Duvarı delerim lan!"
+        "startTime": 7.36,
+        "endTime": 9.58,
+        "duration": 2.22,
+        "text": "O ne oğlum lan, duvarı delecek adam!"
       },
       {
-        "id": 4,
+        "id": "meme-638a5e3314df054c_l4",
         "characterId": "unlost",
-        "startTime": 11.0,
-        "endTime": 15.0,
-        "text": "Yine çöp verdi be abicim, yeter artık kafayı yiyeceğim!"
+        "startTime": 14.48,
+        "endTime": 16.08,
+        "duration": 1.6,
+        "text": "Ne diye vuruyor, bağırmadım ki!"
+      },
+      {
+        "id": "meme-638a5e3314df054c_l5",
+        "characterId": "unlost",
+        "startTime": 16.08,
+        "endTime": 18.62,
+        "duration": 2.54,
+        "text": "Ne diye vuruyor bağırmadım valla normal vuruyor!"
+      },
+      {
+        "id": "meme-638a5e3314df054c_l6",
+        "characterId": "unlost",
+        "startTime": 22.74,
+        "endTime": 23.98,
+        "duration": 1.24,
+        "text": "Polis çağıracağım polis!"
+      },
+      {
+        "id": "meme-638a5e3314df054c_l7",
+        "characterId": "unlost",
+        "startTime": 27.06,
+        "endTime": 30.52,
+        "duration": 3.46,
+        "text": "Ya gelsene vuruyor kapıya adam ya!"
+      },
+      {
+        "id": "meme-638a5e3314df054c_l8",
+        "characterId": "unlost",
+        "startTime": 39.58,
+        "endTime": 42.82,
+        "duration": 3.24,
+        "text": "Ya var mı beyler böyle bir şey, bağırmıyorum amına koyayım ya!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-638a5e3314df054c.jpg"
@@ -2091,77 +2982,117 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-6d951d7f55599703_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-6d951d7f55599703_clean.mp4",
     "difficulty": "Orta",
-    "description": "Popüler internet memesi: Meme - Sıkıntı yok hiçbir şekilde sıkıntı yok",
+    "description": "Sıfır Bir Adana: Çıkmaz sokakta arabayı geri manevra yapmaya çalışan Cio ve Savaş.",
     "characters": [
       {
         "id": "cio",
         "name": "Cio Baba",
-        "color": "#f43f5e",
-        "avatar": "⚡"
+        "color": "#ef4444",
+        "avatar": "🔫"
       },
       {
         "id": "savas",
         "name": "Savaş Satış",
         "color": "#3b82f6",
-        "avatar": "💥"
+        "avatar": "🚗"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-6d951d7f55599703_l1",
         "characterId": "cio",
         "startTime": 0.0,
-        "endTime": 3.0,
-        "text": "Sıkıntı yok, hiçbir şekilde sıkıntı yok, gel hele."
+        "endTime": 2.72,
+        "duration": 2.72,
+        "text": "Sıkıntı yok, hiçbir şekilde sıkıntı yok. Gel hele."
       },
       {
-        "id": 2,
+        "id": "meme-6d951d7f55599703_l2",
         "characterId": "savas",
-        "startTime": 7.14,
-        "endTime": 11.14,
-        "text": "Yalnız iki üç tane genç alın, bir dostumuzu karşılamaya gideceğiz."
+        "startTime": 6.8,
+        "endTime": 10.82,
+        "duration": 4.02,
+        "text": "Yanınıza iki üç tane genç alın, bir dostumuzu karşılamaya gideceğiz."
       },
       {
-        "id": 3,
+        "id": "meme-6d951d7f55599703_l3",
         "characterId": "cio",
-        "startTime": 17.33,
-        "endTime": 21.33,
-        "text": "Bu da kendini iyice Polat Alemdar zannetti ha! En son bozacağım."
+        "startTime": 16.0,
+        "endTime": 19.34,
+        "duration": 3.34,
+        "text": "Bak hele lan! Bu da kendini iyice Polat Alemdar zannetti ha!"
       },
       {
-        "id": 4,
+        "id": "meme-6d951d7f55599703_l4",
+        "characterId": "cio",
+        "startTime": 19.94,
+        "endTime": 20.78,
+        "duration": 0.84,
+        "text": "En son bozacağım!"
+      },
+      {
+        "id": "meme-6d951d7f55599703_l5",
         "characterId": "savas",
-        "startTime": 21.33,
-        "endTime": 26.33,
-        "text": "Bırak oğlum ya, abigil yolladıysa bir bildikleri vardır. Kafana takma."
+        "startTime": 21.4,
+        "endTime": 26.3,
+        "duration": 4.9,
+        "text": "Bırak oğlum ya, abigil yolladıysa bir bildikleri vardır kafana takma böyle şeyleri."
       },
       {
-        "id": 5,
+        "id": "meme-6d951d7f55599703_l6",
         "characterId": "cio",
-        "startTime": 26.33,
-        "endTime": 30.33,
+        "startTime": 26.64,
+        "endTime": 29.58,
+        "duration": 2.94,
         "text": "Tamam da kardeş bize yapmasın! O yokken biz vardık!"
       },
       {
-        "id": 6,
+        "id": "meme-6d951d7f55599703_l7",
         "characterId": "savas",
-        "startTime": 30.33,
-        "endTime": 39.44,
-        "text": "Ya boş verelim bu kadar işin içinde bir de bununla mı uğraşacağız ya?"
+        "startTime": 29.96,
+        "endTime": 32.64,
+        "duration": 2.68,
+        "text": "Ya boş koyalım, bu kadar işin içinde bir de bununla mı uğraşacağız ya?"
       },
       {
-        "id": 7,
+        "id": "meme-6d951d7f55599703_l8",
         "characterId": "cio",
-        "startTime": 39.44,
-        "endTime": 43.44,
-        "text": "Lan bu yol çıkmıyor mu?! Niye söylemiyorsunuz oğlum çıkmadığını?!"
+        "startTime": 39.14,
+        "endTime": 40.4,
+        "duration": 1.26,
+        "text": "Lan bu yol çıkmıyor mu?!"
       },
       {
-        "id": 8,
+        "id": "meme-6d951d7f55599703_l9",
         "characterId": "savas",
-        "startTime": 43.44,
-        "endTime": 51.31,
-        "text": "Sormadık ki adamlara... Mahalleye de rezil olduk ya! Bırakalım gitsin."
+        "startTime": 40.7,
+        "endTime": 41.54,
+        "duration": 0.84,
+        "text": "O yol çıkmıyor abi."
+      },
+      {
+        "id": "meme-6d951d7f55599703_l10",
+        "characterId": "cio",
+        "startTime": 41.92,
+        "endTime": 43.02,
+        "duration": 1.1,
+        "text": "Niye söylemiyorsunuz oğlum?!"
+      },
+      {
+        "id": "meme-6d951d7f55599703_l11",
+        "characterId": "savas",
+        "startTime": 43.28,
+        "endTime": 44.02,
+        "duration": 0.74,
+        "text": "Sormadın ki abi."
+      },
+      {
+        "id": "meme-6d951d7f55599703_l12",
+        "characterId": "savas",
+        "startTime": 49.96,
+        "endTime": 50.84,
+        "duration": 0.88,
+        "text": "Bırak oğlum ya..."
       }
     ],
     "thumbnail": "assets/thumbnails/meme-6d951d7f55599703.jpg"
@@ -2175,7 +3106,7 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-701778ed8f454ba0_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-701778ed8f454ba0_clean.mp4",
     "difficulty": "Orta",
-    "description": "Kolpaçino Orman Sahnesi: Şahin'in Özgür ve ekibine patladığı efsanevi sahne.",
+    "description": "Kolpaçino orman sahnesi: Şahin'in Özgür ve Sabri'ye 'Bak donum görünüyor' fırçası.",
     "characters": [
       {
         "id": "sahin",
@@ -2192,39 +3123,140 @@ export const SCENES = [
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-701778ed8f454ba0_l1",
         "characterId": "sahin",
         "startTime": 0.0,
-        "endTime": 2.5,
-        "text": "Bu ne iş ya?"
+        "endTime": 5.44,
+        "duration": 5.44,
+        "text": "Bu ne iş ya? Birine telefon gelir dur, biri kolonyayla kendini yakmak ister dur!"
       },
       {
-        "id": 2,
+        "id": "meme-701778ed8f454ba0_l2",
         "characterId": "sahin",
-        "startTime": 2.5,
-        "endTime": 5.2,
-        "text": "Birine telefon gelir dur, biri kolonyayla kendini yakmak ister dur!"
+        "startTime": 5.66,
+        "endTime": 8.74,
+        "duration": 3.08,
+        "text": "Biri ormana dalar... Çoluk çocuğun elinde oyuncak olduk Tayfun!"
       },
       {
-        "id": 3,
-        "characterId": "sahin",
-        "startTime": 5.2,
-        "endTime": 7.8,
-        "text": "Biri ormana dalar... Çoluk çocuğun elinde kaldık be!"
-      },
-      {
-        "id": 4,
+        "id": "meme-701778ed8f454ba0_l3",
         "characterId": "ozgur",
-        "startTime": 7.8,
-        "endTime": 10.5,
-        "text": "Abi valla bizim de suçumuz yok, durum ortada..."
+        "startTime": 9.64,
+        "endTime": 12.62,
+        "duration": 2.98,
+        "text": "Abi ormandan sonrası deniz ya, istersen atıp kurtulalım mı?"
       },
       {
-        "id": 5,
+        "id": "meme-701778ed8f454ba0_l4",
         "characterId": "sahin",
-        "startTime": 10.5,
-        "endTime": 14.0,
-        "text": "Yeter ulan kesin sesinizi, hepinizin ipini ben çekeceğim!"
+        "startTime": 12.74,
+        "endTime": 13.58,
+        "duration": 0.84,
+        "text": "Yavaş yapın lan!"
+      },
+      {
+        "id": "meme-701778ed8f454ba0_l5",
+        "characterId": "ozgur",
+        "startTime": 14.04,
+        "endTime": 18.36,
+        "duration": 4.32,
+        "text": "Sabri Bey, kız arkadaşım aradı durmak zorundaydım yani kusura bakmayın."
+      },
+      {
+        "id": "meme-701778ed8f454ba0_l6",
+        "characterId": "ozgur",
+        "startTime": 18.96,
+        "endTime": 22.56,
+        "duration": 3.6,
+        "text": "Ayriyeten içinde bulunduğumuz durumdan da ben de pek memnun değilim yani."
+      },
+      {
+        "id": "meme-701778ed8f454ba0_l7",
+        "characterId": "sahin",
+        "startTime": 22.84,
+        "endTime": 23.84,
+        "duration": 1.0,
+        "text": "Sen ne diyorsun ya?"
+      },
+      {
+        "id": "meme-701778ed8f454ba0_l8",
+        "characterId": "ozgur",
+        "startTime": 24.1,
+        "endTime": 29.5,
+        "duration": 5.4,
+        "text": "Yani diyorum ki gece gece iki ceset altı adam ayakaltı bir yerdeyiz yani..."
+      },
+      {
+        "id": "meme-701778ed8f454ba0_l9",
+        "characterId": "sahin",
+        "startTime": 29.5,
+        "endTime": 30.72,
+        "duration": 1.22,
+        "text": "Ne gülüyorsun lan?!"
+      },
+      {
+        "id": "meme-701778ed8f454ba0_l10",
+        "characterId": "ozgur",
+        "startTime": 30.94,
+        "endTime": 31.52,
+        "duration": 0.58,
+        "text": "Bilmiyorum abi."
+      },
+      {
+        "id": "meme-701778ed8f454ba0_l11",
+        "characterId": "sahin",
+        "startTime": 31.64,
+        "endTime": 32.26,
+        "duration": 0.62,
+        "text": "Ne gülüyorsun lan?!"
+      },
+      {
+        "id": "meme-701778ed8f454ba0_l12",
+        "characterId": "ozgur",
+        "startTime": 32.64,
+        "endTime": 33.32,
+        "duration": 0.68,
+        "text": "Bilmiyorum abi."
+      },
+      {
+        "id": "meme-701778ed8f454ba0_l13",
+        "characterId": "sahin",
+        "startTime": 33.7,
+        "endTime": 35.94,
+        "duration": 2.24,
+        "text": "Yavrum sen kaç yaşındasın?"
+      },
+      {
+        "id": "meme-701778ed8f454ba0_l14",
+        "characterId": "ozgur",
+        "startTime": 36.04,
+        "endTime": 37.42,
+        "duration": 1.38,
+        "text": "Otuz dört yaşındayım, ne oldu ki?"
+      },
+      {
+        "id": "meme-701778ed8f454ba0_l15",
+        "characterId": "sahin",
+        "startTime": 37.78,
+        "endTime": 43.26,
+        "duration": 5.48,
+        "text": "Bak kardeşim sen güzel bir kardeşe benziyorsun. Benim yaşım elli."
+      },
+      {
+        "id": "meme-701778ed8f454ba0_l16",
+        "characterId": "sahin",
+        "startTime": 44.28,
+        "endTime": 47.26,
+        "duration": 2.98,
+        "text": "Bak pantolonuma, bak iyi bak..."
+      },
+      {
+        "id": "meme-701778ed8f454ba0_l17",
+        "characterId": "sahin",
+        "startTime": 48.24,
+        "endTime": 54.34,
+        "duration": 6.1,
+        "text": "Ha? Donum görünüyor! Donum olmasa bizzat götümün kendisi görünecek!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-701778ed8f454ba0.jpg"
@@ -2255,73 +3287,83 @@ export const SCENES = [
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-71af9284d4ab8edf_l1",
         "characterId": "savas",
         "startTime": 0.0,
-        "endTime": 2.2,
+        "endTime": 1.5,
+        "duration": 1.5,
         "text": "Oğlum nasıl özlemişim lan dışarıyı..."
       },
       {
-        "id": 2,
+        "id": "meme-71af9284d4ab8edf_l2",
         "characterId": "cio",
-        "startTime": 2.2,
-        "endTime": 4.0,
+        "startTime": 2.02,
+        "endTime": 3.94,
+        "duration": 1.92,
         "text": "Bakarsın bugün kavuşuruz Özgür!"
       },
       {
-        "id": 3,
+        "id": "meme-71af9284d4ab8edf_l3",
         "characterId": "savas",
-        "startTime": 4.0,
-        "endTime": 6.13,
+        "startTime": 4.4,
+        "endTime": 5.66,
+        "duration": 1.26,
         "text": "Özgür manitalara bak lan!"
       },
       {
-        "id": 4,
+        "id": "meme-71af9284d4ab8edf_l4",
         "characterId": "savas",
-        "startTime": 6.13,
-        "endTime": 8.13,
+        "startTime": 6.22,
+        "endTime": 7.7,
+        "duration": 1.48,
         "text": "Oğlum memlekete yaz gelmiş lan!"
       },
       {
-        "id": 5,
+        "id": "meme-71af9284d4ab8edf_l5",
         "characterId": "cio",
-        "startTime": 8.13,
-        "endTime": 10.13,
+        "startTime": 8.16,
+        "endTime": 9.54,
+        "duration": 1.38,
         "text": "Başına vurdu valla abi buyur."
       },
       {
-        "id": 6,
+        "id": "meme-71af9284d4ab8edf_l6",
         "characterId": "cio",
-        "startTime": 10.13,
-        "endTime": 12.13,
+        "startTime": 9.78,
+        "endTime": 11.72,
+        "duration": 1.94,
         "text": "Sana özgürlükten bahsediyorum sen manita diyorsun."
       },
       {
-        "id": 7,
+        "id": "meme-71af9284d4ab8edf_l7",
         "characterId": "savas",
-        "startTime": 12.13,
-        "endTime": 15.13,
+        "startTime": 12.22,
+        "endTime": 14.96,
+        "duration": 2.74,
         "text": "Oğlum neyin kafasını yaşıyorsun avratlara baksana!"
       },
       {
-        "id": 8,
+        "id": "meme-71af9284d4ab8edf_l8",
         "characterId": "cio",
-        "startTime": 15.13,
-        "endTime": 18.0,
+        "startTime": 17.24,
+        "endTime": 18.72,
+        "duration": 1.48,
         "text": "Harbi yandık abi ya."
       },
       {
-        "id": 9,
+        "id": "meme-71af9284d4ab8edf_l9",
         "characterId": "savas",
-        "startTime": 18.0,
-        "endTime": 20.7,
+        "startTime": 19.08,
+        "endTime": 20.34,
+        "duration": 1.26,
         "text": "Harbi klimayı açın yandık be!"
       },
       {
-        "id": 10,
+        "id": "meme-71af9284d4ab8edf_l10",
         "characterId": "cio",
-        "startTime": 20.7,
-        "endTime": 24.56,
+        "startTime": 22.66,
+        "endTime": 24.54,
+        "duration": 1.88,
         "text": "Kimin yandığı belli oluyor Allah'ını seversen..."
       }
     ],
@@ -2353,25 +3395,60 @@ export const SCENES = [
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-74ca08745cf708a8_l1",
         "characterId": "muhabir",
         "startTime": 0.0,
-        "endTime": 3.5,
-        "text": "Efendim neden dağa çıktınız, anlatır mısınız bize?"
+        "endTime": 3.08,
+        "duration": 3.08,
+        "text": "Efendim neden terörist oldunuz, anlatır mısınız bize?"
       },
       {
-        "id": 2,
+        "id": "meme-74ca08745cf708a8_l2",
         "characterId": "koylu",
-        "startTime": 3.5,
-        "endTime": 7.5,
-        "text": "Valla biz köyden geliyorduk arabayla... Teröristler önümüzü kesti..."
+        "startTime": 3.86,
+        "endTime": 6.14,
+        "duration": 2.28,
+        "text": "Valla biz köyden geliyorduk arabayla..."
       },
       {
-        "id": 3,
+        "id": "meme-74ca08745cf708a8_l3",
         "characterId": "koylu",
-        "startTime": 7.5,
-        "endTime": 11.5,
-        "text": "Dediler 'Siz de gelin dağa çıkın', biz de çıktık öyle valla!"
+        "startTime": 6.24,
+        "endTime": 11.76,
+        "duration": 5.52,
+        "text": "Bizden birileri teröristler önümüze geldi, dedik dağa geleceksin, ben dedim gelmiyorum, o dedi geleceksin, biz mecbur kaldık gittik."
+      },
+      {
+        "id": "meme-74ca08745cf708a8_l4",
+        "characterId": "koylu",
+        "startTime": 12.28,
+        "endTime": 19.68,
+        "duration": 7.4,
+        "text": "Biz dağa gittik elime silah verdi çatışacaksın, ben dedim çatışmıyorum, o dedi çatışacaksın, biz mecbur kaldık çatıştık."
+      },
+      {
+        "id": "meme-74ca08745cf708a8_l5",
+        "characterId": "koylu",
+        "startTime": 20.6,
+        "endTime": 25.96,
+        "duration": 5.36,
+        "text": "Valla tam o esnada bir bomba patladı gümm! Bir parça geldi benim kafama vurdu danng!"
+      },
+      {
+        "id": "meme-74ca08745cf708a8_l6",
+        "characterId": "koylu",
+        "startTime": 26.74,
+        "endTime": 30.56,
+        "duration": 3.82,
+        "text": "Valla ben köyümü kaybetmişim, iki gün köyü aradım bulamadım..."
+      },
+      {
+        "id": "meme-74ca08745cf708a8_l7",
+        "characterId": "koylu",
+        "startTime": 30.98,
+        "endTime": 34.68,
+        "duration": 3.7,
+        "text": "Sonra biz devlet güçlerine teslim olduk, ne mutlu Türküm diyene!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-74ca08745cf708a8.jpg"
@@ -2392,42 +3469,72 @@ export const SCENES = [
         "name": "Hasan Arda Kaşıkçı (H-Talks)",
         "color": "#000000",
         "avatar": "🦅"
-      },
-      {
-        "id": "chat",
-        "name": "Chat (Fikret / Fiwhs)",
-        "color": "#ef4444",
-        "avatar": "💬"
       }
     ],
     "lines": [
       {
-        "id": 1,
-        "characterId": "chat",
-        "startTime": 0.0,
-        "endTime": 1.5,
-        "text": "Fiwhs: GS 2-2 yaptı!"
+        "id": "meme-7e1105e63de53c5a_l1",
+        "characterId": "hak",
+        "startTime": 0.8,
+        "endTime": 3.84,
+        "duration": 3.04,
+        "text": "Ya Fiwhs artık bir yerinden maç uyduruyorsun!"
       },
       {
-        "id": 2,
+        "id": "meme-7e1105e63de53c5a_l2",
         "characterId": "hak",
-        "startTime": 1.5,
-        "endTime": 5.5,
-        "text": "Ya Fiwhs artık bir yerinden maç uyduruyorsun, GS 2-2 yaptı diyorsun..."
+        "startTime": 3.98,
+        "endTime": 5.16,
+        "duration": 1.18,
+        "text": "GS 2-2 yaptı diyorsun..."
       },
       {
-        "id": 3,
+        "id": "meme-7e1105e63de53c5a_l3",
         "characterId": "hak",
-        "startTime": 5.5,
-        "endTime": 9.0,
+        "startTime": 5.34,
+        "endTime": 7.26,
+        "duration": 1.92,
         "text": "Galatasaray maç bile oynamıyor ya şu an!"
       },
       {
-        "id": 4,
+        "id": "meme-7e1105e63de53c5a_l4",
         "characterId": "hak",
-        "startTime": 9.0,
-        "endTime": 13.0,
-        "text": "Artık skor falan da uydurmayı bırakın abi!"
+        "startTime": 9.22,
+        "endTime": 14.46,
+        "duration": 5.24,
+        "text": "Artık skor uydurdun uydurdun uydurdun, artık beni çileden çıkarmak için bir yerinden maç uyduruyorsun ya!"
+      },
+      {
+        "id": "meme-7e1105e63de53c5a_l5",
+        "characterId": "hak",
+        "startTime": 18.68,
+        "endTime": 23.16,
+        "duration": 4.48,
+        "text": "Şu an inanmıyorum sana ki bir yerde Galatasaray 2-2 yapmış olsun ya!"
+      },
+      {
+        "id": "meme-7e1105e63de53c5a_l6",
+        "characterId": "hak",
+        "startTime": 24.84,
+        "endTime": 27.22,
+        "duration": 2.38,
+        "text": "Bir de basketmiş amına koyayım!"
+      },
+      {
+        "id": "meme-7e1105e63de53c5a_l7",
+        "characterId": "hak",
+        "startTime": 30.0,
+        "endTime": 33.68,
+        "duration": 3.68,
+        "text": "Bir de basketmiş özrü kabahatinden büyük ya!"
+      },
+      {
+        "id": "meme-7e1105e63de53c5a_l8",
+        "characterId": "hak",
+        "startTime": 37.68,
+        "endTime": 40.74,
+        "duration": 3.06,
+        "text": "Basket maçıymış yüzümü yolacağım tırnaklarımla ya!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-7e1105e63de53c5a.jpg"
@@ -2441,7 +3548,7 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-82905766b3d259c2_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-82905766b3d259c2_clean.mp4",
     "difficulty": "Orta",
-    "description": "Han Kanal Minecraft: Domuzcukla röportaj yapmaya çalışırken küfür yemesi.",
+    "description": "Han Kanal Minecraft parodisi: Domuz Piggy'nin sahibine isyanı.",
     "characters": [
       {
         "id": "han",
@@ -2458,32 +3565,68 @@ export const SCENES = [
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-82905766b3d259c2_l1",
         "characterId": "han",
         "startTime": 0.0,
-        "endTime": 3.5,
-        "text": "İlk olarak ben bunu çok merak ediyorum, Handaşlar da seni çok merak ediyor Piggy..."
+        "endTime": 2.0,
+        "duration": 2.0,
+        "text": "İlk olarak ben bunu çok merak ediyorum."
       },
       {
-        "id": 2,
+        "id": "meme-82905766b3d259c2_l2",
+        "characterId": "han",
+        "startTime": 2.78,
+        "endTime": 4.6,
+        "duration": 1.82,
+        "text": "Handaşlar da seni çok merak ediyor Piggy."
+      },
+      {
+        "id": "meme-82905766b3d259c2_l3",
         "characterId": "piggy",
-        "startTime": 3.5,
-        "endTime": 7.0,
+        "startTime": 4.68,
+        "endTime": 7.14,
+        "duration": 2.46,
         "text": "Ya bana ne be kardeşim? Benim hiç umurumda değil!"
       },
       {
-        "id": 3,
-        "characterId": "han",
-        "startTime": 7.0,
-        "endTime": 11.5,
-        "text": "Ama izleyicilerimize bir şey söylemek istemez misin?"
+        "id": "meme-82905766b3d259c2_l4",
+        "characterId": "piggy",
+        "startTime": 7.3,
+        "endTime": 8.48,
+        "duration": 1.18,
+        "text": "Bana yemek ver ne olur!"
       },
       {
-        "id": 4,
+        "id": "meme-82905766b3d259c2_l5",
         "characterId": "piggy",
-        "startTime": 11.5,
-        "endTime": 16.0,
-        "text": "Çek o mikrofonu önümden, otumu yiyorum şurada rahat bırak!"
+        "startTime": 9.04,
+        "endTime": 11.44,
+        "duration": 2.4,
+        "text": "Ben açlıktan ölüyorum ya sahibim yüzünden!"
+      },
+      {
+        "id": "meme-82905766b3d259c2_l6",
+        "characterId": "han",
+        "startTime": 11.7,
+        "endTime": 15.92,
+        "duration": 4.22,
+        "text": "Evet Piggy sahibinden memnun mu, lütfen bunu da merak ediyor Handaşlar?"
+      },
+      {
+        "id": "meme-82905766b3d259c2_l7",
+        "characterId": "piggy",
+        "startTime": 17.86,
+        "endTime": 20.86,
+        "duration": 3.0,
+        "text": "Ya ne yaptın evime be adam, evimi yıktın!"
+      },
+      {
+        "id": "meme-82905766b3d259c2_l8",
+        "characterId": "piggy",
+        "startTime": 21.2,
+        "endTime": 23.82,
+        "duration": 2.62,
+        "text": "Sahibimden memnun değilim, transfer olmak istiyorum!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-82905766b3d259c2.jpg"
@@ -2497,7 +3640,7 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-82adcb0c41c171e1_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-82adcb0c41c171e1_clean.mp4",
     "difficulty": "Orta",
-    "description": "TRT Çocuk Keloğlan Masalları: Kötü Cadı ile Huysuz'un gizli sığınaktaki diyaloğu.",
+    "description": "TRT Çocuk Keloğlan Masalları: Kötü Cadı ile Huysuz'un mağara sığınağındaki atışması.",
     "characters": [
       {
         "id": "cadi",
@@ -2514,25 +3657,84 @@ export const SCENES = [
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-82adcb0c41c171e1_l1",
         "characterId": "cadi",
         "startTime": 0.0,
-        "endTime": 4.5,
-        "text": "Geliyorlar! Herkes konuştuğumuz gibi yerlerine geçsin ve kımıldamasın!"
+        "endTime": 4.42,
+        "duration": 4.42,
+        "text": "Geliyorlar! Herkes konuştuğumuz gibi yerlerine geçsin ve kıpırdamasın!"
       },
       {
-        "id": 2,
+        "id": "meme-82adcb0c41c171e1_l2",
         "characterId": "huysuz",
-        "startTime": 4.5,
-        "endTime": 8.5,
+        "startTime": 8.3,
+        "endTime": 12.9,
+        "duration": 4.6,
         "text": "İyi de sen böyle bir suratla karşımda durursan ben nasıl gülmeyeyim?"
       },
       {
-        "id": 3,
+        "id": "meme-82adcb0c41c171e1_l3",
         "characterId": "cadi",
-        "startTime": 8.5,
-        "endTime": 12.0,
-        "text": "Kapa çeneni Huysuz! Planı bozarsan seni kurbağaya çeviririm!"
+        "startTime": 13.26,
+        "endTime": 15.16,
+        "duration": 1.9,
+        "text": "Hele bir gül de rezil et bizi mahvet planı!"
+      },
+      {
+        "id": "meme-82adcb0c41c171e1_l4",
+        "characterId": "huysuz",
+        "startTime": 18.04,
+        "endTime": 19.28,
+        "duration": 1.24,
+        "text": "Ne oluyor böyle?"
+      },
+      {
+        "id": "meme-82adcb0c41c171e1_l5",
+        "characterId": "cadi",
+        "startTime": 19.74,
+        "endTime": 22.2,
+        "duration": 2.46,
+        "text": "Huysuz! Hız tozunun etkisi geçmemiş miydi?"
+      },
+      {
+        "id": "meme-82adcb0c41c171e1_l6",
+        "characterId": "huysuz",
+        "startTime": 22.52,
+        "endTime": 23.0,
+        "duration": 0.48,
+        "text": "Dur bakalım Uzun..."
+      },
+      {
+        "id": "meme-82adcb0c41c171e1_l7",
+        "characterId": "cadi",
+        "startTime": 24.89,
+        "endTime": 29.73,
+        "duration": 4.84,
+        "text": "Sizi akıllılar sizi! Biz yokken çaldıklarımızı çalacaktınız he?!"
+      },
+      {
+        "id": "meme-82adcb0c41c171e1_l8",
+        "characterId": "huysuz",
+        "startTime": 34.07,
+        "endTime": 37.01,
+        "duration": 2.94,
+        "text": "Duydun mu Huysuz? Bir şey çıt etti."
+      },
+      {
+        "id": "meme-82adcb0c41c171e1_l9",
+        "characterId": "cadi",
+        "startTime": 37.93,
+        "endTime": 38.79,
+        "duration": 0.86,
+        "text": "Tozun neydi o?"
+      },
+      {
+        "id": "meme-82adcb0c41c171e1_l10",
+        "characterId": "cadi",
+        "startTime": 45.21,
+        "endTime": 46.23,
+        "duration": 1.02,
+        "text": "Sizi uyarmıştım!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-82adcb0c41c171e1.jpg"
@@ -2563,39 +3765,52 @@ export const SCENES = [
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-840ad8a37e2bb450_l1",
         "characterId": "unlost",
-        "startTime": 0.0,
-        "endTime": 3.0,
-        "text": "Kasayı açıyoruz... Hadi oğlum güzel bir şey ver!"
+        "startTime": 2.18,
+        "endTime": 6.02,
+        "duration": 3.84,
+        "text": "AHAHAHAHA! AHAHAHAHAHA!"
       },
       {
-        "id": 2,
+        "id": "meme-840ad8a37e2bb450_l2",
+        "characterId": "unlost",
+        "startTime": 9.96,
+        "endTime": 11.6,
+        "duration": 1.64,
+        "text": "AHAHAHA! İnanamıyorum!"
+      },
+      {
+        "id": "meme-840ad8a37e2bb450_l3",
         "characterId": "diren",
-        "startTime": 3.0,
-        "endTime": 6.5,
-        "text": "Bıçak geliyor... Bıçak geliyor abi aç!"
+        "startTime": 12.76,
+        "endTime": 13.68,
+        "duration": 0.92,
+        "text": "İnanamıyorum!"
       },
       {
-        "id": 3,
+        "id": "meme-840ad8a37e2bb450_l4",
         "characterId": "unlost",
-        "startTime": 6.5,
-        "endTime": 11.0,
-        "text": "AHAHAHA! İnanmıyorum! İnanmıyorum sonunda yaptık be!"
+        "startTime": 13.68,
+        "endTime": 15.26,
+        "duration": 1.58,
+        "text": "İnanamıyorum abi!"
       },
       {
-        "id": 4,
+        "id": "meme-840ad8a37e2bb450_l5",
+        "characterId": "unlost",
+        "startTime": 15.26,
+        "endTime": 18.64,
+        "duration": 3.38,
+        "text": "Sonunda yaptım ya! Sonunda yaptım!"
+      },
+      {
+        "id": "meme-840ad8a37e2bb450_l6",
         "characterId": "diren",
-        "startTime": 11.0,
-        "endTime": 15.0,
-        "text": "Ohaaa! Ursus Bıçağı Kızıl Ağ geldi be abi!"
-      },
-      {
-        "id": 5,
-        "characterId": "unlost",
-        "startTime": 15.0,
-        "endTime": 19.0,
-        "text": "Sonunda çıkardık oğlum, bitti bu çile!"
+        "startTime": 18.64,
+        "endTime": 20.84,
+        "duration": 2.2,
+        "text": "Oğlum buradan bıçak çıkması çok önemli bir şey be!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-840ad8a37e2bb450.jpg"
@@ -2609,7 +3824,7 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-88139b3306f24519_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-88139b3306f24519_clean.mp4",
     "difficulty": "Orta",
-    "description": "Shrek 1 Türkçe Dublaj: Shrek ile Eşek'in ayçiçeği tarlasında laf yarışı.",
+    "description": "Shrek 1 Türkçe Dublaj klasiği: Ayçiçeği tarlasında Shrek ile Eşek'in laf yarışı.",
     "characters": [
       {
         "id": "shrek",
@@ -2626,25 +3841,36 @@ export const SCENES = [
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-88139b3306f24519_l1",
         "characterId": "esek",
         "startTime": 0.0,
-        "endTime": 3.8,
-        "text": "Zaten senin laf yarışına giren de kabahat! Senin derdin ne be arkadaş?"
+        "endTime": 2.22,
+        "duration": 2.22,
+        "text": "Zaten seninle laf yarışına giren de kabahat!"
       },
       {
-        "id": 2,
-        "characterId": "shrek",
-        "startTime": 3.8,
-        "endTime": 8.0,
-        "text": "Ulan gel buraya! Bütün gün dırdır dırdır susmadın be!"
-      },
-      {
-        "id": 3,
+        "id": "meme-88139b3306f24519_l2",
         "characterId": "esek",
-        "startTime": 8.0,
-        "endTime": 12.5,
-        "text": "Sadece arkadaş olmak istiyorum, neden bu kadar kabasın?!"
+        "startTime": 3.24,
+        "endTime": 6.88,
+        "duration": 3.64,
+        "text": "Senin derdin ne arkadaş, Cem Yılmaz'ın yandan yemişi seni!"
+      },
+      {
+        "id": "meme-88139b3306f24519_l3",
+        "characterId": "shrek",
+        "startTime": 6.9,
+        "endTime": 9.96,
+        "duration": 3.06,
+        "text": "Ulan gel buraya! Eşek canını yakmak istemiyorum!"
+      },
+      {
+        "id": "meme-88139b3306f24519_l4",
+        "characterId": "shrek",
+        "startTime": 11.08,
+        "endTime": 14.52,
+        "duration": 3.44,
+        "text": "Ama sen de zorla kaşınıyorsun, kaşınıyorsun be arkadaş!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-88139b3306f24519.jpg"
@@ -2658,7 +3884,7 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-885102943a735982_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-885102943a735982_clean.mp4",
     "difficulty": "Orta",
-    "description": "Tatil Köyü Parodisi: Müşterinin peşini bırakmayan ısrarcı fotoğrafçı.",
+    "description": "Tatil köyü parodisi: Havuz başında müşteriyi darlayan ısrarcı otel fotoğrafçısı.",
     "characters": [
       {
         "id": "fotografci",
@@ -2675,25 +3901,116 @@ export const SCENES = [
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-885102943a735982_l1",
         "characterId": "fotografci",
-        "startTime": 0.0,
-        "endTime": 3.2,
-        "text": "Bayan efendim, stop, stop! Bir tane fotoğrafınızı çekeceğim."
+        "startTime": 11.14,
+        "endTime": 13.92,
+        "duration": 2.78,
+        "text": "Bayan efendim stop stop! Bir tane fotoğrafınızı çekeceğim."
       },
       {
-        "id": 2,
+        "id": "meme-885102943a735982_l2",
         "characterId": "tatilci",
-        "startTime": 3.2,
-        "endTime": 6.8,
-        "text": "İstemem ben fotoğraf falan arkadaşım, lütfen rahat bırakın!"
+        "startTime": 14.28,
+        "endTime": 15.98,
+        "duration": 1.7,
+        "text": "İstemem ben fotoğraf falan arkadaşım lütfen!"
       },
       {
-        "id": 3,
+        "id": "meme-885102943a735982_l3",
         "characterId": "fotografci",
-        "startTime": 6.8,
-        "endTime": 11.5,
-        "text": "Ama efendim sadece bir poz, tatil anısı kalır fena mı olur?"
+        "startTime": 16.7,
+        "endTime": 19.34,
+        "duration": 2.64,
+        "text": "Bayan efendim sadece bir tane hatıra için fotoğraf çekeceğim."
+      },
+      {
+        "id": "meme-885102943a735982_l4",
+        "characterId": "tatilci",
+        "startTime": 19.5,
+        "endTime": 21.88,
+        "duration": 2.38,
+        "text": "Ben fotoğraf falan istemiyorum arkadaşım lütfen beni rahat bırakın!"
+      },
+      {
+        "id": "meme-885102943a735982_l5",
+        "characterId": "fotografci",
+        "startTime": 21.98,
+        "endTime": 25.56,
+        "duration": 3.58,
+        "text": "Çok güzel çıkacaksınız inanın bana, şöyle havaya doğru..."
+      },
+      {
+        "id": "meme-885102943a735982_l6",
+        "characterId": "tatilci",
+        "startTime": 32.56,
+        "endTime": 35.34,
+        "duration": 2.78,
+        "text": "Söylüyorum ya arkadaşım fotoğraf falan istemiyorum diyorum ya!"
+      },
+      {
+        "id": "meme-885102943a735982_l7",
+        "characterId": "tatilci",
+        "startTime": 38.74,
+        "endTime": 41.4,
+        "duration": 2.66,
+        "text": "Oğlum istemiyorum diyorum fotoğraf falan lütfen bırak beni!"
+      },
+      {
+        "id": "meme-885102943a735982_l8",
+        "characterId": "fotografci",
+        "startTime": 41.48,
+        "endTime": 46.4,
+        "duration": 4.92,
+        "text": "Efendim çekinmenize gerek yok, otelin paparazisiyim lütfen. Sadece bir tane güzel manzara fotoğrafı."
+      },
+      {
+        "id": "meme-885102943a735982_l9",
+        "characterId": "tatilci",
+        "startTime": 48.18,
+        "endTime": 49.02,
+        "duration": 0.84,
+        "text": "Havuz çıkıyor mu?"
+      },
+      {
+        "id": "meme-885102943a735982_l10",
+        "characterId": "fotografci",
+        "startTime": 49.26,
+        "endTime": 51.06,
+        "duration": 1.8,
+        "text": "Evet çok güzel manzara fotoğrafı olacak."
+      },
+      {
+        "id": "meme-885102943a735982_l11",
+        "characterId": "tatilci",
+        "startTime": 51.7,
+        "endTime": 52.72,
+        "duration": 1.02,
+        "text": "Dur o zaman poz vereyim."
+      },
+      {
+        "id": "meme-885102943a735982_l12",
+        "characterId": "fotografci",
+        "startTime": 54.12,
+        "endTime": 56.64,
+        "duration": 2.52,
+        "text": "Evet çok iyi, üçten geriye sayıyorum lütfen."
+      },
+      {
+        "id": "meme-885102943a735982_l13",
+        "characterId": "fotografci",
+        "startTime": 57.04,
+        "endTime": 60.12,
+        "duration": 3.08,
+        "text": "Tamam... Üç, iki, bir..."
+      },
+      {
+        "id": "meme-885102943a735982_l14",
+        "characterId": "fotografci",
+        "startTime": 61.5,
+        "endTime": 63.82,
+        "duration": 2.32,
+        "text": "Ama efendim bu olmadı ki! Tekrar!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-885102943a735982.jpg"
@@ -2707,49 +4024,31 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-8c3b341acc6bda05_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-8c3b341acc6bda05_clean.mp4",
     "difficulty": "Kolay",
-    "description": "Nostaljik Türk 3D Reklamı: Çimlerde dans eden Hacının Şalgamı şişeleri.",
+    "description": "Nostaljik Türk reklamı: Şalgam şişelerinin geleneksel lezzeti tanıttığı animasyon.",
     "characters": [
       {
-        "id": "salgam1",
-        "name": "Acılı Şalgam Şişesi",
-        "color": "#dc2626",
-        "avatar": "🌶️"
-      },
-      {
-        "id": "salgam2",
-        "name": "Klasik Şalgam Şişesi",
-        "color": "#7c2d12",
+        "id": "salgam",
+        "name": "Hacının Şalgamı",
+        "color": "#991b1b",
         "avatar": "🍾"
       }
     ],
     "lines": [
       {
-        "id": 1,
-        "characterId": "salgam1",
-        "startTime": 0.0,
-        "endTime": 5.0,
+        "id": "meme-8c3b341acc6bda05_l1",
+        "characterId": "salgam",
+        "startTime": 20.0,
+        "endTime": 25.5,
+        "duration": 5.5,
         "text": "Adana'nın bağrından sofralarınıza: Hacının Şalgamı!"
       },
       {
-        "id": 2,
-        "characterId": "salgam2",
-        "startTime": 5.0,
-        "endTime": 10.0,
-        "text": "Acılı ve acısız lezzetiyle 1947'den beri geleneksel tat!"
-      },
-      {
-        "id": 3,
-        "characterId": "salgam1",
-        "startTime": 10.0,
-        "endTime": 15.0,
-        "text": "Sofralarınıza lezzet, damaklarınıza sıhhat katar!"
-      },
-      {
-        "id": 4,
-        "characterId": "salgam2",
-        "startTime": 15.0,
-        "endTime": 21.4,
-        "text": "Hacının Şalgamı: 1947'den bu yana kalite belgesiyle!"
+        "id": "meme-8c3b341acc6bda05_l2",
+        "characterId": "salgam",
+        "startTime": 25.5,
+        "endTime": 30.5,
+        "duration": 5.0,
+        "text": "1947'den bu yana geleneksel ve sıhhat dolu lezzet!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-8c3b341acc6bda05.jpg"
@@ -2763,56 +4062,69 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-909c5d25fce176ea_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-909c5d25fce176ea_clean.mp4",
     "difficulty": "Orta",
-    "description": "Ev Halleri Skeci: Sofraya çağrılan gencin kapris yapıp 'Ben yemeyeceğim' demesi.",
+    "description": "Ev hali skeci: Annenin yemek çağrısına odasından kaprisle karşılık veren genç.",
     "characters": [
       {
         "id": "anne",
         "name": "Anne",
         "color": "#ec4899",
-        "avatar": "🍲"
+        "avatar": "👩"
       },
       {
         "id": "ogul",
         "name": "Kaprisli Oğul",
-        "color": "#10b981",
-        "avatar": "😒"
+        "color": "#3b82f6",
+        "avatar": "😤"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-909c5d25fce176ea_l1",
         "characterId": "anne",
         "startTime": 0.0,
-        "endTime": 1.5,
+        "endTime": 1.44,
+        "duration": 1.44,
         "text": "Yemek hazır!"
       },
       {
-        "id": 2,
+        "id": "meme-909c5d25fce176ea_l2",
         "characterId": "ogul",
         "startTime": 2.0,
-        "endTime": 3.2,
+        "endTime": 2.74,
+        "duration": 0.74,
         "text": "Ben yemeyeceğim..."
       },
       {
-        "id": 3,
+        "id": "meme-909c5d25fce176ea_l3",
         "characterId": "anne",
-        "startTime": 4.5,
-        "endTime": 6.5,
-        "text": "Aç mısın oğlum, aç mısın?"
+        "startTime": 4.88,
+        "endTime": 6.24,
+        "duration": 1.36,
+        "text": "Aç mısın oğlum?"
       },
       {
-        "id": 4,
+        "id": "meme-909c5d25fce176ea_l4",
         "characterId": "ogul",
-        "startTime": 6.8,
-        "endTime": 8.5,
-        "text": "Yiyin siz artık, beni bırakın!"
+        "startTime": 6.88,
+        "endTime": 7.58,
+        "duration": 0.7,
+        "text": "Yiyin siz artık!"
       },
       {
-        "id": 5,
+        "id": "meme-909c5d25fce176ea_l5",
+        "characterId": "ogul",
+        "startTime": 20.0,
+        "endTime": 21.64,
+        "duration": 1.64,
+        "text": "Bırakın beni... Bırakın..."
+      },
+      {
+        "id": "meme-909c5d25fce176ea_l6",
         "characterId": "anne",
-        "startTime": 30.5,
-        "endTime": 32.5,
-        "text": "Kalk hadi oğlum, soğutma yemeği!"
+        "startTime": 30.56,
+        "endTime": 32.26,
+        "duration": 1.7,
+        "text": "Yemek hazır soğutma hadi!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-909c5d25fce176ea.jpg"
@@ -2826,140 +4138,157 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-915b36b91433c2f4_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-915b36b91433c2f4_clean.mp4",
     "difficulty": "Orta",
-    "description": "Cio Baba ile Berto arasında mahalle gençlerine konuşma tarzı üzerine sert yüzleşme.",
+    "description": "Sıfır Bir Adana: Cio ve Berto'nun mahalledeki araba başında patlak veren sert yüzleşmesi.",
     "characters": [
       {
         "id": "cio",
         "name": "Cio Baba",
-        "color": "#f43f5e",
-        "avatar": "⚡"
+        "color": "#ef4444",
+        "avatar": "🔫"
       },
       {
         "id": "berto",
         "name": "Berto",
-        "color": "#3b82f6",
-        "avatar": "🔪"
+        "color": "#f59e0b",
+        "avatar": "😠"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-915b36b91433c2f4_l1",
         "characterId": "cio",
-        "startTime": 0.0,
-        "endTime": 2.1,
-        "text": "Lan araba nerede kaldı gel hele!"
+        "startTime": 1.26,
+        "endTime": 2.14,
+        "duration": 0.88,
+        "text": "Lan Berto!"
       },
       {
-        "id": 2,
+        "id": "meme-915b36b91433c2f4_l2",
         "characterId": "cio",
-        "startTime": 3.16,
+        "startTime": 2.96,
         "endTime": 4.6,
-        "text": "Şu araba nasıl kararmış baksana."
+        "duration": 1.64,
+        "text": "Şu araba nasıl kirlenmiş gel hele!"
       },
       {
-        "id": 3,
+        "id": "meme-915b36b91433c2f4_l3",
         "characterId": "berto",
-        "startTime": 5.06,
-        "endTime": 7.48,
-        "text": "Nerede olacak abi, yolun başında duruyor işte!"
+        "startTime": 4.98,
+        "endTime": 6.08,
+        "duration": 1.1,
+        "text": "Nerede ki abi araba?"
       },
       {
-        "id": 4,
+        "id": "meme-915b36b91433c2f4_l4",
+        "characterId": "cio",
+        "startTime": 6.68,
+        "endTime": 10.56,
+        "duration": 3.88,
+        "text": "Anamın neresinde olacak? Yolun başında oğlum nerede olacak?!"
+      },
+      {
+        "id": "meme-915b36b91433c2f4_l5",
         "characterId": "berto",
-        "startTime": 9.38,
+        "startTime": 11.6,
         "endTime": 14.06,
+        "duration": 2.46,
         "text": "Sen hayırdır abi gençlerle böyle üst perdeden konuşuyorsun?"
       },
       {
-        "id": 5,
+        "id": "meme-915b36b91433c2f4_l6",
         "characterId": "cio",
-        "startTime": 15.46,
-        "endTime": 16.76,
-        "text": "Ne üst perdeden konuşacağım Berto?"
+        "startTime": 15.1,
+        "endTime": 16.84,
+        "duration": 1.74,
+        "text": "Ne üst perdeden konuşacağım Ciho?!"
       },
       {
-        "id": 6,
+        "id": "meme-915b36b91433c2f4_l7",
         "characterId": "berto",
-        "startTime": 17.3,
-        "endTime": 18.92,
-        "text": "Görmüyor musun? Soru sormak için soru soruyorsun millete."
+        "startTime": 17.34,
+        "endTime": 18.94,
+        "duration": 1.6,
+        "text": "Görmüyor musun? Soru sormak için soru soruyorsun millete!"
       },
       {
-        "id": 7,
+        "id": "meme-915b36b91433c2f4_l8",
         "characterId": "cio",
-        "startTime": 19.16,
-        "endTime": 22.84,
-        "text": "Olsun abi. Herkese düzgün konuşacaksın bundan sonra. Hepsi benim kardeşim."
+        "startTime": 19.18,
+        "endTime": 22.72,
+        "duration": 3.54,
+        "text": "Olsun abi, herkesle düzgün konuşacaksın bundan sonra. Hepsi benim kardeşim!"
       },
       {
-        "id": 8,
+        "id": "meme-915b36b91433c2f4_l9",
         "characterId": "berto",
-        "startTime": 23.56,
+        "startTime": 23.48,
         "endTime": 25.9,
+        "duration": 2.42,
         "text": "Hayırdır Ciho? Seni ne rahatsız etti ki?"
       },
       {
-        "id": 9,
+        "id": "meme-915b36b91433c2f4_l10",
         "characterId": "cio",
-        "startTime": 26.4,
-        "endTime": 27.42,
+        "startTime": 26.38,
+        "endTime": 27.44,
+        "duration": 1.06,
         "text": "Rahatsız oldum abi ben!"
       },
       {
-        "id": 10,
+        "id": "meme-915b36b91433c2f4_l11",
         "characterId": "berto",
-        "startTime": 27.96,
-        "endTime": 29.7,
-        "text": "İçerideyken de tersini yapıyordun şu millete."
+        "startTime": 27.92,
+        "endTime": 29.64,
+        "duration": 1.72,
+        "text": "İçerideyken de tersini yapıyordun şu millete!"
       },
       {
-        "id": 11,
+        "id": "meme-915b36b91433c2f4_l12",
         "characterId": "cio",
-        "startTime": 29.7,
-        "endTime": 31.06,
+        "startTime": 30.0,
+        "endTime": 31.02,
+        "duration": 1.02,
         "text": "Kime ne demişim ben?!"
       },
       {
-        "id": 12,
+        "id": "meme-915b36b91433c2f4_l13",
         "characterId": "berto",
-        "startTime": 31.06,
-        "endTime": 32.72,
+        "startTime": 31.4,
+        "endTime": 32.64,
+        "duration": 1.24,
         "text": "Karnından konuşma kardeş!"
       },
       {
-        "id": 13,
+        "id": "meme-915b36b91433c2f4_l14",
         "characterId": "berto",
-        "startTime": 33.08,
-        "endTime": 34.34,
-        "text": "Herkes burada, yüzleşek!"
+        "startTime": 33.06,
+        "endTime": 34.32,
+        "duration": 1.26,
+        "text": "Herkes burada, yüzleşelim!"
       },
       {
-        "id": 14,
+        "id": "meme-915b36b91433c2f4_l15",
         "characterId": "cio",
-        "startTime": 34.44,
-        "endTime": 35.66,
-        "text": "Ne karnından konuşacağım ya?"
+        "startTime": 34.42,
+        "endTime": 35.6,
+        "duration": 1.18,
+        "text": "Ne karnından konuşacağım ya?!"
       },
       {
-        "id": 15,
-        "characterId": "berto",
-        "startTime": 36.2,
-        "endTime": 37.78,
-        "text": "Kimle seni yüzleştireyim söyle?!"
-      },
-      {
-        "id": 16,
+        "id": "meme-915b36b91433c2f4_l16",
         "characterId": "cio",
-        "startTime": 37.88,
-        "endTime": 39.56,
-        "text": "Sen kimsin lan?! Hayırdır oğlum?!"
+        "startTime": 36.68,
+        "endTime": 38.66,
+        "duration": 1.98,
+        "text": "Kiminle beni yüzleştireceksin sen kimsin lan?!"
       },
       {
-        "id": 17,
+        "id": "meme-915b36b91433c2f4_l17",
         "characterId": "berto",
-        "startTime": 39.8,
-        "endTime": 41.74,
-        "text": "Ne derdin varsa açık açık konuş!"
+        "startTime": 38.88,
+        "endTime": 41.22,
+        "duration": 2.34,
+        "text": "Hayırdır oğlum, ne derdin varsa açık açık konuş!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-915b36b91433c2f4.jpg"
@@ -2973,271 +4302,285 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-93cba130dd88ebfa_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-93cba130dd88ebfa_clean.mp4",
     "difficulty": "Orta",
-    "description": "Popüler internet memesi: Meme - Abi sen dur bu kadar işin",
+    "description": "Sıfır Bir Adana: Savaş'ın işi Cabbar'a havale etmesi ve arkasından dönen muhabbet.",
     "characters": [
       {
         "id": "cihat",
         "name": "Cihat",
-        "color": "#f97316",
-        "avatar": "🔫"
-      },
-      {
-        "id": "savas",
-        "name": "Savaş",
-        "color": "#e11d48",
-        "avatar": "💥"
+        "color": "#10b981",
+        "avatar": "🧢"
       },
       {
         "id": "cabbar",
         "name": "Cabbar",
-        "color": "#38bdf8",
-        "avatar": "💣"
+        "color": "#ef4444",
+        "avatar": "🔫"
+      },
+      {
+        "id": "savas",
+        "name": "Savaş Satış",
+        "color": "#3b82f6",
+        "avatar": "🧔"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-93cba130dd88ebfa_l1",
         "characterId": "cihat",
         "startTime": 0.0,
-        "endTime": 4.15,
-        "text": "Abi sen dur, bu kadar işin içinde bir de Özcan'la uğraşma."
+        "endTime": 3.9,
+        "duration": 3.9,
+        "text": "Abi sen dur, bu karışıklığın içinde bir de Özcan'la uğraşma."
       },
       {
-        "id": 2,
-        "characterId": "cabbar",
-        "startTime": 6.23,
-        "endTime": 7.63,
+        "id": "meme-93cba130dd88ebfa_l2",
+        "characterId": "cihat",
+        "startTime": 6.14,
+        "endTime": 7.34,
+        "duration": 1.2,
         "text": "Cabbar'lar halleder."
       },
       {
-        "id": 3,
-        "characterId": "cihat",
-        "startTime": 8.94,
-        "endTime": 10.02,
+        "id": "meme-93cba130dd88ebfa_l3",
+        "characterId": "cabbar",
+        "startTime": 8.82,
+        "endTime": 9.78,
+        "duration": 0.96,
         "text": "Hallederik abi."
       },
       {
-        "id": 4,
+        "id": "meme-93cba130dd88ebfa_l4",
         "characterId": "savas",
-        "startTime": 10.94,
-        "endTime": 16.72,
+        "startTime": 10.9,
+        "endTime": 16.48,
+        "duration": 5.58,
         "text": "Peki sen öyle diyorsan Cihat, Cabbar halletsin."
       },
       {
-        "id": 5,
+        "id": "meme-93cba130dd88ebfa_l5",
         "characterId": "savas",
-        "startTime": 17.13,
-        "endTime": 19.25,
+        "startTime": 17.36,
+        "endTime": 18.9,
+        "duration": 1.54,
         "text": "Bir şeye ihtiyacınız olursa söyleyin kardeş."
       },
       {
-        "id": 6,
+        "id": "meme-93cba130dd88ebfa_l6",
         "characterId": "cabbar",
-        "startTime": 19.72,
-        "endTime": 23.9,
-        "text": "Tamam abi, Özcan elimizde. Siz kafanızı yormayın."
+        "startTime": 19.78,
+        "endTime": 23.84,
+        "duration": 4.06,
+        "text": "Tamam abi, Özcan elimizde siz kafanızı yormayın."
       },
       {
-        "id": 7,
+        "id": "meme-93cba130dd88ebfa_l7",
         "characterId": "cihat",
-        "startTime": 24.1,
-        "endTime": 36.5,
-        "text": "Cabbar halledecekmiş... Kendi başını halleder anca."
+        "startTime": 32.78,
+        "endTime": 36.42,
+        "duration": 3.64,
+        "text": "Cabbar halledecekmiş... Yarramın başını halleder!"
       },
       {
-        "id": 8,
+        "id": "meme-93cba130dd88ebfa_l8",
         "characterId": "cihat",
-        "startTime": 37.52,
-        "endTime": 41.58,
+        "startTime": 37.38,
+        "endTime": 41.36,
+        "duration": 3.98,
         "text": "Ayık olun siz de oğlum, biz hallederiz falan desenize!"
       },
       {
-        "id": 9,
+        "id": "meme-93cba130dd88ebfa_l9",
         "characterId": "cabbar",
-        "startTime": 41.86,
-        "endTime": 44.22,
-        "text": "İlla lafa ben mi gireceğim amına koyayım ya?"
+        "startTime": 41.94,
+        "endTime": 43.88,
+        "duration": 1.94,
+        "text": "İlla lafa ben mi gireceğim amına koyayım ya?!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-93cba130dd88ebfa.jpg"
   },
   {
     "id": "meme-9db0b71d01ec8690",
-    "title": "JoJo - Za Warudo! Zamanı Durdurma",
+    "title": "JoJo's Bizarre Adventure - Za Warudo! Zamanı Durdurma",
     "category": "meme",
     "categoryName": "Türk Meme Kültürü",
     "duration": 123.72,
     "videoSrc": "assets/videos/meme-9db0b71d01ec8690_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-9db0b71d01ec8690_clean.mp4",
     "difficulty": "Orta",
-    "description": "Popüler internet memesi: Meme - JoJo: Zamanı Durdurma (Za Warudo)",
+    "description": "JoJo Part 3: Dio Brando ile Jotaro Kujo'nun duran zamanda 9 saniyelik efsanevi kapışması.",
     "characters": [
       {
         "id": "dio",
         "name": "Dio Brando",
-        "color": "#fbbf24",
+        "color": "#eab308",
         "avatar": "🧛"
       },
       {
         "id": "jotaro",
         "name": "Jotaro Kujo",
-        "color": "#38bdf8",
+        "color": "#6366f1",
         "avatar": "⭐"
       },
       {
         "id": "anlatici",
         "name": "Anlatıcı",
-        "color": "#a855f7",
+        "color": "#64748b",
         "avatar": "📖"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-9db0b71d01ec8690_l1",
         "characterId": "dio",
         "startTime": 0.0,
-        "endTime": 3.64,
-        "text": "DURDURAK BİLMEYEN SON SALDIRIMI YAPACAĞIM!"
+        "endTime": 2.86,
+        "duration": 2.86,
+        "text": "Durdurak bilmeyen son saldırımı yapacağım!"
       },
       {
-        "id": 2,
+        "id": "meme-9db0b71d01ec8690_l2",
         "characterId": "dio",
-        "startTime": 3.64,
-        "endTime": 6.8,
-        "text": "VE SON BİR KEZ ZAMANI DURDURACAĞIM!"
+        "startTime": 3.94,
+        "endTime": 6.26,
+        "duration": 2.32,
+        "text": "Ve son bir kez zamanı durduracağım!"
       },
       {
-        "id": 3,
+        "id": "meme-9db0b71d01ec8690_l3",
         "characterId": "dio",
-        "startTime": 6.8,
-        "endTime": 12.27,
-        "text": "ZAMANI DURDURDUĞUM 9 SANİYE İÇİNDE BUNU BİTİRECEĞİM!"
+        "startTime": 8.46,
+        "endTime": 11.82,
+        "duration": 3.36,
+        "text": "Zamanı durdurduğum 9 saniye içinde işini bitireceğim!"
       },
       {
-        "id": 4,
+        "id": "meme-9db0b71d01ec8690_l4",
         "characterId": "dio",
-        "startTime": 12.27,
-        "endTime": 14.19,
-        "text": "ZA WARUDO! ZAMAN DURSUN!"
+        "startTime": 12.98,
+        "endTime": 14.4,
+        "duration": 1.42,
+        "text": "ZA WARUDO!"
       },
       {
-        "id": 5,
+        "id": "meme-9db0b71d01ec8690_l5",
         "characterId": "dio",
-        "startTime": 23.12,
-        "endTime": 28.73,
+        "startTime": 24.22,
+        "endTime": 25.26,
+        "duration": 1.04,
+        "text": "Hehehehehehehe!"
+      },
+      {
+        "id": "meme-9db0b71d01ec8690_l6",
+        "characterId": "dio",
+        "startTime": 27.26,
+        "endTime": 28.68,
+        "duration": 1.42,
         "text": "Bir saniye geçti..."
       },
       {
-        "id": 6,
+        "id": "meme-9db0b71d01ec8690_l7",
         "characterId": "dio",
-        "startTime": 28.73,
-        "endTime": 31.31,
+        "startTime": 28.68,
+        "endTime": 31.26,
+        "duration": 2.58,
         "text": "İki saniye geçti..."
       },
       {
-        "id": 7,
+        "id": "meme-9db0b71d01ec8690_l8",
         "characterId": "dio",
-        "startTime": 31.31,
-        "endTime": 33.41,
+        "startTime": 31.26,
+        "endTime": 33.64,
+        "duration": 2.38,
         "text": "Üç saniye geçti..."
       },
       {
-        "id": 8,
+        "id": "meme-9db0b71d01ec8690_l9",
         "characterId": "anlatici",
-        "startTime": 33.41,
-        "endTime": 37.91,
+        "startTime": 33.64,
+        "endTime": 37.7,
+        "duration": 4.06,
         "text": "Bir nedenden dolayı zaman durmuşken Dio ortalıktan kayboldu."
       },
       {
-        "id": 9,
+        "id": "meme-9db0b71d01ec8690_l10",
         "characterId": "dio",
-        "startTime": 37.91,
-        "endTime": 40.89,
+        "startTime": 39.04,
+        "endTime": 40.8,
+        "duration": 1.76,
         "text": "Dört saniye geçti..."
       },
       {
-        "id": 10,
+        "id": "meme-9db0b71d01ec8690_l11",
         "characterId": "anlatici",
-        "startTime": 40.89,
-        "endTime": 43.93,
+        "startTime": 40.8,
+        "endTime": 44.28,
+        "duration": 3.48,
         "text": "Fakat Jotaro kafa yormayı bıraktı."
       },
       {
-        "id": 11,
+        "id": "meme-9db0b71d01ec8690_l12",
         "characterId": "anlatici",
-        "startTime": 43.93,
-        "endTime": 46.65,
-        "text": "Dio'nun nasıl bir planı olsa da..."
+        "startTime": 44.28,
+        "endTime": 50.5,
+        "duration": 6.22,
+        "text": "Dio'nun nasıl bir planı olsa da, zaman durmuşken sadece 2 saniye hareket edebilen Jotaro'ya..."
       },
       {
-        "id": 12,
+        "id": "meme-9db0b71d01ec8690_l13",
         "characterId": "anlatici",
-        "startTime": 46.65,
-        "endTime": 50.53,
-        "text": "Zaman durmuşken sadece 2 saniye hareket edebilen Jotaro'ya..."
+        "startTime": 50.5,
+        "endTime": 58.48,
+        "duration": 7.98,
+        "text": "Nasıl saldırsa da tek yapması gereken o 2 saniyede Star Platinum'un yumruklarını indirmek!"
       },
       {
-        "id": 13,
-        "characterId": "anlatici",
-        "startTime": 50.53,
-        "endTime": 53.09,
-        "text": "Nasıl saldırsa da..."
-      },
-      {
-        "id": 14,
-        "characterId": "anlatici",
-        "startTime": 53.09,
-        "endTime": 58.51,
-        "text": "Tek yapması gereken o 2 saniyede Star Platinum'un yumruklarını indirmek!"
-      },
-      {
-        "id": 15,
-        "characterId": "dio",
-        "startTime": 58.51,
-        "endTime": 60.59,
-        "text": "Beş saniye geçti..."
-      },
-      {
-        "id": 16,
+        "id": "meme-9db0b71d01ec8690_l14",
         "characterId": "jotaro",
-        "startTime": 60.59,
-        "endTime": 63.17,
-        "text": "Bildiğim tek şey var Dio..."
+        "startTime": 61.16,
+        "endTime": 68.0,
+        "duration": 6.84,
+        "text": "Bildiğim tek şey var Dio, bir daha görürsem ağzını burnunu kıracağım!"
       },
       {
-        "id": 17,
-        "characterId": "jotaro",
-        "startTime": 63.17,
-        "endTime": 68.6,
-        "text": "Bir daha görürsem ağzını burnunu kıracağım!"
-      },
-      {
-        "id": 18,
+        "id": "meme-9db0b71d01ec8690_l15",
         "characterId": "dio",
-        "startTime": 68.6,
-        "endTime": 72.56,
+        "startTime": 70.58,
+        "endTime": 72.54,
+        "duration": 1.96,
         "text": "Altı saniye geçti..."
       },
       {
-        "id": 19,
+        "id": "meme-9db0b71d01ec8690_l16",
         "characterId": "jotaro",
-        "startTime": 72.56,
-        "endTime": 73.26,
-        "text": "Yolla hadi!"
+        "startTime": 72.54,
+        "endTime": 74.24,
+        "duration": 1.7,
+        "text": "Yolla hadi Dio!"
       },
       {
-        "id": 20,
+        "id": "meme-9db0b71d01ec8690_l17",
         "characterId": "dio",
-        "startTime": 73.26,
-        "endTime": 78.28,
+        "startTime": 76.32,
+        "endTime": 78.26,
+        "duration": 1.94,
         "text": "Yedi saniye geçti..."
       },
       {
-        "id": 21,
+        "id": "meme-9db0b71d01ec8690_l18",
         "characterId": "dio",
-        "startTime": 78.28,
-        "endTime": 85.0,
-        "text": "Dokuz saniye geçti! ORA ORA ORA!"
+        "startTime": 79.72,
+        "endTime": 84.0,
+        "duration": 4.28,
+        "text": "ROAD ROLLER DA! MUDAMUDAMUDA!"
+      },
+      {
+        "id": "meme-9db0b71d01ec8690_l19",
+        "characterId": "dio",
+        "startTime": 119.48,
+        "endTime": 123.12,
+        "duration": 3.64,
+        "text": "Başardım! Bitti artık!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-9db0b71d01ec8690.jpg"
@@ -3251,7 +4594,7 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-a9bd70989fc91692_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-a9bd70989fc91692_clean.mp4",
     "difficulty": "Kolay",
-    "description": "GTA San Andreas Modu: Beyaz Mercedes ile otoyoldan uçuruma uçan kadın sürücü.",
+    "description": "GTA San Andreas oyun modu: Acemi kadın sürücünün virajda fren tutmayınca panikle çığlık atması.",
     "characters": [
       {
         "id": "kadin",
@@ -3262,25 +4605,28 @@ export const SCENES = [
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-a9bd70989fc91692_l1",
         "characterId": "kadin",
         "startTime": 0.0,
-        "endTime": 4.5,
-        "text": "Hele şükür aldık sonunda arabayı ya! Kazasız belasız bir binelim inşallah..."
+        "endTime": 3.5,
+        "duration": 3.5,
+        "text": "Geldik sonunda viraja, aman kaza yapmayalım..."
       },
       {
-        "id": 2,
+        "id": "meme-a9bd70989fc91692_l2",
         "characterId": "kadin",
-        "startTime": 4.5,
-        "endTime": 8.0,
-        "text": "Ay ay ay dönemiyorum! Virajı alamıyorum!"
+        "startTime": 5.04,
+        "endTime": 8.54,
+        "duration": 3.5,
+        "text": "Gel buraya gel, sürekli viraja kayıyor araba!"
       },
       {
-        "id": 3,
+        "id": "meme-a9bd70989fc91692_l3",
         "characterId": "kadin",
-        "startTime": 8.0,
-        "endTime": 12.5,
-        "text": "Olamaz! Fren tutmuyor! Uçuyoruz aşağıya imdaaat!"
+        "startTime": 12.76,
+        "endTime": 15.6,
+        "duration": 2.84,
+        "text": "Hayatım fren tutmuyor! İmdattt uçuyoruz aşağıya!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-a9bd70989fc91692.jpg"
@@ -3311,25 +4657,100 @@ export const SCENES = [
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-ac037f6b8ed128c4_l1",
         "characterId": "cete",
         "startTime": 0.0,
-        "endTime": 3.0,
-        "text": "Al Mahmut, bunlar bir süre senin misafirin olacak. Geç!"
+        "endTime": 3.46,
+        "duration": 3.46,
+        "text": "Al Mahmut, bunlar bir süre senin misafirin olacak."
       },
       {
-        "id": 2,
+        "id": "meme-ac037f6b8ed128c4_l2",
+        "characterId": "cete",
+        "startTime": 4.84,
+        "endTime": 5.0,
+        "duration": 0.16,
+        "text": "Geç!"
+      },
+      {
+        "id": "meme-ac037f6b8ed128c4_l3",
         "characterId": "mahmut",
-        "startTime": 3.0,
-        "endTime": 6.5,
+        "startTime": 6.04,
+        "endTime": 6.48,
+        "duration": 0.44,
+        "text": "Bak hele."
+      },
+      {
+        "id": "meme-ac037f6b8ed128c4_l4",
+        "characterId": "cete",
+        "startTime": 6.96,
+        "endTime": 7.3,
+        "duration": 0.34,
+        "text": "Geç geç!"
+      },
+      {
+        "id": "meme-ac037f6b8ed128c4_l5",
+        "characterId": "mahmut",
+        "startTime": 7.44,
+        "endTime": 10.18,
+        "duration": 2.74,
         "text": "Siz gelmezseniz bunların ensesine çökerim, rahat olun siz..."
       },
       {
-        "id": 3,
+        "id": "meme-ac037f6b8ed128c4_l6",
         "characterId": "cete",
-        "startTime": 6.5,
-        "endTime": 10.0,
-        "text": "Kafanızı yormayın, gerekeni yapın aslanım!"
+        "startTime": 10.5,
+        "endTime": 12.38,
+        "duration": 1.88,
+        "text": "Siz kafanızı yormayın kardeş."
+      },
+      {
+        "id": "meme-ac037f6b8ed128c4_l7",
+        "characterId": "cete",
+        "startTime": 13.8,
+        "endTime": 16.42,
+        "duration": 2.62,
+        "text": "Sağ salim gidin gelin inşallah."
+      },
+      {
+        "id": "meme-ac037f6b8ed128c4_l8",
+        "characterId": "mahmut",
+        "startTime": 16.94,
+        "endTime": 18.52,
+        "duration": 1.58,
+        "text": "İnşallah abi inşallah."
+      },
+      {
+        "id": "meme-ac037f6b8ed128c4_l9",
+        "characterId": "mahmut",
+        "startTime": 24.94,
+        "endTime": 29.2,
+        "duration": 4.26,
+        "text": "Kaşmerler sizi! Öyle plan etmekle olmuyor oğlum!"
+      },
+      {
+        "id": "meme-ac037f6b8ed128c4_l10",
+        "characterId": "cete",
+        "startTime": 32.06,
+        "endTime": 34.74,
+        "duration": 2.68,
+        "text": "Sakin ol Mahmut, bizim seninle bir işimiz yok."
+      },
+      {
+        "id": "meme-ac037f6b8ed128c4_l11",
+        "characterId": "mahmut",
+        "startTime": 37.26,
+        "endTime": 43.24,
+        "duration": 5.98,
+        "text": "Senin benimle işin yok da benim seninle işim var kahpe!"
+      },
+      {
+        "id": "meme-ac037f6b8ed128c4_l12",
+        "characterId": "mahmut",
+        "startTime": 44.94,
+        "endTime": 47.32,
+        "duration": 2.38,
+        "text": "Yiğitlik yapıyordunuz dışarıda oğlum, noldu?!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-ac037f6b8ed128c4.jpg"
@@ -3346,46 +4767,152 @@ export const SCENES = [
     "description": "Sıfır Bir Sokak Sahnesi: Özgür'ün küçük çocuğa (Filozof) okuma öğüdü verip sarılması.",
     "characters": [
       {
+        "id": "filozof",
+        "name": "Filozof (Çocuk)",
+        "color": "#3b82f6",
+        "avatar": "👓"
+      },
+      {
         "id": "ozgur",
         "name": "Özgür",
         "color": "#ef4444",
         "avatar": "🧔"
       },
       {
-        "id": "filozof",
-        "name": "Filozof (Çocuk)",
-        "color": "#3b82f6",
-        "avatar": "👓"
+        "id": "berto",
+        "name": "Berto",
+        "color": "#f59e0b",
+        "avatar": "🧢"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-b65ba8effc3ba1fb_l1",
         "characterId": "filozof",
         "startTime": 0.0,
-        "endTime": 3.0,
-        "text": "Özgür abim sizi gördüm, bir selam vereyim dedim..."
+        "endTime": 3.18,
+        "duration": 3.18,
+        "text": "Ne yapayım Özgür abim, sizi gördüm bir selam vereyim dedim."
       },
       {
-        "id": 2,
+        "id": "meme-b65ba8effc3ba1fb_l2",
         "characterId": "ozgur",
-        "startTime": 3.0,
-        "endTime": 6.5,
-        "text": "Adam ya, büyümüş de küçülmüş fırıldak seni! Okul nasıl gidiyor?"
+        "startTime": 3.56,
+        "endTime": 6.12,
+        "duration": 2.56,
+        "text": "Adam ya! Büyümüş de küçülmüş fırıldak seni! Okul nasıl gidiyor?"
       },
       {
-        "id": 3,
+        "id": "meme-b65ba8effc3ba1fb_l3",
         "characterId": "filozof",
-        "startTime": 6.5,
-        "endTime": 9.5,
-        "text": "İyi gidiyor abi, derslerime çalışıyorum..."
+        "startTime": 7.62,
+        "endTime": 9.0,
+        "duration": 1.38,
+        "text": "Bu seneden sonra bırakacağım Özgür abi."
       },
       {
-        "id": 4,
+        "id": "meme-b65ba8effc3ba1fb_l4",
         "characterId": "ozgur",
-        "startTime": 9.5,
-        "endTime": 14.5,
-        "text": "Sen okuyacaksın lan Filozof! Bizim gibi sokaklarda harcanmayacaksın!"
+        "startTime": 9.92,
+        "endTime": 13.36,
+        "duration": 3.44,
+        "text": "Niye oğlum? Mahalleyi sen kurtaracaksın oğlum, okusana!"
+      },
+      {
+        "id": "meme-b65ba8effc3ba1fb_l5",
+        "characterId": "filozof",
+        "startTime": 13.96,
+        "endTime": 16.04,
+        "duration": 2.08,
+        "text": "Annemin durumu yok, o da artık bırak çalış diyor."
+      },
+      {
+        "id": "meme-b65ba8effc3ba1fb_l6",
+        "characterId": "ozgur",
+        "startTime": 16.76,
+        "endTime": 17.38,
+        "duration": 0.62,
+        "text": "Olur mu oğlum?!"
+      },
+      {
+        "id": "meme-b65ba8effc3ba1fb_l7",
+        "characterId": "ozgur",
+        "startTime": 18.82,
+        "endTime": 23.12,
+        "duration": 4.3,
+        "text": "Konuşalım lan bunun anasıyla! Senin gibi zeki bir çocuk okuldan mı alınır lan?!"
+      },
+      {
+        "id": "meme-b65ba8effc3ba1fb_l8",
+        "characterId": "ozgur",
+        "startTime": 24.14,
+        "endTime": 26.9,
+        "duration": 2.76,
+        "text": "Bak biz okumadık ne oldu? Bari siz okuyun lan!"
+      },
+      {
+        "id": "meme-b65ba8effc3ba1fb_l9",
+        "characterId": "ozgur",
+        "startTime": 26.9,
+        "endTime": 31.98,
+        "duration": 5.08,
+        "text": "Berto kardeş konuş anasıyla, okul masraflarını biz karşılarız!"
+      },
+      {
+        "id": "meme-b65ba8effc3ba1fb_l10",
+        "characterId": "ozgur",
+        "startTime": 32.64,
+        "endTime": 35.76,
+        "duration": 3.12,
+        "text": "Kendilerinin de ihtiyacı olursa hallederiz, kafasını yormasın."
+      },
+      {
+        "id": "meme-b65ba8effc3ba1fb_l11",
+        "characterId": "berto",
+        "startTime": 35.88,
+        "endTime": 39.8,
+        "duration": 3.92,
+        "text": "Tamam kardeş ben yarın gider konuşurum, Filozof'u okulsuz bırakmayız sen rahat ol."
+      },
+      {
+        "id": "meme-b65ba8effc3ba1fb_l12",
+        "characterId": "ozgur",
+        "startTime": 40.58,
+        "endTime": 43.44,
+        "duration": 2.86,
+        "text": "Oğlum Filozof! Sen okuyacaksın lan!"
+      },
+      {
+        "id": "meme-b65ba8effc3ba1fb_l13",
+        "characterId": "ozgur",
+        "startTime": 44.04,
+        "endTime": 46.92,
+        "duration": 2.88,
+        "text": "Doktor olacaksın, mühendis olacaksın, savcı olacaksın, hakim olacaksın!"
+      },
+      {
+        "id": "meme-b65ba8effc3ba1fb_l14",
+        "characterId": "ozgur",
+        "startTime": 47.36,
+        "endTime": 50.78,
+        "duration": 3.42,
+        "text": "Bizim mahallemizden de böyle insanlar çıkabileceğini göstereceksin! Tamam mı aslanım?"
+      },
+      {
+        "id": "meme-b65ba8effc3ba1fb_l15",
+        "characterId": "filozof",
+        "startTime": 51.14,
+        "endTime": 51.82,
+        "duration": 0.68,
+        "text": "Tamam abi sinirlenmeyin."
+      },
+      {
+        "id": "meme-b65ba8effc3ba1fb_l16",
+        "characterId": "ozgur",
+        "startTime": 51.82,
+        "endTime": 55.52,
+        "duration": 3.7,
+        "text": "Allah'ını severim lan senin! Hadi gidelim."
       }
     ],
     "thumbnail": "assets/thumbnails/meme-b65ba8effc3ba1fb.jpg"
@@ -3416,25 +4943,92 @@ export const SCENES = [
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-c0ba8b38a59eb9ef_l1",
         "characterId": "anne",
         "startTime": 0.0,
-        "endTime": 3.5,
-        "text": "Nazif! ÖSS'yi kaçırdın! Sınavı kaçırdın Nazif kalk!"
+        "endTime": 3.24,
+        "duration": 3.24,
+        "text": "Nazif! ÖSS'yi kaçırdın!"
       },
       {
-        "id": 2,
-        "characterId": "nazif",
-        "startTime": 3.5,
-        "endTime": 6.5,
-        "text": "Ne kaçırması ya... Saat kaç anne ya?!"
-      },
-      {
-        "id": 3,
+        "id": "meme-c0ba8b38a59eb9ef_l2",
         "characterId": "anne",
-        "startTime": 6.5,
-        "endTime": 11.0,
-        "text": "Okuyup bir adam olamayacaksın Nazif! Nasıl kaçırırsın sınavı?!"
+        "startTime": 5.4,
+        "endTime": 7.52,
+        "duration": 2.12,
+        "text": "ÖSS'yi kaçırdın Nazif kalk!"
+      },
+      {
+        "id": "meme-c0ba8b38a59eb9ef_l3",
+        "characterId": "nazif",
+        "startTime": 8.16,
+        "endTime": 10.42,
+        "duration": 2.26,
+        "text": "Ya alıştınız her sabah ya..."
+      },
+      {
+        "id": "meme-c0ba8b38a59eb9ef_l4",
+        "characterId": "anne",
+        "startTime": 11.92,
+        "endTime": 14.54,
+        "duration": 2.62,
+        "text": "Okuyup bir adam olamayacaksın Nazif!"
+      },
+      {
+        "id": "meme-c0ba8b38a59eb9ef_l5",
+        "characterId": "anne",
+        "startTime": 18.7,
+        "endTime": 21.42,
+        "duration": 2.72,
+        "text": "Nasıl kaçırırsın ÖSS'yi Nazif?!"
+      },
+      {
+        "id": "meme-c0ba8b38a59eb9ef_l6",
+        "characterId": "nazif",
+        "startTime": 22.8,
+        "endTime": 24.74,
+        "duration": 1.94,
+        "text": "Kaçta başlıyordu ki ha?"
+      },
+      {
+        "id": "meme-c0ba8b38a59eb9ef_l7",
+        "characterId": "anne",
+        "startTime": 25.14,
+        "endTime": 26.18,
+        "duration": 1.04,
+        "text": "Saat kaç?!"
+      },
+      {
+        "id": "meme-c0ba8b38a59eb9ef_l8",
+        "characterId": "nazif",
+        "startTime": 27.02,
+        "endTime": 27.42,
+        "duration": 0.4,
+        "text": "On bir."
+      },
+      {
+        "id": "meme-c0ba8b38a59eb9ef_l9",
+        "characterId": "anne",
+        "startTime": 30.78,
+        "endTime": 31.88,
+        "duration": 1.1,
+        "text": "Çalışmış mıydın bari nasıl?"
+      },
+      {
+        "id": "meme-c0ba8b38a59eb9ef_l10",
+        "characterId": "nazif",
+        "startTime": 34.36,
+        "endTime": 37.38,
+        "duration": 3.02,
+        "text": "Çok yoğun bir tanem çalıştım dört ay..."
+      },
+      {
+        "id": "meme-c0ba8b38a59eb9ef_l11",
+        "characterId": "nazif",
+        "startTime": 38.72,
+        "endTime": 40.4,
+        "duration": 1.68,
+        "text": "Gece gündüz çalıştım ya..."
       }
     ],
     "thumbnail": "assets/thumbnails/meme-c0ba8b38a59eb9ef.jpg"
@@ -3448,56 +5042,131 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-d7c49cb4311f4bf7_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-d7c49cb4311f4bf7_clean.mp4",
     "difficulty": "Orta",
-    "description": "Sıfır Bir Cezaevi Sahnesi: Savaş Satış'ın koğuşa girişi ve mesul Mesut ile diyaloğu.",
+    "description": "Sıfır Bir Cezaevi: Savaş'ın koğuş mesulü Mesut ile ranza yeri konuşması ve raconu.",
     "characters": [
       {
         "id": "savas",
         "name": "Savaş Satış",
         "color": "#3b82f6",
-        "avatar": "🏛️"
+        "avatar": "🧔"
       },
       {
         "id": "mesut",
         "name": "Koğuş Mesulü (Mesut)",
-        "color": "#64748b",
-        "avatar": "🔑"
+        "color": "#10b981",
+        "avatar": "👔"
+      },
+      {
+        "id": "mahkum",
+        "name": "Müdahale Eden Mahkum",
+        "color": "#ef4444",
+        "avatar": "😠"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-d7c49cb4311f4bf7_l1",
         "characterId": "savas",
-        "startTime": 0.0,
-        "endTime": 2.5,
-        "text": "Selamünaleyküm..."
+        "startTime": 1.02,
+        "endTime": 1.54,
+        "duration": 0.52,
+        "text": "Selamünaleyküm."
       },
       {
-        "id": 2,
+        "id": "meme-d7c49cb4311f4bf7_l2",
         "characterId": "mesut",
-        "startTime": 2.5,
-        "endTime": 4.5,
-        "text": "Aleykümselam baba, hoş geldiniz."
+        "startTime": 1.86,
+        "endTime": 2.58,
+        "duration": 0.72,
+        "text": "Aleykümselam baba."
       },
       {
-        "id": 3,
+        "id": "meme-d7c49cb4311f4bf7_l3",
         "characterId": "savas",
-        "startTime": 4.5,
-        "endTime": 9.0,
-        "text": "Biz arkadaşlarla konuştuk, şu köşede bir yer yapsak kendimize orada kalsak?"
+        "startTime": 3.22,
+        "endTime": 5.34,
+        "duration": 2.12,
+        "text": "Abi biz arkadaşlarla kendi aramızda da konuştuk..."
       },
       {
-        "id": 4,
+        "id": "meme-d7c49cb4311f4bf7_l4",
+        "characterId": "savas",
+        "startTime": 5.66,
+        "endTime": 8.42,
+        "duration": 2.76,
+        "text": "Şu köşede bir yer yapsak, biz orada kalsak kendimize?"
+      },
+      {
+        "id": "meme-d7c49cb4311f4bf7_l5",
+        "characterId": "mahkum",
+        "startTime": 9.94,
+        "endTime": 12.58,
+        "duration": 2.64,
+        "text": "Direksiyon başına sonra yatın! Bir de yer mi beğeneceğiz size?!"
+      },
+      {
+        "id": "meme-d7c49cb4311f4bf7_l6",
+        "characterId": "savas",
+        "startTime": 13.68,
+        "endTime": 14.74,
+        "duration": 1.06,
+        "text": "Mesut sensin değil mi?"
+      },
+      {
+        "id": "meme-d7c49cb4311f4bf7_l7",
         "characterId": "mesut",
-        "startTime": 9.0,
-        "endTime": 13.5,
-        "text": "Baba istediğiniz yerde yatabilirsiniz, koğuş sizin emrinizde."
+        "startTime": 14.84,
+        "endTime": 15.66,
+        "duration": 0.82,
+        "text": "Mesut benim baba."
       },
       {
-        "id": 5,
+        "id": "meme-d7c49cb4311f4bf7_l8",
         "characterId": "savas",
-        "startTime": 13.5,
-        "endTime": 17.5,
-        "text": "Eyvallah Mesut... Sen sen ol abilerin konuşurken lafa girme tamam mı?"
+        "startTime": 16.12,
+        "endTime": 17.1,
+        "duration": 0.98,
+        "text": "Bu kardeş niye konuşuyor?"
+      },
+      {
+        "id": "meme-d7c49cb4311f4bf7_l9",
+        "characterId": "mesut",
+        "startTime": 17.4,
+        "endTime": 18.9,
+        "duration": 1.5,
+        "text": "Bu kardeş bir daha konuşamaz."
+      },
+      {
+        "id": "meme-d7c49cb4311f4bf7_l10",
+        "characterId": "mesut",
+        "startTime": 19.18,
+        "endTime": 20.52,
+        "duration": 1.34,
+        "text": "Sen konuşma, son uyarım!"
+      },
+      {
+        "id": "meme-d7c49cb4311f4bf7_l11",
+        "characterId": "mesut",
+        "startTime": 21.58,
+        "endTime": 24.5,
+        "duration": 2.92,
+        "text": "Baba istediğiniz yerde yatabilirsiniz kafanıza göre."
+      },
+      {
+        "id": "meme-d7c49cb4311f4bf7_l12",
+        "characterId": "savas",
+        "startTime": 24.76,
+        "endTime": 25.14,
+        "duration": 0.38,
+        "text": "Eyvallah."
+      },
+      {
+        "id": "meme-d7c49cb4311f4bf7_l13",
+        "characterId": "savas",
+        "startTime": 26.24,
+        "endTime": 29.14,
+        "duration": 2.9,
+        "text": "Sen sen ol, abilerin konuşurken lafa girme tamam mı?"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-d7c49cb4311f4bf7.jpg"
@@ -3511,7 +5180,7 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-dfa4d19b1f82b2eb_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-dfa4d19b1f82b2eb_clean.mp4",
     "difficulty": "Orta",
-    "description": "32. Gün Arşivi: Doğu Perinçek ile Ertuğrul Kürkçü arasındaki tarihi sert televizyon kavgası.",
+    "description": "32. Gün Türk televizyon tarihinin en ikonik kavgası: Doğu Perinçek ve Ertuğrul Kürkçü.",
     "characters": [
       {
         "id": "perincek",
@@ -3522,80 +5191,162 @@ export const SCENES = [
       {
         "id": "kurkcu",
         "name": "Ertuğrul Kürkçü",
-        "color": "#16a34a",
-        "avatar": "🧔"
+        "color": "#2563eb",
+        "avatar": "👓"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-dfa4d19b1f82b2eb_l1",
         "characterId": "perincek",
         "startTime": 0.0,
-        "endTime": 3.0,
-        "text": "Kemalizm'i savunacaksın! Sen devrimi savunamazsın!"
+        "endTime": 3.2,
+        "duration": 3.2,
+        "text": "Kemalizm'i savunacağız! Sen Kemalist devrimi savunamazsın!"
       },
       {
-        "id": 2,
+        "id": "meme-dfa4d19b1f82b2eb_l2",
         "characterId": "kurkcu",
-        "startTime": 3.0,
-        "endTime": 5.5,
+        "startTime": 3.44,
+        "endTime": 5.16,
+        "duration": 1.72,
         "text": "Bırak palavrayı! Sen bırak palavrayı!"
       },
       {
-        "id": 3,
+        "id": "meme-dfa4d19b1f82b2eb_l3",
         "characterId": "perincek",
-        "startTime": 5.5,
-        "endTime": 8.0,
-        "text": "Sen döneksin! Döneksin sen!"
+        "startTime": 5.24,
+        "endTime": 7.56,
+        "duration": 2.32,
+        "text": "Sen döneksin! Sen döneksin! Döneksin!"
       },
       {
-        "id": 4,
+        "id": "meme-dfa4d19b1f82b2eb_l4",
         "characterId": "kurkcu",
-        "startTime": 8.0,
-        "endTime": 11.5,
-        "text": "Sen sıkıyönetim mahkemelerinde dönekliğin belgesini verdin!"
+        "startTime": 7.88,
+        "endTime": 10.92,
+        "duration": 3.04,
+        "text": "Sen sıkıyönetim mahkemelerinde çıkıp dönekliğin belgesini verdin mi?!"
       },
       {
-        "id": 5,
+        "id": "meme-dfa4d19b1f82b2eb_l5",
         "characterId": "perincek",
-        "startTime": 11.5,
-        "endTime": 15.0,
-        "text": "Sen Abdülhamit'i savundun! Savunmadın mı?!"
+        "startTime": 10.92,
+        "endTime": 11.82,
+        "duration": 0.9,
+        "text": "Sen ne dedin?!"
       },
       {
-        "id": 6,
+        "id": "meme-dfa4d19b1f82b2eb_l6",
         "characterId": "kurkcu",
-        "startTime": 15.0,
-        "endTime": 17.5,
-        "text": "Savunmadım! Çıkar göster! Terbiyesiz!"
+        "startTime": 12.28,
+        "endTime": 15.66,
+        "duration": 3.38,
+        "text": "Sen 12 Eylül mahkemelerini göreceksin! Göreceksin!"
       },
       {
-        "id": 7,
+        "id": "meme-dfa4d19b1f82b2eb_l7",
         "characterId": "perincek",
-        "startTime": 17.5,
-        "endTime": 21.0,
-        "text": "Ben göstereceğim! Ahlaksızsın sen! Bir tokat atacağım şimdi!"
+        "startTime": 15.92,
+        "endTime": 17.0,
+        "duration": 1.08,
+        "text": "Sen Abdülhamit'i savundun!"
       },
       {
-        "id": 8,
+        "id": "meme-dfa4d19b1f82b2eb_l8",
         "characterId": "kurkcu",
-        "startTime": 21.0,
-        "endTime": 26.0,
-        "text": "Hiçbir şey atamazsın! Dev-Genç yumruğu patlar beyninde!"
+        "startTime": 17.24,
+        "endTime": 17.84,
+        "duration": 0.6,
+        "text": "Savunmadım!"
       },
       {
-        "id": 9,
+        "id": "meme-dfa4d19b1f82b2eb_l9",
         "characterId": "perincek",
-        "startTime": 26.0,
-        "endTime": 30.5,
-        "text": "Ben Dev-Genç'in kurucu genel başkanıyım, sen o zaman hippiydin!"
+        "startTime": 18.1,
+        "endTime": 20.02,
+        "duration": 1.92,
+        "text": "Sen mürtecileri savundun! Sen savundun!"
       },
       {
-        "id": 10,
+        "id": "meme-dfa4d19b1f82b2eb_l10",
         "characterId": "kurkcu",
-        "startTime": 30.5,
-        "endTime": 35.0,
-        "text": "Siz hippi bile olamadınız Doğu Bey, siz hippi bile olamadınız!"
+        "startTime": 20.08,
+        "endTime": 22.24,
+        "duration": 2.16,
+        "text": "Terbiyesiz! Savunmadım!"
+      },
+      {
+        "id": "meme-dfa4d19b1f82b2eb_l11",
+        "characterId": "kurkcu",
+        "startTime": 22.7,
+        "endTime": 23.26,
+        "duration": 0.56,
+        "text": "Çıkar göster!"
+      },
+      {
+        "id": "meme-dfa4d19b1f82b2eb_l12",
+        "characterId": "perincek",
+        "startTime": 23.68,
+        "endTime": 24.56,
+        "duration": 0.88,
+        "text": "Ben göstereceğim!"
+      },
+      {
+        "id": "meme-dfa4d19b1f82b2eb_l13",
+        "characterId": "kurkcu",
+        "startTime": 26.96,
+        "endTime": 28.5,
+        "duration": 1.54,
+        "text": "Puşt! Terbiyesiz!"
+      },
+      {
+        "id": "meme-dfa4d19b1f82b2eb_l14",
+        "characterId": "perincek",
+        "startTime": 30.92,
+        "endTime": 32.72,
+        "duration": 1.8,
+        "text": "Ahlaksızsın sen! Bir tokat atacağım şimdi!"
+      },
+      {
+        "id": "meme-dfa4d19b1f82b2eb_l15",
+        "characterId": "kurkcu",
+        "startTime": 32.84,
+        "endTime": 36.6,
+        "duration": 3.76,
+        "text": "Hiçbir şey atamazsın! Bak sen görürsün Dev-Genç yumruğu patlar beyninde!"
+      },
+      {
+        "id": "meme-dfa4d19b1f82b2eb_l16",
+        "characterId": "perincek",
+        "startTime": 37.98,
+        "endTime": 41.2,
+        "duration": 3.22,
+        "text": "Ben Dev-Genç'in ismini koyan kurucu genel başkanıyım senin!"
+      },
+      {
+        "id": "meme-dfa4d19b1f82b2eb_l17",
+        "characterId": "kurkcu",
+        "startTime": 41.2,
+        "endTime": 45.08,
+        "duration": 3.88,
+        "text": "Sen FKF'nin başkanısın, Dev-Genç'in değil!"
+      },
+      {
+        "id": "meme-dfa4d19b1f82b2eb_l18",
+        "characterId": "perincek",
+        "startTime": 45.22,
+        "endTime": 49.18,
+        "duration": 3.96,
+        "text": "Hippiydin o zaman! Hippiydin! 18 yaşında hippiydin!"
+      },
+      {
+        "id": "meme-dfa4d19b1f82b2eb_l19",
+        "characterId": "kurkcu",
+        "startTime": 49.3,
+        "endTime": 52.26,
+        "duration": 2.96,
+        "text": "Doğu Bey, siz hippi bile olamadınız biliyor musunuz?!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-dfa4d19b1f82b2eb.jpg"
@@ -3609,49 +5360,85 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-e176a8d6ddafcd38_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-e176a8d6ddafcd38_clean.mp4",
     "difficulty": "Orta",
-    "description": "Mizahi Köy Sohbeti: Yeğen ile dayı arasındaki absürt tehdit diyalogu.",
+    "description": "Köy evinde yeğen ile dayının argo kelime yanlış anlaması üzerine atışması.",
     "characters": [
       {
         "id": "yegen",
         "name": "Yeğen",
-        "color": "#0284c7",
-        "avatar": "🧢"
+        "color": "#3b82f6",
+        "avatar": "👦"
       },
       {
         "id": "dayi",
         "name": "Dayı",
-        "color": "#b91c1c",
+        "color": "#ef4444",
         "avatar": "👴"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-e176a8d6ddafcd38_l1",
         "characterId": "yegen",
         "startTime": 0.0,
-        "endTime": 3.8,
-        "text": "İşin kötüsü bunlar çok semizlenmişler, bizi yakalarlarsa fena yaparlar!"
+        "endTime": 2.82,
+        "duration": 2.82,
+        "text": "İşin kötüsü bunlar çok semizlenmişler..."
       },
       {
-        "id": 2,
+        "id": "meme-e176a8d6ddafcd38_l2",
+        "characterId": "yegen",
+        "startTime": 3.04,
+        "endTime": 4.74,
+        "duration": 1.7,
+        "text": "Bizi yakalarlarsa skeç çekeceklermiş!"
+      },
+      {
+        "id": "meme-e176a8d6ddafcd38_l3",
         "characterId": "dayi",
-        "startTime": 3.8,
-        "endTime": 6.5,
+        "startTime": 5.08,
+        "endTime": 6.84,
+        "duration": 1.76,
         "text": "Nasıl konuşuyorsun lan sen terbiyesiz?!"
       },
       {
-        "id": 3,
+        "id": "meme-e176a8d6ddafcd38_l4",
         "characterId": "yegen",
-        "startTime": 6.5,
-        "endTime": 9.5,
-        "text": "Yok dayı öyle değil, yanlış anladın sen beni..."
+        "startTime": 7.36,
+        "endTime": 9.76,
+        "duration": 2.4,
+        "text": "Yok dayı öyle değil yanlış anladın ya!"
       },
       {
-        "id": 4,
+        "id": "meme-e176a8d6ddafcd38_l5",
+        "characterId": "yegen",
+        "startTime": 10.18,
+        "endTime": 13.16,
+        "duration": 2.98,
+        "text": "Bizi bulurlarsa skeç yapacaklarmış anlamında söyledim!"
+      },
+      {
+        "id": "meme-e176a8d6ddafcd38_l6",
+        "characterId": "yegen",
+        "startTime": 14.78,
+        "endTime": 18.68,
+        "duration": 3.9,
+        "text": "Valla öyle, her yerde konuşurlarmış bunlara skeç çekeceğiz diye!"
+      },
+      {
+        "id": "meme-e176a8d6ddafcd38_l7",
         "characterId": "dayi",
-        "startTime": 9.5,
-        "endTime": 14.0,
-        "text": "Hâlâ konuşuyor ya! Siktirin gidin lan buradan, beni delirtmeyin!"
+        "startTime": 19.16,
+        "endTime": 21.44,
+        "duration": 2.28,
+        "text": "Hâlâ konuşuyor ya yavşağa bak!"
+      },
+      {
+        "id": "meme-e176a8d6ddafcd38_l8",
+        "characterId": "dayi",
+        "startTime": 22.36,
+        "endTime": 26.88,
+        "duration": 4.52,
+        "text": "Beni delirtmeyeceksiniz lan! Cahiller siktirin gidin lan buradan!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-e176a8d6ddafcd38.jpg"
@@ -3664,23 +5451,63 @@ export const SCENES = [
     "duration": 27.63,
     "videoSrc": "assets/videos/meme-e826a1eb54f96a91_orig.mp4",
     "difficulty": "Kolay",
-    "description": "Popüler internet memesi: Meme - Toteme Çorba Yazmışlar",
+    "description": "Yol kenarında sadece mercimek çorbası bulan aç sürücünün efsanevi öfke patlaması.",
     "characters": [
       {
         "id": "sofor",
         "name": "Aç Kalan Sürücü",
         "color": "#f97316",
-        "avatar": "🥣"
+        "avatar": "🚗"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-e826a1eb54f96a91_l1",
         "characterId": "sofor",
-        "startTime": 0.72,
-        "endTime": 27.02,
-        "text": "Yollardayım ben. Ben gidiyorum. Yolun kenarına kocaman oraya çorba yazmış. Hayvan gibi toteme çorba yazmış. İçeri giriyorum. Ne çorbası var diyorum. Mercimek. Ananı sikim. Hayallerimle oynadın. Oros bu çocuğu. Ayak lazım. Paça lazım. İşkembe lazım. Mercimekle avradını siktiğimi madem yok. Neden oraya kocaman çorba yazıyorsun. Oros bu çocuğu. Çorba.",
-        "emotion": "Meme repliği"
+        "startTime": 0.88,
+        "endTime": 5.68,
+        "duration": 4.8,
+        "text": "Yollardayım ben, gidiyorum. Yolun kenarına kocaman çorba yazmış!"
+      },
+      {
+        "id": "meme-e826a1eb54f96a91_l2",
+        "characterId": "sofor",
+        "startTime": 6.04,
+        "endTime": 10.46,
+        "duration": 4.42,
+        "text": "Hayvan gibi toteme çorba yazmış, içeri giriyorum ne çorbası var diyorum..."
+      },
+      {
+        "id": "meme-e826a1eb54f96a91_l3",
+        "characterId": "sofor",
+        "startTime": 10.92,
+        "endTime": 15.5,
+        "duration": 4.58,
+        "text": "Mercimek! Ananı sikeyim hayallerimle oynadın be adam!"
+      },
+      {
+        "id": "meme-e826a1eb54f96a91_l4",
+        "characterId": "sofor",
+        "startTime": 15.5,
+        "endTime": 21.94,
+        "duration": 6.44,
+        "text": "Ayak lazım, paça lazım, işkembe lazım! Mercimekle avradını sikeyim madem yok..."
+      },
+      {
+        "id": "meme-e826a1eb54f96a91_l5",
+        "characterId": "sofor",
+        "startTime": 22.28,
+        "endTime": 26.38,
+        "duration": 4.1,
+        "text": "Neden oraya kocaman çorba yazıyorsun be vicdansız?!"
+      },
+      {
+        "id": "meme-e826a1eb54f96a91_l6",
+        "characterId": "sofor",
+        "startTime": 26.38,
+        "endTime": 27.04,
+        "duration": 0.66,
+        "text": "Çorba!"
       }
     ]
   },
@@ -3693,85 +5520,77 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-e8c99d3f73f2c634_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-e8c99d3f73f2c634_clean.mp4",
     "difficulty": "Orta",
-    "description": "Popüler internet memesi: Meme - İşte yahudi haklı buna bir çözüm",
+    "description": "Buzdolabı kapağındaki ışığı kapatmak yerine önünü kapatan icat parodisi.",
     "characters": [
       {
         "id": "anlatan",
         "name": "Buluşu Anlatan Adam",
-        "color": "#38bdf8",
+        "color": "#3b82f6",
         "avatar": "💡"
       },
       {
         "id": "dinleyen",
         "name": "Şüpheci Arkadaş",
-        "color": "#fbbf24",
-        "avatar": "🤨"
+        "color": "#10b981",
+        "avatar": "🤔"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-e8c99d3f73f2c634_l1",
         "characterId": "anlatan",
         "startTime": 0.0,
-        "endTime": 2.3,
-        "text": "İşte Yahudi haklı buna bir çözüm bulmuş.",
-        "emotion": "Meme repliği"
+        "endTime": 2.48,
+        "duration": 2.48,
+        "text": "İşte Yahudi aklı buna bir çözüm bulmuş."
       },
       {
-        "id": 2,
+        "id": "meme-e8c99d3f73f2c634_l2",
         "characterId": "anlatan",
-        "startTime": 2.6,
-        "endTime": 3.85,
-        "text": "Bu...",
-        "emotion": "Meme repliği"
+        "startTime": 3.16,
+        "endTime": 3.88,
+        "duration": 0.72,
+        "text": "Bup!"
       },
       {
-        "id": 3,
+        "id": "meme-e8c99d3f73f2c634_l3",
         "characterId": "dinleyen",
-        "startTime": 3.85,
-        "endTime": 5.57,
-        "text": "Ama ışık açık değil mi?",
-        "emotion": "Meme repliği"
+        "startTime": 4.32,
+        "endTime": 5.56,
+        "duration": 1.24,
+        "text": "Ama ışık açık değil mi?"
       },
       {
-        "id": 4,
+        "id": "meme-e8c99d3f73f2c634_l4",
         "characterId": "anlatan",
-        "startTime": 5.73,
-        "endTime": 7.43,
-        "text": "Işık açık. Onu kapatmadın.",
-        "emotion": "Meme repliği"
+        "startTime": 5.72,
+        "endTime": 7.36,
+        "duration": 1.64,
+        "text": "Işık açık, onu kapatmadın."
       },
       {
-        "id": 5,
+        "id": "meme-e8c99d3f73f2c634_l5",
         "characterId": "anlatan",
-        "startTime": 7.61,
-        "endTime": 10.29,
-        "text": "Sadece önünü kapatıp ışığı engelleyebilirsin.",
-        "emotion": "Meme repliği"
+        "startTime": 7.58,
+        "endTime": 11.1,
+        "duration": 3.52,
+        "text": "Sadece önünü kapatıp ışığı engelleyebilirsin Yahudi aklı..."
       },
       {
-        "id": 6,
+        "id": "meme-e8c99d3f73f2c634_l6",
         "characterId": "anlatan",
-        "startTime": 10.43,
-        "endTime": 12.27,
-        "text": "Yahudi haklı buna da icat etmiş.",
-        "emotion": "Meme repliği"
+        "startTime": 11.12,
+        "endTime": 12.26,
+        "duration": 1.14,
+        "text": "Bunu da icat etmiş."
       },
       {
-        "id": 7,
+        "id": "meme-e8c99d3f73f2c634_l7",
         "characterId": "dinleyen",
-        "startTime": 14.69,
-        "endTime": 18.69,
-        "text": "Yani dondurucuyu her açtığınızda artık ışık yanmayacak.",
-        "emotion": "Meme repliği"
-      },
-      {
-        "id": 8,
-        "characterId": "dinleyen",
-        "startTime": 18.85,
-        "endTime": 20.09,
-        "text": "Işığı açmış olmayacaksın.",
-        "emotion": "Meme repliği"
+        "startTime": 14.74,
+        "endTime": 20.04,
+        "duration": 5.3,
+        "text": "Yani dondurucuyu her açtığınızda abi ışık yanmayacak, ışığı açmış olmayacaksın!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-e8c99d3f73f2c634.jpg"
@@ -3785,209 +5604,204 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-e93c45e8d6f4a3d8_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-e93c45e8d6f4a3d8_clean.mp4",
     "difficulty": "Orta",
-    "description": "Popüler internet memesi: Meme - Ümit Usta: Kuru Fasulye Kalmadı",
+    "description": "Kendi evinin altında dükkan açıp hiçbir zaman fasulye bırakmayan Ümit Usta parodisi.",
     "characters": [
+      {
+        "id": "musteri",
+        "name": "Aç Müşteri",
+        "color": "#3b82f6",
+        "avatar": "🍲"
+      },
       {
         "id": "umit",
         "name": "Ümit Usta",
         "color": "#f59e0b",
         "avatar": "👨‍🍳"
-      },
-      {
-        "id": "musteri",
-        "name": "Aç Müşteri",
-        "color": "#38bdf8",
-        "avatar": "🍲"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-e93c45e8d6f4a3d8_l1",
         "characterId": "musteri",
         "startTime": 0.0,
-        "endTime": 6.76,
-        "text": "Çorba falan yapma öyle, kendi evinin altında 11 gibi açıyor 2 gibi kapatıyor zaten kalmıyor, olana kadar efsane bir tat yapacağız."
+        "endTime": 5.26,
+        "duration": 5.26,
+        "text": "Çorba falan yapmıyor, kendi evinin altında 11 gibi açıyor 2 gibi kapatıyor zaten kalmıyor..."
       },
       {
-        "id": 2,
+        "id": "meme-e93c45e8d6f4a3d8_l2",
         "characterId": "musteri",
-        "startTime": 6.76,
-        "endTime": 8.64,
-        "text": "Ümit Usta 2 kuru versene bize be."
+        "startTime": 5.54,
+        "endTime": 8.5,
+        "duration": 2.96,
+        "text": "Efsane bir tat! Ümit Usta 2 kuru versene bize be!"
       },
       {
-        "id": 3,
+        "id": "meme-e93c45e8d6f4a3d8_l3",
         "characterId": "umit",
-        "startTime": 8.64,
+        "startTime": 8.68,
         "endTime": 10.24,
+        "duration": 1.56,
         "text": "Kuru kalmadı oğlumuz."
       },
       {
-        "id": 4,
+        "id": "meme-e93c45e8d6f4a3d8_l4",
         "characterId": "musteri",
-        "startTime": 10.24,
-        "endTime": 11.36,
-        "text": "Yapma be abi."
+        "startTime": 10.28,
+        "endTime": 12.7,
+        "duration": 2.42,
+        "text": "Yapma be abi... İyi yarın geliriz biz o zaman."
       },
       {
-        "id": 5,
-        "characterId": "musteri",
-        "startTime": 11.36,
-        "endTime": 12.72,
-        "text": "İyi yarın geliriz biz o zaman."
-      },
-      {
-        "id": 6,
+        "id": "meme-e93c45e8d6f4a3d8_l5",
         "characterId": "umit",
-        "startTime": 12.72,
-        "endTime": 14.16,
-        "text": "Ne yarın açmam."
+        "startTime": 12.74,
+        "endTime": 13.84,
+        "duration": 1.1,
+        "text": "Yarın açmam."
       },
       {
-        "id": 7,
+        "id": "meme-e93c45e8d6f4a3d8_l6",
         "characterId": "musteri",
-        "startTime": 14.16,
-        "endTime": 14.88,
-        "text": "Hadi ya."
+        "startTime": 14.2,
+        "endTime": 16.08,
+        "duration": 1.88,
+        "text": "Hadi ya! İyi tamam Cuma geliriz ya."
       },
       {
-        "id": 8,
-        "characterId": "musteri",
-        "startTime": 14.88,
-        "endTime": 16.24,
-        "text": "İyi tamam Cuma geliriz ya."
-      },
-      {
-        "id": 9,
+        "id": "meme-e93c45e8d6f4a3d8_l7",
         "characterId": "umit",
-        "startTime": 16.24,
-        "endTime": 17.6,
+        "startTime": 16.22,
+        "endTime": 17.24,
+        "duration": 1.02,
         "text": "Cuma da açmam."
       },
       {
-        "id": 10,
+        "id": "meme-e93c45e8d6f4a3d8_l8",
         "characterId": "musteri",
-        "startTime": 17.6,
-        "endTime": 20.24,
+        "startTime": 18.42,
+        "endTime": 20.08,
+        "duration": 1.66,
         "text": "Haa Cuma gelemeyiz zaten toplantı var."
       },
       {
-        "id": 11,
+        "id": "meme-e93c45e8d6f4a3d8_l9",
         "characterId": "umit",
-        "startTime": 20.24,
-        "endTime": 22.0,
-        "text": "Ne ha Cuma açarım o zaman."
+        "startTime": 20.22,
+        "endTime": 21.74,
+        "duration": 1.52,
+        "text": "Cuma açarım o zaman!"
       },
       {
-        "id": 12,
+        "id": "meme-e93c45e8d6f4a3d8_l10",
         "characterId": "musteri",
-        "startTime": 22.0,
-        "endTime": 23.84,
-        "text": "Ümit Usta 2 kuru ver bize be."
+        "startTime": 22.26,
+        "endTime": 23.74,
+        "duration": 1.48,
+        "text": "Ümit Usta 2 kuru ver bize be!"
       },
       {
-        "id": 13,
+        "id": "meme-e93c45e8d6f4a3d8_l11",
         "characterId": "umit",
-        "startTime": 23.84,
-        "endTime": 25.52,
-        "text": "Kalmadı oğlumuz yav."
+        "startTime": 23.94,
+        "endTime": 25.24,
+        "duration": 1.3,
+        "text": "Kalmadı oğlumuz ya."
       },
       {
-        "id": 14,
+        "id": "meme-e93c45e8d6f4a3d8_l12",
         "characterId": "musteri",
-        "startTime": 25.52,
-        "endTime": 28.24,
+        "startTime": 25.54,
+        "endTime": 27.94,
+        "duration": 2.4,
         "text": "Saat 11'de açmadın mı sen? 11'i 10 geçiyor ne ara bitti?!"
       },
       {
-        "id": 15,
+        "id": "meme-e93c45e8d6f4a3d8_l13",
         "characterId": "umit",
-        "startTime": 28.24,
-        "endTime": 31.08,
-        "text": "Ben bir kase yaptım, kendime kadar yedim onu ya."
+        "startTime": 27.94,
+        "endTime": 31.06,
+        "duration": 3.12,
+        "text": "Ben bir kase yaptım kendime kadar, yedim onu yani."
       },
       {
-        "id": 16,
+        "id": "meme-e93c45e8d6f4a3d8_l14",
         "characterId": "musteri",
-        "startTime": 31.08,
+        "startTime": 31.3,
         "endTime": 32.02,
+        "duration": 0.72,
         "text": "Yarın kaçta açacaksın?"
       },
       {
-        "id": 17,
+        "id": "meme-e93c45e8d6f4a3d8_l15",
         "characterId": "umit",
-        "startTime": 32.34,
-        "endTime": 34.12,
-        "text": "Sabahın en 4.30'unda açarım."
+        "startTime": 32.36,
+        "endTime": 34.1,
+        "duration": 1.74,
+        "text": "Sabahın 4.30'unda açarım."
       },
       {
-        "id": 18,
+        "id": "meme-e93c45e8d6f4a3d8_l16",
         "characterId": "musteri",
-        "startTime": 34.92,
-        "endTime": 36.9,
-        "text": "Öğlen bize iki kuru verirsin abi."
+        "startTime": 34.88,
+        "endTime": 36.76,
+        "duration": 1.88,
+        "text": "Ümit Usta bize 2 kuru versene."
       },
       {
-        "id": 19,
+        "id": "meme-e93c45e8d6f4a3d8_l17",
         "characterId": "umit",
         "startTime": 36.92,
-        "endTime": 38.5,
-        "text": "Oğlumuz ne konuşacağım sabah sabah?"
+        "endTime": 38.54,
+        "duration": 1.62,
+        "text": "Oğlumuz ne kurusu sabah sabah?!"
       },
       {
-        "id": 20,
+        "id": "meme-e93c45e8d6f4a3d8_l18",
         "characterId": "musteri",
-        "startTime": 38.84,
-        "endTime": 40.88,
-        "text": "Abi sen deli misin sabah 4.30'da açacaksın?"
+        "startTime": 38.86,
+        "endTime": 40.9,
+        "duration": 2.04,
+        "text": "Abi sen demedin mi sabah 4.30'da açacağım diye?!"
       },
       {
-        "id": 21,
+        "id": "meme-e93c45e8d6f4a3d8_l19",
         "characterId": "umit",
-        "startTime": 41.14,
-        "endTime": 43.78,
-        "text": "Açtım da kapatacağım ya camiye gideceğim."
+        "startTime": 41.1,
+        "endTime": 46.08,
+        "duration": 4.98,
+        "text": "Açtım da kapatacağım camiye gideceğim, soğuk orada burada sıcağında abdest aldım."
       },
       {
-        "id": 22,
+        "id": "meme-e93c45e8d6f4a3d8_l20",
         "characterId": "umit",
-        "startTime": 43.96,
-        "endTime": 46.64,
-        "text": "Sular soğuk orada burada sıcağına abdest aldım gideceğim şimdi."
-      },
-      {
-        "id": 23,
-        "characterId": "umit",
-        "startTime": 47.02,
-        "endTime": 48.0,
+        "startTime": 47.0,
+        "endTime": 47.88,
+        "duration": 0.88,
         "text": "11 gibi gelin."
       },
       {
-        "id": 24,
+        "id": "meme-e93c45e8d6f4a3d8_l21",
         "characterId": "musteri",
         "startTime": 48.04,
-        "endTime": 49.04,
+        "endTime": 48.34,
+        "duration": 0.3,
         "text": "Bu ne?"
       },
       {
-        "id": 25,
+        "id": "meme-e93c45e8d6f4a3d8_l22",
         "characterId": "umit",
-        "startTime": 49.85,
-        "endTime": 53.25,
-        "text": "Narsist kişiliğime yenik düştüm ve zirvede bırakıyorum."
+        "startTime": 49.94,
+        "endTime": 55.82,
+        "duration": 5.88,
+        "text": "Narsist kişiliğime yenik düştüm ve zirvede bırakıyorum, siz bunu okuduğunuzda ben çoktan emekli olacağım."
       },
       {
-        "id": 26,
+        "id": "meme-e93c45e8d6f4a3d8_l23",
         "characterId": "umit",
-        "startTime": 53.39,
-        "endTime": 55.89,
-        "text": "Siz bunu okuduğunuzda ben çoktan emekli olacağım."
-      },
-      {
-        "id": 27,
-        "characterId": "umit",
-        "startTime": 56.53,
-        "endTime": 58.33,
+        "startTime": 55.82,
+        "endTime": 58.34,
+        "duration": 2.52,
         "text": "Kurucu üye Ümit Usta."
       }
     ],
@@ -4002,56 +5816,61 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-ea037fab87e9c168_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-ea037fab87e9c168_clean.mp4",
     "difficulty": "Orta",
-    "description": "Kurtlar Vadisi Kült Sahnesi: Erdal Kömürcü kapıyı açıp girer, Abuzer Kömürcü fırçayı basar.",
+    "description": "Kurtlar Vadisi efsane ikili: Abuzer Kömürcü ile oğlu Erdal'ın kapı eşiğindeki diyaloğu.",
     "characters": [
       {
         "id": "erdal",
         "name": "Erdal Kömürcü",
-        "color": "#9333ea",
-        "avatar": "🕺"
+        "color": "#3b82f6",
+        "avatar": "🧪"
       },
       {
         "id": "abuzer",
         "name": "Abuzer Kömürcü",
-        "color": "#b45309",
+        "color": "#ef4444",
         "avatar": "👴"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-ea037fab87e9c168_l1",
         "characterId": "erdal",
-        "startTime": 0.0,
-        "endTime": 1.5,
+        "startTime": 0.84,
+        "endTime": 1.84,
+        "duration": 1.0,
         "text": "Ne haber?"
       },
       {
-        "id": 2,
+        "id": "meme-ea037fab87e9c168_l2",
         "characterId": "abuzer",
-        "startTime": 1.5,
-        "endTime": 3.2,
-        "text": "İyidir it oğlu it, sen nasılsın?"
+        "startTime": 2.96,
+        "endTime": 5.22,
+        "duration": 2.26,
+        "text": "İyidir sahip, sen nasılsın?"
       },
       {
-        "id": 3,
+        "id": "meme-ea037fab87e9c168_l3",
         "characterId": "abuzer",
-        "startTime": 3.2,
-        "endTime": 6.0,
-        "text": "Ne öyle içeri dalıyorsun lan aklımız gitti!"
+        "startTime": 5.44,
+        "endTime": 8.76,
+        "duration": 3.32,
+        "text": "Ne diyorsun oğlum ya? Ne öyle geliyorsun aklımız gitti!"
       },
       {
-        "id": 4,
+        "id": "meme-ea037fab87e9c168_l4",
         "characterId": "erdal",
-        "startTime": 6.0,
-        "endTime": 9.5,
-        "text": "Eee... Her delikanlının bir gelişi vardır peder!"
+        "startTime": 9.14,
+        "endTime": 11.66,
+        "duration": 2.52,
+        "text": "Eee her delikanlının bir gelişi vardır!"
       },
       {
-        "id": 5,
+        "id": "meme-ea037fab87e9c168_l5",
         "characterId": "abuzer",
-        "startTime": 9.5,
-        "endTime": 13.5,
-        "text": "Delikanlılığına başlatma şimdi, geç otur şuraya!"
+        "startTime": 12.12,
+        "endTime": 14.88,
+        "duration": 2.76,
+        "text": "Ne yaptın güzel kurup bir yer aldın mı içeriye?"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-ea037fab87e9c168.jpg"
@@ -4065,42 +5884,23 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-ec13d57c1425f814_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-ec13d57c1425f814_clean.mp4",
     "difficulty": "Orta",
-    "description": "Sokak Çatısı Skeci: 'Tut lan ben de atlıyorum' diyerek balkondan betona atlayan genç.",
+    "description": "Balkondan aşağı atlayan gençlerin viral videosu.",
     "characters": [
       {
         "id": "atlayan",
         "name": "Atlayan Genç",
-        "color": "#0284c7",
-        "avatar": "👟"
-      },
-      {
-        "id": "asagidaki",
-        "name": "Aşağıdaki Arkadaş",
-        "color": "#10b981",
-        "avatar": "😱"
+        "color": "#ef4444",
+        "avatar": "🤸"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-ec13d57c1425f814_l1",
         "characterId": "atlayan",
-        "startTime": 0.0,
-        "endTime": 2.5,
-        "text": "Tut lan beni, ben de aşağı atlıyorum!"
-      },
-      {
-        "id": 2,
-        "characterId": "asagidaki",
-        "startTime": 2.5,
-        "endTime": 5.0,
-        "text": "Atlama oğlum sakın! Beton zemin orası!"
-      },
-      {
-        "id": 3,
-        "characterId": "atlayan",
-        "startTime": 5.0,
-        "endTime": 8.0,
-        "text": "Geldiiim! Ahhh belim kırıldı lan!"
+        "startTime": 8.6,
+        "endTime": 13.5,
+        "duration": 4.9,
+        "text": "Tut lan beni! Ben de aşağı atlıyorum, abone olmayı unutmayın!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-ec13d57c1425f814.jpg"
@@ -4131,46 +5931,68 @@ export const SCENES = [
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-f0a445c3a2b4afaa_l1",
         "characterId": "laz_ziya",
-        "startTime": 0.85,
-        "endTime": 6.15,
+        "startTime": 0.0,
+        "endTime": 6.14,
+        "duration": 6.14,
         "text": "O zaman Ziya Bey benden özür dileyip bu düşmanlığa bir son verecek!"
       },
       {
-        "id": 2,
+        "id": "meme-f0a445c3a2b4afaa_l2",
         "characterId": "laz_ziya",
-        "startTime": 6.8,
-        "endTime": 11.09,
+        "startTime": 6.68,
+        "endTime": 11.06,
+        "duration": 4.38,
         "text": "Çünkü ben onlara kardeşlikten başka hiçbir şey yapmadım."
       },
       {
-        "id": 3,
+        "id": "meme-f0a445c3a2b4afaa_l3",
         "characterId": "testere_necmi",
-        "startTime": 11.88,
-        "endTime": 14.5,
-        "text": "Ulan! Ben senin adamın mıyım?!"
+        "startTime": 11.74,
+        "endTime": 12.7,
+        "duration": 0.96,
+        "text": "Ulan!"
       },
       {
-        "id": 4,
+        "id": "meme-f0a445c3a2b4afaa_l4",
         "characterId": "testere_necmi",
-        "startTime": 14.8,
-        "endTime": 18.5,
-        "text": "Ben senin emrindeki adam mıyım ki masada bana kafa tutuyorsun?!"
+        "startTime": 14.34,
+        "endTime": 16.06,
+        "duration": 1.72,
+        "text": "Senin yuların mıyım?!"
       },
       {
-        "id": 5,
+        "id": "meme-f0a445c3a2b4afaa_l5",
         "characterId": "testere_necmi",
-        "startTime": 18.5,
-        "endTime": 23.5,
+        "startTime": 17.2,
+        "endTime": 19.68,
+        "duration": 2.48,
+        "text": "Üstünde çağdan mıyım ki?"
+      },
+      {
+        "id": "meme-f0a445c3a2b4afaa_l6",
+        "characterId": "testere_necmi",
+        "startTime": 20.96,
+        "endTime": 23.74,
+        "duration": 2.78,
         "text": "Gözümün içine bakarak beni tehdit edeceksin..."
       },
       {
-        "id": 6,
+        "id": "meme-f0a445c3a2b4afaa_l7",
         "characterId": "testere_necmi",
-        "startTime": 23.6,
-        "endTime": 32.5,
-        "text": "Üstüne utanmadan benden özür bekleyeceksin öyle mi?!"
+        "startTime": 24.74,
+        "endTime": 25.86,
+        "duration": 1.12,
+        "text": "Güzel!"
+      },
+      {
+        "id": "meme-f0a445c3a2b4afaa_l8",
+        "characterId": "testere_necmi",
+        "startTime": 27.72,
+        "endTime": 30.56,
+        "duration": 2.84,
+        "text": "Utanmadan benden özür bekleyeceksin öyle mi?!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-f0a445c3a2b4afaa.jpg"
@@ -4184,56 +6006,61 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-f337b03a431b512d_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-f337b03a431b512d_clean.mp4",
     "difficulty": "Orta",
-    "description": "Popüler internet memesi: Meme - Megafonu elinize alıp hükümet istifa dediniz",
+    "description": "Adliye çıkışında muhabirin 'Hükümet istifa dediniz mi?' sorusuna Ahmet Şık'ın yanıtı.",
     "characters": [
       {
         "id": "muhabir",
         "name": "Muhabir",
-        "color": "#38bdf8",
+        "color": "#3b82f6",
         "avatar": "🎤"
       },
       {
         "id": "ahmet",
         "name": "Ahmet Şık",
-        "color": "#f59e0b",
-        "avatar": "📣"
+        "color": "#10b981",
+        "avatar": "👓"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-f337b03a431b512d_l1",
         "characterId": "muhabir",
-        "startTime": 0.4,
+        "startTime": 0.68,
         "endTime": 3.22,
-        "text": "Megafonu elinize alıp hükümet istifa dediniz mi?"
+        "duration": 2.54,
+        "text": "Megafonu elinize alıp 'hükümet istifa' dediniz mi?"
       },
       {
-        "id": 2,
+        "id": "meme-f337b03a431b512d_l2",
         "characterId": "ahmet",
-        "startTime": 3.92,
-        "endTime": 4.4,
+        "startTime": 3.94,
+        "endTime": 4.12,
+        "duration": 0.18,
         "text": "Kim?"
       },
       {
-        "id": 3,
+        "id": "meme-f337b03a431b512d_l3",
         "characterId": "muhabir",
         "startTime": 4.44,
-        "endTime": 5.44,
+        "endTime": 4.6,
+        "duration": 0.16,
         "text": "Siz."
       },
       {
-        "id": 4,
+        "id": "meme-f337b03a431b512d_l4",
         "characterId": "ahmet",
-        "startTime": 6.63,
-        "endTime": 7.63,
-        "text": "Yo."
+        "startTime": 6.12,
+        "endTime": 6.88,
+        "duration": 0.76,
+        "text": "Yok."
       },
       {
-        "id": 5,
+        "id": "meme-f337b03a431b512d_l5",
         "characterId": "muhabir",
-        "startTime": 10.34,
-        "endTime": 12.84,
-        "text": "Hükümet istifa dediğiniz şeklinde haberleri ben okudum."
+        "startTime": 10.0,
+        "endTime": 12.82,
+        "duration": 2.82,
+        "text": "'Hükümet istifa' dediğiniz şeklinde haberleri ben okudum..."
       }
     ],
     "thumbnail": "assets/thumbnails/meme-f337b03a431b512d.jpg"
@@ -4247,7 +6074,7 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-fbb565592abea053_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-fbb565592abea053_clean.mp4",
     "difficulty": "Orta",
-    "description": "Ezel 1. Sezon: Kerpeten Ali'nin sanayide ustaya ve çırağa araba raconu kestiği meşhur sahne.",
+    "description": "Ezel 1. Sezon: Kerpeten Ali'nin sanayide çırağa ve ustaya fırça atıp racon kestiği unutulmaz sahne.",
     "characters": [
       {
         "id": "ali",
@@ -4257,60 +6084,233 @@ export const SCENES = [
       },
       {
         "id": "hoca",
-        "name": "Tamirci Usta",
-        "color": "#d97706",
-        "avatar": "🧰"
+        "name": "Tamirci Hoca",
+        "color": "#3b82f6",
+        "avatar": "👨‍🔧"
+      },
+      {
+        "id": "cirak",
+        "name": "Çırak",
+        "color": "#10b981",
+        "avatar": "👦"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-fbb565592abea053_l1",
         "characterId": "ali",
-        "startTime": 0.0,
-        "endTime": 2.5,
-        "text": "Kolay gelsin Hoca..."
+        "startTime": 1.5,
+        "endTime": 2.76,
+        "duration": 1.26,
+        "text": "Kolay gelsin."
       },
       {
-        "id": 2,
+        "id": "meme-fbb565592abea053_l2",
         "characterId": "hoca",
-        "startTime": 2.5,
-        "endTime": 4.5,
-        "text": "Eyvallah Ali... Hoş geldin."
+        "startTime": 2.88,
+        "endTime": 4.74,
+        "duration": 1.86,
+        "text": "Hoş geldin Ali, eyvallah."
       },
       {
-        "id": 3,
+        "id": "meme-fbb565592abea053_l3",
         "characterId": "ali",
-        "startTime": 4.5,
-        "endTime": 8.5,
-        "text": "Kardeş sen geç arabamın yanına, elin dursa ayağın durmaz senin!"
+        "startTime": 7.6,
+        "endTime": 10.0,
+        "duration": 2.4,
+        "text": "Kardeş sen geç benim arabanın yanından çekil!"
       },
       {
-        "id": 4,
+        "id": "meme-fbb565592abea053_l4",
+        "characterId": "ali",
+        "startTime": 10.82,
+        "endTime": 13.06,
+        "duration": 2.24,
+        "text": "Ulan elin dursa ayağın durmaz be oğlum!"
+      },
+      {
+        "id": "meme-fbb565592abea053_l5",
+        "characterId": "ali",
+        "startTime": 16.08,
+        "endTime": 18.3,
+        "duration": 2.22,
+        "text": "Ne gülüyorsun lan? Komik bir şey mi var?!"
+      },
+      {
+        "id": "meme-fbb565592abea053_l6",
+        "characterId": "cirak",
+        "startTime": 18.74,
+        "endTime": 20.2,
+        "duration": 1.46,
+        "text": "Yok ondan değil abi..."
+      },
+      {
+        "id": "meme-fbb565592abea053_l7",
+        "characterId": "ali",
+        "startTime": 20.92,
+        "endTime": 24.78,
+        "duration": 3.86,
+        "text": "Yenisin herhalde burada. Sen kimsin benim suratıma güleceksin lan?!"
+      },
+      {
+        "id": "meme-fbb565592abea053_l8",
+        "characterId": "cirak",
+        "startTime": 25.32,
+        "endTime": 26.32,
+        "duration": 1.0,
+        "text": "Yok yanlış anladın abi."
+      },
+      {
+        "id": "meme-fbb565592abea053_l9",
+        "characterId": "ali",
+        "startTime": 26.4,
+        "endTime": 30.98,
+        "duration": 4.58,
+        "text": "Kaldır şunu lan! Sen git arabaya bak dolan!"
+      },
+      {
+        "id": "meme-fbb565592abea053_l10",
+        "characterId": "ali",
+        "startTime": 31.4,
+        "endTime": 34.32,
+        "duration": 2.92,
+        "text": "Dağdan geldiniz İstanbul'da kendinize benzettiniz burayı da..."
+      },
+      {
+        "id": "meme-fbb565592abea053_l11",
+        "characterId": "ali",
+        "startTime": 35.12,
+        "endTime": 37.62,
+        "duration": 2.5,
+        "text": "Hayır hoca senin oğlan yeni galiba."
+      },
+      {
+        "id": "meme-fbb565592abea053_l12",
         "characterId": "hoca",
-        "startTime": 8.5,
-        "endTime": 11.5,
-        "text": "Senin araba canavar gibi yine maşallah..."
+        "startTime": 39.22,
+        "endTime": 41.4,
+        "duration": 2.18,
+        "text": "Haa... Senin araba canavar yine maşallah."
       },
       {
-        "id": 5,
+        "id": "meme-fbb565592abea053_l13",
         "characterId": "ali",
-        "startTime": 11.5,
-        "endTime": 16.5,
-        "text": "Oğlum sen beni caddede göreceksin, bütün karıları peşime takıyorum!"
+        "startTime": 41.9,
+        "endTime": 46.44,
+        "duration": 4.54,
+        "text": "Oğlum sen beni caddede göreceksin! Bütün kızları peşime takıyorum Allah seni inandırsın!"
       },
       {
-        "id": 6,
-        "characterId": "ali",
-        "startTime": 16.5,
-        "endTime": 22.0,
-        "text": "Bak burası fena çizilmiş lan! Bir daha buralarda edepsizlik görürsem seni fena yaparım!"
+        "id": "meme-fbb565592abea053_l14",
+        "characterId": "hoca",
+        "startTime": 47.34,
+        "endTime": 48.18,
+        "duration": 0.84,
+        "text": "Doğrudur."
       },
       {
-        "id": 7,
+        "id": "meme-fbb565592abea053_l15",
         "characterId": "ali",
-        "startTime": 22.0,
-        "endTime": 27.0,
-        "text": "Anladın mı Hoca? Kerpeten Ali'yi burada herkes tanır!"
+        "startTime": 55.0,
+        "endTime": 57.74,
+        "duration": 2.74,
+        "text": "Aaa bak fena çizilmiş lan burası!"
+      },
+      {
+        "id": "meme-fbb565592abea053_l16",
+        "characterId": "hoca",
+        "startTime": 57.74,
+        "endTime": 59.52,
+        "duration": 1.78,
+        "text": "Yapma lan neresi?"
+      },
+      {
+        "id": "meme-fbb565592abea053_l17",
+        "characterId": "ali",
+        "startTime": 60.12,
+        "endTime": 61.3,
+        "duration": 1.18,
+        "text": "Bak burası!"
+      },
+      {
+        "id": "meme-fbb565592abea053_l18",
+        "characterId": "hoca",
+        "startTime": 62.38,
+        "endTime": 65.22,
+        "duration": 2.84,
+        "text": "Ne yapıyorsun lan?! Lan ne yapıyorsun?!"
+      },
+      {
+        "id": "meme-fbb565592abea053_l19",
+        "characterId": "cirak",
+        "startTime": 66.76,
+        "endTime": 67.16,
+        "duration": 0.4,
+        "text": "Ali abi!"
+      },
+      {
+        "id": "meme-fbb565592abea053_l20",
+        "characterId": "ali",
+        "startTime": 67.7,
+        "endTime": 69.92,
+        "duration": 2.22,
+        "text": "Senin takımları da bir elden geçirelim mi hoca?"
+      },
+      {
+        "id": "meme-fbb565592abea053_l21",
+        "characterId": "ali",
+        "startTime": 70.5,
+        "endTime": 75.74,
+        "duration": 5.24,
+        "text": "Bir daha bir edepsizlik görürsem sana öyle bir takarım ki buradan pati çeker kalkarsın!"
+      },
+      {
+        "id": "meme-fbb565592abea053_l22",
+        "characterId": "ali",
+        "startTime": 76.68,
+        "endTime": 79.58,
+        "duration": 2.9,
+        "text": "Anladın mı hoca? Anladıysan salla silecekleri!"
+      },
+      {
+        "id": "meme-fbb565592abea053_l23",
+        "characterId": "ali",
+        "startTime": 84.06,
+        "endTime": 86.18,
+        "duration": 2.12,
+        "text": "Sen öldün lan! Öldün lan sen!"
+      },
+      {
+        "id": "meme-fbb565592abea053_l24",
+        "characterId": "ali",
+        "startTime": 86.9,
+        "endTime": 90.56,
+        "duration": 3.66,
+        "text": "Seni burada tanıyorlarmış ya... Beni de tanırlar lan!"
+      },
+      {
+        "id": "meme-fbb565592abea053_l25",
+        "characterId": "ali",
+        "startTime": 92.14,
+        "endTime": 93.52,
+        "duration": 1.38,
+        "text": "Beni kim biliyor musun?"
+      },
+      {
+        "id": "meme-fbb565592abea053_l26",
+        "characterId": "ali",
+        "startTime": 98.76,
+        "endTime": 99.72,
+        "duration": 0.96,
+        "text": "KERPETEN ALİ!"
+      },
+      {
+        "id": "meme-fbb565592abea053_l27",
+        "characterId": "ali",
+        "startTime": 100.54,
+        "endTime": 101.76,
+        "duration": 1.22,
+        "text": "Çaktırma!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-fbb565592abea053.jpg"
@@ -4324,84 +6324,149 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-fdd89b3a7015c460_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-fdd89b3a7015c460_clean.mp4",
     "difficulty": "Orta",
-    "description": "Technopat Sistem Toplama Klasiği: 'Ben Recep, ben Ali, bugün UEFI Windows toplayacağız.'",
+    "description": "Technopat YouTube klasiği: Recep Baltaş ile Ali Güngör'ün robotik onaylaşma parodisi.",
     "characters": [
       {
         "id": "recep",
         "name": "Recep Baltaş",
-        "color": "#2563eb",
+        "color": "#0ea5e9",
         "avatar": "💻"
       },
       {
         "id": "ali",
         "name": "Ali Güngör",
-        "color": "#f59e0b",
+        "color": "#10b981",
         "avatar": "🖥️"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-fdd89b3a7015c460_l1",
         "characterId": "recep",
         "startTime": 0.0,
-        "endTime": 3.8,
-        "text": "Ben Recep, ben Ali, bugün sizlerle UEFI bir Windows toplayacağız. Değil mi Ali?"
+        "endTime": 4.14,
+        "duration": 4.14,
+        "text": "Ben Recep, ben Ali. Bugün sizlerle UEFI Windows toplayacağız. Değil mi Ali?"
       },
       {
-        "id": 2,
+        "id": "meme-fdd89b3a7015c460_l2",
         "characterId": "ali",
-        "startTime": 3.8,
-        "endTime": 7.5,
+        "startTime": 4.68,
+        "endTime": 7.92,
+        "duration": 3.24,
         "text": "Evet Recep, bugün gerçekten de UEFI bir Windows toplayacağız."
       },
       {
-        "id": 3,
+        "id": "meme-fdd89b3a7015c460_l3",
         "characterId": "recep",
-        "startTime": 7.5,
-        "endTime": 11.5,
-        "text": "Bu anakartımız yanında aparatlarıyla geliyor değil mi Ali?"
+        "startTime": 8.5,
+        "endTime": 11.14,
+        "duration": 2.64,
+        "text": "Bu anakartımız yanında aparatlarıyla geliyor. Değil mi Recep?"
       },
       {
-        "id": 4,
+        "id": "meme-fdd89b3a7015c460_l4",
         "characterId": "ali",
-        "startTime": 11.5,
-        "endTime": 15.0,
-        "text": "Evet Recep, sahiden de bu anakartımız aparatlarıyla geliyor."
+        "startTime": 11.72,
+        "endTime": 14.92,
+        "duration": 3.2,
+        "text": "Evet Ali, sahiden de bu anakartımız yanında aparatlarıyla geliyor."
       },
       {
-        "id": 5,
+        "id": "meme-fdd89b3a7015c460_l5",
         "characterId": "recep",
-        "startTime": 15.0,
-        "endTime": 19.5,
-        "text": "Dilersen şimdi sistem testlerine geçelim Ali."
+        "startTime": 15.14,
+        "endTime": 17.26,
+        "duration": 2.12,
+        "text": "Dilersen şimdi sistem testlerine geçelim Recep."
       },
       {
-        "id": 6,
+        "id": "meme-fdd89b3a7015c460_l6",
         "characterId": "ali",
-        "startTime": 19.5,
-        "endTime": 23.5,
-        "text": "Geçelim bakalım Recep... Shadow of War oynuyoruz ve bir ork var."
+        "startTime": 17.76,
+        "endTime": 18.66,
+        "duration": 0.9,
+        "text": "Geçelim bakalım Ali."
       },
       {
-        "id": 7,
+        "id": "meme-fdd89b3a7015c460_l7",
         "characterId": "recep",
-        "startTime": 23.5,
-        "endTime": 27.5,
+        "startTime": 19.02,
+        "endTime": 22.26,
+        "duration": 3.24,
+        "text": "Shadow of War oynuyoruz, burada bir ork var gördüğün gibi. Öyle değil mi Ali?"
+      },
+      {
+        "id": "meme-fdd89b3a7015c460_l8",
+        "characterId": "ali",
+        "startTime": 22.62,
+        "endTime": 24.74,
+        "duration": 2.12,
+        "text": "Evet Recep, orada gerçekten de bir ork var."
+      },
+      {
+        "id": "meme-fdd89b3a7015c460_l9",
+        "characterId": "recep",
+        "startTime": 25.04,
+        "endTime": 27.46,
+        "duration": 2.42,
         "text": "Şimdi vuruyorum onu Ali, vurdum onu değil mi Ali?"
       },
       {
-        "id": 8,
+        "id": "meme-fdd89b3a7015c460_l10",
         "characterId": "ali",
-        "startTime": 27.5,
-        "endTime": 31.0,
+        "startTime": 27.9,
+        "endTime": 29.6,
+        "duration": 1.7,
         "text": "Evet Recep, gerçekten de vurdun onu."
       },
       {
-        "id": 9,
+        "id": "meme-fdd89b3a7015c460_l11",
         "characterId": "recep",
-        "startTime": 31.0,
-        "endTime": 34.5,
-        "text": "Öyle değil mi Ali? Evet Recep gerçekten de öyle!"
+        "startTime": 29.6,
+        "endTime": 32.66,
+        "duration": 3.06,
+        "text": "Bu yeni topladığımız sistem hakkında ne düşünüyorsun Ali?"
+      },
+      {
+        "id": "meme-fdd89b3a7015c460_l12",
+        "characterId": "ali",
+        "startTime": 33.06,
+        "endTime": 34.42,
+        "duration": 1.36,
+        "text": "Evet Recep gerçekten de öyle."
+      },
+      {
+        "id": "meme-fdd89b3a7015c460_l13",
+        "characterId": "ali",
+        "startTime": 34.78,
+        "endTime": 35.48,
+        "duration": 0.7,
+        "text": "Öyle değil mi Recep?"
+      },
+      {
+        "id": "meme-fdd89b3a7015c460_l14",
+        "characterId": "recep",
+        "startTime": 35.96,
+        "endTime": 37.28,
+        "duration": 1.32,
+        "text": "Evet Ali, gerçekten de öyle."
+      },
+      {
+        "id": "meme-fdd89b3a7015c460_l15",
+        "characterId": "recep",
+        "startTime": 37.68,
+        "endTime": 38.28,
+        "duration": 0.6,
+        "text": "Öyle değil mi Ali?"
+      },
+      {
+        "id": "meme-fdd89b3a7015c460_l16",
+        "characterId": "ali",
+        "startTime": 38.76,
+        "endTime": 40.44,
+        "duration": 1.68,
+        "text": "Evet Recep, gerçekten de öyle."
       }
     ],
     "thumbnail": "assets/thumbnails/meme-fdd89b3a7015c460.jpg"
@@ -4415,61 +6480,168 @@ export const SCENES = [
     "videoSrc": "assets/videos/meme-ff6ff8de71ce542b_orig.mp4",
     "cleanVideoSrc": "assets/videos/meme-ff6ff8de71ce542b_clean.mp4",
     "difficulty": "Kolay",
-    "description": "Grafi2000 Animasyonu: Komiser Hüsnü Çoban'ın suçlulara meydan okuduğu efsanevi rap parçası.",
+    "description": "Grafi2000 Arka Sokaklar animasyonu: Komiser Hüsnü Çoban'ın efsanevi rap şarkısı.",
     "characters": [
       {
         "id": "husnu",
         "name": "Komiser Hüsnü Çoban",
-        "color": "#1e3a8a",
+        "color": "#2563eb",
         "avatar": "👮"
       }
     ],
     "lines": [
       {
-        "id": 1,
+        "id": "meme-ff6ff8de71ce542b_l1",
         "characterId": "husnu",
-        "startTime": 0.0,
-        "endTime": 4.5,
-        "text": "Durun polis dur! Tamam sen durmayabilirsin sen git, küçük olanlar yakaladım sizi!"
+        "startTime": 1.44,
+        "endTime": 2.68,
+        "duration": 1.24,
+        "text": "Durun polis dur!"
       },
       {
-        "id": 2,
+        "id": "meme-ff6ff8de71ce542b_l2",
         "characterId": "husnu",
-        "startTime": 4.5,
-        "endTime": 9.5,
-        "text": "Arka Sokaklar'dan ben Komiser Hüsnü! Light Selami görse kabarır göğsü!"
+        "startTime": 3.74,
+        "endTime": 7.56,
+        "duration": 3.82,
+        "text": "Tamam abi sen durmayabilirsin sen git, siz küçük olanlar yakaladım sizi durun bakayım!"
       },
       {
-        "id": 3,
+        "id": "meme-ff6ff8de71ce542b_l3",
         "characterId": "husnu",
-        "startTime": 9.5,
-        "endTime": 14.5,
-        "text": "Arka Sokaklar'dan ben Komiser Hüsnü! Light Selami görse kabarır göğsü!"
+        "startTime": 7.76,
+        "endTime": 10.38,
+        "duration": 2.62,
+        "text": "Abi seni bir dahaki bölüm yakalarız, hadi selametle bay bay!"
       },
       {
-        "id": 4,
+        "id": "meme-ff6ff8de71ce542b_l4",
         "characterId": "husnu",
-        "startTime": 14.5,
-        "endTime": 19.5,
-        "text": "Dürüstlük benim içime işlemiş, Polis Hüsnü derler benim namıma!"
+        "startTime": 10.66,
+        "endTime": 14.12,
+        "duration": 3.46,
+        "text": "Arka Sokaklar'dan ben Komiser Hüsnü!"
       },
       {
-        "id": 5,
+        "id": "meme-ff6ff8de71ce542b_l5",
         "characterId": "husnu",
-        "startTime": 19.5,
-        "endTime": 24.5,
-        "text": "Millet Hüsnü'den razı! Karakolun gururu, neşesisin diyorlar!"
+        "startTime": 14.26,
+        "endTime": 17.8,
+        "duration": 3.54,
+        "text": "Light Selami görse kabarır göğsü!"
       },
       {
-        "id": 6,
+        "id": "meme-ff6ff8de71ce542b_l6",
         "characterId": "husnu",
-        "startTime": 24.5,
-        "endTime": 30.5,
-        "text": "Arka Sokaklar benden soruluyor hakikaten, kanun namına seyret çok seversin gerçekten!"
+        "startTime": 17.94,
+        "endTime": 21.26,
+        "duration": 3.32,
+        "text": "Arka Sokaklar'dan ben Komiser Hüsnü!"
+      },
+      {
+        "id": "meme-ff6ff8de71ce542b_l7",
+        "characterId": "husnu",
+        "startTime": 21.58,
+        "endTime": 24.9,
+        "duration": 3.32,
+        "text": "Light Selami görse kabarır göğsü!"
+      },
+      {
+        "id": "meme-ff6ff8de71ce542b_l8",
+        "characterId": "husnu",
+        "startTime": 25.22,
+        "endTime": 28.64,
+        "duration": 3.42,
+        "text": "Dürüstlük benim içime işlemiş!"
+      },
+      {
+        "id": "meme-ff6ff8de71ce542b_l9",
+        "characterId": "husnu",
+        "startTime": 28.64,
+        "endTime": 30.98,
+        "duration": 2.34,
+        "text": "Polis Hüsnü derler benim namıma!"
+      },
+      {
+        "id": "meme-ff6ff8de71ce542b_l10",
+        "characterId": "husnu",
+        "startTime": 31.6,
+        "endTime": 34.64,
+        "duration": 3.04,
+        "text": "Vay vay vay vay Hüsnü!"
+      },
+      {
+        "id": "meme-ff6ff8de71ce542b_l11",
+        "characterId": "husnu",
+        "startTime": 35.58,
+        "endTime": 39.26,
+        "duration": 3.68,
+        "text": "Millet Hüsnü'den razı! Millet Hüsnü'den razı!"
+      },
+      {
+        "id": "meme-ff6ff8de71ce542b_l12",
+        "characterId": "husnu",
+        "startTime": 39.46,
+        "endTime": 40.64,
+        "duration": 1.18,
+        "text": "Vay anam Hüsnü diyorlar!"
+      },
+      {
+        "id": "meme-ff6ff8de71ce542b_l13",
+        "characterId": "husnu",
+        "startTime": 41.36,
+        "endTime": 42.98,
+        "duration": 1.62,
+        "text": "Suçlular titriyorlar!"
+      },
+      {
+        "id": "meme-ff6ff8de71ce542b_l14",
+        "characterId": "husnu",
+        "startTime": 43.16,
+        "endTime": 46.36,
+        "duration": 3.2,
+        "text": "Karakolun gururu neşesisin diyorlar!"
+      },
+      {
+        "id": "meme-ff6ff8de71ce542b_l15",
+        "characterId": "husnu",
+        "startTime": 46.6,
+        "endTime": 50.08,
+        "duration": 3.48,
+        "text": "Arka Sokaklar benden soruluyor hakikaten!"
+      },
+      {
+        "id": "meme-ff6ff8de71ce542b_l16",
+        "characterId": "husnu",
+        "startTime": 50.38,
+        "endTime": 53.2,
+        "duration": 2.82,
+        "text": "Kanun namına seyret çok seversin gerçekten!"
+      },
+      {
+        "id": "meme-ff6ff8de71ce542b_l17",
+        "characterId": "husnu",
+        "startTime": 54.2,
+        "endTime": 60.34,
+        "duration": 6.14,
+        "text": "Ama aşık hali de var Arka Sokaklar'da..."
+      },
+      {
+        "id": "meme-ff6ff8de71ce542b_l18",
+        "characterId": "husnu",
+        "startTime": 60.74,
+        "endTime": 69.7,
+        "duration": 8.96,
+        "text": "Çok sevindiniz, ailemizin gülüşüyüz, çok teşekkür ederiz!"
       }
     ],
     "thumbnail": "assets/thumbnails/meme-ff6ff8de71ce542b.jpg"
   }
 ];
 
-export default SCENES;
+export const SCENES = SCENES_DATA;
+
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { SCENES: SCENES_DATA, default: SCENES_DATA };
+}
+
