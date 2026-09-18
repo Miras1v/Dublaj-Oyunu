@@ -10,6 +10,8 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 SCENES_JSON = os.path.join(DATA_DIR, "scenes.json")
 SCENES_JS = os.path.join(BASE_DIR, "js", "scenes.js")
 
+sys.path.insert(0, BASE_DIR)
+
 from scripts.build_perfect_scenes_part1 import PERFECT_SCENES as p1
 from scripts.build_perfect_scenes_part2 import PERFECT_SCENES_2 as p2
 from scripts.build_perfect_scenes_part3 import PERFECT_SCENES_3 as p3
@@ -77,10 +79,12 @@ print("data/scenes.json güncellendi.")
 js_content = f"""// scenes.js - Miras Dublaj Oyunu Sahne Kütüphanesi
 // 56 Sahne: Ground-Truth Whisper VAD + Vision Doğrulanmış ve Sıfırdan Kusursuz Yazılmış Sürüm
 
-const SCENES_DATA = {json.dumps(scenes, ensure_ascii=False, indent=2)};
+export const SCENES = {json.dumps(scenes, ensure_ascii=False, indent=2)};
+
+const SCENES_DATA = SCENES;
 
 if (typeof module !== 'undefined' && module.exports) {{
-    module.exports = SCENES_DATA;
+    module.exports = {{ SCENES: SCENES_DATA, default: SCENES_DATA }};
 }}
 """
 

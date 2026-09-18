@@ -18,20 +18,20 @@ PERFECT_SCENES_5["meme-ec13d57c1425f814"] = {
 # 52. KV Laz Ziya vs Testere Necmi
 PERFECT_SCENES_5["meme-f0a445c3a2b4afaa"] = {
     "title": "Kurtlar Vadisi - Laz Ziya vs Testere Necmi Konsey Çatışması",
-    "description": "Kurtlar Vadisi Konsey Sahnesi: Laz Ziya'nın resti ve Testere Necmi'nin öfke patlaması.",
+    "description": "Kurtlar Vadisi Konsey Sahnesi: Testere Necmi'nin 'Ziya Bey özür dileyecek' restine Laz Ziya'nın hiddetli patlaması.",
     "characters": [
-        {"id": "laz_ziya", "name": "Laz Ziya", "color": "#1e3a8a", "avatar": "👴"},
-        {"id": "testere_necmi", "name": "Testere Necmi", "color": "#dc2626", "avatar": "🪚"}
+        {"id": "testere_necmi", "name": "Testere Necmi", "color": "#dc2626", "avatar": "🪚"},
+        {"id": "laz_ziya", "name": "Laz Ziya", "color": "#1e3a8a", "avatar": "👴"}
     ],
     "lines": [
-        {"characterId": "laz_ziya", "startTime": 0.0, "endTime": 6.14, "text": "O zaman Ziya Bey benden özür dileyip bu düşmanlığa bir son verecek!"},
-        {"characterId": "laz_ziya", "startTime": 6.68, "endTime": 11.06, "text": "Çünkü ben onlara kardeşlikten başka hiçbir şey yapmadım."},
-        {"characterId": "testere_necmi", "startTime": 11.74, "endTime": 12.7, "text": "Ulan!"},
-        {"characterId": "testere_necmi", "startTime": 14.34, "endTime": 16.06, "text": "Senin yuların mıyım?!"},
-        {"characterId": "testere_necmi", "startTime": 17.2, "endTime": 19.68, "text": "Üstünde çağdan mıyım ki?"},
-        {"characterId": "testere_necmi", "startTime": 20.96, "endTime": 23.74, "text": "Gözümün içine bakarak beni tehdit edeceksin..."},
-        {"characterId": "testere_necmi", "startTime": 24.74, "endTime": 25.86, "text": "Güzel!"},
-        {"characterId": "testere_necmi", "startTime": 27.72, "endTime": 30.56, "text": "Utanmadan benden özür bekleyeceksin öyle mi?!"}
+        {"characterId": "testere_necmi", "startTime": 0.0, "endTime": 6.14, "text": "O zaman Ziya Bey benden özür dileyip bu düşmanlığa bir son verecek!"},
+        {"characterId": "testere_necmi", "startTime": 6.68, "endTime": 11.06, "text": "Çünkü ben onlara kardeşlikten başka hiçbir şey yapmadım."},
+        {"characterId": "laz_ziya", "startTime": 11.74, "endTime": 12.7, "text": "Ulan!"},
+        {"characterId": "laz_ziya", "startTime": 14.34, "endTime": 16.06, "text": "Senin yuların mıyım?!"},
+        {"characterId": "laz_ziya", "startTime": 17.2, "endTime": 19.68, "text": "Üstünde kaftan mıyım ki?"},
+        {"characterId": "laz_ziya", "startTime": 20.96, "endTime": 23.74, "text": "Gözümün içine bakarak beni tehdit edeceksin..."},
+        {"characterId": "laz_ziya", "startTime": 24.74, "endTime": 25.86, "text": "Güzel!"},
+        {"characterId": "laz_ziya", "startTime": 27.72, "endTime": 30.56, "text": "Utanmadan benden özür bekleyeceksin öyle mi?!"}
     ]
 }
 

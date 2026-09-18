@@ -5,12 +5,15 @@ PERFECT_SCENES_2 = {}
 
 # 21. Yenilmezler
 PERFECT_SCENES_2["meme-565c56a384f3e6ca"] = {
-    "title": "Yenilmezler - Zırhını Çıkarırsan Ne Kalır? (Tony vs Steve & Banner)",
-    "description": "Avengers Helicarrier sahnesi: Steve Rogers ile Tony Stark atışması ve Bruce Banner'ın isyanı.",
+    "title": "Yenilmezler - Zırhını Çıkarırsan Ne Kalır? (Helicarrier Tartışması)",
+    "description": "Avengers Helicarrier sahnesi: Steve Rogers, Tony Stark, Thor, Nick Fury ve Bruce Banner arasındaki büyük gerilim.",
     "characters": [
         {"id": "tony", "name": "Tony Stark (Demir Adam)", "color": "#dc2626", "avatar": "🤖"},
         {"id": "steve", "name": "Steve Rogers (Kaptan Amerika)", "color": "#2563eb", "avatar": "🛡️"},
-        {"id": "banner", "name": "Bruce Banner (Hulk)", "color": "#16a34a", "avatar": "🧪"}
+        {"id": "banner", "name": "Bruce Banner (Hulk)", "color": "#16a34a", "avatar": "🧪"},
+        {"id": "thor", "name": "Thor", "color": "#eab308", "avatar": "⚡"},
+        {"id": "fury", "name": "Nick Fury", "color": "#1e293b", "avatar": "👁️"},
+        {"id": "natasha", "name": "Natasha Romanoff (Black Widow)", "color": "#f43f5e", "avatar": "🕷️"}
     ],
     "lines": [
         {"characterId": "steve", "startTime": 1.2, "endTime": 3.82, "text": "Kontrolden bahsedip kargaşaya davetiye çıkarıyorsun."},
@@ -35,13 +38,17 @@ PERFECT_SCENES_2["meme-565c56a384f3e6ca"] = {
         {"characterId": "steve", "startTime": 55.02, "endTime": 57.2, "text": "Sen bir laboratuvar deneyisin Rogers."},
         {"characterId": "steve", "startTime": 57.48, "endTime": 60.22, "text": "Seni özel kılan her şey bir şişeden çıktı."},
         {"characterId": "tony", "startTime": 85.74, "endTime": 88.2, "text": "Hadi zırhını giy, birkaç raunt tutup kapışalım!"},
-        {"characterId": "banner", "startTime": 97.42, "endTime": 99.48, "text": "Nereye? Odamı kiraya verdiniz."},
+        {"characterId": "thor", "startTime": 90.04, "endTime": 94.04, "text": "Siz insanlar çok minik ve dar kafalısınız!"},
+        {"characterId": "fury", "startTime": 95.04, "endTime": 97.04, "text": "Ajan Romanoff, Doktor Banner'a eşlik edin lütfen."},
+        {"characterId": "banner", "startTime": 97.42, "endTime": 99.48, "text": "Nereye? Odamı kiraya mı verdiniz?"},
+        {"characterId": "fury", "startTime": 99.48, "endTime": 101.2, "text": "Doktor, sadece her ihtimale karşı..."},
         {"characterId": "banner", "startTime": 101.26, "endTime": 104.64, "text": "Beni öldürmeniz gerekir diye... Ama yapamazsınız, biliyorum çünkü denedim!"},
         {"characterId": "banner", "startTime": 108.38, "endTime": 111.32, "text": "Bunalımdaydım, sonu yok diyordum..."},
         {"characterId": "banner", "startTime": 111.54, "endTime": 114.72, "text": "Ben de ağzıma bir kurşun sıktım ama diğer adam tükürüp çıkardı!"},
         {"characterId": "banner", "startTime": 116.2, "endTime": 120.52, "text": "Yaşamaya devam ettim, başkalarına yardım etmekle meşgul oldum."},
         {"characterId": "banner", "startTime": 120.66, "endTime": 124.18, "text": "Siz beni bu ucubelerin arasına sürükleyip buradakileri tehlikeye atana kadar!"},
         {"characterId": "banner", "startTime": 124.38, "endTime": 128.1, "text": "Sırrımı bilmek ister misiniz Ajan Romanoff? Nasıl sakin kaldığımı söyleyeyim mi?"},
+        {"characterId": "natasha", "startTime": 128.2, "endTime": 130.5, "text": "Doktor Banner, lütfen sakin olun..."},
         {"characterId": "steve", "startTime": 131.08, "endTime": 134.94, "text": "Doktor Banner... O asayı bırak."}
     ]
 }
@@ -108,25 +115,26 @@ PERFECT_SCENES_2["meme-638a5e3314df054c"] = {
 
 # 25. Sıfır Bir Çıkmaz Sokak
 PERFECT_SCENES_2["meme-6d951d7f55599703"] = {
-    "title": "Sıfır Bir - Cio & Savaş Çıkmaz Sokak",
-    "description": "Sıfır Bir Adana: Çıkmaz sokakta arabayı geri manevra yapmaya çalışan Cio ve Savaş.",
+    "title": "Sıfır Bir - Gökhan Abi Çıkmaz Sokak",
+    "description": "Sıfır Bir klasiği: Gökhan Abi'nin arabayla çıkmaz sokağa girip kapıda bekleyen sokak gençleriyle diyaloğu.",
     "characters": [
-        {"id": "cio", "name": "Cio Baba", "color": "#ef4444", "avatar": "🔫"},
-        {"id": "savas", "name": "Savaş Satış", "color": "#3b82f6", "avatar": "🚗"}
+        {"id": "gokhan", "name": "Gökhan Abi", "color": "#ef4444", "avatar": "🚗"},
+        {"id": "genc1", "name": "Sokak Genci 1", "color": "#3b82f6", "avatar": "🧢"},
+        {"id": "genc2", "name": "Sokak Genci 2", "color": "#10b981", "avatar": "👕"}
     ],
     "lines": [
-        {"characterId": "cio", "startTime": 0.0, "endTime": 2.72, "text": "Sıkıntı yok, hiçbir şekilde sıkıntı yok. Gel hele."},
-        {"characterId": "savas", "startTime": 6.8, "endTime": 10.82, "text": "Yanınıza iki üç tane genç alın, bir dostumuzu karşılamaya gideceğiz."},
-        {"characterId": "cio", "startTime": 16.0, "endTime": 19.34, "text": "Bak hele lan! Bu da kendini iyice Polat Alemdar zannetti ha!"},
-        {"characterId": "cio", "startTime": 19.94, "endTime": 20.78, "text": "En son bozacağım!"},
-        {"characterId": "savas", "startTime": 21.4, "endTime": 26.3, "text": "Bırak oğlum ya, abigil yolladıysa bir bildikleri vardır kafana takma böyle şeyleri."},
-        {"characterId": "cio", "startTime": 26.64, "endTime": 29.58, "text": "Tamam da kardeş bize yapmasın! O yokken biz vardık!"},
-        {"characterId": "savas", "startTime": 29.96, "endTime": 32.64, "text": "Ya boş koyalım, bu kadar işin içinde bir de bununla mı uğraşacağız ya?"},
-        {"characterId": "cio", "startTime": 39.14, "endTime": 40.4, "text": "Lan bu yol çıkmıyor mu?!"},
-        {"characterId": "savas", "startTime": 40.7, "endTime": 41.54, "text": "O yol çıkmıyor abi."},
-        {"characterId": "cio", "startTime": 41.92, "endTime": 43.02, "text": "Niye söylemiyorsunuz oğlum?!"},
-        {"characterId": "savas", "startTime": 43.28, "endTime": 44.02, "text": "Sormadın ki abi."},
-        {"characterId": "savas", "startTime": 49.96, "endTime": 50.84, "text": "Bırak oğlum ya..."}
+        {"characterId": "gokhan", "startTime": 0.0, "endTime": 2.72, "text": "Sıkıntı yok, hiçbir şekilde sıkıntı yok. Gel hele."},
+        {"characterId": "gokhan", "startTime": 6.8, "endTime": 10.82, "text": "Yanınıza iki üç tane genç alın, bir dostumuzu karşılamaya gideceğiz."},
+        {"characterId": "gokhan", "startTime": 16.0, "endTime": 19.34, "text": "Bak hele lan! Bu da kendini iyice Polat Alemdar zannetti ha!"},
+        {"characterId": "gokhan", "startTime": 19.94, "endTime": 20.78, "text": "En son bozacağım!"},
+        {"characterId": "gokhan", "startTime": 21.4, "endTime": 26.3, "text": "Bırak oğlum ya, abigil yolladıysa bir bildikleri vardır kafana takma böyle şeyleri."},
+        {"characterId": "gokhan", "startTime": 26.64, "endTime": 29.58, "text": "Tamam da kardeş bize yapmasın! O yokken biz vardık!"},
+        {"characterId": "gokhan", "startTime": 29.96, "endTime": 32.64, "text": "Ya boş koyalım, bu kadar işin içinde bir de bununla mı uğraşacağız ya?"},
+        {"characterId": "gokhan", "startTime": 39.14, "endTime": 40.4, "text": "Lan bu yol çıkmıyor mu?!"},
+        {"characterId": "genc1", "startTime": 40.7, "endTime": 41.54, "text": "O yol çıkmıyor abi."},
+        {"characterId": "gokhan", "startTime": 41.92, "endTime": 43.02, "text": "Niye söylemiyorsunuz oğlum?!"},
+        {"characterId": "genc2", "startTime": 43.28, "endTime": 44.02, "text": "Sormadın ki abi."},
+        {"characterId": "gokhan", "startTime": 49.96, "endTime": 50.84, "text": "Bırak oğlum ya..."}
     ]
 }
 

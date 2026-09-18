@@ -44,24 +44,24 @@ PERFECT_SCENES["meme-cikar-telefonunu"] = {
         {"characterId": "dayi", "startTime": 2.88, "endTime": 4.9, "text": "Çok kötü telefonunu çıkar bakayım!"},
         {"characterId": "genc", "startTime": 4.9, "endTime": 7.0, "text": "Abi ne alakası var telefonla ya?"},
         {"characterId": "dayi", "startTime": 7.0, "endTime": 8.12, "text": "Telefonunu al!"},
-        {"characterId": "dayi", "startTime": 8.12, "endTime": 10.0, "text": "Al tamam telefonu!"},
-        {"characterId": "muhabir", "startTime": 14.52, "endTime": 15.78, "text": "Ekonomi kötü diyorsun..."}
+        {"characterId": "genc", "startTime": 8.12, "endTime": 10.0, "text": "Al tamam telefonu!"},
+        {"characterId": "dayi", "startTime": 14.52, "endTime": 15.78, "text": "Ekonomi kötü diyorsun..."}
     ]
 }
 
-# 3. KV Pala
+# 3. KV Pala / Seyfo Dayı
 PERFECT_SCENES["kv-pala-oluler"] = {
-    "title": "Kurtlar Vadisi - Sadece Ölüler Görür",
-    "description": "Kurtlar Vadisi efsane sahne: Pala ve Bedir'in Hüsrev Ağa sorgulaması.",
+    "title": "Kurtlar Vadisi - Seyfo Dayı Hüsrev Ağa'yı Anlatıyor",
+    "description": "Kurtlar Vadisi klasik sahne: Seyfo Dayı masada Polat ve ekibine Hüsrev Ağa'ya gelen gizemli adamları anlatıyor.",
     "characters": [
-        {"id": "bedir", "name": "Bedir", "color": "#64748b", "avatar": "🕶️"},
-        {"id": "pala", "name": "Pala", "color": "#0284c7", "avatar": "👓"}
+        {"id": "seyfo", "name": "Seyfo Dayı", "color": "#1e3a8a", "avatar": "🧔"},
+        {"id": "polat", "name": "Polat Alemdar", "color": "#0284c7", "avatar": "🕶️"}
     ],
     "lines": [
-        {"characterId": "bedir", "startTime": 0.0, "endTime": 3.06, "text": "Hüsrev Ağa'nın yanına bir, bir buçuk ay evvel birileri gelmiş."},
-        {"characterId": "pala", "startTime": 3.92, "endTime": 5.28, "text": "Kimisi diyor ki akrabası."},
-        {"characterId": "bedir", "startTime": 5.8, "endTime": 7.78, "text": "Kimisi diyor ki akrabasının adamları."},
-        {"characterId": "pala", "startTime": 8.26, "endTime": 11.46, "text": "Ama kime sorduysam dedikleri üç kişiymiş... Sadece ölüler görür."}
+        {"characterId": "seyfo", "startTime": 0.0, "endTime": 3.36, "text": "Hüsrev Ağa'nın yanına bir, bir buçuk ay evvel birileri gelmiş..."},
+        {"characterId": "seyfo", "startTime": 3.92, "endTime": 7.84, "text": "Kimisi diyor ki akrabası, kimisi diyor ki akrabasının adamları..."},
+        {"characterId": "seyfo", "startTime": 8.44, "endTime": 11.68, "text": "Ama kime sorduysam dedikleri üç kişiymiş bunlar."},
+        {"characterId": "polat", "startTime": 12.28, "endTime": 14.2, "text": "İsim, nam bir şey duydun mu dayı?"}
     ]
 }
 
@@ -124,23 +124,23 @@ PERFECT_SCENES["meme-kolpacino-saatli-bomba"] = {
 # 7. Soruya Soruyla Cevap Verme
 PERFECT_SCENES["meme-sonuc-ne-soru-cevap"] = {
     "title": "Röportaj - Soruya Soruyla Cevap Verme!",
-    "description": "Efsanevi sokak diyaloğu: Takım elbiseli adam ile gencin kısır döngü tartışması.",
+    "description": "Efsanevi dükkan diyaloğu: Nargileci Abi ile muhabir gencin kısır döngü tartışması.",
     "characters": [
-        {"id": "muhabir", "name": "Takım Elbiseli Adam", "color": "#1e293b", "avatar": "👔"},
-        {"id": "roportajci", "name": "Soru Soran Genç", "color": "#0ea5e9", "avatar": "🎙️"}
+        {"id": "muhabir", "name": "Muhabir Genç", "color": "#0ea5e9", "avatar": "🎙️"},
+        {"id": "dayi", "name": "Nargileci Dayı", "color": "#10b981", "avatar": "🧔"}
     ],
     "lines": [
         {"characterId": "muhabir", "startTime": 0.0, "endTime": 0.76, "text": "Eee?"},
-        {"characterId": "roportajci", "startTime": 1.28, "endTime": 1.8, "text": "Eee?"},
+        {"characterId": "dayi", "startTime": 1.1, "endTime": 1.8, "text": "Eee?"},
         {"characterId": "muhabir", "startTime": 1.92, "endTime": 2.32, "text": "Sonuç?"},
-        {"characterId": "roportajci", "startTime": 2.44, "endTime": 3.06, "text": "Sonuç ne?"},
+        {"characterId": "dayi", "startTime": 2.44, "endTime": 3.06, "text": "Sonuç ne?"},
         {"characterId": "muhabir", "startTime": 3.42, "endTime": 4.1, "text": "Sana soruyorum!"},
-        {"characterId": "roportajci", "startTime": 4.22, "endTime": 5.14, "text": "Sana ben soruyorum!"},
+        {"characterId": "dayi", "startTime": 4.22, "endTime": 5.14, "text": "Sana ben soruyorum!"},
         {"characterId": "muhabir", "startTime": 5.28, "endTime": 6.22, "text": "Sen bana niye soruyorsun ki?"},
-        {"characterId": "roportajci", "startTime": 6.54, "endTime": 7.8, "text": "Sen bana niye soruyorsun ki?"},
+        {"characterId": "dayi", "startTime": 6.54, "endTime": 7.8, "text": "Sen bana niye soruyorsun ki?!"},
         {"characterId": "muhabir", "startTime": 7.8, "endTime": 8.66, "text": "Ben soruyorum soruyu!"},
-        {"characterId": "roportajci", "startTime": 9.24, "endTime": 10.54, "text": "Soruya soruyla cevap verme!"},
-        {"characterId": "muhabir", "startTime": 10.76, "endTime": 12.34, "text": "Nasıl soruya soruyla cevap verme?"}
+        {"characterId": "dayi", "startTime": 9.24, "endTime": 10.54, "text": "Soruya soruyla cevap verme!"},
+        {"characterId": "muhabir", "startTime": 10.76, "endTime": 12.34, "text": "Nasıl soruya soruyla cevap verme?!"}
     ]
 }
 
@@ -182,30 +182,29 @@ PERFECT_SCENES["meme-01bda7b30a7b9e4b"] = {
 # 10. Sıfır Bir Garip
 PERFECT_SCENES["meme-021005e91e320d20"] = {
     "title": "Sıfır Bir - Bu Aslan Parçasının Adı Garip",
-    "description": "Sıfır Bir Cezaevi Koğuşu: Savaş'ın Garip'i koğuştakilere emanet ettiği racon sahnesi.",
+    "description": "Sıfır Bir çatı sahnesi: Savaş'ın Garip'i Cio ve ekibe emanet ettiği racon anı.",
     "characters": [
         {"id": "savas", "name": "Savaş Satış", "color": "#3b82f6", "avatar": "🧔"},
-        {"id": "garip", "name": "Garip", "color": "#10b981", "avatar": "🧑"},
-        {"id": "mahkumlar", "name": "Koğuştakiler", "color": "#64748b", "avatar": "👥"}
+        {"id": "cio", "name": "Cio Baba", "color": "#ef4444", "avatar": "🔫"},
+        {"id": "garip", "name": "Garip", "color": "#10b981", "avatar": "🧑"}
     ],
     "lines": [
         {"characterId": "savas", "startTime": 0.0, "endTime": 1.66, "text": "Bu aslan parçasının adı Garip."},
         {"characterId": "savas", "startTime": 3.04, "endTime": 4.98, "text": "Artık Garip sizin kardeşinizdir."},
-        {"characterId": "mahkumlar", "startTime": 5.48, "endTime": 6.14, "text": "Hoş geldin abi."},
-        {"characterId": "garip", "startTime": 6.64, "endTime": 7.06, "text": "Eyvallah."},
-        {"characterId": "mahkumlar", "startTime": 7.66, "endTime": 8.76, "text": "Hoş geldin kardeş."},
-        {"characterId": "mahkumlar", "startTime": 10.22, "endTime": 10.9, "text": "Hoş geldin abi."},
-        {"characterId": "savas", "startTime": 12.14, "endTime": 13.36, "text": "Garip voltadır."},
+        {"characterId": "cio", "startTime": 5.48, "endTime": 6.14, "text": "Hoş geldiniz abi."},
+        {"characterId": "savas", "startTime": 6.64, "endTime": 7.06, "text": "Eyvallah."},
+        {"characterId": "cio", "startTime": 7.66, "endTime": 8.76, "text": "Hoş geldin kardeş."},
+        {"characterId": "savas", "startTime": 12.14, "endTime": 13.36, "text": "Garip, bu Oltacı'dır."},
         {"characterId": "savas", "startTime": 14.66, "endTime": 15.3, "text": "Garip!"},
         {"characterId": "garip", "startTime": 15.58, "endTime": 15.92, "text": "Buyur abi."},
-        {"characterId": "savas", "startTime": 16.74, "endTime": 18.62, "text": "Oğlum artık bunlar senin abilerindir."},
+        {"characterId": "cio", "startTime": 16.74, "endTime": 18.62, "text": "Oğlum artık bunlar senin abilerindir."},
         {"characterId": "garip", "startTime": 18.94, "endTime": 19.26, "text": "Eyvallah."},
-        {"characterId": "savas", "startTime": 19.58, "endTime": 21.8, "text": "Sen ölmeden bunlara bir şey olmayacak."},
-        {"characterId": "savas", "startTime": 22.62, "endTime": 23.12, "text": "Anladın?"},
+        {"characterId": "cio", "startTime": 19.58, "endTime": 21.8, "text": "Sen ölmeden bunlara bir şey olmayacak."},
+        {"characterId": "cio", "startTime": 22.62, "endTime": 23.12, "text": "Anladın?"},
         {"characterId": "garip", "startTime": 23.3, "endTime": 24.34, "text": "Başım gözüm üstüne abi."},
-        {"characterId": "savas", "startTime": 25.06, "endTime": 25.5, "text": "He."},
+        {"characterId": "cio", "startTime": 25.06, "endTime": 25.5, "text": "Heh."},
         {"characterId": "savas", "startTime": 27.14, "endTime": 29.06, "text": "Burada da emanetleriniz var, ver oğlum."},
-        {"characterId": "savas", "startTime": 33.0, "endTime": 33.96, "text": "Bize müsaade."}
+        {"characterId": "cio", "startTime": 33.0, "endTime": 33.96, "text": "Bize müsaade."}
     ]
 }
 
@@ -278,18 +277,20 @@ PERFECT_SCENES["meme-1094542b34c286b1"] = {
 # 13. The Mentalist Can Pen
 PERFECT_SCENES["meme-27377eac7c1dbc11"] = {
     "title": "The Mentalist - Patrick Jane 'Can Pen' Çince Sorgusu",
-    "description": "Patrick Jane beden diliyle Çinli görgü tanığını sorguluyor.",
+    "description": "Patrick Jane beden diliyle Çinli görgü tanığını sorgularken Ajan Cho ve Lisbon izliyor.",
     "characters": [
-        {"id": "tercuman", "name": "Ajan Lisbon / Tercüman", "color": "#ef4444", "avatar": "👩‍💼"},
+        {"id": "lisbon", "name": "Ajan Lisbon", "color": "#ef4444", "avatar": "👩‍💼"},
         {"id": "jane", "name": "Patrick Jane", "color": "#3b82f6", "avatar": "🕵️"},
+        {"id": "cho", "name": "Ajan Cho", "color": "#64748b", "avatar": "👮‍♂️"},
         {"id": "canpen", "name": "Can Pen (Tanık)", "color": "#10b981", "avatar": "👧"}
     ],
     "lines": [
-        {"characterId": "tercuman", "startTime": 0.0, "endTime": 4.16, "text": "Kızın adı Can Pen. Çinli, dilimizi bilmiyor."},
+        {"characterId": "lisbon", "startTime": 0.0, "endTime": 4.16, "text": "Kızın adı Can Pen. Çinli, dilimizi bilmiyor."},
         {"characterId": "jane", "startTime": 5.1, "endTime": 5.52, "text": "Tamam."},
         {"characterId": "jane", "startTime": 6.7, "endTime": 8.76, "text": "Merhaba, benim adım Patrick."},
-        {"characterId": "tercuman", "startTime": 9.24, "endTime": 10.44, "text": "Ne yapıyorsunuz?"},
-        {"characterId": "tercuman", "startTime": 11.86, "endTime": 14.42, "text": "Bir tercümana ihtiyacımız olacak."},
+        {"characterId": "jane", "startTime": 9.06, "endTime": 11.36, "text": "Tamam, hoş geldin."},
+        {"characterId": "cho", "startTime": 11.86, "endTime": 14.42, "text": "Bir tercümana ihtiyacımız olacak."},
+        {"characterId": "jane", "startTime": 15.8, "endTime": 18.0, "text": "Omuzundaki o iğrenç şey..."},
         {"characterId": "jane", "startTime": 18.64, "endTime": 22.6, "text": "Dilimizi konuşuyor ama biraz utangaç değil mi?"},
         {"characterId": "canpen", "startTime": 24.72, "endTime": 27.74, "text": "Dilinizi konuşmam, erkekler benimle konuşmaz."},
         {"characterId": "jane", "startTime": 28.12, "endTime": 28.98, "text": "Böylesi daha iyi."},
@@ -307,37 +308,38 @@ PERFECT_SCENES["meme-27377eac7c1dbc11"] = {
 
 # 14. Akraba Tanıtma Çilesi
 PERFECT_SCENES["meme-3e05e9c18616c529"] = {
-    "title": "Viral - Akraba Tanıtma Çilesi (Anne vs Çocuk)",
-    "description": "Annenin çocuğa zorla sülale akrabalarını ezberletmeye çalıştığı çile sahnesi.",
+    "title": "Viral - Akraba Tanıtma Çilesi (Anneanne vs Torun & Kevser)",
+    "description": "Anneannenin toruna zorla sülale akrabalarını ezberletmeye çalıştığı, Kevser teyzenin de araya girdiği çile sahnesi.",
     "characters": [
-        {"id": "anne", "name": "Israrcı Anne", "color": "#ec4899", "avatar": "👵"},
-        {"id": "cocuk", "name": "Bunalmış Çocuk", "color": "#3b82f6", "avatar": "👦"}
+        {"id": "anneanne", "name": "Anneanne", "color": "#ec4899", "avatar": "👵"},
+        {"id": "torun", "name": "Torun", "color": "#3b82f6", "avatar": "👦"},
+        {"id": "kevser", "name": "Kevser Teyze", "color": "#10b981", "avatar": "👩"}
     ],
     "lines": [
-        {"characterId": "anne", "startTime": 0.0, "endTime": 2.98, "text": "Bak kim bu? Bu benim en küçük torunum."},
-        {"characterId": "cocuk", "startTime": 3.12, "endTime": 3.84, "text": "Hıooo!"},
-        {"characterId": "anne", "startTime": 4.22, "endTime": 6.16, "text": "Eee sen tanıdın mı onu, kim o?"},
-        {"characterId": "cocuk", "startTime": 6.44, "endTime": 7.16, "text": "Hatırlamadım."},
-        {"characterId": "anne", "startTime": 7.68, "endTime": 11.34, "text": "Bak onun dedesiyle benim amcam kardeş!"},
-        {"characterId": "anne", "startTime": 11.62, "endTime": 14.16, "text": "Ha onun dedesiyle senin ne olacak? Kardeş!"},
-        {"characterId": "anne", "startTime": 14.48, "endTime": 16.02, "text": "Çocuklarının kayınçosu!"},
-        {"characterId": "anne", "startTime": 18.14, "endTime": 21.04, "text": "Bunun iç güveysi kimmiş hadi söyle bakayım bana!"},
-        {"characterId": "cocuk", "startTime": 21.2, "endTime": 23.8, "text": "Onun kayınçosu, nasıl amcam?"},
-        {"characterId": "anne", "startTime": 24.18, "endTime": 25.42, "text": "Öyle değil bak!"},
-        {"characterId": "cocuk", "startTime": 25.72, "endTime": 26.94, "text": "Anne zorlama çocuğu!"},
-        {"characterId": "anne", "startTime": 27.06, "endTime": 29.0, "text": "Ağlamasın! Öğrensin çocuk!"},
-        {"characterId": "anne", "startTime": 29.0, "endTime": 29.8, "text": "Kimmiş söyle?!"},
-        {"characterId": "cocuk", "startTime": 31.98, "endTime": 32.98, "text": "Öyle değil!"},
-        {"characterId": "anne", "startTime": 33.3, "endTime": 34.34, "text": "Düzgün söyle kim?!"},
-        {"characterId": "cocuk", "startTime": 34.58, "endTime": 36.28, "text": "Allah Allah tamam ağlama oğlum..."},
-        {"characterId": "anne", "startTime": 36.28, "endTime": 38.14, "text": "Öğrenecek o! Bu iş burada bitmedi!"},
-        {"characterId": "anne", "startTime": 40.86, "endTime": 42.92, "text": "Sakın bak ses çıkartma gebertirim!"},
-        {"characterId": "cocuk", "startTime": 43.16, "endTime": 43.66, "text": "Hı hı."},
-        {"characterId": "anne", "startTime": 43.74, "endTime": 45.66, "text": "Heh kim şu hatırladın mı bak bakayım?"},
-        {"characterId": "anne", "startTime": 47.9, "endTime": 50.78, "text": "Onun amcasıyla benim teyzemin çocukları kardeş!"},
-        {"characterId": "anne", "startTime": 51.06, "endTime": 51.72, "text": "Kimmiş söyle?!"},
-        {"characterId": "cocuk", "startTime": 52.24, "endTime": 54.0, "text": "Oğlum teyzenin halası..."},
-        {"characterId": "anne", "startTime": 54.32, "endTime": 57.4, "text": "O değil! Onun teyzelerini bileceksin!"}
+        {"characterId": "anneanne", "startTime": 0.0, "endTime": 2.98, "text": "Bak kim bu? Bu benim en küçük torunum."},
+        {"characterId": "torun", "startTime": 3.12, "endTime": 3.84, "text": "Hıooo!"},
+        {"characterId": "anneanne", "startTime": 4.22, "endTime": 6.16, "text": "Eee sen tanıdın mı onu, kim o?"},
+        {"characterId": "torun", "startTime": 6.44, "endTime": 7.16, "text": "Hatırlamadım."},
+        {"characterId": "anneanne", "startTime": 7.68, "endTime": 11.34, "text": "Bak onun dedesiyle benim amcam kardeş!"},
+        {"characterId": "anneanne", "startTime": 11.62, "endTime": 14.16, "text": "Ha onun dedesiyle senin ne olacak? Kardeş!"},
+        {"characterId": "anneanne", "startTime": 14.48, "endTime": 16.02, "text": "Çocuklarının kayınçosu!"},
+        {"characterId": "anneanne", "startTime": 18.14, "endTime": 21.04, "text": "Bunun iç güveysi kimmiş hadi söyle bakayım bana!"},
+        {"characterId": "torun", "startTime": 21.2, "endTime": 23.8, "text": "Onun kayınçosu, nasıl amcam?"},
+        {"characterId": "anneanne", "startTime": 24.18, "endTime": 25.42, "text": "Öyle değil bak!"},
+        {"characterId": "kevser", "startTime": 25.72, "endTime": 26.94, "text": "Abla zorlama çocuğu ya!"},
+        {"characterId": "anneanne", "startTime": 27.06, "endTime": 29.0, "text": "Ağlamasın! Öğrensin çocuk!"},
+        {"characterId": "anneanne", "startTime": 29.0, "endTime": 29.8, "text": "Kimmiş söyle?!"},
+        {"characterId": "torun", "startTime": 31.98, "endTime": 32.98, "text": "Öyle değil!"},
+        {"characterId": "anneanne", "startTime": 33.3, "endTime": 34.34, "text": "Düzgün söyle kim?!"},
+        {"characterId": "kevser", "startTime": 34.58, "endTime": 36.28, "text": "Allah Allah tamam ağlama oğlum..."},
+        {"characterId": "anneanne", "startTime": 36.28, "endTime": 38.14, "text": "Öğrenecek o! Bu iş burada bitmedi!"},
+        {"characterId": "anneanne", "startTime": 40.86, "endTime": 42.92, "text": "Sakın bak ses çıkartma gebertirim!"},
+        {"characterId": "torun", "startTime": 43.16, "endTime": 43.66, "text": "Hı hı."},
+        {"characterId": "anneanne", "startTime": 43.74, "endTime": 45.66, "text": "Heh kim şu hatırladın mı bak bakayım?"},
+        {"characterId": "anneanne", "startTime": 47.9, "endTime": 50.78, "text": "Onun amcasıyla benim teyzemin çocukları kardeş!"},
+        {"characterId": "anneanne", "startTime": 51.06, "endTime": 51.72, "text": "Kimmiş söyle?!"},
+        {"characterId": "kevser", "startTime": 52.24, "endTime": 54.0, "text": "Oğlum teyzeni tanıdın mı sen?"},
+        {"characterId": "anneanne", "startTime": 54.32, "endTime": 57.4, "text": "O değil! Onun teyzelerini bileceksin!"}
     ]
 }
 
@@ -383,12 +385,12 @@ PERFECT_SCENES["meme-43a4d9b0fddc8d10"] = {
 
 # 17. Doktor Bey Bu Çocuk Isırıyor
 PERFECT_SCENES["meme-48b70fd6e5bc2cd8"] = {
-    "title": "Meme - Doktor Bey Bu Çocuk Isırıyor",
-    "description": "Hastanede saldırgan çocuk ve dertli annenin doktorla sıra dışı kavgası.",
+    "title": "Recep İvedik - Doktor Bey Bu Çocuk Isırıyor",
+    "description": "Recep İvedik hastane sırasında beklerken dertli annenin saldırgan çocuğuna patlıyor: 'Bu adamın asabını bozma!'",
     "characters": [
-        {"id": "doktor", "name": "Doktor", "color": "#06b6d4", "avatar": "🩺"},
+        {"id": "recep", "name": "Recep İvedik", "color": "#ef4444", "avatar": "🧔"},
         {"id": "anne", "name": "Dertli Anne", "color": "#ec4899", "avatar": "👩‍👦"},
-        {"id": "adam", "name": "Isırılan Adam", "color": "#ef4444", "avatar": "😡"}
+        {"id": "doktor", "name": "Doktor", "color": "#06b6d4", "avatar": "🩺"}
     ],
     "lines": [
         {"characterId": "doktor", "startTime": 0.0, "endTime": 1.14, "text": "Sizin neyiniz vardı?"},
@@ -398,36 +400,36 @@ PERFECT_SCENES["meme-48b70fd6e5bc2cd8"] = {
         {"characterId": "anne", "startTime": 9.36, "endTime": 10.14, "text": "Elimi kaptı!"},
         {"characterId": "doktor", "startTime": 10.3, "endTime": 11.26, "text": "Bunları bu mu yaptı ya?"},
         {"characterId": "anne", "startTime": 11.62, "endTime": 13.54, "text": "Evet böyle saldırganlık hastalığı var."},
-        {"characterId": "adam", "startTime": 15.36, "endTime": 16.82, "text": "Oğlum neden annene... Lan!"},
-        {"characterId": "adam", "startTime": 20.02, "endTime": 22.42, "text": "Oğlum bu adamın asabını bozma!"},
-        {"characterId": "adam", "startTime": 22.56, "endTime": 23.8, "text": "Ağzını burnunu kırarım ha!"},
-        {"characterId": "adam", "startTime": 28.34, "endTime": 31.86, "text": "Lan! Sen deliysen ben de deliyim lan!"},
-        {"characterId": "adam", "startTime": 34.42, "endTime": 36.6, "text": "Oğlum o iki gözünü çıkartırım burada!"},
-        {"characterId": "adam", "startTime": 39.34, "endTime": 40.74, "text": "Bir şey konuşuyoruz dinle lan!"},
+        {"characterId": "recep", "startTime": 15.36, "endTime": 16.82, "text": "Oğlum neden annene... Lan!"},
+        {"characterId": "recep", "startTime": 20.02, "endTime": 22.42, "text": "Oğlum bu adamın asabını bozma!"},
+        {"characterId": "recep", "startTime": 22.56, "endTime": 23.8, "text": "Ağzını burnunu kırarım ha!"},
+        {"characterId": "recep", "startTime": 28.34, "endTime": 31.86, "text": "Lan! Sen deliysen ben de deliyim lan!"},
+        {"characterId": "recep", "startTime": 34.42, "endTime": 36.6, "text": "Oğlum o iki gözünü çıkartırım burada!"},
+        {"characterId": "recep", "startTime": 39.34, "endTime": 40.74, "text": "Bir şey konuşuyoruz dinle lan!"},
         {"characterId": "anne", "startTime": 43.4, "endTime": 44.04, "text": "Yapma oğlum..."},
-        {"characterId": "adam", "startTime": 45.16, "endTime": 46.74, "text": "Kafanı vurursun bak buraya!"},
-        {"characterId": "adam", "startTime": 51.72, "endTime": 54.38, "text": "Abla şuna bir zincir mincir takın bir şey yapın ya, böyle olmaz!"},
+        {"characterId": "recep", "startTime": 45.16, "endTime": 46.74, "text": "Kafanı vurursun bak buraya!"},
+        {"characterId": "recep", "startTime": 51.72, "endTime": 54.38, "text": "Abla şuna bir zincir mincir takın bir şey yapın ya, böyle olmaz!"},
         {"characterId": "doktor", "startTime": 55.36, "endTime": 58.56, "text": "Pitbull bile dolaştırmak yasalara aykırı, bunu dolaştırmayın sokakta!"}
     ]
 }
 
 # 18. Ne Dedin Lan
 PERFECT_SCENES["meme-493f3ad55c94c4cf"] = {
-    "title": "Meme - Ne Dedin Lan!",
-    "description": "Seçim sonuçları sonrası iki arkadaşın 'Ne dedin lan' tartışması.",
+    "title": "Viral - Ne Dedin Lan! (Kılıçdaroğlu Kazandı)",
+    "description": "Oturma odasında gencin 'Kılıçdaroğlu Konya'yı kazandı' şakasına takkeli dedenin hiddetli tepkisi.",
     "characters": [
-        {"id": "abi1", "name": "Öfkeli Abi", "color": "#ef4444", "avatar": "😤"},
-        {"id": "abi2", "name": "Karşı Taraf", "color": "#3b82f6", "avatar": "🤨"}
+        {"id": "dede", "name": "Takkeli Dede", "color": "#ef4444", "avatar": "👴"},
+        {"id": "genc", "name": "Genç", "color": "#3b82f6", "avatar": "📱"}
     ],
     "lines": [
-        {"characterId": "abi2", "startTime": 1.54, "endTime": 3.08, "text": "Kılıçdaroğlu Konya'yı kazandı!"},
-        {"characterId": "abi1", "startTime": 3.86, "endTime": 4.5, "text": "Ne diyorsun lan?!"},
-        {"characterId": "abi2", "startTime": 4.82, "endTime": 5.2, "text": "Valla!"},
-        {"characterId": "abi2", "startTime": 6.12, "endTime": 7.1, "text": "Kılıçdaroğlu kazandı."},
-        {"characterId": "abi1", "startTime": 7.22, "endTime": 7.34, "text": "Ne?!"},
-        {"characterId": "abi1", "startTime": 7.64, "endTime": 8.4, "text": "Ne diyorsun lan?!"},
-        {"characterId": "abi2", "startTime": 9.9, "endTime": 10.44, "text": "Ne olacak?"},
-        {"characterId": "abi1", "startTime": 12.34, "endTime": 13.44, "text": "Ulan ne dedin sen?!"}
+        {"characterId": "genc", "startTime": 1.54, "endTime": 3.08, "text": "Kılıçdaroğlu Konya'yı kazandı!"},
+        {"characterId": "dede", "startTime": 3.86, "endTime": 4.5, "text": "Ne diyorsun lan?!"},
+        {"characterId": "genc", "startTime": 4.82, "endTime": 5.2, "text": "Valla!"},
+        {"characterId": "genc", "startTime": 6.12, "endTime": 7.1, "text": "Kılıçdaroğlu kazandı."},
+        {"characterId": "dede", "startTime": 7.22, "endTime": 7.34, "text": "Ne?!"},
+        {"characterId": "dede", "startTime": 7.64, "endTime": 8.4, "text": "Ne diyorsun lan?!"},
+        {"characterId": "genc", "startTime": 9.9, "endTime": 10.44, "text": "Ne olacak?"},
+        {"characterId": "dede", "startTime": 12.34, "endTime": 13.44, "text": "Ulan ne dedin sen?!"}
     ]
 }
 

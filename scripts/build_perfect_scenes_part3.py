@@ -61,27 +61,28 @@ PERFECT_SCENES_3["meme-88139b3306f24519"] = {
 
 # 34. Otel Fotoğrafçısı
 PERFECT_SCENES_3["meme-885102943a735982"] = {
-    "title": "Arog / Arif v 216 Parodisi - Israrcı Otel Fotoğrafçısı",
-    "description": "Tatil köyü parodisi: Havuz başında müşteriyi darlayan ısrarcı otel fotoğrafçısı.",
+    "title": "Recep İvedik - Israrcı Otel Fotoğrafçısı",
+    "description": "Recep İvedik tatil köyünde havuza doğru yürürken peşini bırakmayan ısrarcı otel fotoğrafçısıyla kapışıyor.",
     "characters": [
-        {"id": "fotografci", "name": "Fotoğrafçı", "color": "#eab308", "avatar": "📸"},
-        {"id": "tatilci", "name": "Tatilci Kadın", "color": "#ec4899", "avatar": "🏖️"}
+        {"id": "fotografci", "name": "Otel Fotoğrafçısı", "color": "#eab308", "avatar": "📸"},
+        {"id": "recep", "name": "Recep İvedik", "color": "#ef4444", "avatar": "🧔"}
     ],
     "lines": [
         {"characterId": "fotografci", "startTime": 11.14, "endTime": 13.92, "text": "Bayan efendim stop stop! Bir tane fotoğrafınızı çekeceğim."},
-        {"characterId": "tatilci", "startTime": 14.28, "endTime": 15.98, "text": "İstemem ben fotoğraf falan arkadaşım lütfen!"},
+        {"characterId": "recep", "startTime": 14.28, "endTime": 15.98, "text": "İstemem ben fotoğraf falan arkadaşım lütfen!"},
         {"characterId": "fotografci", "startTime": 16.7, "endTime": 19.34, "text": "Bayan efendim sadece bir tane hatıra için fotoğraf çekeceğim."},
-        {"characterId": "tatilci", "startTime": 19.5, "endTime": 21.88, "text": "Ben fotoğraf falan istemiyorum arkadaşım lütfen beni rahat bırakın!"},
+        {"characterId": "recep", "startTime": 19.5, "endTime": 21.88, "text": "Ben fotoğraf falan istemiyorum arkadaşım lütfen beni rahat bırakın!"},
         {"characterId": "fotografci", "startTime": 21.98, "endTime": 25.56, "text": "Çok güzel çıkacaksınız inanın bana, şöyle havaya doğru..."},
-        {"characterId": "tatilci", "startTime": 32.56, "endTime": 35.34, "text": "Söylüyorum ya arkadaşım fotoğraf falan istemiyorum diyorum ya!"},
-        {"characterId": "tatilci", "startTime": 38.74, "endTime": 41.4, "text": "Oğlum istemiyorum diyorum fotoğraf falan lütfen bırak beni!"},
+        {"characterId": "recep", "startTime": 32.56, "endTime": 35.34, "text": "Söylüyorum ya arkadaşım fotoğraf falan istemiyorum diyorum ya!"},
+        {"characterId": "recep", "startTime": 38.74, "endTime": 41.4, "text": "Oğlum istemiyorum diyorum fotoğraf falan lütfen bırak beni!"},
         {"characterId": "fotografci", "startTime": 41.48, "endTime": 46.4, "text": "Efendim çekinmenize gerek yok, otelin paparazisiyim lütfen. Sadece bir tane güzel manzara fotoğrafı."},
-        {"characterId": "tatilci", "startTime": 48.18, "endTime": 49.02, "text": "Havuz çıkıyor mu?"},
+        {"characterId": "recep", "startTime": 48.18, "endTime": 49.02, "text": "Havuz çıkıyor mu?"},
         {"characterId": "fotografci", "startTime": 49.26, "endTime": 51.06, "text": "Evet çok güzel manzara fotoğrafı olacak."},
-        {"characterId": "tatilci", "startTime": 51.7, "endTime": 52.72, "text": "Dur o zaman poz vereyim."},
+        {"characterId": "recep", "startTime": 51.7, "endTime": 52.72, "text": "Dur o zaman poz vereyim."},
         {"characterId": "fotografci", "startTime": 54.12, "endTime": 56.64, "text": "Evet çok iyi, üçten geriye sayıyorum lütfen."},
         {"characterId": "fotografci", "startTime": 57.04, "endTime": 60.12, "text": "Tamam... Üç, iki, bir..."},
-        {"characterId": "fotografci", "startTime": 61.5, "endTime": 63.82, "text": "Ama efendim bu olmadı ki! Tekrar!"}
+        {"characterId": "fotografci", "startTime": 61.5, "endTime": 63.82, "text": "Ama efendim bu olmadı ki! Tekrar!"},
+        {"characterId": "recep", "startTime": 63.82, "endTime": 65.12, "text": "Lan!"}
     ]
 }
 
