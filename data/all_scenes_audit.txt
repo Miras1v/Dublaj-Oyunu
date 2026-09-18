@@ -1,0 +1,853 @@
+Toplam sahne: 56
+
+=== 01. [meme-artist-ne-arar] Oto Pazar Röportajı - Artist Ne Arar La Pazarda! (3 replik, 15s) ===
+Karakterler: muhabir (Muhabir), pazarci (Pazarcı Dayı)
+  [0-4.52s] muhabir: Hayırlı günler. Hayırlı günler efendim. Otobazarında bir artış var mı?
+  [4.52-8.96s] pazarci: Artış mı? Ne artışı? Artış ne arar la pazarda? Ben böyle bir şey görmedim.
+  [8.96-14.96s] pazarci: Ben 55 yaşım değil. Bize araba alışveriş için geliyor buraya. Artış olarak bize gelmez bu işler.
+
+=== 02. [meme-cikar-telefonunu] Sokak Röportajı - Ekonomi ve Telefon Kavgası (7 replik, 16s) ===
+Karakterler: muhabir (Muhabir), genc (Genç), dayi (Dayı)
+  [0-1s] muhabir: Ekonominiz nasıl?
+  [1-3s] genc: Çok kötü ya şu an inanılmaz
+  [3-5s] dayi: Çok kötü telefonunu çıkar bakayım
+  [5-7s] genc: Abi ne alakası var telefonlarının?
+  [7-10s] dayi: Telefonunu al! Hah! Olsun o telefonu!
+  [10-15s] Bilinmeyen: 🎵 [Viral 'Oh No' Müziği — Kayıt Kilitli]
+  [15-16s] muhabir: Ekonomik kötü diyorsun
+
+=== 03. [kv-pala-oluler] Kurtlar Vadisi - Sadece Ölüler Görür (5 replik, 15s) ===
+Karakterler: pala (Pala), bedir (Bedir)
+  [0.0-3.5s] bedir: Hüsrev Ağa'nın yanına bir bir buçuk ay evvel birileri gelmiş.
+  [3.52-5.5s] pala: Kimisi diyor ki akrabası.
+  [5.52-8.0s] bedir: Kimisi diyor ki akrabasının adamları.
+  [8.02-11.64s] pala: Ama kime sorduysam dedikleri üç kişiymiş... Sadece ölüler görür.
+  [11.64-15.0s] pala: 🎵 [Kurtlar Vadisi Gerilim Müziği — Kayıt Kilitli]
+
+=== 04. [sifir-bir-cio] Sıfır Bir - Mahalle Hikayesi Anlatımı (4 replik, 15s) ===
+Karakterler: cio (Cio Baba), savas (Savaş)
+  [0.0-4.0s] cio: Bak sen herhalde anlatacağım ayakkabı... Neydi ya?
+  [4.0-7.0s] savas: Sarsılmaz abi ben ya.
+  [7.0-12.0s] cio: O gün bir dostuyla bir alacak verecek meselesi için bir yere gitmişler.
+  [12.0-15.0s] savas: Tamam adamlar aralarına biterdi şimacım.
+
+=== 05. [sifir-bir-yahya-cezaevi] Sıfır Bir - Yahya & Seyfi Cezaevi Sorgusu (4 replik, 40.29s) ===
+Karakterler: seyfi (Seyfi), yahya (Yahya / Polis)
+  [0.0-7.0s] seyfi: Benim kimseyle işim olmaz, ben cezaevinden çıktıktan sonra ıslah-ı nefis oldum.
+  [7.5-17.8s] yahya: Çocuk mu kandırıyorsun lan? Cezaevinden çıktın kendine bir oluşum yaptın ve intikam için saldırdın!
+  [18.0-24.8s] seyfi: Bu senin kendi kafanda kurguladığın bir ifade. Eğer varsa bir delilin bana onla gel!
+  [25.0-40.29s] seyfi: 🎵 [Fon Müziği / Edit — Mikrofon Kilitli]
+
+=== 06. [meme-kolpacino-saatli-bomba] Kolpaçino - Saatli Bomba (7 replik, 24.54s) ===
+Karakterler: ganyotcu (Ganyotçu Abi), sabri (Sabri Abi)
+  [0-2.56s] ganyotcu: Aleykümselam, hoş geldin.
+  [2.64-4.64s] sabri: Hoş bulduk abi, sıkıntı var sıkıntı!
+  [4.72-5.72s] ganyotcu: Hayırdır?
+  [5.8-12.4s] sabri: Sorma abi başıma neler geldi! Dayak yedirdiler, paramızı çaldılar, bir de bunu bırakıp gittiler abi!
+  [12.96-14.8s] ganyotcu: Üstündeki ne lan, saatli bomba mı?
+  [14.88-16.36s] sabri: Yok abi saatli bomba!
+  [16.44-18.76s] ganyotcu: Nasıl saatli bomba lan? Saati durmuş bunun!
+
+=== 07. [meme-sonuc-ne-soru-cevap] Röportaj - Soruya Soruyla Cevap Verme! (6 replik, 16.87s) ===
+Karakterler: muhabir (Takım Elbiseli Adam), roportajci (Soru Soran Genç)
+  [0-3s] muhabir: Ee... Ee... Sonuç? Sonuç ne?
+  [3-5s] roportajci: Sana soruyorum!
+  [5-6.5s] muhabir: Sana ben soruyorum!
+  [6.5-8s] roportajci: Sen bana ne soruyorsun ki? Ben soruyorum!
+  [8.5-11s] muhabir: Soruya soruyla cevap verme!
+  [11-13.5s] roportajci: Nasıl soruya soruyla cevap verme?
+
+=== 08. [meme-00e48267f85a643e] Parodi - Bear I Love You So So Much (12 replik, 73.97s) ===
+Karakterler: nikki (Nikki), bear (Bear)
+  [0.0-3.28s] nikki: Bear, I love you so, so much.
+  [3.89-5.87s] nikki: I don't think I could live without you.
+  [10.96-13.16s] bear: You love me more than anyone in the world?
+  [18.03-19.59s] nikki: Yes, more than anyone.
+  [23.82-24.82s] bear: Nikki.
+  [26.28-27.28s] nikki: Yeah?
+  [28.11-29.49s] bear: Does your dad really have cancer?
+  [49.45-50.45s] nikki: No.
+  [50.33-51.33s] nikki: No.
+  [51.21-51.81s] nikki: No.
+  [52.39-53.39s] bear: What?
+  [52.73-73.33s] nikki: Ne, ne, ne
+
+=== 09. [meme-01bda7b30a7b9e4b] Viral - Çığlık Atan Çocuk (1 replik, 38.38s) ===
+Karakterler: cocuk (Çığlık Atan Çocuk)
+  [1.26-2.42s] cocuk: Aaaaaa
+
+=== 10. [meme-021005e91e320d20] Sıfır Bir - Bu Aslan Parçasının Adı Garip (17 replik, 34.17s) ===
+Karakterler: savas (Savaş Satış), garip (Garip), mahkumlar (Koğuştakiler)
+  [0.0-2.0s] savas: Bu aslan parçasının adı Garip.
+  [2.0-4.77s] savas: Artık Garip sizin kardeşinizdir.
+  [4.77-6.77s] mahkumlar: Hoş geldin abi.
+  [6.77-7.83s] garip: Eyvallah.
+  [7.83-10.28s] mahkumlar: Hoş geldin kardeş.
+  [10.28-11.28s] mahkumlar: Hoş geldin kardeş.
+  [11.28-13.73s] savas: Garip voltadır.
+  [13.73-15.53s] savas: Garip...
+  [15.53-16.53s] garip: Buyur abi.
+  [16.53-18.53s] savas: Oğlum artık bunlar senin abilerindir.
+  [18.53-19.53s] garip: Eyvallah.
+  [19.53-22.53s] savas: Sen ölmeden bunlara bir şey olmayacak.
+  [22.53-23.53s] mahkumlar: Anladın mı?
+  [23.53-24.53s] garip: Başım gözüm üstüne abi.
+  [24.53-25.53s] savas: He.
+  [25.53-33.42s] savas: Burada da emanetleriniz var. Ver oğlum.
+  [33.42-34.17s] savas: Bize müsaade.
+
+=== 11. [meme-0c8ee1a80532ffce] Meme - Sınıf Başkanı Kavgası (14 replik, 36.64s) ===
+Karakterler: baskan (Sınıf Başkanı), ogrenci (İsyankar Öğrenci)
+  [0.3-2.54s] baskan: Senin böyle konuşmanı kimse ağlıyor.
+  [3.3-4.66s] ogrenci: Senin hekimişi ağladın mı?
+  [4.74-5.74s] baskan: Sen öyle ne?
+  [5.32-8.5s] ogrenci: Sen öğretmenine de mi böyle konuşuyorsun?
+  [9.16-9.84s] baskan: Sen öyle ne?
+  [10.1-11.89s] ogrenci: Sen öğretmenine de mi böyle konuşuyorsun?
+  [12.39-14.63s] baskan: Ya şalari Allah Allah herkese fırlamışlar.
+  [14.65-15.29s] baskan: Evet her şeyi bir şey.
+  [15.29-16.51s] baskan: Yok bir metona değişik.
+  [16.75-19.67s] baskan: Ben bu sınıfa sınıf aynısıysam ben her şeyi bilmek zorunluyum.
+  [19.69-21.63s] baskan: Öyle Allah Allah bir şeyim annemişim.
+  [21.85-23.39s] baskan: Bak git dünyanın aşığı.
+  [23.77-24.73s] baskan: Yok öyle bir şey be.
+  [25.25-32.35s] baskan: Önce bir şey yok.
+
+=== 12. [meme-1094542b34c286b1] Recep İvedik - Psikologda Turkcell Kampanyası (30 replik, 64.41s) ===
+Karakterler: recep (Recep İvedik), psikolog (Psikolog), pinar (Pınar (Turkcell))
+  [2.38-13.32s] recep: He böyle o kertenkele hayvanla göz göze gelince, bir gözü büyük bir gözü ufak... Bütün piskolojik dengem altüst oldu yani.
+  [13.8-15.18s] recep: Kusura bakmayın pardon, affedersin.
+  [17.48-18.48s] recep: Efendim?
+  [18.48-19.3s] pinar: Recep Bey?
+  [19.3-20.0s] recep: Efendim!
+  [20.0-21.0s] pinar: Ben Turkcell'den Pınar.
+  [21.0-21.8s] recep: Söyle bebişim.
+  [21.8-23.0s] pinar: Biz faturalarınızı inceledik.
+  [23.0-24.0s] recep: Neden?
+  [24.0-26.0s] pinar: Çok daha ucuza konuşabilmeniz için.
+  [26.0-26.8s] recep: He...
+  [26.8-31.0s] pinar: Şu an darlık dakika paketlerimizden birini seçerseniz aldığınız dakika kadar hediye kazanacaksınız.
+  [31.0-35.5s] recep: Sağ ol, ben almayayım. Benim için fedakarlık yapmanıza gerek yok, ben memnunum.
+  [35.5-39.2s] pinar: Recep Bey bu şekilde dakikası en fazla sekiz kuruşa gelecek.
+  [39.2-41.0s] recep: Hemen geçelim! Hemen geçelim!
+  [41.04-42.0s] pinar: Onaylıyor musunuz?
+  [42.0-43.1s] recep: Onaylıyorum!
+  [43.16-44.5s] pinar: Çok teşekkür ederim Recep Bey.
+  [44.58-45.3s] pinar: İyi günler.
+  [45.4-46.5s] recep: Sağ ol bebeğim.
+  [47.26-48.5s] psikolog: Ondan sonra... Vaktiniz doldu.
+  [48.8-50.1s] recep: Bir saat oldu mu?
+  [50.1-51.5s] psikolog: Oldu tabii.
+  [51.5-52.2s] recep: Borcumuz ne kadar?
+  [52.2-53.5s] psikolog: Yüz elli YTL.
+  [53.74-54.8s] recep: Yuh!
+  [55.04-59.7s] recep: Demin kadın aradı söyledi, ben seni arasam dakikası sekiz kuruştan saati beş YTL bile etmiyor!
+  [59.7-61.0s] recep: Hadi git!
+  [61.04-62.5s] recep: Beni kendimle baş başa bırak.
+  [62.96-64.22s] recep: Tarifenin keyfini çıkartacağım!
+
+=== 13. [meme-27377eac7c1dbc11] Dizi Parodisi - Patrick Jane ve Can Pen (17 replik, 44.47s) ===
+Karakterler: patrick (Patrick Jane), canpen (Can Pen), tercuman (Polis / Tercüman)
+  [0.82-4.42s] tercuman: Kızın adı Can Pen, Çinli. Dilimizi bilmiyor.
+  [4.42-6.04s] patrick: Tamam.
+  [6.04-9.04s] patrick: Merhaba, benim adım Patrick.
+  [12.91-15.5s] tercuman: Bir tercümana ihtiyacımız olacak.
+  [15.5-17.95s] canpen: Omzundaki o iğrenç şey de ne?
+  [17.95-22.82s] patrick: Dilimizi konuşuyor ama biraz utangaç değil mi?
+  [22.82-27.95s] canpen: Dilinizi konuşmam. Erkekler benimle konuşmaz.
+  [27.95-29.15s] patrick: Böylesi daha iyi.
+  [29.15-31.05s] patrick: Bay Pochetto vurulduğunda ne gördün?
+  [31.05-32.05s] canpen: Hiçbir şey.
+  [32.05-36.01s] canpen: Ödümü koparan korkunç bir silah sesi duydum ve adam öldü.
+  [36.01-37.51s] canpen: Korkmuştum bu kadar.
+  [37.51-38.83s] patrick: Vuran kişi nasıl biriydi?
+  [38.83-39.61s] canpen: Görmedim.
+  [39.61-40.67s] patrick: İyi bir yalancısın.
+  [40.67-42.29s] patrick: İyi ama çok iyi değil.
+  [42.84-44.34s] canpen: Onu yakından görmüşüm.
+
+=== 14. [meme-3e05e9c18616c529] Meme - Akraba Tanıtma Çilesi (18 replik, 59.72s) ===
+Karakterler: anne (Anne / Teyze), cocuk (Şaşkın Çocuk), baba (Baba / Abi)
+  [0.21-1.39s] anne: Bak kimsin?
+  [1.39-3.32s] cocuk: Bu küçük torun eee...
+  [3.32-4.61s] anne: Ne?
+  [4.61-6.46s] anne: Sen tanıdın mı?
+  [6.46-7.72s] cocuk: Hatırlamadım.
+  [7.72-11.92s] anne: Bak onun dedesi...
+  [11.92-14.3s] anne: Onun dedesiyle senin deden kardeş.
+  [14.3-16.54s] anne: Çocuklarının kayınçosu.
+  [16.54-18.42s] anne: Çocuklarının kayınçosu...
+  [18.42-21.24s] anne: Onun iç güveysi kimmiş hadi söyle bakayım!
+  [21.24-24.24s] anne: Onun kayınçosu ile senin alakan ne?
+  [24.24-25.4s] cocuk: Öyle değil.
+  [25.4-26.0s] anne: Bak!
+  [26.0-27.2s] baba: Anne zorlama çocuğu!
+  [27.2-28.1s] anne: Karışma sen!
+  [28.1-30.16s] anne: Öğrensin çocuk kimmiş öyle!
+  [30.16-34.28s] cocuk: Dedemi alamıyorum...
+  [34.28-36.28s] baba: Allah Allah tamam oğlum, sakin ol.
+
+=== 15. [meme-414a57bd5b2e7e34] Viral - Beni Bloklama Rage (10 replik, 23.03s) ===
+Karakterler: gamer (Öfkeli Oyuncu)
+  [0.0-2.03s] gamer: Beni bloklama
+  [2.03-4.42s] gamer: Bloklama ammına koydum ya
+  [4.42-6.42s] gamer: Söyledim bide ya evrimmiş
+  [6.42-9.66s] gamer: Nasıl evrimmiş ya
+  [9.66-12.53s] gamer: Ammına
+  [12.53-14.53s] gamer: İşte buydu bahsettim
+  [14.53-16.53s] gamer: Ammına özel vuruşu buydu beyler
+  [16.53-18.53s] gamer: Teşekkürler
+  [18.53-20.53s] gamer: Ben o zaman açılıyorum
+  [20.53-22.53s] gamer: Beni bloklam
+
+=== 16. [meme-43a4d9b0fddc8d10] Kurtlar Vadisi - Şu Teybi Kapatır Mısın? (3 replik, 45.26s) ===
+Karakterler: memati (Memati Baş), sofor (Şoför)
+  [3.12-6.6s] memati: Bir şey konuşuyoruz da, şu teybi kapatır mısın?
+  [6.6-12.0s] sofor: Kapatıyorum, uyuttun abi.
+  [12.0-35.34s] memati: 🎵 [Gerilim Müziği — Kayıt Kilitli]
+
+=== 17. [meme-48b70fd6e5bc2cd8] Meme - Doktor Bey Bu Çocuk Isırıyor (17 replik, 59.05s) ===
+Karakterler: doktor (Doktor), anne (Dertli Anne), adam (Isırılan Adam)
+  [0.0-1.3s] doktor: Sizin neyiniz vardı?
+  [1.34-6.24s] anne: Benim çocuk hasta, oraya buraya saldırıyor, bana saldırıyor, boynumu ısırdı...
+  [6.28-9.92s] anne: ...bu tarafımı ısırdı, kulağımı ısırdı, elimi kaptı!
+  [9.96-11.24s] doktor: Bunları bu mu yaptı ya?
+  [11.28-13.72s] anne: Evet, böyle bir saldırganlık hastalığı var.
+  [13.76-16.26s] adam: Oğlum neden annene...
+  [16.3-17.3s] adam: Lan!
+  [17.34-23.82s] adam: Oğlum bu adamın asabını bozma, senin kaşını gözünü kırarım ha!
+  [23.86-31.83s] adam: Sen deliysen ben de deliyim lan!
+  [31.87-36.83s] adam: Allah'ıma bütün dişlerini dökerim buradan ha!
+  [36.87-40.78s] adam: Bir şey konuşuyorum dinle lan!
+  [40.82-41.82s] adam: Lan!
+  [41.82-43.91s] anne: Yapma oğlum.
+  [43.91-46.91s] adam: Oğlum bak kafanı vururum senin oraya!
+  [46.91-49.51s] adam: Hah!
+  [49.51-54.37s] adam: Abla şuna bir zincir mincir takın, bir şey yapın ya. Böyle olmaz.
+  [54.37-58.56s] doktor: Pitbull bile dolaştırmak yasalara aykırı ya. Bunu dolaştırmayın sokakta!
+
+=== 18. [meme-493f3ad55c94c4cf] Meme - Ne Dedin Lan! (6 replik, 17.96s) ===
+Karakterler: abi1 (Öfkeli Abi), abi2 (Karşı Taraf)
+  [2.74-4.74s] abi1: Ne dedin lan?
+  [4.74-5.74s] abi2: Valla!
+  [5.74-7.86s] abi1: Ne dedin lan?
+  [7.86-10.44s] abi2: Ne dedin lan?
+  [10.44-12.7s] abi1: Ne olacak?
+  [12.7-17.13s] abi2: Ulan ne dedin?
+
+=== 19. [meme-4b5781e28db674b5] Viral - Benim Adım Cafer (Alayınıza Gider) (26 replik, 65.9s) ===
+Karakterler: cafer (Cafer), spiker (Röportajcı Genç)
+  [0.0-2.26s] cafer: Benim adım Cafer, boyum bir on.
+  [2.26-4.0s] cafer: Kilom yirmi beş.
+  [4.0-6.04s] cafer: Gözlerimin rengini bilmiyorum.
+  [6.04-8.38s] cafer: Ciguli'yi dinlemeyi severim.
+  [8.38-10.4s] cafer: En sevdiğim yazar...
+  [10.4-12.5s] cafer: Manapınarından Hacıbeyin Ahmet.
+  [12.5-14.18s] cafer: En sevdiğim futbolcu...
+  [14.18-16.44s] cafer: Yenimahalle'den Abidin'in Mehmet.
+  [16.44-18.22s] cafer: Samsun iki yüz on altı ve...
+  [18.22-20.06s] cafer: Parliament'i severim.
+  [20.06-21.62s] cafer: Doğunun bir atasözü vardır:
+  [21.62-24.1s] cafer: Sağlığınız için, Yeni Rakı için!
+  [24.1-28.26s] cafer: Kısa boylu ve mavi gözlü kızları severim.
+  [28.26-31.34s] cafer: Tatilimi Namazgâh Dağları'nda geçiriyorum.
+  [32.06-34.62s] cafer: En sevdiğim araba Murat 131.
+  [35.24-36.86s] cafer: Tekno ve kemençeye bayılırım.
+  [37.44-39.0s] cafer: Müdavim mekanım Yenimahalle.
+  [39.14-41.14s] cafer: Lakabım 35'lik Rakı.
+  [42.0-45.1s] cafer: En sevdiğim hocam ilkokulda Kenan hocam.
+  [45.96-48.98s] cafer: En sevdiğim komedyen Yenimahalle'den Michael.
+  [50.27-51.71s] cafer: Dallama gibi işleri severim.
+  [52.88-55.88s] cafer: En ünlü olduğum şey tek sigaramın istenmesi.
+  [55.88-58.42s] cafer: Kafamda hep pis işler.
+  [59.06-62.82s] cafer: Benim adım Cafer! Alayınıza gider! Korkun benden!
+  [63.24-64.24s] spiker: Senden mi Cafer?
+  [64.24-65.24s] cafer: Evet benden!
+
+=== 20. [meme-54c6bba12da44d49] Kurtlar Vadisi - Çakır'ın Kahve Baskını (14 replik, 37.49s) ===
+Karakterler: cemal (Cemal (Kahveci)), meral (Meral (Abla)), halit (Halit Ağa)
+  [0.0-1.2s] cemal: Kahveye geldi.
+  [1.69-2.73s] meral: Nasıl kahveye geldi?
+  [3.51-5.17s] cemal: Geldi, lafını söyledi, gitti.
+  [6.14-7.24s] meral: Nasıl gitti Cemal?
+  [8.14-11.04s] cemal: Abla, geldi bir tufan, gitti bir boran!
+  [12.06-15.08s] cemal: Gövde üstünde baş, baş üstünde akıl bırakmadı.
+  [15.56-16.28s] cemal: Esti geçti.
+  [16.64-17.7s] halit: Kaç kişi bastı?
+  [17.96-20.46s] cemal: Bir o, bir de ondan kara bir oğlan.
+  [21.06-23.04s] halit: İki kişi faturanızı mı kesti Cemal?!
+  [23.74-25.72s] cemal: Halit Ağa, benim aklım bu işlere ermez.
+  [26.82-29.5s] cemal: Ama bu yaşa geldim, bu kadar hasım gördüm...
+  [29.5-30.92s] cemal: Böylesini görmedim!
+  [30.92-33.72s] cemal: Koca kahveyi kestane yaptı, çizdi gitti!
+
+=== 21. [meme-565c56a384f3e6ca] Yenilmezler - Zırhını Çıkarırsan Ne Kalır? (26 replik, 138.83s) ===
+Karakterler: tony (Tony Stark (Demir Adam)), steve (Steve Rogers (Kaptan Amerika)), banner (Bruce Banner (Hulk))
+  [1.01-3.83s] steve: Kontrolden bahsedip kargaşaya davetiye çıkarıyorsun.
+  [3.85-5.05s] tony: Çalışma tarzı bu değil mi?
+  [5.53-6.59s] steve: Neyiz biz? Ekip mi?
+  [6.75-9.55s] tony: Hayır hayır, biz kargaşa yaratan kimyasal bir karışımız.
+  [10.15-12.27s] tony: Biz... Biz saatli bombayız.
+  [12.41-14.05s] steve: Ağır ol bakalım biraz.
+  [14.27-16.19s] tony: Neden biraz deşarj olmasına izin vermiyoruz?
+  [16.21-18.07s] steve: Nedenini çok iyi biliyorsun. İşine bak sen.
+  [18.63-20.23s] tony: Keşke beni buna zorlasan.
+  [20.75-23.01s] steve: Evet. Zırh giymiş koca adam.
+  [24.69-25.87s] steve: Öt bakalım nesin sen?
+  [26.37-28.53s] tony: Dahi, milyarder, zampara, hayırsever.
+  [28.91-31.73s] steve: Bunlar olmadan da sana fark atacak kişiler biliyorum.
+  [31.81-33.82s] steve: Ben bu filmi çok gördüm.
+  [34.14-36.26s] steve: Uğruna gerçekten savaştığın tek şey kendinsin.
+  [37.29-42.07s] steve: Fedakarlık edip dikenli telden geçecek ve üstünde sürünmelerine izin verecek biri değilsin.
+  [42.15-43.41s] tony: Teli keserim olur biter.
+  [46.9-47.86s] steve: Hep bir yolunu bulursun.
+  [49.3-52.54s] steve: Tehdit olmayabilirsin ama kahramanmış gibi davranmayı da bırak artık.
+  [52.92-54.34s] tony: Kahraman mı? Senin gibi mi?
+  [55.3-57.3s] steve: Sen bir laboratuvar deneyisin Rogers.
+  [57.58-60.32s] steve: Seni özel kılan her şey bir şişeden çıktı.
+  [86.18-88.24s] tony: Hadi zırhını giy. Birkaç round kapışalım!
+  [124.44-126.4s] banner: Sırrımı bilmek ister misiniz Ajan Romanoff?
+  [126.56-128.08s] banner: Nasıl sakin kaldığımı söyleyeyim mi?
+  [131.19-135.16s] steve: Doktor Banner, o asayı yavaşça bırakın.
+
+=== 22. [meme-5a992347adcc5220] Meme - Ferdi'yi Sol Bek Yapan Benim! (2 replik, 10.98s) ===
+Karakterler: hoca (İsmail Kartal Parodisi)
+  [0.4-7.48s] hoca: Ferdi Solbek yapan benim Osa'yı Sabek yapan benim şımas gibi maç 6 numara 8 numara sağ kanatta oynatan
+  [7.48-10.48s] hoca: benim niye kimse bunu Serdar Dursun'a on numara oynatan benim
+
+=== 23. [meme-5b819baf3f383a04] Viral - Bu Ne Çirkinlik TikTok Atışması (18 replik, 39.45s) ===
+Karakterler: yayinci1 (Batuhan), yayinci2 (Konuk)
+  [0.08-2.08s] yayinci1: Bu ne çirkinliğe?
+  [2.08-3.08s] yayinci2: Bana mı diyorsun?
+  [3.08-4.08s] yayinci1: Evet.
+  [4.08-5.08s] yayinci1: Çirkinliğe.
+  [8.08-10.08s] yayinci2: Batuhan bir şey sorabilir miyim?
+  [10.08-12.08s] yayinci1: Özel biri misin yoksa?
+  [12.08-14.27s] yayinci2: Özel biriyim doğrudur.
+  [14.27-15.27s] yayinci1: Ney?
+  [15.27-16.27s] yayinci2: Özel biriyim.
+  [16.27-18.27s] yayinci1: Ha tamam kankam nasılsın iyi misin?
+  [18.27-20.27s] yayinci2: Daldon sandılar seni reis.
+  [20.27-22.27s] yayinci2: Evet efendim.
+  [22.27-24.85s] yayinci2: Orospu çocuğum ki daldon sandılar.
+  [24.85-26.85s] yayinci1: İyi misin?
+  [26.85-28.85s] yayinci2: Orospu çocuğum ki daldon sandılar.
+  [28.85-32.41s] yayinci2: Engelli sanmışlarım hadi
+  [32.41-34.41s] yayinci2: Görüşürüz
+  [34.41-36.41s] yayinci2: Görüşürüz
+
+=== 24. [meme-638a5e3314df054c] Viral - Duvara Vuran Komşu ve Gamer Rage (12 replik, 49.32s) ===
+Karakterler: komsu (Alt Komşu), gamer (Çıldıran Oyuncu)
+  [0.0-2.0s] komsu: Son bir Firenice çakayım.Batayım orda.
+  [4.98-6.98s] gamer: Ben bunu kalkıp döveceğim şimdi.
+  [6.98-9.53s] gamer: Ana oğlum lan duvarı deliyecek adam.
+  [9.53-16.2s] komsu: Ne diye vuruyor bağırmadın?
+  [16.2-17.2s] gamer: He?
+  [17.2-18.2s] komsu: Ne diye vuruyor bağırmadın?
+  [18.2-21.42s] gamer: Valla normali vuruyor.
+  [21.42-23.8s] gamer: Polis çağıracağım polis!
+  [23.8-29.71s] gamer: Ya gelsene vuruyor orospu çocuğu!
+  [29.71-34.66s] gamer: Anasını siktimin evladı ya.
+  [34.66-40.82s] komsu: Ya var mı ya beyler böyle bir şey?
+  [40.82-42.82s] gamer: Bağırmıyorum amına koyim ya.
+
+=== 25. [meme-6d951d7f55599703] Sıfır Bir - Bu Yol Çıkmıyor Abi (19 replik, 55.63s) ===
+Karakterler: cio (Cio Baba), savas (Savaş), genc (Mahallenin Genci)
+  [0.0-2.0s] cio: Sıkıntı yok. Hiçbir şekilde sıkıntı yok.
+  [2.0-3.0s] cio: Gel hele.
+  [7.14-9.14s] savas: Yalnız iki üç tane genç alın.
+  [9.14-11.14s] savas: Bir dostumuzu karşılamaya gideceğiz.
+  [11.14-17.33s] savas: Bak hele lan.
+  [17.33-19.33s] cio: Bu da kendini iyice Polat Alemdar zannetti ha.
+  [19.33-21.33s] cio: En son bozacağım.
+  [21.33-22.33s] savas: Bırak oğlum ya.
+  [22.33-25.33s] savas: Abigil yolladıysa mahalleye bir bildikleri vardır.
+  [25.33-26.33s] savas: Kafana takma böyle şeyleri.
+  [26.33-28.33s] cio: Tamam da kardeş bize yapmasın.
+  [28.33-30.33s] cio: O yokken biz vardık.
+  [30.33-39.44s] savas: Ya boş verelim bu kadar işin içinde bir de bununla mı uğraşacağız ya?
+  [39.44-40.44s] cio: Lan bu yol çıkmıyor mu?
+  [40.44-41.44s] genc: Bu yol çıkmıyor abi.
+  [41.44-43.44s] cio: Niye söylemiyorsunuz oğlum?!
+  [43.44-44.44s] genc: Sormadın ki abi...
+  [44.44-50.31s] savas: Mahalleye de rezil olduk.
+  [50.31-51.31s] cio: Bırakalım ya.
+
+=== 26. [meme-701778ed8f454ba0] Kolpaçino - Orman ve Çoluk Çocuk (20 replik, 55.01s) ===
+Karakterler: sabri (Sabri Abi), tayfun (Tayfun), ozgur (Özgür)
+  [0.21-1.47s] tayfun: Bu ne iş ya?
+  [1.87-3.27s] sabri: Birine telefon gelir dur...
+  [3.47-5.49s] sabri: Biri kolonyayla kendini yakmak ister dur...
+  [5.65-6.75s] sabri: Biri ormana dalar...
+  [7.01-8.79s] sabri: Çoluk çocuğun elinde oyuncak olduk Tayfun!
+  [9.59-11.15s] tayfun: Abi ormandan sonrası deniz.
+  [11.29-12.51s] tayfun: İstersen atıp kurtulalım.
+  [12.73-13.61s] sabri: Ne yaparsan yap lan!
+  [14.03-15.03s] ozgur: Sabri Bey...
+  [15.25-17.53s] ozgur: Kız arkadaşım aradı durmak zorundaydım yani.
+  [17.65-18.37s] ozgur: Kusura bakmayın.
+  [19.01-22.65s] ozgur: Ayriyeten içinde bulunduğumuz durumdan da ben pek memnun değilim yani.
+  [22.83-23.85s] sabri: Sen ne diyorsun ya?!
+  [23.85-29.61s] ozgur: Yani diyorum ki gece gece iki ceset, altı adama ait bir yerdeyiz yani...
+  [29.61-33.0s] sabri: Ne gülüyorsun lan?!
+  [33.0-34.5s] ozgur: Gülmüyorum abi.
+  [34.5-36.87s] sabri: Yavrum sen kaç yaşındasın?
+  [36.87-39.0s] ozgur: 34 yaşındayım, ne oldu ki?
+  [39.0-45.5s] sabri: Bak kardeşim sen güzel bir kardeşe benziyorsun. Benim yaşım 50. Bak donuma...
+  [45.5-54.81s] sabri: İyi bak! Donum görünüyor! Donum olmasa bizzat popomun kendisi görünecek!
+
+=== 27. [meme-71af9284d4ab8edf] Kolpaçino - Cezaevi Çıkışı ve Manitalar (10 replik, 26.28s) ===
+Karakterler: sabri (Sabri Abi), ozgur (Özgür), sahin (Şahin)
+  [0.0-2.0s] ozgur: Oğlum nasıl özlemişim lan dışarıyı?
+  [2.0-4.0s] sahin: Bakarsın bugün kavuşuruz Özgür!
+  [4.0-6.13s] sabri: Özgür manitalara bak lan!
+  [6.13-8.13s] sabri: Oğlum memlekete yaz gelmiş lan!
+  [8.13-10.13s] ozgur: Başına vurdu valla abi buyur.
+  [10.13-12.13s] ozgur: Sana özgürlükten bahsediyorum sen manita diyorsun.
+  [12.13-15.13s] sabri: Oğlum neyin kafasını yaşıyorsun baksana kızlara!
+  [15.13-18.7s] sahin: Harbi yandık abi ya.
+  [18.7-20.7s] sabri: Harbi klimayı açın yandık be!
+  [20.7-24.56s] ozgur: Kimin yandığı belli oluyor abi.
+
+=== 28. [meme-74ca08745cf708a8] Flash TV - Neden Dağa Çıktınız Röportajı (6 replik, 35.76s) ===
+Karakterler: muhabir (Muhabir), koylu (Köylü Dayı)
+  [0.3-3.3s] muhabir: Beyefendi neden terörist olduğunuzu anlatır mısınız bize?
+  [3.3-12.5s] koylu: Valla biz köyden geliyorduk arabenle, birden birden teröristler önümü geldi dedi dağa gelecektim ben dedim gelmiyorum o dedi gelecektim biz mecbur kaldım gittim.
+  [12.5-19.5s] koylu: Biz dağa gittim geleceği verdi elime dedi çatışacaktım ben dedim çatışmıyorum o dedi çatışacaktım ben dedim çatışmıyorum biz mecbur kaldım çatıştım.
+  [19.5-25.94s] koylu: Valla o tam o esnada bir bomba patladı gum bir parça geldi benim kafama renk.
+  [25.94-30.58s] koylu: Vallahi ben şu örmeyi kaybetmişim, biz iki güç örmeyi aradım ben bulamadım.
+  [31.45-34.61s] muhabir: Sonra biz devlet güçlerine teslim oldum, ne mutlu Türk'üm diyelim.
+
+=== 29. [meme-7e1105e63de53c5a] Beyaz Futbol - Maç Uydurma Kavgası (11 replik, 43.31s) ===
+Karakterler: ahmet (Ahmet Çakar), rasim (Rasim Ozan Kütahyalı), ertem (Ertem Şener)
+  [0.78-3.84s] ahmet: Ya Ertem artık kafandan maç uyduruyorsun!
+  [3.96-5.2s] ahmet: GS 2-2 yaptı diyorsun.
+  [5.34-7.32s] ahmet: Galatasaray maç bile oynamıyor ya şu an!
+  [8.02-12.12s] rasim: Tık skor uydurdun, uydurdun, uydurdun!
+  [12.22-18.01s] rasim: Artık yemin ediyorum beni çileden çıkarmak için maç uyduruyorsun ya!
+  [18.73-23.03s] ertem: Hocam inan bana Galatasaray 2-2 yapmış şu anda!
+  [25.16-27.2s] rasim: Bir de basketmiş Allah kahretmesin!
+  [30.33-31.55s] ahmet: Bir de basketmiş...
+  [32.05-33.69s] ahmet: Özrüm kabahatimden büyük ya.
+  [37.66-38.84s] rasim: Basket maçıymış!
+  [38.84-40.84s] rasim: Yüzümü yolacağım tırnaklarımla ya!
+
+=== 30. [meme-82905766b3d259c2] Meme - Han Kanal ve Piggy Röportajı (15 replik, 23.85s) ===
+Karakterler: han (Han Kanal), piggy (Piggy (Domuzcuk))
+  [0.0-2.08s] han: İlk olarak ben bunu çok merak ediyorum.
+  [2.78-4.58s] piggy: Handaşlar da seni çok merak ediyor.
+  [4.66-6.14s] piggy: Ya ananı amına koyim.
+  [6.22-7.18s] piggy: Benim umrumda değil.
+  [7.3-8.58s] piggy: Bana yemek ver ne olur.
+  [9.02-10.44s] piggy: Ben açlıktan ölüyorum ya.
+  [10.58-11.46s] piggy: Sahibim siktim.
+  [11.7-12.42s] piggy: Evet Piggy.
+  [12.76-14.02s] han: Sahibinden memnun musun?
+  [14.14-15.92s] piggy: Bunu da merak ediyor handaşlar.
+  [16.34-17.58s] piggy: Eee Secaf.
+  [17.88-20.0s] piggy: Ya ne yaptın evime amına koyim.
+  [20.06-20.84s] piggy: Evimi siktim.
+  [21.12-22.48s] piggy: Sahibimden memnun değilim.
+  [22.56-23.44s] piggy: Transfer olmak istiyorum.
+
+=== 31. [meme-82adcb0c41c171e1] Keloğlan - Huysuz ve Uzun İksir Peşinde (9 replik, 47.37s) ===
+Karakterler: huysuz (Huysuz), uzun (Uzun), cadi (Cadı / Keloğlan)
+  [0.42-4.42s] huysuz: Geliyorlar! Herkes konuştuğumuz gibi yerlerine geçsin ve kıpırdamasın.
+  [8.78-12.9s] uzun: İyi de sen böyle bir suratla karşımda durursan ben gülerim.
+  [13.24-15.2s] huysuz: He de bir gül de vezir de bizi mahvetsin!
+  [19.75-22.21s] uzun: Huysuz, hız tozunun etkisi geçmemiş miydi?
+  [22.45-23.37s] huysuz: Dur bakalım Uzun.
+  [25.58-29.76s] cadi: Sizi akıllılar sizi! Biz yokken çaldıklarımızı çalacaktınız he?
+  [30.28-37.04s] uzun: Bu Huysuz bir şey icat etti.
+  [37.91-38.83s] huysuz: Tozun neydi o?
+  [42.58-46.96s] cadi: Sizi uyanıklar!
+
+=== 32. [meme-840ad8a37e2bb450] Viral - Gülme Krizine Giren Spiker (1 replik, 21.57s) ===
+Karakterler: spiker (Gülme Krizindeki Spiker)
+  [0.05-21.57s] spiker: Hıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıhıh
+
+=== 33. [meme-88139b3306f24519] Meme - Cem Yılmaz'ın Yandan Yemişi (6 replik, 18.28s) ===
+Karakterler: dayi1 (Laf Sokucu Dayı), dayi2 (Cem Yılmaz Çakması)
+  [0.0-2.0s] dayi1: Zaten senin laf yarışına giren de suç.
+  [2.0-5.02s] dayi2: Senin derdin ne arkadaş?
+  [5.02-7.02s] dayi1: Cem Yılmaz'ın yandan yemişi seni.
+  [7.02-10.31s] dayi1: La get! Eşek smek istemiyorum.
+  [10.31-14.89s] dayi1: Ama sen de zorla kaşınıyorsun, kaşınıyorsun, kaşınıyorsun ya!
+  [14.89-16.89s] dayi1: Erotik eşek.
+
+=== 34. [meme-885102943a735982] Parodi - Israrcı Otel Fotoğrafçısı (20 replik, 67.11s) ===
+Karakterler: fotografci (Otel Fotoğrafçısı), turist (Tatilci Dayı)
+  [11.38-14.18s] fotografci: Beyefendi stop stop stop! Bir tane fotoğrafınızı çekeceğim.
+  [14.18-16.7s] turist: İstemiyorum ben fotoğraf falan arkadaşım lütfen.
+  [16.7-19.42s] fotografci: Beyefendi sadece bir tane hatıra için fotoğraf çekeceğiz.
+  [19.42-21.98s] turist: Ben fotoğraf falan istemiyorum arkadaşım lütfen beni rahat bırak.
+  [21.98-23.5s] fotografci: Çok güzel olacak inanın bana.
+  [23.5-24.18s] fotografci: Şöyle hafif...
+  [39.07-41.43s] turist: Oğlum istemiyorum diyorum ben fotoğraf falan! Lütfen bırak beni.
+  [41.43-44.27s] fotografci: Beyefendi çekinmenize gerek yok, ben otelin fotoğrafçısıyım lütfen.
+  [44.27-47.14s] fotografci: Sadece bir tane güzel bir manzara fotoğrafı.
+  [47.14-48.22s] turist: Evet?
+  [48.22-49.22s] turist: Havuz çıkıyor mu?
+  [49.22-51.22s] fotografci: Evet, çok güzel bir manzara fotoğrafı olacak.
+  [51.72-52.92s] turist: Dur o zaman, poz vereceğim.
+  [54.1-55.1s] fotografci: Evet, çok iyi.
+  [55.3-56.8s] turist: Üçten geriye say ama lütfen.
+  [57.0-58.0s] fotografci: Tamam.
+  [58.0-59.6s] fotografci: Üç, iki, bir...
+  [61.96-63.16s] turist: Ama efendim bu olmadı ki!
+  [63.46-64.16s] fotografci: Ne lan?!
+  [64.66-65.66s] turist: Ayy!
+
+=== 35. [meme-8c3b341acc6bda05] TRT - Sesli Betimleme Parodisi (1 replik, 30.95s) ===
+Karakterler: spiker (Betimleme Spikeri)
+  [0.5-4.0s] spiker: Meme repliği
+
+=== 36. [meme-909c5d25fce176ea] Meme - Yemek Hazır / Ben Yemeyeceğim (4 replik, 35.35s) ===
+Karakterler: anne (Anne), ogul (İsyankar Çocuk)
+  [0.4-1.54s] anne: Yemek hazır!
+  [2.06-2.8s] ogul: Ben yemeyeceğim.
+  [5.46-6.32s] anne: Aç değil misin?
+  [6.82-7.82s] ogul: Buyurun...
+
+=== 37. [meme-915b36b91433c2f4] Sıfır Bir - Lan Bilo Neredeyki Araba? (22 replik, 41.74s) ===
+Karakterler: cio (Cio Baba), berto (Berto), bilo (Bilo)
+  [0.0-0.6s] cio: ...olur zaten.
+  [1.34-2.1s] cio: Lan Bilo!
+  [3.16-4.6s] cio: Şu araba nasıl kararmış gel hele.
+  [5.06-6.1s] bilo: Neredeyki abi araba?
+  [6.7-7.48s] cio: Anamın damında!
+  [9.38-10.58s] berto: Nerede oğlum yolun başında!
+  [11.96-14.06s] berto: Sen hayırdır abi gençlerle üst perdeden konuşuyorsun?
+  [15.46-16.76s] cio: Ne üst perdeden konuşacağım Ciho?
+  [17.3-18.92s] berto: Görmüyor musun? Soru sormak için soruyor.
+  [19.16-21.78s] cio: Olsun abi. Herkese düzgün konuşacaksın bundan sonra.
+  [22.1-22.84s] cio: Hepsi benim kardeşim.
+  [23.56-24.24s] berto: Hayırdır Ciho?
+  [24.7-25.9s] cio: Seni ne rahatsız etti ki?
+  [26.4-27.42s] berto: Rahatsız oldum abi ben.
+  [27.96-29.7s] berto: İçerideyken de tersini yapıyordun şu millete.
+  [29.7-31.06s] cio: Kime ne demişim ben?
+  [31.06-32.72s] berto: Karnından konuşma kardeş.
+  [33.08-34.34s] berto: Herkes burada, yüzleşek.
+  [34.44-35.66s] cio: Ne karnından konuşacağım ya?
+  [36.2-37.78s] berto: Kimle seni yüzleştireyim?
+  [37.88-39.56s] cio: Sen kimsin lan? Hayırdır oğlum?!
+  [39.8-41.3s] berto: Ne derdin varsa açık açık konuş!
+
+=== 38. [meme-93cba130dd88ebfa] Sıfır Bir - Cihat & Cabbar Halletsin (9 replik, 44.68s) ===
+Karakterler: cihat (Cihat), savas (Savaş), cabbar (Cabbar)
+  [0.0-4.15s] cihat: Abi sen dur, bu kadar işin içinde bir de Özcan'la uğraşma.
+  [6.23-7.63s] cabbar: Cabbar'lar halleder.
+  [8.94-10.02s] cihat: Hallederik abi.
+  [10.94-16.72s] savas: Peki sen öyle diyorsan Cihat, Cabbar halletsin.
+  [17.13-19.25s] savas: Bir şeye ihtiyacınız olursa söyleyin kardeş.
+  [19.72-23.9s] cabbar: Tamam abi, Özcan elimizde. Siz kafanızı yormayın.
+  [24.1-36.5s] cihat: Cabbar halledecekmiş... Kendi başını halleder anca.
+  [37.52-41.58s] cihat: Ayık olun siz de oğlum, biz hallederiz falan desenize!
+  [41.86-44.22s] cabbar: İlla lafa ben mi gireceğim amına koyayım ya?
+
+=== 39. [meme-9db0b71d01ec8690] JoJo - Za Warudo! Zamanı Durdurma (21 replik, 123.72s) ===
+Karakterler: dio (Dio Brando), jotaro (Jotaro Kujo), anlatici (Anlatıcı)
+  [0.0-3.64s] dio: DURDURAK BİLMEYEN SON SALDIRIMI YAPACAĞIM!
+  [3.64-6.8s] dio: VE SON BİR KEZ ZAMANI DURDURACAĞIM!
+  [6.8-12.27s] dio: ZAMANI DURDURDUĞUM 9 SANİYE İÇİNDE BUNU BİTİRECEĞİM!
+  [12.27-14.19s] dio: ZA WARUDO! ZAMAN DURSUN!
+  [23.12-28.73s] dio: Bir saniye geçti...
+  [28.73-31.31s] dio: İki saniye geçti...
+  [31.31-33.41s] dio: Üç saniye geçti...
+  [33.41-37.91s] anlatici: Bir nedenden dolayı zaman durmuşken Dio ortalıktan kayboldu.
+  [37.91-40.89s] dio: Dört saniye geçti...
+  [40.89-43.93s] anlatici: Fakat Jotaro kafa yormayı bıraktı.
+  [43.93-46.65s] anlatici: Dio'nun nasıl bir planı olsa da...
+  [46.65-50.53s] anlatici: Zaman durmuşken sadece 2 saniye hareket edebilen Jotaro'ya...
+  [50.53-53.09s] anlatici: Nasıl saldırsa da...
+  [53.09-58.51s] anlatici: Tek yapması gereken o 2 saniyede Star Platinum'un yumruklarını indirmek!
+  [58.51-60.59s] dio: Beş saniye geçti...
+  [60.59-63.17s] jotaro: Bildiğim tek şey var Dio...
+  [63.17-68.6s] jotaro: Bir daha görürsem ağzını burnunu kıracağım!
+  [68.6-72.56s] dio: Altı saniye geçti...
+  [72.56-73.26s] jotaro: Yolla hadi!
+  [73.26-78.28s] dio: Yedi saniye geçti...
+  [78.28-85.0s] dio: Dokuz saniye geçti! ORA ORA ORA!
+
+=== 40. [meme-a9bd70989fc91692] Viral - Arabayı Yeni Alan Adamın Panik Anı (4 replik, 15.63s) ===
+Karakterler: adam (Yeni Araba Alan Adam)
+  [0.21-2.21s] adam: Hele şükür aldık sonunda arabaydı ya.
+  [2.21-4.5s] adam: Gazasız belasız bir binelim.
+  [4.5-6.5s] adam: Ay ay dönemiyorum.
+  [6.5-8.5s] adam: Olamaz! Kadın sürekiii!
+
+=== 41. [meme-ac037f6b8ed128c4] Kurtlar Vadisi - Pala & Bedir & Mahmut (18 replik, 48.87s) ===
+Karakterler: pala (Pala), bedir (Bedir), mahmut (Mahmut)
+  [0.85-3.47s] pala: Al Mahmut, bunlar bir süre misafirin olacak.
+  [5.28-6.28s] bedir: Geç.
+  [6.1-7.1s] pala: Bak hele.
+  [6.88-7.88s] bedir: Geç geç.
+  [7.42-10.18s] mahmut: Biz gelmezsek bunların eti senin kemiği yiğitlerin olsun ya.
+  [10.46-12.6s] pala: Siz kafanızı yormayın kardeş.
+  [13.88-15.58s] pala: Sağ salim gidin.
+  [15.72-16.52s] bedir: Gelin inşallah.
+  [16.96-17.74s] mahmut: İnşallah abi.
+  [18.14-19.14s] mahmut: İnşallah.
+  [19.06-26.31s] pala: Hainler sizi...
+  [27.11-29.31s] mahmut: Öyle feda etmek değil oğlum.
+  [32.77-33.51s] bedir: Sakin ol Mahmut.
+  [33.91-34.77s] bedir: Bizim seninle bir işimiz yok.
+  [37.96-39.78s] mahmut: Senin benimle işin yok da...
+  [41.26-42.64s] pala: Benim seninle işim var!
+  [42.64-43.64s] pala: Kahpe!
+  [43.64-48.43s] pala: Gittiniz kime uşaklık yapıyordunuz oğlum?!
+
+=== 42. [meme-b65ba8effc3ba1fb] Sıfır Bir - Filozof Sen Okuyacaksın Lan! (16 replik, 56.04s) ===
+Karakterler: ozgur (Özgür), filozof (Filozof (Çocuk)), berto (Berto)
+  [0.0-1.0s] ozgur: Ne yapıyorsun lan Filozof?
+  [1.0-4.0s] filozof: Ne yapayım vallahi Özgür abi, sizi gördüm bir selam vereyim dedim.
+  [4.0-6.0s] ozgur: Adam ya, büyümüş de küçülmüş fırıldak seni.
+  [6.0-7.0s] ozgur: Okul nasıl gidiyor?
+  [7.0-9.0s] filozof: Bu seneden sonra Özgür abi bırakacağım.
+  [9.0-13.1s] ozgur: Niye oğlum? Mahalleyi sen kurtaracaksın oğlum, okusana!
+  [13.1-16.1s] filozof: Anamın durumu yok, o da artık bırak çalış diyor.
+  [16.1-19.7s] ozgur: Olur mu öyle oğlum? Konuşak lan bunun anasıyla!
+  [19.7-23.06s] berto: Senin gibi zeki bir çocuk okuldan mı alınır lan?
+  [23.06-26.54s] ozgur: Bak biz okumadık ne olduk, bari siz okuyun lan!
+  [26.54-31.57s] ozgur: Berto kardeş, konuşun anasıyla. Okul masraflarını biz karşılarız.
+  [31.57-35.57s] ozgur: Kendilerinin de bir ihtiyacı olursa hallederiz, kafasını yormasın.
+  [35.57-39.57s] berto: Tamam kardeş, ben yarın gider konuşurum. Filozof'u da okulsuz bırakmayız aslanım.
+  [39.57-46.98s] ozgur: Oğlum Filozof! Sen okuyacaksın lan! Doktor olacaksın, mühendis olacaksın, savcı olacaksın, hakim olacaksın!
+  [46.98-50.98s] berto: Bizim mahallemizden de böyle insanlar çıkabileceğini göstereceksin, tamam mı aslanım?
+  [50.98-55.14s] filozof: Tamam diyorum abi, Allah'ını severim lan senin. Hadi gidelim.
+
+=== 43. [meme-c0ba8b38a59eb9ef] Meme - Nazif ÖSS'yi Kaçırdın! (11 replik, 40.5s) ===
+Karakterler: anne (Anne), baba (Baba), nazif (Nazif)
+  [0.5-7.46s] anne: Nazif, ÖSS'yi kaçırdın! ÖSS'yi kaçırdın Nazif!
+  [8.75-10.41s] nazif: Ya anasını satayım ya...
+  [12.34-14.54s] anne: Okuyup büyük adam olamayacaksın Nazif!
+  [19.75-21.45s] baba: Nasıl kaçırdın ÖSS'yi Nazif?
+  [23.28-24.74s] baba: Kaçta başlıyordu sınav?
+  [25.12-25.7s] nazif: 10.
+  [25.72-26.72s] baba: Saat kaç?
+  [26.72-27.58s] nazif: 1.
+  [30.89-32.21s] anne: Çalışmış mıydın o sınava?
+  [34.49-37.41s] nazif: Çok yoğun bir tempoyla çalıştım yaklaşık 4 ay.
+  [39.13-40.37s] baba: Gece gündüz ders çalıştın...
+
+=== 44. [meme-d7c49cb4311f4bf7] Sıfır Bir - Cezaevi Koğuş Girişi ve Mesul (14 replik, 31.38s) ===
+Karakterler: savas (Savaş Satış), mesul (Koğuş Mesulü), soner (Soner)
+  [0.5-1.62s] soner: Selamünaleyküm.
+  [1.7-2.98s] mesul: Aleykümselam baba.
+  [3.06-5.46s] soner: Abi biz arkadaşlarla kendi aramızda da konuştuk...
+  [5.54-8.98s] soner: Şu köşede bir yer yapsak biz orada kalsak kendimize.
+  [9.73-11.45s] mesul: Gereksiz başı sonra yatın.
+  [11.53-13.63s] mesul: Bir de yer mi beğendireceğiz size?
+  [13.71-14.75s] savas: Mesul sensin değil mi?
+  [14.83-15.95s] mesul: Mesul benim baba.
+  [16.03-17.31s] savas: Bu kardeş niye konuşuyor?
+  [17.39-19.07s] mesul: Bu kardeş bir daha konuşamaz.
+  [19.15-20.83s] mesul: Sen konuşma Soner!
+  [20.91-24.59s] mesul: Baba istediğiniz yerde yatabilirsiniz kafanıza göre.
+  [24.67-26.22s] savas: Eyvallah.
+  [26.3-29.5s] savas: Sen sen ol, abilerin konuşurken lafa girme tamam mı?
+
+=== 45. [meme-dfa4d19b1f82b2eb] Siyaset Meydanı - Doğu Perinçek vs Ertuğrul Kürkçü (35 replik, 52.34s) ===
+Karakterler: perincek (Doğu Perinçek), kurkcu (Ertuğrul Kürkçü), moderatör (Ali Kırca (Moderatör))
+  [0.0-1.24s] perincek: Kemalizmi savunacağız!
+  [1.24-3.06s] perincek: Sen Kemalist devrimi savunacaksın!
+  [3.06-3.72s] kurkcu: Sen komünistsin hadi bakayım!
+  [3.72-4.34s] perincek: Bırak palavrayı!
+  [4.34-4.96s] kurkcu: Sen bırak palavrayı!
+  [4.96-5.7s] perincek: Sen döneksin!
+  [5.86-6.7s] kurkcu: Sensin dönek!
+  [6.9-7.76s] perincek: Terbiyesiz herif!
+  [7.82-10.92s] kurkcu: Sen sıkıyönetim mahkemelerinde çıkıp dönekliğini ilan etmedin mi?!
+  [10.92-11.86s] perincek: Sen ne dedin?!
+  [12.32-13.3s] kurkcu: Sen 12 Eylül'de...
+  [13.3-14.36s] kurkcu: 12 Eylül'de gelmiyorsun!
+  [14.52-15.52s] perincek: Göreceksin!
+  [15.34-16.34s] perincek: Göreceksin!
+  [15.92-17.02s] kurkcu: Sen Abdülhamit'i savundun!
+  [17.26-18.26s] perincek: Savunmadım!
+  [17.84-18.8s] kurkcu: Sen medreseleri savundun!
+  [18.8-19.8s] perincek: Savunmadım!
+  [19.36-20.0s] kurkcu: Sen savundun!
+  [20.1-20.72s] perincek: Terbiyesiz herif!
+  [20.72-21.5s] kurkcu: Savunmadın mı?
+  [21.5-22.22s] perincek: Savunmadım!
+  [22.68-23.68s] kurkcu: ÇIKAR GÖSTER!
+  [23.68-24.68s] perincek: Alçak herif!
+  [24.68-25.56s] kurkcu: Ver göstereyim!
+  [25.56-27.5s] moderatör: Sakin olun beyler lütfen...
+  [30.0-32.72s] perincek: Bir tane tokat atacağım!
+  [32.78-33.98s] kurkcu: Hiçbir şey atamazsın!
+  [34.24-36.6s] perincek: Sen görürsün Dev-Genç nasıl patlar beyninde!
+  [36.96-37.96s] moderatör: Lütfen...
+  [38.02-41.14s] perincek: Ben Dev-Genç'in ismini koyan ilk genel başkanıyım!
+  [41.16-42.64s] kurkcu: Sen FKF'nin başkanısın.
+  [42.64-45.2s] kurkcu: Sen Dev-Genç'in başkanıydın.
+  [45.2-50.48s] kurkcu: Ne güzel 18 yaşında hippie, 48 yaşında devrimciyim hala!
+  [50.7-52.16s] perincek: Siz hippie bile olamadınız biliyor musunuz?!
+
+=== 46. [meme-e176a8d6ddafcd38] Meme - Bunlar Çok Semizlenmişler (14 replik, 29.76s) ===
+Karakterler: yegen (Yeğen), dayi (Sinirli Dayı)
+  [0.53-2.87s] yegen: İşin kötüsü bunlar çok senizlenmişler.
+  [3.07-4.83s] yegen: Bizi yakalarlarsa sikeceklermiş.
+  [5.13-6.17s] dayi: Nasıl konuşuyorsun lan sen?
+  [6.55-7.55s] yegen: Yavşak!
+  [7.39-9.77s] yegen: Yok dayı. Öyle değil yanlış anladın ya.
+  [10.21-11.73s] yegen: Bizi bulurlarsa sıkaya yakarmış.
+  [12.07-13.19s] yegen: O anlamda sikecekler.
+  [15.01-17.45s] dayi: He dayı öyle. Her yerde konuşurlarmış.
+  [17.65-18.71s] dayi: Oları sikeceğiz diye.
+  [19.19-20.45s] dayi: Hala hey dayı diyor ya.
+  [20.91-21.91s] dayi: Yavşak bak!
+  [22.58-23.56s] yegen: Beni denlemeyeceksiniz lan!
+  [24.59-25.33s] dayi: Cahil olun cahiller!
+  [26.15-26.95s] yegen: Siktirin gidin lan buradan!
+
+=== 47. [meme-e826a1eb54f96a91] Viral - Toteme Çorba Yazmışlar Rant (1 replik, 27.63s) ===
+Karakterler: sofor (Aç Kalan Sürücü)
+  [0.72-27.02s] sofor: Yollardayım ben. Ben gidiyorum. Yolun kenarına kocaman oraya çorba yazmış. Hayvan gibi toteme çorba yazmış. İçeri giriyorum. Ne çorbası var diyorum. Mercimek. Ananı sikim. Hayallerimle oynadın. Oros bu çocuğu. Ayak lazım. Paça lazım. İşkembe lazım. Mercimekle avradını siktiğimi madem yok. Neden oraya kocaman çorba yazıyorsun. Oros bu çocuğu. Çorba.
+
+=== 48. [meme-e8c99d3f73f2c634] Meme - Buzdolabı Işığı ve Şabat İcadı (8 replik, 20.29s) ===
+Karakterler: anlatan (Buluşu Anlatan Adam), dinleyen (Şüpheci Arkadaş)
+  [0.0-2.3s] anlatan: İşte Yahudi haklı buna bir çözüm bulmuş.
+  [2.6-3.85s] anlatan: Bu...
+  [3.85-5.57s] dinleyen: Ama ışık açık değil mi?
+  [5.73-7.43s] anlatan: Işık açık. Onu kapatmadın.
+  [7.61-10.29s] anlatan: Sadece önünü kapatıp ışığı engelleyebilirsin.
+  [10.43-12.27s] anlatan: Yahudi haklı buna da icat etmiş.
+  [14.69-18.69s] dinleyen: Yani dondurucuyu her açtığınızda artık ışık yanmayacak.
+  [18.85-20.09s] dinleyen: Işığı açmış olmayacaksın.
+
+=== 49. [meme-e93c45e8d6f4a3d8] Meme - Kuru Fasulyeci Ümit Usta Parodisi (27 replik, 58.64s) ===
+Karakterler: umit (Ümit Usta), musteri (Aç Müşteri)
+  [0.0-6.76s] musteri: Çorba falan yapma öyle, kendi evinin altında 11 gibi açıyor 2 gibi kapatıyor zaten kalmıyor, olana kadar efsane bir tat yapacağız.
+  [6.76-8.64s] musteri: Ümit Usta 2 kuru versene bize be.
+  [8.64-10.24s] umit: Kuru kalmadı oğlumuz.
+  [10.24-11.36s] musteri: Yapma be abi.
+  [11.36-12.72s] musteri: İyi yarın geliriz biz o zaman.
+  [12.72-14.16s] umit: Ne yarın açmam.
+  [14.16-14.88s] musteri: Hadi ya.
+  [14.88-16.24s] musteri: İyi tamam Cuma geliriz ya.
+  [16.24-17.6s] umit: Cuma da açmam.
+  [17.6-20.24s] musteri: Haa Cuma gelemeyiz zaten toplantı var.
+  [20.24-22.0s] umit: Ne ha Cuma açarım o zaman.
+  [22.0-23.84s] musteri: Ümit Usta 2 kuru ver bize be.
+  [23.84-25.52s] umit: Kalmadı oğlumuz yav.
+  [25.52-28.24s] musteri: Saat 11'de açmadın mı sen? 11'i 10 geçiyor ne ara bitti?!
+  [28.24-31.08s] umit: Ben bir kase yaptım, kendime kadar yedim onu ya.
+  [31.08-32.02s] musteri: Yarın kaçta açacaksın?
+  [32.34-34.12s] umit: Sabahın en 4.30'unda açarım.
+  [34.92-36.9s] musteri: Öğlen bize iki kuru verirsin abi.
+  [36.92-38.5s] umit: Oğlumuz ne konuşacağım sabah sabah?
+  [38.84-40.88s] musteri: Abi sen deli misin sabah 4.30'da açacaksın?
+  [41.14-43.78s] umit: Açtım da kapatacağım ya camiye gideceğim.
+  [43.96-46.64s] umit: Sular soğuk orada burada sıcağına abdest aldım gideceğim şimdi.
+  [47.02-48.0s] umit: 11 gibi gelin.
+  [48.04-49.04s] musteri: Bu ne?
+  [49.85-53.25s] umit: Narsist kişiliğime yenik düştüm ve zirvede bırakıyorum.
+  [53.39-55.89s] umit: Siz bunu okuduğunuzda ben çoktan emekli olacağım.
+  [56.53-58.33s] umit: Kurucu üye Ümit Usta.
+
+=== 50. [meme-ea037fab87e9c168] Kurtlar Vadisi - Her Delikanlının Bir Gelişi Vardır (6 replik, 15.47s) ===
+Karakterler: raconcu (Ağır Abi), genc (Genç)
+  [1.14-1.86s] genc: Ne haber?
+  [3.13-5.25s] raconcu: İyidir sahip. Sen nasılsın?
+  [5.41-6.39s] genc: Ne diyorsun oğlum?
+  [6.57-8.81s] raconcu: Ya ne öyle geliyorsun? Aklımız gitti.
+  [9.15-11.73s] raconcu: Eee. Her delikanlının bir gelişi vardır.
+  [12.21-14.97s] raconcu: Ne yaptın lan? Güzel kurpiyer aldın mı? İçeriye yöntem.
+
+=== 51. [meme-ec13d57c1425f814] Viral - Tut Lan Ben De Aşağı Atlıyorum (2 replik, 15.71s) ===
+Karakterler: kanka1 (Aşağıdaki Kanka), kanka2 (Atlayan Kanka)
+  [0.69-12.38s] kanka1: Tövbe tövbe kanka bir şey var mı?
+  [12.38-15.4s] kanka2: Tut lan tut ben de aşağı atlıyorum.
+
+=== 52. [meme-f0a445c3a2b4afaa] Kurtlar Vadisi - Çakır Masaya Meydan Okuyor (6 replik, 33.56s) ===
+Karakterler: cakir (Süleyman Çakır), necmi (Testere Necmi), lazziya (Laz Ziya)
+  [0.85-6.15s] cakir: O zaman Ziya Bey benden özür dileyip bu düşmanlığa bir son verecek!
+  [7.05-11.09s] cakir: Çünkü ben onlara kardeşlikten başka hiçbir şey yapmadım.
+  [11.88-16.12s] necmi: Ulan! Ben senin adamın mıyım?!
+  [17.42-19.74s] lazziya: Üstündeki adam mıyım ki?
+  [20.97-23.95s] necmi: Gözümün içine bakarak beni tehdit edeceksin...
+  [25.6-30.66s] lazziya: Yüzüme utanmadan özür bekleyeceksin!
+
+=== 53. [meme-f337b03a431b512d] Röportaj - Ahmet Şık Hükümet İstifa Dediniz Mi? (5 replik, 14.88s) ===
+Karakterler: muhabir (Muhabir), ahmet (Ahmet Şık)
+  [0.4-3.22s] muhabir: Megafonu elinize alıp hükümet istifa dediniz mi?
+  [3.92-4.4s] ahmet: Kim?
+  [4.44-5.44s] muhabir: Siz.
+  [6.63-7.63s] ahmet: Yo.
+  [10.34-12.84s] muhabir: Hükümet istifa dediğiniz şeklinde haberleri ben okudum.
+
+=== 54. [meme-fbb565592abea053] Ezel - Kerpeten Ali Sanayide Racon (36 replik, 104.49s) ===
+Karakterler: ali (Kerpeten Ali), cirak (Çırak), hoca (Hoca (Usta))
+  [1.55-2.55s] cirak: Kolay gelsin.
+  [2.91-3.79s] ali: Vay koçum.
+  [4.15-4.77s] ali: Hoca ne haber?
+  [6.51-7.11s] hoca: Eyvallah.
+  [7.65-10.01s] ali: Kardeş, sen geç benim arabanın yanına da bir bak.
+  [10.81-13.15s] cirak: Lan elin dursa ayağın durmaz be oğlum.
+  [14.35-18.32s] ali: Ne gülüyorsun lan? Komik bir şey mi var?
+  [18.78-20.24s] cirak: Yok ondan değil abi.
+  [21.1-22.1s] ali: Yenisin herhalde burada.
+  [23.06-24.84s] ali: Sen kimsin benim suratıma güleceksin lan?!
+  [25.34-26.36s] cirak: Yok yanlış anladın abi.
+  [26.42-27.42s] ali: Konuşma lan!
+  [27.52-28.3s] ali: Sen git arabaya bak.
+  [30.7-31.7s] hoca: Dur lan.
+  [31.56-34.48s] hoca: Dağdan geldiniz, İstanbul'u kendinize benzettiniz anasını satayım.
+  [34.48-38.04s] ali: Hayır hoca, senin oğlan yeni galiba?
+  [38.04-41.78s] hoca: He, canavar yeni.
+  [41.78-44.28s] ali: Oğlum, sen beni caddede göreceksin.
+  [44.28-46.91s] ali: Bütün arabaları peşime takıyorum Allah seni inandırsın.
+  [46.91-48.36s] cirak: Doğrudur.
+  [48.36-58.08s] cirak: Aaa bak fena çizilmiş burası.
+  [58.08-60.34s] ali: Yapma lan, neresi?
+  [60.34-61.34s] cirak: Bak burası.
+  [61.34-64.49s] ali: Ne yapıyorsun lan?!
+  [64.49-65.49s] hoca: Lan ne yapıyorsun?
+  [65.49-67.0s] cirak: Ali abi...
+  [67.0-70.0s] ali: Senin takımlarını da bir elden geçirelim mi hoca?
+  [70.0-74.0s] ali: He, bir daha bir edepsizliğini görürsem sana bir 100 beygir daha takarım!
+  [74.0-76.0s] ali: Buradan pati yapar kalkarsın!
+  [76.0-78.0s] ali: Anladın mı hoca?
+  [78.0-80.0s] ali: Anladıysan salla silecekleri!
+  [80.0-86.32s] ali: Sen öldün lan, öldün lan sen!
+  [86.32-88.32s] ali: Öldün lan sen!
+  [88.32-90.61s] ali: Seni burada tanıyorlarmış ya...
+  [90.61-101.18s] ali: Beni de tanırlar!
+  [101.18-103.18s] hoca: Biliyor musun? Çaktın mı?
+
+=== 55. [meme-fdd89b3a7015c460] Technopat - Sistem Toplama Parodisi (18 replik, 40.89s) ===
+Karakterler: recep (Recep Baltaş), ali (Ali Güngör)
+  [0.0-0.7s] recep: Ben Recep.
+  [0.85-1.4s] ali: Ben Ali.
+  [1.6-4.16s] recep: Bugün sizlerle UEFI Windows toplayacağız, değil mi Ali?
+  [4.68-8.02s] ali: Evet Recep, bugün gerçekten de UEFI bir Windows toplayacağız.
+  [8.46-11.14s] ali: Bu anakartımız yanında aparatlarıyla geliyor, değil mi Recep?
+  [11.72-14.92s] recep: Evet Ali, sahiden de bu anakartımız yanında aparatlarıyla geliyor.
+  [15.1-17.26s] ali: Dilersen şimdi sistem testlerine geçelim Recep.
+  [17.76-18.68s] recep: Geçelim bakalım Ali.
+  [18.98-22.3s] recep: Shadow of War oynuyoruz, burada bir ork var gördüğün gibi, öyle değil mi Ali?
+  [22.6-24.76s] ali: Evet Recep, orada gerçekten de bir ork var.
+  [25.08-27.48s] recep: Şimdi vuruyorum onu Ali. Vurdum onu, değil mi Ali?
+  [27.48-29.68s] ali: Evet Recep, gerçekten de vurdun onu.
+  [30.0-32.68s] recep: Bu yeni topladığımız sistem hakkında ne düşünüyorsun Ali?
+  [33.0-34.48s] ali: Evet Recep, gerçekten de öyle.
+  [34.84-35.56s] ali: Öyle değil mi Recep?
+  [36.0-37.32s] recep: Evet Ali, gerçekten de öyle.
+  [37.74-38.32s] recep: Öyle değil mi Ali?
+  [38.76-40.46s] ali: Evet Recep, gerçekten de öyle.
+
+=== 56. [meme-ff6ff8de71ce542b] Arka Sokaklar - Komiser Hüsnü Çoban Parodisi (9 replik, 69.8s) ===
+Karakterler: husnu (Komiser Hüsnü)
+  [2.06-3.94s] husnu: Polis dur dur yok yok
+  [3.94-5.82s] husnu: Tamam abi sen durmayabilirsin sen git
+  [5.82-7.6s] husnu: Siz küçük olanlar yakaladım sizi durun bakayım
+  [7.6-10.0s] husnu: Abi seni bir dahaki bölüm yakalarız hadi selametle
+  [10.0-11.0s] husnu: Bay bay
+  [10.4-14.14s] husnu: Arka sokaklardan ben komiser üstü
+  [14.14-16.12s] husnu: Light salami görse
+  [16.12-17.8s] husnu: Kavarır göğsü
+  [17.8-29.68s] husnu: Arka sokak polis üstüde
+

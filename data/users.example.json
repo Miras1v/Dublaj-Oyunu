@@ -1,0 +1,12 @@
+{
+  "version": "1.0",
+  "users": [
+    {
+      "username": "admin",
+      "role": "admin",
+      "salt": "example_salt_hex_16_bytes_long_here",
+      "password_hash": "example_sha256_hash_here",
+      "created_at": 1789689413
+    }
+  ]
+}

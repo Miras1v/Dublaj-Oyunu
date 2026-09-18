@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="tr" class="dark" data-theme="cinema">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dublaj Partisi - Gerçek Video Destekli Dublaj Oyunu</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- PeerJS WebRTC P2P -->
+  <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            theme: {
+              main: 'var(--bg-main)',
+              surface: 'var(--bg-surface)',
+              card: 'var(--bg-card)',
+              border: 'var(--border-subtle)',
+              primary: 'var(--color-primary)'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="theme-bg-main text-slate-100 min-h-screen flex flex-col font-sans selection:bg-red-600 selection:text-white transition-colors duration-150">
+
+  <!-- Üst Bar / Header -->
+  <header class="border-b theme-border bg-black/75 backdrop-blur-md sticky top-0 z-40 transition-colors duration-150">
+    <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+      <div id="app-header-logo" class="flex items-center space-x-3 cursor-pointer select-none" title="3 kez tıklayarak Admin Paneli açabilirsiniz">
+        <span class="text-3xl">🎙️</span>
+        <div>
+          <h1 class="font-black text-lg tracking-tight theme-logo-gradient">
+            DUBLAJ.IO PARTİSİ
+          </h1>
+          <p class="text-[10px] text-slate-400 font-medium">Önünde Gerçek Video Oynar &bull; Sadece Kendi Rolünü Seslendir</p>
+        </div>
+      </div>
+      <div class="flex items-center space-x-2 sm:space-x-3">
+        <!-- Tema Değiştirici (3 Siyah Ağırlıklı Palet) -->
+        <div class="flex items-center space-x-1.5 bg-black/60 border border-slate-800/90 rounded-xl px-2.5 py-1 text-xs shadow-inner">
+          <span class="text-xs">🎨</span>
+          <select id="select-theme" class="bg-transparent text-slate-200 text-xs font-bold focus:outline-none cursor-pointer">
+            <option value="cinema" class="bg-slate-950 text-white">🎬 Sinema (Kırmızı)</option>
+            <option value="studio" class="bg-slate-950 text-white">🎙️ Stüdyo (Amber)</option>
+            <option value="cyber" class="bg-slate-950 text-white">👾 Cyber (Neon)</option>
+          </select>
+        </div>
+
+        <!-- Kullanıcı ve Oturum Kontrolleri (Giriş Yapılınca Aktif) -->
+        <div id="header-user-section" class="hidden flex items-center space-x-2">
+          <!-- Kullanıcı Rozeti: 👑 Miraç (Admin) veya 🎙️ [İsim] (Oyuncu) -->
+          <div id="header-user-badge" class="px-3 py-1 rounded-full text-xs font-black bg-indigo-500/20 text-indigo-300 border border-indigo-500/40 flex items-center space-x-1.5 shadow-sm">
+            <span id="header-user-icon">🎙️</span>
+            <span id="header-user-name">Oyuncu</span>
+          </div>
+
+          <!-- Admin Yönetim Paneli Butonu (SADECE ADMİN) -->
+          <button id="btn-header-admin-panel" class="hidden px-3 py-1 bg-amber-600/20 hover:bg-amber-600/30 border border-amber-500/40 text-amber-300 text-xs font-bold rounded-xl transition-all flex items-center space-x-1.5 shadow-sm" title="Yönetim Paneli">
+            <span>⚙️</span>
+            <span class="hidden sm:inline">Yönetim Paneli</span>
+          </button>
+
+          <!-- Çıkış Yap Butonu -->
+          <button id="btn-user-logout" class="px-2.5 py-1 bg-red-950/40 hover:bg-red-900/60 border border-red-500/40 text-red-300 text-xs font-semibold rounded-xl transition-all flex items-center space-x-1" title="Oturumu Kapat">
+            <span>🚪</span>
+            <span class="hidden sm:inline">Çıkış Yap</span>
+          </button>
+        </div>
+
+        <!-- Test Suite ve Geriye Uyumluluk İçin Mevcut Admin Butonları -->
+        <button id="btn-admin-badge" class="hidden px-2.5 py-1 rounded-full text-[11px] font-black bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center space-x-1 shadow-sm">
+          <span>👑</span>
+          <span>Miraç (Admin)</span>
+        </button>
+        <button id="btn-open-transcript-editor" class="hidden px-3 py-1 bg-amber-600/20 hover:bg-amber-600/30 border border-amber-500/40 text-amber-300 text-xs font-bold rounded-lg transition-all flex items-center space-x-1">
+          <span>✏️</span>
+          <span>Transkripti Düzenle</span>
+        </button>
+        <button id="btn-admin-logout" class="hidden px-2 py-1 bg-red-950/40 hover:bg-red-900/60 border border-red-500/40 text-red-300 text-xs font-semibold rounded-lg transition-all flex items-center space-x-1" title="Admin Yetkisini Kapat">
+          <span>🔒</span>
+          <span>Çıkış</span>
+        </button>
+
+        <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse mr-1.5"></span> Gerçek Video & P2P Aktif
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Ana İçerik -->
+  <main class="flex-1 max-w-6xl w-full mx-auto px-4 py-6 flex flex-col items-center justify-center">
+
+    <!-- ================= 0. KULLANICI GİRİŞ EKRANI (LOGIN VIEW) ================= -->
+    <section id="screen-login" class="w-full max-w-md mx-auto my-auto flex flex-col items-center justify-center py-6">
+      <div class="w-full bg-slate-900/90 border border-slate-800 rounded-3xl p-7 shadow-2xl backdrop-blur-2xl space-y-5 relative overflow-hidden">
+        <!-- Sinematik Arka Plan Glow Efekti -->
+        <div class="absolute -top-16 -right-16 w-36 h-36 bg-red-600/15 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-16 -left-16 w-36 h-36 bg-amber-500/15 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="text-center space-y-2">
+          <div class="w-16 h-16 mx-auto rounded-2xl bg-gradient-to-tr from-red-600 to-amber-500 flex items-center justify-center text-3xl shadow-xl shadow-red-500/20">
+            🎙️
+          </div>
+          <h2 class="text-2xl font-black text-white tracking-tight">Kullanıcı Girişi</h2>
+          <p class="text-xs text-slate-400">Dublaj Partisi • Kapalı Grup Seslendirme Stüdyosu</p>
+        </div>
+
+        <!-- Hata Bildirimi (Kırmızı Şık Bildirim) -->
+        <div id="login-error-msg" class="hidden p-3 bg-red-950/80 border border-red-500/60 rounded-xl text-red-200 text-xs font-medium flex items-center space-x-2 animate-shake">
+          <span class="text-base flex-shrink-0">⚠️</span>
+          <span id="login-error-text" class="flex-1">Kullanıcı adı veya şifre hatalı!</span>
+        </div>
+
+        <form id="form-login" class="space-y-4" onsubmit="return false;">
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5" for="input-login-username">
+              Kullanıcı Adı
+            </label>
+            <div class="relative">
+              <span class="absolute left-3.5 top-3.5 text-slate-500 text-sm">👤</span>
+              <input id="input-login-username" type="text" autocomplete="username" placeholder="Kullanıcı adınızı girin..." required
+                     class="w-full pl-10 pr-4 py-3 bg-slate-950 border border-slate-800 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500 text-sm font-medium transition-all">
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5" for="input-login-password">
+              Şifre
+            </label>
+            <div class="relative">
+              <span class="absolute left-3.5 top-3.5 text-slate-500 text-sm">🔑</span>
+              <input id="input-login-password" type="password" autocomplete="current-password" placeholder="••••••••" required
+                     class="w-full pl-10 pr-4 py-3 bg-slate-950 border border-slate-800 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-red-500 focus:ring-1 focus:ring-red-500 text-sm font-medium transition-all">
+            </div>
+          </div>
+
+          <button id="btn-login-submit" type="submit"
+                  class="w-full py-3.5 px-4 bg-gradient-to-r from-red-600 via-rose-600 to-amber-600 hover:from-red-500 hover:via-rose-500 hover:to-amber-500 text-white font-black rounded-xl shadow-lg shadow-red-500/25 transition-all transform active:scale-95 flex items-center justify-center space-x-2 text-sm mt-2">
+            <span>🚀</span>
+            <span id="btn-login-text">Giriş Yap</span>
+          </button>
+        </form>
+
+        <div class="pt-2 border-t border-slate-800/80 text-center">
+          <p class="text-[11px] text-slate-500 flex items-center justify-center space-x-1">
+            <span>🔒</span>
+            <span>Kapalı sistemdir. Hesabınız yoksa yöneticinizden talep ediniz.</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 1. GİRİŞ SONRASI KARŞILAMA VE LOBİ SEÇİM EKRANI (HOME) ================= -->
+    <section id="screen-home" class="w-full max-w-5xl flex flex-col items-center">
+      <!-- Üst Başlık & Rozetler -->
+      <div class="text-center mb-6 max-w-2xl">
+        <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-indigo-950/60 border border-indigo-500/30 text-indigo-300 text-xs font-bold mb-3 shadow-lg shadow-indigo-500/10">
+          <span>🔥</span>
+          <span>56+ Gerçek Viral Video & Türk Memesi</span>
+          <span class="text-slate-600">•</span>
+          <span>🎵 Yapay Zeka Müzik İzolasyonu</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-black text-white tracking-tight">
+          Sahne Senin, Mikrofonu Kap! 🎙️
+        </h2>
+        <p class="text-sm text-slate-400 mt-1.5">
+          Gerçek viral videolar ve efsane Türk memeleri oynar; yapay zeka arka plan müziğini korur, sen arkadaşlarınla canlı dublajını yaparsın.
+        </p>
+      </div>
+
+      <!-- 2 Kolonlu Ana Sayfa Gövdesi -->
+      <div class="w-full grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+        
+        <!-- Sol: Karşılama ve Lobi Seçim Paneli (5 Kolon) -->
+        <div class="lg:col-span-5 bg-slate-900/80 border border-slate-800 rounded-3xl p-6 shadow-2xl backdrop-blur-xl space-y-4">
+          <!-- Giriş Sonrası Karşılama Başlığı -->
+          <div class="pb-3 border-b border-slate-800/80 flex items-center justify-between">
+            <div>
+              <p class="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Oturum Açıldı</p>
+              <h3 class="text-lg sm:text-xl font-black text-white flex items-center space-x-1.5">
+                <span>Hoş Geldin,</span>
+                <span id="home-welcome-name" class="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-amber-400">Miraç</span>!
+              </h3>
+            </div>
+            <div id="home-welcome-badge" class="px-2.5 py-1 rounded-xl text-xs font-black bg-amber-500/20 text-amber-300 border border-amber-500/40 flex items-center space-x-1">
+              <span id="home-welcome-badge-icon">👑</span>
+              <span id="home-welcome-badge-text">Admin</span>
+            </div>
+          </div>
+
+          <!-- Oyuncu Adı Girişi (Girişten Otomatik Alınır, Düzenlenebilir) -->
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">Oyuncu Adın (Lobi & Prömiyer)</label>
+            <input id="input-player-name" type="text" placeholder="Örn: Cio, Sabri, Ganyotçu, Polat..." 
+                   class="w-full px-4 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 text-sm font-bold">
+          </div>
+
+          <!-- Ortadaki 2 Büyük Ana Buton + Solo Mod -->
+          <div class="space-y-3 pt-1">
+            <!-- 1. BÜYÜK BUTON: OYUN BAŞLAT (LOBİ KUR) -->
+            <button id="btn-create-room" class="w-full p-4 bg-gradient-to-r from-red-600 via-rose-600 to-indigo-600 hover:from-red-500 hover:via-rose-500 hover:to-indigo-500 text-white font-black rounded-2xl shadow-xl shadow-red-500/20 transition-all transform active:scale-95 flex items-center justify-between group border border-red-400/30 text-left">
+              <div class="flex items-center space-x-3.5">
+                <div class="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                  🚀
+                </div>
+                <div>
+                  <div class="text-base font-black">Oyun Başlat (Lobi Kur)</div>
+                  <div class="text-[11px] text-red-100/80 font-medium">Oda kodunu üret, sahne vitrinini aç</div>
+                </div>
+              </div>
+              <span class="text-xl text-red-200 group-hover:translate-x-1 transition-transform">→</span>
+            </button>
+
+            <!-- 2. BÜYÜK BUTON: OYUNA KATIL (MODAL AÇAR) -->
+            <button id="btn-open-join-modal" class="w-full p-4 bg-slate-950 hover:bg-slate-900 border border-slate-800 hover:border-slate-700 text-white font-black rounded-2xl shadow-lg transition-all transform active:scale-95 flex items-center justify-between group text-left">
+              <div class="flex items-center space-x-3.5">
+                <div class="w-12 h-12 rounded-xl bg-slate-800/80 flex items-center justify-center text-2xl group-hover:scale-110 transition-transform">
+                  🎮
+                </div>
+                <div>
+                  <div class="text-base font-black">Oyuna Katıl</div>
+                  <div class="text-[11px] text-slate-400 font-medium">Oda kodunu girerek odaya bağlan</div>
+                </div>
+              </div>
+              <span class="text-xl text-slate-500 group-hover:translate-x-1 transition-transform">→</span>
+            </button>
+
+            <!-- 3. TEK KİŞİLİK ANTRENMAN (SOLO MOD) -->
+            <button id="btn-solo-mode" class="w-full py-3 px-4 bg-slate-950/70 hover:bg-slate-900 border border-slate-800 text-slate-300 hover:text-white font-bold rounded-xl text-xs transition-all flex items-center justify-center space-x-2">
+              <span>🎯</span>
+              <span>Tek Kişilik Antrenman (Solo Mod)</span>
+            </button>
+
+            <!-- Admin Yönetim Paneli Hızlı Erişim (SADECE ADMİN) -->
+            <div id="home-admin-card" class="hidden pt-2 border-t border-slate-800/80">
+              <button id="btn-home-admin-panel" class="w-full py-3 px-4 bg-gradient-to-r from-amber-500/20 to-orange-500/20 hover:from-amber-500/30 hover:to-orange-500/30 border border-amber-500/50 text-amber-300 hover:text-amber-200 font-black rounded-xl text-xs transition-all flex items-center justify-center space-x-2 shadow-sm">
+                <span>⚙️</span>
+                <span>Yönetim Paneli (Kullanıcı & Sahne Yönetimi)</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Eski Katıl Inputları (test suite ve doğrudan input desteği için gizli/yedekli) -->
+          <div class="hidden">
+            <input id="input-room-code" type="text" placeholder="ODA KODU">
+            <button id="btn-join-room">Katıl</button>
+          </div>
+        </div>
+
+        <!-- Sağ: Popüler Sahneler & Video Vitrini (7 Kolon) -->
+        <div class="lg:col-span-7 bg-slate-900/60 border border-slate-800 rounded-3xl p-5 shadow-xl space-y-3.5">
+          <div class="flex items-center justify-between">
+            <h3 class="font-bold text-white text-sm flex items-center space-x-2">
+              <span>🔥</span>
+              <span>Öne Çıkan Memeler & Sahneler</span>
+            </h3>
+            <span class="text-[11px] font-mono font-bold text-indigo-400 bg-indigo-950/60 px-2.5 py-0.5 rounded-full border border-indigo-500/30">
+              56+ Video Hazır
+            </span>
+          </div>
+          
+          <!-- Popüler Thumbnail Vitrini Grid'i -->
+          <div id="home-featured-scenes" class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            <!-- JS tarafından doldurulur -->
+          </div>
+
+          <div class="pt-2 flex items-center justify-between text-xs text-slate-400 border-t border-slate-800/60">
+            <span class="flex items-center space-x-1.5">
+              <span>🍿</span>
+              <span>Sınırsız Seyirci Modu Aktif</span>
+            </span>
+            <span class="text-indigo-400 font-medium text-[11px]">Lobiye girip tüm videoları gezebilirsin →</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================= 2. LOBİ EKRANI (LOBBY) ================= -->
+    <section id="screen-lobby" class="w-full hidden flex flex-col space-y-6">
+      <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-4 flex flex-wrap items-center justify-between gap-4">
+        <div class="flex items-center space-x-3">
+          <span class="text-xs font-semibold text-slate-400 uppercase tracking-wider">Oda Kodu:</span>
+          <span id="lobby-code-display" class="text-xl font-mono font-black text-indigo-400 bg-indigo-950/60 px-3 py-1 rounded-lg border border-indigo-500/30">
+            DUB-XXXX
+          </span>
+          <button id="btn-copy-code" class="px-3 py-1.5 bg-indigo-900/60 hover:bg-indigo-800/80 border border-indigo-500/40 rounded-xl text-indigo-200 text-xs font-bold transition-all flex items-center space-x-1 active:scale-95 shadow-sm" title="Arkadaşına atabileceğin doğrudan katılım linkini panoya kopyalar">
+            <span>🔗</span>
+            <span>Davet Linki Kopyala</span>
+          </button>
+        </div>
+
+        <div class="flex items-center space-x-2 sm:space-x-3">
+          <button id="btn-open-upload-modal" class="px-4 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold rounded-xl border border-slate-700 text-xs transition-all active:scale-95 flex items-center space-x-1.5">
+            <span>➕</span>
+            <span>Kendi Videonu Yükle</span>
+          </button>
+
+          <button id="lobby-start-btn" class="px-7 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-black rounded-xl shadow-lg shadow-emerald-500/20 active:scale-95 transition-all text-sm flex items-center space-x-2">
+            <span>🎙️</span>
+            <span>Dublajı Başlat</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Video Senkronize Ediliyor Bildirim Çubuğu -->
+      <div id="lobby-sync-bar" class="hidden w-full bg-indigo-950/80 border border-indigo-500/50 rounded-2xl p-4 flex items-center justify-between shadow-xl">
+        <div class="flex items-center space-x-3">
+          <span class="w-3 h-3 rounded-full bg-indigo-400 animate-ping"></span>
+          <div>
+            <p id="lobby-sync-title" class="font-bold text-sm text-indigo-200">Yeni Video Odadaki Oyunculara Aktarılıyor...</p>
+            <p class="text-xs text-indigo-400">Senkron hatasını önlemek için herkesin videoyu indirmesi bekleniyor.</p>
+          </div>
+        </div>
+        <span id="lobby-sync-progress" class="font-mono font-black text-indigo-300 bg-indigo-900/60 px-3 py-1 rounded-lg border border-indigo-400/30 text-sm">
+          %0
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <!-- Sol Panel -->
+        <div class="space-y-6">
+          <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-5">
+            <h3 class="font-bold text-white text-sm flex items-center space-x-2 mb-3">
+              <span>👥</span>
+              <span>Odadaki Oyuncular</span>
+            </h3>
+            <div id="lobby-player-list" class="space-y-2.5 max-h-56 overflow-y-auto pr-1"></div>
+          </div>
+
+          <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-5">
+            <h3 class="font-bold text-white text-sm flex items-center space-x-2 mb-1">
+              <span>🎭</span>
+              <span>Karakterini Seç (Sadece Bu Rolü Seslendireceksin)</span>
+            </h3>
+            <p id="lobby-selected-scene-title" class="text-xs text-indigo-300 font-medium mb-3 line-clamp-1"></p>
+            <div id="lobby-role-container" class="space-y-2"></div>
+          </div>
+
+          <!-- Mikrofon Testi & Cihaz Seçimi -->
+          <div class="bg-slate-900/60 border border-slate-800 rounded-2xl p-4 space-y-3">
+            <div class="flex items-center justify-between">
+              <h3 class="font-bold text-white text-xs uppercase tracking-wider flex items-center space-x-1.5">
+                <span>🎙️</span>
+                <span>Mikrofon Testi & Cihaz</span>
+              </h3>
+              <span id="lobby-mic-status-badge" class="px-2 py-0.5 rounded text-[10px] font-extrabold uppercase bg-slate-800 text-slate-400 border border-slate-700">
+                BEKLİYOR
+              </span>
+            </div>
+
+            <!-- Cihaz Seçim Dropdown -->
+            <div>
+              <select id="lobby-mic-device-select" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-2.5 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-indigo-500 font-medium">
+                <option value="">🎙️ Varsayılan Mikrofon</option>
+              </select>
+            </div>
+
+            <!-- Canlı Ses Seviyesi Barı -->
+            <div class="space-y-1">
+              <div class="flex items-center justify-between text-[11px]">
+                <span class="text-slate-400">Canlı Sinyal:</span>
+                <span id="lobby-mic-pct" class="font-mono font-bold text-slate-400">%0 SİNYAL</span>
+              </div>
+              <div class="w-full h-2 bg-slate-950 rounded-full overflow-hidden border border-slate-800 relative">
+                <div id="lobby-mic-vu-bar" class="h-full w-0 bg-emerald-500 transition-all duration-75"></div>
+              </div>
+            </div>
+
+            <!-- Test / İzin Ver Butonu -->
+            <button id="btn-lobby-test-mic" type="button" class="w-full py-2 px-3 bg-indigo-600/20 hover:bg-indigo-600/30 border border-indigo-500/30 text-indigo-300 hover:text-white font-bold text-xs rounded-xl transition-all flex items-center justify-center space-x-1.5 active:scale-95">
+              <span>⚡</span>
+              <span id="lobby-test-mic-text">Mikrofonu Test Et & İzin Ver</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Sağ Panel: Gerçek Sahne Kütüphanesi -->
+        <div class="lg:col-span-2 bg-slate-900/60 border border-slate-800 rounded-2xl p-5 flex flex-col">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
+            <div>
+              <h3 class="font-bold text-white text-base flex items-center space-x-2">
+                <span>🎞️</span>
+                <span>Gerçek Video & Meme Havuzu</span>
+              </h3>
+              <p class="text-xs text-slate-400">Görsellere göre sahneyi seç, rolünü kap</p>
+            </div>
+            
+            <!-- Canlı Arama Çubuğu -->
+            <div class="relative w-full sm:w-64">
+              <input id="lobby-scene-search" type="text" placeholder="🔍 Video / Meme ara..." 
+                     class="w-full px-3 py-1.5 pl-8 bg-slate-950 border border-slate-800 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500">
+              <span class="absolute left-2.5 top-2 text-slate-500 text-xs">🔍</span>
+            </div>
+          </div>
+
+          <!-- Kategori Sekmeleri -->
+          <div id="category-tabs" class="flex flex-wrap gap-1.5 mb-3.5"></div>
+
+          <!-- Video Grid Kartları (Küçük Resimli) -->
+          <div id="lobby-scene-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-h-[560px] overflow-y-auto pr-1.5"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 3. STÜDYO EKRANI (STUDIO - GERÇEK VİDEO OYNATICI) ================= -->
+    <section id="screen-studio" class="w-full hidden flex flex-col items-center space-y-4">
+      <!-- Üst Bar: Dublaj.io Tarzı Canlı Yayın & Broadcast HUD -->
+      <div class="w-full max-w-4xl bg-black/85 backdrop-blur-md border border-slate-800/90 rounded-2xl p-3.5 flex flex-wrap items-center justify-between gap-3 shadow-2xl transition-colors duration-150">
+        <!-- Sol: Canlı Yayın İndikatörü & Aktif Rol -->
+        <div class="flex items-center space-x-2.5">
+          <div class="flex items-center space-x-1.5 px-2.5 py-1 rounded-lg bg-red-950/80 border border-red-500/60 shadow-sm">
+            <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-ping"></span>
+            <span class="font-black text-[11px] text-red-400 uppercase tracking-widest">CANLI YAYIN</span>
+          </div>
+          <div id="studio-role-badge" class="px-3 py-1 bg-slate-900/90 border border-slate-800 rounded-xl text-xs font-bold text-slate-200 flex items-center space-x-1.5 shadow-inner">
+            <span>🎭</span>
+            <span>Rol Seçiliyor...</span>
+          </div>
+        </div>
+
+        <!-- Orta: Dublaj.io Çok Kademeli LED VU Metre -->
+        <div class="flex items-center space-x-2.5 bg-slate-950/90 px-3 py-1.5 rounded-xl border border-slate-800/90 shadow-inner">
+          <span class="text-[11px] text-slate-400 font-mono font-bold flex items-center space-x-1">
+            <span>🎙️</span>
+            <span>MİK</span>
+          </span>
+          <div class="w-28 sm:w-36 h-2 bg-slate-900 rounded-full overflow-hidden border border-slate-800 relative">
+            <div id="studio-vu-bar" class="h-full w-0 vu-meter-led transition-all duration-75"></div>
+          </div>
+        </div>
+
+        <!-- Sağ: Dijital LCD Timecode -->
+        <div id="studio-timer" class="font-mono text-sm sm:text-base font-black text-white bg-slate-950/90 px-3.5 py-1 rounded-xl border border-slate-800/90 shadow-inner tracking-wider">
+          0.0s / 15s
+        </div>
+      </div>
+
+      <!-- GERÇEK VİDEO EKRANI + VİDEO ÜZERİNDE CANLI ALTYAZI TRANSKRİPT ŞERİDİ -->
+      <div id="studio-video-container" class="relative w-full max-w-4xl aspect-video bg-black rounded-2xl overflow-hidden border-2 border-slate-800 shadow-2xl flex items-center justify-center transition-all duration-300">
+        <!-- Gerçek Video Elementi -->
+        <video id="studio-video" class="w-full h-full object-contain" playsinline preload="auto"></video>
+
+        <!-- Üst Banner: "ŞİMDİ SENİN REPLİĞİN!" VEYA "SIRANI BEKLE" -->
+        <div id="role-turn-banner" class="absolute top-4 left-4 right-4 py-2.5 px-4 rounded-xl text-center font-black text-xs sm:text-sm uppercase tracking-widest bg-slate-950/85 backdrop-blur-md text-white border border-slate-800 transition-all shadow-xl">
+          🎬 Sahne Yükleniyor...
+        </div>
+
+        <!-- Alt Şerit: Canlı Replik Transkripti (Kompakt Dublaj.io Altyazı Hapı) -->
+        <div id="video-transcript-bar" class="absolute bottom-3 left-1/2 -translate-x-1/2 w-[92%] max-w-xl py-1.5 px-3.5 rounded-xl backdrop-blur-md bg-black/85 border border-white/15 shadow-xl transition-all duration-150 text-center overflow-hidden">
+          <!-- Canlı Karaoke Dolum Barı (İnce Lazer Çizgi) -->
+          <div class="absolute top-0 left-0 right-0 h-1 bg-slate-900/90">
+            <div id="karaoke-progress-bar" class="h-full w-0 bg-gradient-to-r from-amber-400 via-emerald-400 to-teal-400 transition-all duration-75 shadow-[0_0_8px_rgba(52,211,153,0.9)]"></div>
+          </div>
+
+          <div class="flex items-center justify-between gap-2 mt-0.5 mb-1">
+            <span id="transcript-speaker" class="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded bg-indigo-600 text-white shadow-sm truncate max-w-[150px]"></span>
+            <!-- Trafik Işığı Durum Rozeti (HAZIRLAN / ŞİMDİ KONUŞ / BEKLE) -->
+            <span id="transcript-traffic-light" class="text-[10px] font-bold uppercase tracking-widest px-2 py-0.5 rounded-full bg-slate-900 text-slate-300 border border-slate-700 transition-all flex items-center space-x-1 shadow-sm">
+              <span>⏸️</span>
+              <span>BEKLE</span>
+            </span>
+            <span id="transcript-timing" class="text-[10px] font-mono text-slate-400 font-semibold"></span>
+          </div>
+          <p id="transcript-text" class="text-sm sm:text-base font-extrabold text-white tracking-normal leading-tight my-0.5 dublaj-teleprompter-text"></p>
+          <p id="transcript-instruction" class="text-[10px] font-semibold text-amber-400 mt-0.5 italic truncate"></p>
+        </div>
+      </div>
+
+      <!-- ================= DUBLAJ.IO CANLI SES KAYIT & DALGA BARI (AUDIO WAVEFORM TRACK) ================= -->
+      <div class="w-full max-w-4xl bg-black/90 border border-slate-800/90 rounded-2xl p-3.5 flex flex-col space-y-2.5 shadow-2xl">
+        <!-- Ses Barı Üst Bilgi Başlığı -->
+        <div class="flex items-center justify-between text-xs">
+          <div class="flex items-center space-x-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span class="font-black text-slate-200 uppercase tracking-wider flex items-center space-x-1.5">
+              <span>🎙️</span>
+              <span>CANLI SES DALGASI & KAYIT İZİ</span>
+            </span>
+            <span id="studio-mic-status-tag" class="px-2 py-0.5 rounded text-[10px] font-extrabold uppercase bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
+              AKTİF
+            </span>
+          </div>
+
+          <div class="flex items-center space-x-3 font-mono text-[11px] text-slate-400">
+            <span id="studio-db-display" class="font-bold text-emerald-400">%0 SİNYAL</span>
+            <span class="text-slate-600">|</span>
+            <span class="hidden sm:inline">48.0 kHz</span>
+          </div>
+        </div>
+
+        <!-- Canlı Ses Dalga Tuvali (Canvas Waveform - Konuşurken Canlı Dalgalanır) -->
+        <div class="w-full h-12 bg-slate-950 rounded-xl overflow-hidden border border-slate-800/90 relative shadow-inner flex items-center justify-center">
+          <canvas id="studio-waveform-canvas" class="w-full h-full block" width="800" height="48"></canvas>
+          <div class="absolute inset-x-0 top-1/2 -translate-y-1/2 h-[1px] bg-slate-800/60 pointer-events-none"></div>
+        </div>
+
+        <!-- Bireysel Ses ve Mikrofon Ayar Çubuğu -->
+        <div class="flex flex-wrap items-center justify-between gap-3 pt-1 border-t border-slate-800/70 text-xs">
+          <div class="flex items-center space-x-2">
+            <span class="text-slate-400 font-semibold flex items-center space-x-1">
+              <span>🔊</span>
+              <span>Video Sesi:</span>
+            </span>
+            <input id="studio-video-volume" type="range" min="0" max="100" value="100" class="w-24 accent-red-500 cursor-pointer">
+            <span id="studio-video-volume-val" class="font-mono text-slate-200 font-bold w-9 text-right">%100</span>
+          </div>
+
+          <div class="flex items-center space-x-2">
+            <span class="text-slate-400 font-semibold flex items-center space-x-1">
+              <span>🎙️</span>
+              <span>Mikrofon:</span>
+            </span>
+            <input id="studio-mic-volume" type="range" min="0" max="100" value="100" class="w-24 accent-emerald-500 cursor-pointer">
+            <span id="studio-mic-volume-val" class="font-mono text-emerald-300 font-bold w-9 text-right">%100</span>
+          </div>
+
+          <div class="text-[11px] text-amber-400/90 font-medium flex items-center space-x-1">
+            <span>🔒</span>
+            <span>Müzikte mikrofon kilitlenir.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Faz Göstergesi ve Hazırım Butonları -->
+      <div id="studio-phase-controls" class="w-full max-w-4xl flex flex-col items-center space-y-3">
+        <!-- Faz Göstergesi ve İzlemeyi Geç Butonu -->
+        <div class="flex items-center space-x-3">
+          <div id="studio-phase-badge" class="inline-flex items-center px-4 py-2 rounded-full text-sm font-bold border">
+            <span class="w-2 h-2 rounded-full mr-2 bg-blue-400 animate-pulse"></span>
+            <span>Faz 1: İzleme</span>
+          </div>
+          <button id="btn-skip-preview" class="py-2 px-4 bg-indigo-600/80 hover:bg-indigo-600 text-white font-black text-xs rounded-full shadow-lg shadow-indigo-500/25 border border-indigo-400 flex items-center space-x-1.5 transition-all transform active:scale-95" title="Videoyu izlemeyi hemen bitir ve dublaj butonlarını aç">
+            <span>⏩</span>
+            <span>İzlemeyi Geç</span>
+          </button>
+        </div>
+
+        <!-- Butonlar (Video bittikten sonra veya prova için) -->
+        <div id="studio-action-buttons" class="hidden w-full max-w-xl flex flex-col sm:flex-row items-center gap-2.5">
+          <button id="btn-replay-preview" class="w-full sm:w-1/3 py-3 px-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs rounded-xl transition-all active:scale-95 border border-slate-700 flex items-center justify-center space-x-1">
+            <span>🔄</span>
+            <span>Tümünü İzle</span>
+          </button>
+          <button id="btn-rehearse-role" class="w-full sm:w-1/3 py-3 px-3 bg-purple-900/40 hover:bg-purple-800/60 border border-purple-500/40 text-purple-200 font-bold text-xs rounded-xl transition-all active:scale-95 flex items-center justify-center space-x-1">
+            <span>🎯</span>
+            <span>Rolümü Prova Et</span>
+          </button>
+          <button id="btn-start-dubbing" class="w-full sm:w-1/3 py-3 px-4 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-black text-xs rounded-xl shadow-lg shadow-emerald-500/30 transition-all transform active:scale-95 border border-emerald-400 flex items-center justify-center space-x-1.5">
+            <span>🎙️</span>
+            <span>Dublaja Başla!</span>
+          </button>
+        </div>
+
+        <!-- Kayıt Sonrası Bekleme ve Host Prömiyer Başlatma Kutusu -->
+        <div id="studio-premiere-ready-box" class="hidden w-full max-w-xl bg-slate-900/90 border border-indigo-500/40 rounded-2xl p-4 flex flex-col items-center text-center space-y-3 shadow-2xl">
+          <div id="studio-recordings-status" class="text-xs font-semibold text-slate-300 flex items-center space-x-2">
+            <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
+            <span id="studio-recordings-status-text">Sesin kaydedildi! Diğer oyuncuların kayıtları bekleniyor...</span>
+          </div>
+
+          <!-- Dublajı Beğenmedim, Tekrar Kaydet Butonu -->
+          <button id="btn-re-record" class="w-full py-2.5 px-4 bg-slate-800 hover:bg-slate-700 text-rose-300 hover:text-white font-bold text-xs rounded-xl border border-rose-500/40 transition-all flex items-center justify-center space-x-1.5 shadow-md active:scale-95">
+            <span>🔄</span>
+            <span>Dublajı Beğenmedim, Tekrar Kaydet</span>
+          </button>
+
+          <!-- Sadece Host veya Admin'e açılan Prömiyer Başlat Butonu -->
+          <button id="btn-host-launch-premiere" class="hidden w-full py-3.5 px-6 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 font-black text-sm rounded-xl shadow-xl shadow-amber-500/30 transition-all transform active:scale-95 border-2 border-amber-300 animate-pulse flex items-center justify-center space-x-2">
+            <span>🍿</span>
+            <span>Tüm Kayıtlar Tamam! Filmi Başlat (Prömiyer)</span>
+          </button>
+
+          <!-- Misafir oyuncular için bilgilendirme -->
+          <div id="studio-client-waiting-msg" class="hidden text-xs text-amber-300 font-medium flex items-center space-x-1.5">
+            <span class="w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
+            <span>Tüm sesler kaydedildi! Host filmi başlatınca otomatik açılacak...</span>
+          </div>
+        </div>
+
+        <!-- Nasıl Oynanır Açıklaması -->
+        <div class="text-center text-xs text-slate-400">
+          💡 <b>Nasıl Oynanır:</b> Sahneyi izle veya <b>"Rolümü Prova Et"</b> ile sadece kendi repliğine çalış. Hazır olunca <b>"Dublaja Başla"</b> ile kaydını al!
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 4. PRÖMİYER EKRANI (PREMIERE - DUBLAJLI GERÇEK VİDEO) ================= -->
+    <section id="screen-premiere" class="w-full hidden flex flex-col items-center space-y-5">
+      <div class="text-center">
+        <span class="text-xs px-3 py-1 bg-amber-500/20 text-amber-300 font-bold rounded-full border border-amber-500/30 uppercase tracking-widest">
+          🏆 Sinema Prömiyeri
+        </span>
+        <h2 class="text-2xl font-black text-white mt-1">İşte Ortaya Çıkan Dublajlı Sahne!</h2>
+      </div>
+
+      <!-- Prömiyer Gerçek Video Ekranı -->
+      <div class="relative w-full max-w-4xl aspect-video bg-black rounded-2xl overflow-hidden border-2 border-amber-500/60 shadow-2xl flex items-center justify-center shadow-amber-500/10">
+        <video id="premiere-video" class="w-full h-full object-contain" playsinline preload="auto"></video>
+
+        <!-- Prömiyer Transkript Şeridi -->
+        <div id="premiere-transcript-bar" class="absolute bottom-4 left-4 right-4 p-3.5 rounded-xl backdrop-blur-md bg-slate-950/90 border border-amber-500/50 text-center transition-all duration-200">
+          <span id="premiere-speaker" class="text-xs font-black text-amber-400"></span>
+          <p id="premiere-text" class="text-lg md:text-xl font-bold text-white mt-0.5"></p>
+        </div>
+      </div>
+
+      <!-- Prömiyer Timeline & Gelişmiş Oynatıcı Kontrol Çubuğu -->
+      <div class="w-full max-w-4xl bg-slate-900/90 border border-slate-800 rounded-2xl p-4 flex flex-col space-y-3 shadow-xl">
+        <!-- Zaman Çubuğu (Scrub / Seek Bar) -->
+        <div class="flex items-center space-x-3">
+          <span id="premiere-current-time" class="font-mono text-xs font-bold text-amber-400 w-12 text-right">0.0s</span>
+          <input id="premiere-seek-slider" type="range" min="0" max="15" step="0.1" value="0" class="flex-1 accent-amber-500 cursor-pointer h-2 bg-slate-950 rounded-lg">
+          <span id="premiere-total-time" class="font-mono text-xs font-semibold text-slate-400 w-12">15.0s</span>
+        </div>
+
+        <!-- Oynatma ve İndirme Butonları -->
+        <div class="flex flex-wrap items-center justify-between gap-3 pt-1">
+          <div class="flex items-center space-x-2">
+            <button id="premiere-play-pause-btn" class="px-5 py-2.5 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 font-black rounded-xl text-xs shadow-md shadow-amber-500/20 transition-all active:scale-95 flex items-center space-x-1.5">
+              <span id="premiere-play-pause-icon">⏸️</span>
+              <span id="premiere-play-pause-text">Durdur</span>
+            </button>
+            <button id="premiere-replay-btn" class="px-4 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold rounded-xl text-xs transition-all active:scale-95 flex items-center space-x-1.5 border border-slate-700">
+              <span>⏮️</span>
+              <span>Başa Sar</span>
+            </button>
+          </div>
+
+            <!-- Birleşik Dublajlı Sesi ve Videoyu İndir Butonları -->
+            <button id="premiere-download-audio-btn" class="px-4 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-black rounded-xl text-xs shadow-lg shadow-emerald-500/20 transition-all active:scale-95 flex items-center space-x-1.5 border border-emerald-400/40" title="Yalnızca birleştirilmiş ses kaydını indirir">
+              <span>🎵</span>
+              <span>Sesi İndir (.WAV)</span>
+            </button>
+            <button id="premiere-download-video-btn" class="px-4 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-black rounded-xl text-xs shadow-lg shadow-purple-500/20 transition-all active:scale-95 flex items-center space-x-1.5 border border-purple-400/40" title="Dublaj sesleri video ile birleşmiş tek parça video olarak indirir">
+              <span>🎬</span>
+              <span>Videolu Dublajı İndir</span>
+            </button>
+            <button id="premiere-new-lobby-btn" class="px-4 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold rounded-xl text-xs transition-all active:scale-95 flex items-center space-x-1.5 border border-slate-700">
+              <span>🏠</span>
+              <span>Yeni Sahne Seç</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Prömiyer Bireysel Ses Masası (Soundboard & Faders) -->
+      <div class="w-full max-w-4xl bg-slate-900/90 border border-amber-500/30 rounded-2xl p-4 shadow-xl flex flex-col space-y-3">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-2.5">
+          <div class="flex items-center space-x-2">
+            <span class="text-base">🎛️</span>
+            <span class="font-bold text-white text-xs tracking-wide uppercase">Bireysel Ses Masası (Canlı Fader & Solo/Mute)</span>
+            <span class="text-[11px] text-slate-400 font-normal">Karakter seslerini bağımsız dinle, kıs veya yükselt</span>
+          </div>
+          <span class="text-[11px] text-amber-400 font-mono font-medium">Çok Kanallı Canlı Mikser</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
+          <!-- Video Fon Sesi Kontrolü -->
+          <div class="bg-slate-950/60 border border-slate-800/80 rounded-xl p-3 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+              <span class="text-sm">🎬</span>
+              <div>
+                <div class="font-bold text-xs text-slate-200">Video Fon / Orijinal Ses</div>
+                <div class="text-[10px] text-slate-400">Efekt & Müzik Seviyesi</div>
+              </div>
+            </div>
+            <div class="flex items-center space-x-2">
+              <button id="premiere-video-mute-btn" class="px-2 py-1 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-lg text-[10px] font-bold" title="Videoyu Sustur / Aç">🔊</button>
+              <input id="premiere-video-volume" type="range" min="0" max="100" value="70" class="w-24 accent-amber-500 cursor-pointer">
+              <span id="premiere-video-volume-val" class="font-mono text-amber-400 font-bold text-xs w-8 text-right">%70</span>
+            </div>
+          </div>
+
+          <!-- Karakter Fader Konteyneri -->
+          <div id="premiere-character-volumes" class="flex flex-col space-y-2">
+            <!-- Dinamik karakter ses slider'ları buraya enjekte edilecek -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Canlı Reaksiyonlar -->
+      <div class="w-full max-w-4xl bg-slate-900/80 border border-slate-800 rounded-2xl p-4 flex flex-wrap items-center justify-between gap-4">
+        <div class="flex items-center space-x-2">
+          <span class="text-xs font-semibold text-slate-400 mr-1">Tepki Ver:</span>
+          <button class="reaction-btn px-3 py-1.5 bg-slate-800 hover:bg-slate-700 rounded-xl text-lg transition-transform active:scale-125">😂</button>
+          <button class="reaction-btn px-3 py-1.5 bg-slate-800 hover:bg-slate-700 rounded-xl text-lg transition-transform active:scale-125">🔥</button>
+          <button class="reaction-btn px-3 py-1.5 bg-slate-800 hover:bg-slate-700 rounded-xl text-lg transition-transform active:scale-125">👏</button>
+          <button class="reaction-btn px-3 py-1.5 bg-slate-800 hover:bg-slate-700 rounded-xl text-lg transition-transform active:scale-125">💀</button>
+          <button class="reaction-btn px-3 py-1.5 bg-slate-800 hover:bg-slate-700 rounded-xl text-lg transition-transform active:scale-125">😱</button>
+        </div>
+        <div class="text-xs text-slate-400">💡 <b>İpucu:</b> Bir karakteri tek başına dinlemek için <b>S (Solo)</b>, susturmak için <b>M (Mute)</b> butonunu kullanabilirsin.</div>
+      </div>
+    </section>
+
+    <!-- ================= MODAL: 0. ODAYA KATIL (DUB-XXXX) ================= -->
+    <div id="modal-join-room" class="hidden fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md flex items-center justify-center p-4">
+      <div class="w-full max-w-md bg-slate-900 border border-indigo-500/40 rounded-3xl p-6 shadow-2xl shadow-indigo-500/10 space-y-4">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+          <div class="flex items-center space-x-2.5">
+            <span class="text-2xl">🎮</span>
+            <div>
+              <h3 class="font-black text-base text-white">Oyuna Katıl</h3>
+              <p class="text-xs text-slate-400">Arkadaşının açtığı odaya bağlan</p>
+            </div>
+          </div>
+          <button id="btn-close-join-modal" class="text-slate-400 hover:text-white p-1.5 rounded-lg hover:bg-slate-800 transition-colors">
+            ✕
+          </button>
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Oda Kodunu Gir (DUB-XXXX)</label>
+          <input id="modal-input-room-code" type="text" placeholder="DUB-XXXX" maxlength="12"
+                 class="w-full px-4 py-3.5 bg-slate-950 border-2 border-indigo-500/50 rounded-2xl text-white uppercase tracking-widest placeholder-slate-600 focus:outline-none focus:border-indigo-400 text-center text-xl font-black font-mono shadow-inner">
+        </div>
+
+        <div class="flex items-center space-x-2.5 pt-2">
+          <button id="btn-cancel-join-modal" class="flex-1 py-3 bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold rounded-xl text-xs transition-all">
+            Vazgeç
+          </button>
+          <button id="btn-submit-join-modal" class="flex-1 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-black rounded-xl text-xs shadow-lg shadow-indigo-500/25 transition-all active:scale-95 flex items-center justify-center space-x-1.5">
+            <span>Katıl</span>
+            <span>🚀</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= MODAL: 0.5. ADMİN YÖNETİM PANELİ (MİRAÇ / ADMIN) ================= -->
+    <div id="modal-admin-panel" class="hidden fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-md flex items-center justify-center p-2 sm:p-4">
+      <div class="w-full max-w-4xl max-h-[90vh] bg-slate-900 border border-amber-500/50 rounded-3xl shadow-2xl flex flex-col overflow-hidden">
+        <!-- Modal Başlığı -->
+        <div class="px-6 py-4 border-b border-slate-800 flex items-center justify-between bg-slate-950/80">
+          <div class="flex items-center space-x-3">
+            <span class="text-2xl">⚙️</span>
+            <div>
+              <h3 class="font-black text-base text-white flex items-center space-x-2">
+                <span>Admin Yönetim Paneli</span>
+                <span class="text-[10px] bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded font-bold border border-amber-500/40">MİRAÇ YETKİSİ</span>
+              </h3>
+              <p class="text-xs text-slate-400">Kullanıcı hesapları, sahneler ve stüdyo yönetimi</p>
+            </div>
+          </div>
+          <button id="btn-close-admin-panel" class="text-slate-400 hover:text-white p-2 rounded-lg hover:bg-slate-800 transition-colors">
+            ✕
+          </button>
+        </div>
+
+        <!-- Sekmeler (Tabs): Kullanıcı Yönetimi vs Sahne & Transkript -->
+        <div class="flex border-b border-slate-800 bg-slate-950/40 px-6 pt-2">
+          <button id="tab-btn-admin-users" class="px-5 py-3 border-b-2 border-amber-500 text-amber-400 font-bold text-xs flex items-center space-x-2 transition-colors">
+            <span>👥</span>
+            <span>1. Kullanıcı Yönetimi</span>
+          </button>
+          <button id="tab-btn-admin-scenes" class="px-5 py-3 border-b-2 border-transparent text-slate-400 hover:text-slate-200 font-bold text-xs flex items-center space-x-2 transition-colors">
+            <span>🎞️</span>
+            <span>2. Sahne & Transkript Yönetimi</span>
+          </button>
+        </div>
+
+        <!-- SEKME 1: KULLANICI YÖNETİMİ -->
+        <div id="tab-content-admin-users" class="flex-1 overflow-y-auto p-6 space-y-6">
+          <!-- Yeni Hesap Tanımla Kartı -->
+          <div class="bg-slate-950/80 border border-slate-800 rounded-2xl p-5 space-y-4">
+            <div class="flex items-center justify-between border-b border-slate-800/80 pb-2.5">
+              <div>
+                <h4 class="font-black text-sm text-white flex items-center space-x-1.5">
+                  <span>➕</span>
+                  <span>Arkadaşına Yeni Hesap Tanımla</span>
+                </h4>
+                <p class="text-xs text-slate-400">Yeni oyuncu hesabı oluşturur. Kayıt olan kişi bu bilgilerle giriş yapabilir.</p>
+              </div>
+            </div>
+
+            <!-- Form Alanları -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1">Kullanıcı Adı</label>
+                <input id="admin-input-new-username" type="text" placeholder="Örn: can, sabri, ece..." 
+                       class="w-full px-3 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white text-xs font-medium focus:border-amber-500 focus:outline-none">
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1">Şifre</label>
+                <input id="admin-input-new-password" type="password" placeholder="Şifre belirleyin..." 
+                       class="w-full px-3 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white text-xs font-medium focus:border-amber-500 focus:outline-none">
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1">Rol</label>
+                <select id="admin-select-new-role" class="w-full px-3 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white text-xs font-medium focus:border-amber-500 focus:outline-none">
+                  <option value="user">🎙️ Oyuncu (Standart)</option>
+                  <option value="admin">👑 Yönetici (Admin)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between pt-1">
+              <div id="admin-user-feedback" class="text-xs font-medium"></div>
+              <button id="btn-admin-submit-create-user" class="px-5 py-2.5 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 font-black rounded-xl text-xs shadow-md shadow-amber-500/20 transition-all active:scale-95 flex items-center space-x-1.5">
+                <span>➕</span>
+                <span>Hesabı Oluştur</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Mevcut Kullanıcılar Listesi -->
+          <div class="bg-slate-950/80 border border-slate-800 rounded-2xl p-5 space-y-3">
+            <div class="flex items-center justify-between border-b border-slate-800/80 pb-2.5">
+              <div class="flex items-center space-x-2">
+                <span class="font-black text-sm text-white">📋 Tanımlı Kullanıcılar</span>
+                <span id="admin-user-count-badge" class="px-2 py-0.5 bg-amber-500/20 text-amber-300 rounded-full text-[10px] font-bold">1 Kullanıcı</span>
+              </div>
+              <button id="btn-admin-refresh-users" class="px-2.5 py-1 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold rounded-lg transition-all flex items-center space-x-1">
+                <span>🔄</span>
+                <span>Yenile</span>
+              </button>
+            </div>
+
+            <div id="admin-users-list-container" class="space-y-2 max-h-72 overflow-y-auto pr-1">
+              <!-- JS tarafından dinamik doldurulur -->
+            </div>
+          </div>
+        </div>
+
+        <!-- SEKME 2: SAHNE & TRANSKRİPT YÖNETİMİ -->
+        <div id="tab-content-admin-scenes" class="hidden flex-1 overflow-y-auto p-6 space-y-6">
+          <div class="bg-slate-950/80 border border-slate-800 rounded-2xl p-5 space-y-4">
+            <div>
+              <h4 class="font-black text-sm text-white flex items-center space-x-1.5">
+                <span>🎬</span>
+                <span>Sahne Seçimi & Transkript Düzenleyici</span>
+              </h4>
+              <p class="text-xs text-slate-400">Düzenlemek istediğin videoyu seç; canlı video zamanlayıcısı ile replikleri ve karakterleri ayarla.</p>
+            </div>
+
+            <div class="space-y-3">
+              <div>
+                <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">Sahne / Video Seçin</label>
+                <select id="admin-scene-select-dropdown" class="w-full px-3.5 py-2.5 bg-slate-900 border border-slate-700 rounded-xl text-white text-xs font-bold focus:border-amber-500 focus:outline-none">
+                  <!-- JS tarafından doldurulacak -->
+                </select>
+              </div>
+
+              <div class="flex flex-wrap items-center gap-3 pt-2">
+                <button id="btn-admin-launch-editor" class="px-5 py-2.5 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 font-black rounded-xl text-xs shadow-md shadow-amber-500/20 transition-all active:scale-95 flex items-center space-x-1.5">
+                  <span>✏️</span>
+                  <span>Transkript & Karakter Stüdyosunu Aç</span>
+                </button>
+
+                <button id="btn-admin-save-current-scene-disk" class="px-5 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-bold rounded-xl text-xs shadow-md shadow-emerald-500/20 transition-all active:scale-95 flex items-center space-x-1.5">
+                  <span>📁</span>
+                  <span>Seçili Sahneyi Kalıcı Klasöre Kaydet</span>
+                </button>
+
+                <button id="btn-admin-open-upload-modal" class="px-4 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold rounded-xl text-xs transition-all flex items-center space-x-1.5 border border-slate-700">
+                  <span>➕</span>
+                  <span>Yeni Video Yükle</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-4 bg-slate-950/60 rounded-2xl border border-slate-800 text-xs text-slate-400 space-y-2">
+            <p class="font-bold text-slate-200">💡 Yönetici Bilgilendirmesi:</p>
+            <p>• Transkript düzenleyicide yapılan değişiklikler odadaki tüm oyunculara eşzamanlı aktarılır.</p>
+            <p>• <b>Klasöre Kalıcı Kaydet</b> butonu ile yapılan tüm replik, karakter ve video düzenlemeleri doğrudan <code>data/scenes.json</code> ve <code>js/scenes.js</code> dosyalarına yazılır.</p>
+          </div>
+        </div>
+
+        <!-- Modal Alt Çubuk -->
+        <div class="px-6 py-3 border-t border-slate-800 bg-slate-950/70 flex items-center justify-end">
+          <button id="btn-admin-panel-close-bottom" class="px-5 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold rounded-xl text-xs transition-all">
+            Kapat
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= MODAL: 1. ADMIN GİRİŞİ (MİRAÇ) ================= -->
+    <div id="modal-admin-login" class="hidden fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+      <div class="w-full max-w-sm bg-slate-900 border border-amber-500/40 rounded-3xl p-6 shadow-2xl shadow-amber-500/10">
+        <div class="flex items-center space-x-3 mb-4">
+          <span class="text-3xl">👑</span>
+          <div>
+            <h3 class="font-black text-lg text-white">Admin Girişi (Miraç)</h3>
+            <p class="text-xs text-slate-400">Transkript düzenleme ve yönetici yetkileri</p>
+          </div>
+        </div>
+        <div class="space-y-3">
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1">Yönetici Şifresi</label>
+            <input id="admin-password-input" type="password" placeholder="Şifreyi girin..." 
+                   class="w-full px-4 py-3 bg-slate-950 border border-slate-800 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-amber-500 focus:ring-1 focus:ring-amber-500 text-sm font-medium">
+          </div>
+          <div class="flex space-x-2 pt-2">
+            <button id="btn-admin-cancel" class="flex-1 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold rounded-xl text-xs transition-all">
+              Vazgeç
+            </button>
+            <button id="btn-admin-submit" class="flex-1 py-2.5 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 font-black rounded-xl text-xs shadow-lg shadow-amber-500/20 transition-all">
+              Giriş Yap 🚀
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= MODAL: 2. TRANSKRİPT & KARAKTER DÜZENLEYİCİ (ADMIN) ================= -->
+    <div id="modal-admin-editor" class="hidden fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-md flex items-center justify-center p-2 sm:p-4">
+      <div class="w-full max-w-6xl max-h-[95vh] bg-slate-900 border border-amber-500/50 rounded-3xl shadow-2xl flex flex-col overflow-hidden">
+        <!-- Modal Başlık -->
+        <div class="px-6 py-3 border-b border-slate-800 flex items-center justify-between bg-slate-950/70">
+          <div class="flex items-center space-x-2.5">
+            <span class="text-2xl">🎙️</span>
+            <div>
+              <h3 class="font-black text-base text-white flex items-center space-x-2">
+                <span>Canlı Stüdyo & Transkript Düzenleyici</span>
+                <span class="text-[10px] bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded font-bold">MİRAÇ YETKİSİ</span>
+              </h3>
+              <p id="editor-scene-title" class="text-xs text-indigo-300 line-clamp-1"></p>
+            </div>
+          </div>
+          <button id="btn-close-transcript-editor" class="text-slate-400 hover:text-white p-2 rounded-lg hover:bg-slate-800 transition-colors">
+            ✕
+          </button>
+        </div>
+
+        <!-- Sekmeler (Tabs): Replikler vs Karakterler -->
+        <div class="flex border-b border-slate-800 bg-slate-950/40 px-6 pt-2">
+          <button id="tab-btn-lines" class="px-5 py-2.5 border-b-2 border-amber-500 text-amber-400 font-bold text-xs flex items-center space-x-2">
+            <span>📜</span>
+            <span>1. Replikler & Canlı Video Zamanlaması</span>
+          </button>
+          <button id="tab-btn-characters" class="px-5 py-2.5 border-b-2 border-transparent text-slate-400 hover:text-slate-200 font-bold text-xs flex items-center space-x-2 transition-colors">
+            <span>🎭</span>
+            <span>2. Karakterler & Roller (İsim/Renk/Yeni Ekle)</span>
+          </button>
+        </div>
+
+        <!-- SEKME 1: REPLİKLER & ZAMAN ÇİZELGESİ (CANLI VİDEO İLE YAN YANA STÜDYO) -->
+        <div id="tab-content-lines" class="flex-1 overflow-hidden flex flex-col lg:flex-row gap-4 p-4 lg:p-5">
+          
+          <!-- SOL PANEL: CANLI VİDEO & ZAMAN KONTROLLERİ (SABİT) -->
+          <div class="w-full lg:w-5/12 flex flex-col space-y-3 bg-slate-950/80 border border-slate-800/80 rounded-2xl p-4 flex-shrink-0">
+            <!-- Video Ekranı -->
+            <div class="aspect-video w-full bg-black rounded-xl overflow-hidden border border-slate-800 relative shadow-2xl flex items-center justify-center group">
+              <video id="editor-preview-video" class="w-full h-full object-contain cursor-pointer" playsinline></video>
+              <!-- Video Üzeri Canlı Zaman Etiketi -->
+              <div class="absolute bottom-2.5 left-2.5 bg-black/80 backdrop-blur-md px-2.5 py-1 rounded-lg border border-slate-700/80 flex items-center space-x-2 pointer-events-none">
+                <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span>
+                <span id="editor-live-time-display" class="font-mono text-xs text-amber-400 font-bold">0.00s</span>
+                <span class="text-[10px] text-slate-400 font-mono">/</span>
+                <span id="editor-total-time-display" class="font-mono text-xs text-slate-300">0.00s</span>
+              </div>
+            </div>
+
+            <!-- Video Scrubber / Timeline Slider -->
+            <div class="space-y-1">
+              <input id="editor-video-slider" type="range" min="0" max="100" step="0.05" value="0" class="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-amber-500">
+            </div>
+
+            <!-- Oynatma & Hassas Adımlama Butonları -->
+            <div class="flex items-center justify-between gap-2 flex-wrap">
+              <div class="flex items-center space-x-2">
+                <button id="btn-editor-play-pause" class="px-4 py-2 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 font-black rounded-xl text-xs shadow-md transition-all flex items-center space-x-1.5 active:scale-95">
+                  <span id="editor-play-icon">▶</span>
+                  <span id="editor-play-text">Oynat</span>
+                </button>
+                <button id="btn-editor-step-back" class="px-2.5 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-xl text-xs font-semibold transition-all" title="0.5 saniye geri sar">
+                  ⏪ -0.5s
+                </button>
+                <button id="btn-editor-step-fwd" class="px-2.5 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 rounded-xl text-xs font-semibold transition-all" title="0.5 saniye ileri sar">
+                  ⏩ +0.5s
+                </button>
+              </div>
+
+              <!-- Ağır Çekim Hız Seçenekleri -->
+              <div class="flex items-center space-x-1 bg-slate-900 border border-slate-800 rounded-xl p-1 text-[10px]">
+                <button class="editor-speed-btn px-2 py-1 rounded font-bold text-slate-400 hover:text-white" data-speed="0.5">0.5x</button>
+                <button class="editor-speed-btn px-2 py-1 rounded font-bold text-slate-400 hover:text-white" data-speed="0.75">0.75x</button>
+                <button class="editor-speed-btn px-2 py-1 rounded font-bold bg-amber-500/20 text-amber-300" data-speed="1.0">1.0x</button>
+              </div>
+            </div>
+
+            <!-- Canlı İpucu Rehberi -->
+            <div class="bg-slate-900/90 border border-slate-800/80 rounded-xl p-3 text-[11px] text-slate-300 space-y-1.5 mt-auto">
+              <div class="flex items-center space-x-1.5 text-amber-300 font-bold">
+                <span>⚡</span>
+                <span>Video İzleyerek Ayarlama Rehberi:</span>
+              </div>
+              <p class="leading-relaxed text-slate-400">
+                1. Videoyu izleyin, karakter konuştuğunda durdurup satırdaki <b class="text-indigo-300">📍 Başla</b> butonuna basın.
+              </p>
+              <p class="leading-relaxed text-slate-400">
+                2. Replik bitince durdurup <b class="text-emerald-300">📍 Bitir</b> butonuna basın.
+              </p>
+              <p class="leading-relaxed text-slate-400">
+                3. Satırdaki <b class="text-amber-400">▶ Dinle</b> butonuna basarak kestiğiniz aralığı anında doğrulayın!
+              </p>
+              <p class="text-[10px] text-slate-500 italic">
+                * Kısayol: [Boşluk] tuşu videoyu durdurup oynatır.
+              </p>
+            </div>
+          </div>
+
+          <!-- SAĞ PANEL: REPLİK LİSTESİ & KARTLARI (KAYDIRILABİLİR) -->
+          <div class="flex-1 flex flex-col space-y-3 min-w-0">
+            <!-- Üst Çubuk -->
+            <div class="bg-slate-950/70 border border-slate-800/80 rounded-2xl p-2.5 px-4 flex items-center justify-between flex-wrap gap-2 flex-shrink-0">
+              <div class="flex items-center space-x-2">
+                <span class="text-xs font-bold text-slate-200">📜 Replik Çizelgesi</span>
+                <span id="editor-line-count-badge" class="px-2.5 py-0.5 bg-indigo-500/20 text-indigo-300 rounded-full text-[10px] font-bold">0 Replik</span>
+              </div>
+              <div class="flex items-center space-x-2">
+                <button id="btn-editor-sort-time" class="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 rounded-xl text-xs font-semibold transition-all flex items-center space-x-1">
+                  <span>⏱️</span>
+                  <span>Zamana Sırala</span>
+                </button>
+                <button id="btn-editor-add-line" class="px-3 py-1.5 bg-indigo-600/30 hover:bg-indigo-600/50 text-indigo-300 border border-indigo-500/40 font-bold rounded-xl text-xs transition-all flex items-center space-x-1">
+                  <span>➕</span>
+                  <span>Replik Ekle</span>
+                </button>
+                <button id="btn-editor-add-music" class="px-3 py-1.5 bg-amber-950/50 hover:bg-amber-900/60 text-amber-300 border border-amber-500/40 font-bold rounded-xl text-xs transition-all flex items-center space-x-1">
+                  <span>🎵</span>
+                  <span>Müzik Kilidi</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Kaydırılabilir Replik Kartları Konteyneri -->
+            <div id="editor-lines-container" class="flex-1 overflow-y-auto space-y-3 pr-1 max-h-[50vh] lg:max-h-[60vh]">
+              <!-- Satırlar dinamik render edilecek -->
+            </div>
+          </div>
+        </div>
+
+        <!-- SEKME 2: KARAKTERLER & ROLLER -->
+        <div id="tab-content-characters" class="hidden flex-1 overflow-y-auto p-5 space-y-4">
+          <div class="bg-slate-950/60 border border-slate-800 rounded-2xl p-4 flex items-center justify-between">
+            <div>
+              <h4 class="font-bold text-white text-sm">Sahne Karakterleri</h4>
+              <p class="text-xs text-slate-400">Karakterlerin isimlerini, emojilerini, renklerini değiştir veya yeni karakter ekle.</p>
+            </div>
+            <button id="btn-editor-add-character" class="px-4 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold rounded-xl text-xs shadow-md shadow-indigo-500/20 transition-all flex items-center space-x-1.5">
+              <span>➕</span>
+              <span>Yeni Karakter Ekle</span>
+            </button>
+          </div>
+
+          <!-- Karakter Listesi -->
+          <div id="editor-characters-container" class="space-y-3">
+            <!-- Dinamik karakter kutuları buraya gelecek -->
+          </div>
+        </div>
+
+        <!-- Modal Alt Çubuk -->
+        <div class="px-6 py-4 border-t border-slate-800 bg-slate-950/70 flex items-center justify-between flex-wrap gap-2">
+          <div class="text-xs text-slate-400">
+            💡 Yapılan değişiklikler anında kaydedilir ve odadaki tüm oyunculara senkronize edilir.
+          </div>
+          <div class="flex items-center space-x-2.5">
+            <button id="btn-editor-cancel" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold rounded-xl text-xs transition-all">
+              Vazgeç
+            </button>
+            <button id="btn-editor-save-permanent" class="px-4 py-2.5 bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 text-white font-black rounded-xl text-xs shadow-lg shadow-emerald-500/25 transition-all active:scale-95 flex items-center space-x-1.5 border border-emerald-400/30" title="Bu sahneyi ve videoyu doğrudan projenin kalıcı klasörüne (assets/videos ve scenes.js) kaydeder. Klasörü arkadaşına attığında doğrudan oynayabilir.">
+              <span>📁</span>
+              <span>Klasöre Kalıcı Kaydet</span>
+            </button>
+            <button id="btn-editor-save" class="px-6 py-2.5 bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 text-slate-950 font-black rounded-xl text-xs shadow-lg shadow-amber-500/25 transition-all active:scale-95 flex items-center space-x-1.5">
+              <span>💾</span>
+              <span>Değişiklikleri Kaydet & Odaya Dağıt</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= MODAL: 3. KENDİ VİDEONU YÜKLE ================= -->
+    <div id="modal-upload-video" class="hidden fixed inset-0 z-50 bg-slate-950/85 backdrop-blur-md flex items-center justify-center p-4">
+      <div class="w-full max-w-2xl max-h-[90vh] bg-slate-900 border border-indigo-500/40 rounded-3xl shadow-2xl flex flex-col overflow-hidden">
+        <!-- Başlık -->
+        <div class="px-6 py-4 border-b border-slate-800 flex items-center justify-between bg-slate-950/60">
+          <div class="flex items-center space-x-2.5">
+            <span class="text-2xl">🎬</span>
+            <div>
+              <h3 class="font-black text-base text-white">Kendi Videonu Yükle (Sıfır Senkron Kayması)</h3>
+              <p class="text-xs text-slate-400">Video bayt bayt odadaki tüm oyunculara aktarılır, yerelden pürüzsüz oynatılır.</p>
+            </div>
+          </div>
+          <button id="btn-close-upload-modal" class="text-slate-400 hover:text-white p-2 rounded-lg hover:bg-slate-800 transition-colors">
+            ✕
+          </button>
+        </div>
+
+        <!-- Form Alanı -->
+        <div class="flex-1 overflow-y-auto p-6 space-y-4">
+          <!-- Dosya Seçimi -->
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">Video Dosyası (MP4 / WebM)</label>
+            <input id="custom-video-file-input" type="file" accept="video/mp4,video/webm" 
+                   class="w-full text-xs text-slate-400 file:mr-4 file:py-2.5 file:px-4 file:rounded-xl file:border-0 file:text-xs file:font-bold file:bg-indigo-600 file:text-white hover:file:bg-indigo-500 file:cursor-pointer bg-slate-950 p-2 rounded-xl border border-slate-800">
+          </div>
+
+          <!-- Video Önizleme (Seçildikten sonra) -->
+          <div id="custom-video-preview-wrapper" class="hidden aspect-video bg-black rounded-xl overflow-hidden border border-slate-800 relative">
+            <video id="custom-video-preview" class="w-full h-full object-contain" controls playsinline></video>
+          </div>
+
+          <!-- Başlık ve Kategori -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">Sahne Başlığı</label>
+              <input id="custom-video-title" type="text" placeholder="Örn: GORA - Halı Saha Maçı" 
+                     class="w-full px-4 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-white placeholder-slate-600 focus:outline-none focus:border-indigo-500 text-xs font-medium">
+            </div>
+            <div>
+              <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">Kategori</label>
+              <select id="custom-video-category" class="w-full px-4 py-2.5 bg-slate-950 border border-slate-800 rounded-xl text-white focus:outline-none focus:border-indigo-500 text-xs font-medium">
+                <option value="meme">Türk Memeleri</option>
+                <option value="film">Sinema & Film</option>
+                <option value="dizi">Yerli / Yabancı Dizi</option>
+                <option value="ozel">Özel / Arkadaşlar Arası</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Karakter Rolleri -->
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-1.5">Karakterler / Roller</label>
+            <div id="custom-characters-list" class="space-y-2">
+              <div class="flex items-center space-x-2">
+                <input type="text" value="1. Karakter" placeholder="Karakter 1 Adı" class="custom-char-name flex-1 px-3 py-2 bg-slate-950 border border-slate-800 rounded-xl text-white text-xs font-medium">
+                <input type="color" value="#6366f1" class="custom-char-color w-9 h-9 rounded-xl bg-transparent border-0 cursor-pointer">
+              </div>
+              <div class="flex items-center space-x-2">
+                <input type="text" value="2. Karakter" placeholder="Karakter 2 Adı" class="custom-char-name flex-1 px-3 py-2 bg-slate-950 border border-slate-800 rounded-xl text-white text-xs font-medium">
+                <input type="color" value="#10b981" class="custom-char-color w-9 h-9 rounded-xl bg-transparent border-0 cursor-pointer">
+              </div>
+            </div>
+          </div>
+
+          <!-- Opsiyonel Replik Notu -->
+          <div class="p-3 bg-slate-950/60 rounded-xl border border-slate-800/80 text-[11px] text-slate-400">
+            💡 <b>Transkript İsteğe Bağlıdır:</b> Replik eklemeden de direkt yükleyebilirsiniz. Yükleme sonrası Miraç (Admin) dilediği an <b>"Transkripti Düzenle"</b> butonuyla videoya saniyelik replikler ekleyebilir.
+          </div>
+        </div>
+
+        <!-- Alt Butonlar -->
+        <div class="px-6 py-4 border-t border-slate-800 bg-slate-950/60 flex items-center justify-end space-x-2.5">
+          <button id="btn-upload-cancel" class="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold rounded-xl text-xs transition-all">
+            Vazgeç
+          </button>
+          <button id="btn-upload-submit" class="px-6 py-2 bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-bold rounded-xl text-xs shadow-lg shadow-indigo-500/25 transition-all flex items-center space-x-1.5">
+            <span>🚀</span>
+            <span>Odaya Yükle ve Dağıt</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="border-t border-slate-900 text-center py-4 text-xs text-slate-500">
+    Dublaj Partisi &copy; 2026 &bull; Gerçek Video Senkronizasyonu &bull; MiracOS
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
