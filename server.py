@@ -680,7 +680,8 @@ def run():
     # Başlangıçta kullanıcı veritabanının varlığını garantile
     init_user_database()
 
-    server_address = ("", PORT)
+    host = os.environ.get("HOST", "127.0.0.1")
+    server_address = (host, PORT)
     httpd = ThreadingHTTPServer(server_address, DublajServerHandler)
     httpd.daemon_threads = True
     print("====================================================")
